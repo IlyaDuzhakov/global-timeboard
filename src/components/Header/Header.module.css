@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px);
+  border-bottom: 2px solid #ffffff30;
+  color: white;
+  text-shadow: 1px 1px 2px #000;
+  margin: 30px;
+  border-radius: 20px;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 1rem;
+  margin: 0;
+  opacity: 0.9;
+}
+
+.globe {
+  width: 250px;
+  height: 60px;
+  animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+@media (max-width: 560px) {
+  .header  {
+    flex-wrap: wrap;
+    padding: 10px 40px;
+  font-size: 12px;
+  }
+}

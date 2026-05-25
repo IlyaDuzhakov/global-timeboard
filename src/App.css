@@ -1,0 +1,5 @@
+.App {
+    background-image: url('../public/img/tropical-bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
