@@ -178,7 +178,9 @@
 
 import { china } from "./countries/asia/china.js";
 import { japan } from "./countries/asia/japan.js";
+import { southKorea } from "./countries/asia/south-korea.js";
 export const countryDetails = {
-  china,
+   china,
    japan,
+   "south-korea": southKorea,
 };

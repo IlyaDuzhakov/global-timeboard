@@ -11,6 +11,7 @@ export default function CountryPage({ lang }) {
   const [isCorrect, setIsCorrect] = useState(false);
   const [hasMistake, setHasMistake] = useState(false);
   const [showResultModal, setShowResultModal] = useState(false);
+  const [earnedStarNow, setEarnedStarNow] = useState(false);
 
   const [activeSection, setActiveSection] = useState("government");
   const [flippedCards, setFlippedCards] = useState([]);
@@ -219,7 +220,7 @@ export default function CountryPage({ lang }) {
                     />
                   </div>
                 </div>
-                    <div className={styles.flipHint}>↻</div>
+                <div className={styles.flipHint}>↻</div>
               </div>
             ))}
           </div>
@@ -384,7 +385,14 @@ export default function CountryPage({ lang }) {
                       currentQuestion === details?.quiz?.length - 1;
 
                     if (isLastQuestion) {
-                      if (score > 2) {
+                      const totalQuestions = details?.quiz?.length || 0;
+                      const starLimit = Math.ceil(totalQuestions * 0.8);
+
+                      const earned = score >= starLimit;
+
+                      setEarnedStarNow(earned);
+
+                      if (earned) {
                         localStorage.setItem(`${id}-quiz-star`, "true");
                         setQuizCompleted(true);
                       }
