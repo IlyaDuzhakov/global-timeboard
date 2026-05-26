@@ -177,6 +177,8 @@
 
 
 import { china } from "./countries/asia/china.js";
+import { japan } from "./countries/asia/japan.js";
 export const countryDetails = {
   china,
+   japan,
 };
