@@ -4,14 +4,12 @@ import { feature } from "topojson-client";
 import world from "../../utils/world.json";
 import { countryInfo } from "../../utils/countryData";
 import styles from "./WorldMap.module.css";
+import { useNavigate } from "react-router-dom";
 
-export default function WorldMap({
-  activeCountries = [],
-  lang,
-  setLang,
-}) {
+export default function WorldMap({ activeCountries = [], lang, setLang }) {
   const [tooltip, setTooltip] = useState(null);
-  
+  const navigate = useNavigate();
+
   const [hovered, setHovered] = useState(null);
 
   const projection = geoEqualEarth().scale(195).translate([480, 250]);
@@ -44,50 +42,184 @@ export default function WorldMap({
   const labeledCountries = [
     "Russia",
     "China",
-    "United States of America",
-    "Canada",
-    "Brazil",
-    "Australia",
+    "Germany",
+    "France",
+    "Italy",
+    "Spain",
+    "Japan",
     "India",
-    "Kazakhstan",
+    "Brazil",
+    "Canada",
+    "Australia",
     "Mexico",
     "Argentina",
-    "Antarctica",
-    "Greenland",
-    "Algeria",
-    "Japan",
+    "Kazakhstan",
     "Mongolia",
     "Turkey",
-    "Cuba",
-    "Indonesia",
-    "Angola",
+    "Egypt",
     "Iran",
-    "Sudan",
-    "Chad",
-    "Spain",
-    "Libya",
-    "Mali",
-    "Philippines",
-    "Iceland",
-    "United Kingdom",
     "Iraq",
-    "Sri Lanka",
-    "Bolivia",
-    "Peru",
-    "Venezuela",
-    "New Zealand",
-    "Fiji",
+    "Greenland",
     "Madagascar",
     "South Africa",
+    "Antarctica",
+
+    // Europe
+    "United Kingdom",
+    "Poland",
+    "Ukraine",
+    "Norway",
+    "Sweden",
+    "Finland",
+    "Greece",
+    "Portugal",
+    "Romania",
+    "Iceland",
+
+    // Asia
+    "Saudi Arabia",
+    "Pakistan",
+    "Afghanistan",
+    "Thailand",
+    "Vietnam",
+    "Indonesia",
+    "Malaysia",
+    "Philippines",
+    "South Korea",
+    "North Korea",
+    "Sri Lanka",
+
+    // Africa
+    "Algeria",
+    "Libya",
+    "Sudan",
+    "Chad",
+    "Mali",
+    "Nigeria",
+    "Ethiopia",
+    "Morocco",
+    "Angola",
+    "Kenya",
+    "Somalia",
+    "Democratic Republic of the Congo",
+
+    // North America
+    "United States of America",
+    "Cuba",
+    "Guatemala",
+    "Panama",
+
+    // South America
+    "Chile",
+    "Peru",
+    "Colombia",
+    "Bolivia",
+    "Venezuela",
+    "Paraguay",
+    "Uruguay",
+    "Ecuador",
+
+    // Oceania
+    "New Zealand",
+    "Papua New Guinea",
+    "Fiji",
   ];
+
+  const countryLabels = {
+    // Eurasia
+    Russia: "Россия",
+    China: "Китай",
+    India: "Индия",
+    Kazakhstan: "Казахстан",
+    Mongolia: "Монголия",
+    Japan: "Япония",
+    "South Korea": "Южная Корея",
+    "North Korea": "Северная Корея",
+    Turkey: "Турция",
+    Iran: "Иран",
+    Iraq: "Ирак",
+    "Saudi Arabia": "Саудовская Аравия",
+    Pakistan: "Пакистан",
+    Afghanistan: "Афганистан",
+    Thailand: "Таиланд",
+    Vietnam: "Вьетнам",
+    Indonesia: "Индонезия",
+    Malaysia: "Малайзия",
+    Philippines: "Филиппины",
+    "Sri Lanka": "Шри-Ланка",
+
+    // Europe
+    "United Kingdom": "Великобритания",
+    Germany: "Германия",
+    France: "Франция",
+    Italy: "Италия",
+    Spain: "Испания",
+    Poland: "Польша",
+    Ukraine: "Украина",
+    Norway: "Норвегия",
+    Sweden: "Швеция",
+    Finland: "Финляндия",
+    Greece: "Греция",
+    Portugal: "Португалия",
+    Romania: "Румыния",
+    Iceland: "Исландия",
+
+    // Africa
+    Egypt: "Египет",
+    Algeria: "Алжир",
+    Libya: "Ливия",
+    Sudan: "Судан",
+    Chad: "Чад",
+    Mali: "Мали",
+    Nigeria: "Нигерия",
+    Ethiopia: "Эфиопия",
+    Morocco: "Марокко",
+    Angola: "Ангола",
+    Kenya: "Кения",
+    Somalia: "Сомали",
+    Madagascar: "Мадагаскар",
+    "South Africa": "ЮАР",
+    "Democratic Republic of the Congo": "ДР Конго",
+
+    // North America
+    "United States of America": "США",
+    Canada: "Канада",
+    Mexico: "Мексика",
+    Cuba: "Куба",
+    Greenland: "Гренландия",
+    Guatemala: "Гватемала",
+    Panama: "Панама",
+
+    // South America
+    Brazil: "Бразилия",
+    Argentina: "Аргентина",
+    Chile: "Чили",
+    Peru: "Перу",
+    Colombia: "Колумбия",
+    Bolivia: "Боливия",
+    Venezuela: "Венесуэла",
+    Paraguay: "Парагвай",
+    Uruguay: "Уругвай",
+    Ecuador: "Эквадор",
+
+    // Oceania
+    Australia: "Австралия",
+    "New Zealand": "Новая Зеландия",
+    "Papua New Guinea": "Папуа — Новая Гвинея",
+    Fiji: "Фиджи",
+
+    // Other
+    Antarctica: "Антарктида",
+  };
 
   const handleClick = (geo) => {
     const name = geo.properties.name || "Неизвестная страна";
-    console.log("activeCountries:", activeCountries);
-    console.log("map country name:", name);
+    // console.log("activeCountries:", activeCountries);
+    // console.log("map country name:", name);
     const info = countryInfo[name];
-    console.log("INFO:", info);
+    // console.log("INFO:", info);
     setTooltip({
+      id: info?.id,
       name: info?.name || name,
       flag: info?.flag || "🌍",
       capital: info?.capital || "N/A",
@@ -112,7 +244,6 @@ export default function WorldMap({
 
   return (
     <div style={{ position: "relative", textAlign: "center" }}>
-      
       <div className={styles.oceanLabels}>
         <span className={styles.pacificOcean}>Pacific Ocean</span>
         <span className={styles.atlanticOcean}>Atlantic Ocean</span>
@@ -171,7 +302,7 @@ export default function WorldMap({
                   fill="#000"
                   style={{ pointerEvents: "none", fontWeight: "bold" }}
                 >
-                  {name}
+                  {lang === "ru" ? countryLabels[name] || name : name}
                 </text>
               )}
             </g>
@@ -235,35 +366,43 @@ export default function WorldMap({
             </div>
 
             <div className={styles.countryActions}>
-              <button>{lang === "ru" ? "Государство" : "Government"}</button>
+              <button onClick={() => navigate(`/country/${tooltip.id}`)}>
+                {lang === "ru" ? "Государство" : "Government"}
+              </button>
 
-              <button>
+              <button onClick={() => navigate(`/country/${tooltip.id}`)}>
                 {lang === "ru" ? "Достопримечательности" : "Landmarks"}
               </button>
 
-              <button>{lang === "ru" ? "Ресурсы" : "Resources"}</button>
+              <button onClick={() => navigate(`/country/${tooltip.id}`)}>
+                {lang === "ru" ? "Ресурсы" : "Resources"}
+              </button>
 
-              <button>
+              <button onClick={() => navigate(`/country/${tooltip.id}`)}>
                 {lang === "ru" ? "Природа / Климат" : "Nature / Climate"}
               </button>
 
-              <button>
+              <button onClick={() => navigate(`/country/${tooltip.id}`)}>
                 {lang === "ru" ? "Экономика / Торговля" : "Economy / Trade"}
               </button>
 
-              <button>
+              <button onClick={() => navigate(`/country/${tooltip.id}`)}>
                 {lang === "ru" ? "Культура / Религия" : "Culture / Religion"}
               </button>
 
-              <button>{lang === "ru" ? "Спорт" : "Sport"}</button>
+              <button onClick={() => navigate(`/country/${tooltip.id}`)}>
+                {lang === "ru" ? "Спорт" : "Sport"}
+              </button>
 
-              <button>
+              <button onClick={() => navigate(`/country/${tooltip.id}`)}>
                 {lang === "ru"
                   ? "Сильные / Слабые стороны"
                   : "Strengths / Challenges"}
               </button>
 
-              <button>{lang === "ru" ? "Квиз" : "Quiz"}</button>
+              <button onClick={() => navigate(`/country/${tooltip.id}`)}>
+                {lang === "ru" ? "Квиз" : "Quiz"}
+              </button>
             </div>
           </div>
         </div>

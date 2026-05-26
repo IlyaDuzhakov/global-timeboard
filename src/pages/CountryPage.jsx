@@ -8,6 +8,9 @@ export default function CountryPage({ lang }) {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [score, setScore] = useState(0);
+  const [isCorrect, setIsCorrect] = useState(false);
+  const [hasMistake, setHasMistake] = useState(false);
+  const [showResultModal, setShowResultModal] = useState(false);
 
   const [activeSection, setActiveSection] = useState("government");
   const [flippedCards, setFlippedCards] = useState([]);
@@ -323,53 +326,70 @@ export default function CountryPage({ lang }) {
               <h3>{details?.quiz?.[currentQuestion]?.question?.[lang]}</h3>
 
               <div className={styles.answers}>
-                {details?.quiz?.[currentQuestion]?.options?.[lang]?.map(
-                  (option, index) => (
-                    <button
-                      key={index}
-                      className={`
-  ${styles.answerButton}
+  {details?.quiz?.[currentQuestion]?.options?.[lang]?.map((option, index) => {
+    const correctIndex = details?.quiz?.[currentQuestion]?.correct;
 
-  ${
-    selectedAnswer !== null &&
-    index === details?.quiz?.[currentQuestion]?.correct
-      ? styles.correctAnswer
-      : ""
-  }
+    return (
+      <button
+        key={index}
+        className={`
+          ${styles.answerButton}
+          ${isCorrect && index === correctIndex ? styles.correctAnswer : ""}
+          ${selectedAnswer === index && !isCorrect ? styles.wrongAnswer : ""}
+        `}
+        onClick={() => {
+          setSelectedAnswer(index);
 
-  ${
-    selectedAnswer === index &&
-    index !== details?.quiz?.[currentQuestion]?.correct
-      ? styles.wrongAnswer
-      : ""
-  }
-`}
-                      onClick={() => {
-                        if (selectedAnswer !== null) return;
+          if (index === correctIndex) {
+            setIsCorrect(true);
 
-                        setSelectedAnswer(index);
-
-                        if (
-                          index === details?.quiz?.[currentQuestion]?.correct
-                        ) {
-                          setScore((prev) => prev + 1);
-                        }
-                      }}
-                    >
-                      {option}
-                    </button>
-                  ),
-                )}
-              </div>
-              {selectedAnswer === details?.quiz?.[currentQuestion]?.correct && (
+            if (!hasMistake) {
+              setScore((prev) => prev + 1);
+            }
+          } else {
+            setIsCorrect(false);
+            setHasMistake(true);
+          }
+        }}
+      >
+        {option}
+      </button>
+    );
+  })}
+</div>
+              {selectedAnswer !== null && !isCorrect && (
+                <p className={styles.tryAgain}>
+                  {lang === "ru"
+                    ? "Неправильно. Попробуйте ещё раз."
+                    : "Wrong answer. Try again."}
+                </p>
+              )}
+              {isCorrect && (
                 <button
                   className={styles.nextButton}
                   onClick={() => {
+                    const isLastQuestion =
+                      currentQuestion === details?.quiz?.length - 1;
+
+                    if (isLastQuestion) {
+                      setShowResultModal(true);
+                      return;
+                    }
+
                     setCurrentQuestion((prev) => prev + 1);
+
                     setSelectedAnswer(null);
+                    setIsCorrect(false);
+                    setHasMistake(false);
                   }}
                 >
-                  {lang === "ru" ? "Следующий вопрос →" : "Next Question →"}
+                  {currentQuestion === details?.quiz?.length - 1
+                    ? lang === "ru"
+                      ? "Завершить квиз"
+                      : "Finish Quiz"
+                    : lang === "ru"
+                      ? "Следующий вопрос →"
+                      : "Next Question →"}
                 </button>
               )}
             </div>
