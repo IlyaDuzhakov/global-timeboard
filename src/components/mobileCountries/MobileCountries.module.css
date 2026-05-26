@@ -1,0 +1,80 @@
+.mobileCountries {
+  width: min(92%, 920px);
+  max-width: 920px;
+  margin: 40px auto;
+  padding: 28px 20px;
+  border-radius: 28px;
+
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  border: 2px solid rgba(255, 255, 255, 0.35);
+
+  text-align: center;
+}
+
+.mobileCountries h2 {
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.mobileCountries p {
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+
+.continentGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.continentGrid button {
+  margin: 6px; /* отступ между кнопками */
+  padding: 12px 18px;
+  border-radius: 12px;
+  background: #111827;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.countryGrid a {
+  margin: 6px;
+  padding: 14px 18px;
+  border-radius: 12px;
+  background: #111827;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.countryLink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 10px 14px;
+  border-radius: 12px;
+
+  background: #111827;
+  color: white;
+
+  font-weight: 700;
+  text-decoration: none;
+}
+
+@media (min-width: 700px) {
+  .continentGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 520px) {
+  .continentGrid {
+    grid-template-columns: 1fr;
+  }
+}
+

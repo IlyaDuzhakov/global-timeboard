@@ -5,12 +5,16 @@ import world from "../../utils/world.json";
 import { countryInfo } from "../../utils/countryData";
 import styles from "./WorldMap.module.css";
 
-export default function WorldMap({ activeCountries = [] }) {
+export default function WorldMap({
+  activeCountries = [],
+  lang,
+  setLang,
+}) {
   const [tooltip, setTooltip] = useState(null);
-  const [lang, setLang] = useState("ru");
+  
   const [hovered, setHovered] = useState(null);
 
-  const projection = geoEqualEarth().scale(190).translate([480, 250]);
+  const projection = geoEqualEarth().scale(195).translate([480, 250]);
 
   const pathGenerator = geoPath().projection(projection);
   const countries = feature(world, world.objects.countries).features;
@@ -82,8 +86,9 @@ export default function WorldMap({ activeCountries = [] }) {
     console.log("activeCountries:", activeCountries);
     console.log("map country name:", name);
     const info = countryInfo[name];
+    console.log("INFO:", info);
     setTooltip({
-      name,
+      name: info?.name || name,
       flag: info?.flag || "🌍",
       capital: info?.capital || "N/A",
       area: info?.area || "N/A",
@@ -107,9 +112,12 @@ export default function WorldMap({ activeCountries = [] }) {
 
   return (
     <div style={{ position: "relative", textAlign: "center" }}>
-      <div className={styles.langSwitcher}>
-        <button onClick={() => setLang("ru")}>RU</button>
-        <button onClick={() => setLang("en")}>EN</button>
+      
+      <div className={styles.oceanLabels}>
+        <span className={styles.pacificOcean}>Pacific Ocean</span>
+        <span className={styles.atlanticOcean}>Atlantic Ocean</span>
+        <span className={styles.indianOcean}>Indian Ocean</span>
+        <span className={styles.arcticOcean}>Arctic Ocean</span>
       </div>
       <svg
         ref={svgRef}

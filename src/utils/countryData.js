@@ -1552,6 +1552,7 @@ export const countryInfo = {
     },
 
     flag: "/global-timeboard/img/flags/china.png",
+    
   },
   Russia: {
     id: "russia",
