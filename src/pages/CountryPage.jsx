@@ -17,6 +17,9 @@ export default function CountryPage({ lang }) {
 
   const { id } = useParams();
   const navigate = useNavigate();
+  const [quizCompleted, setQuizCompleted] = useState(() => {
+    return localStorage.getItem(`${id}-quiz-star`) === "true";
+  });
 
   const toggleFlipCard = (index) => {
     setFlippedCards((prev) =>
@@ -209,10 +212,14 @@ export default function CountryPage({ lang }) {
                   <div className={styles.landmarkBack}>
                     <h3>{place.title[lang]}</h3>
 
-                    <p>{place.description[lang]}</p>
-                    <div className={styles.flipHint}>↻</div>
+                    <p
+                      dangerouslySetInnerHTML={{
+                        __html: place.description[lang],
+                      }}
+                    />
                   </div>
                 </div>
+                    <div className={styles.flipHint}>↻</div>
               </div>
             ))}
           </div>
@@ -320,43 +327,48 @@ export default function CountryPage({ lang }) {
         )}
         {activeSection === "quiz" && (
           <div className={styles.contentBlock}>
-            <h2>{lang === "ru" ? "Квиз" : "Quiz"}</h2>
+            <h2>
+              {lang === "ru" ? "Квиз" : "Quiz"} {quizCompleted && "⭐"}
+            </h2>
 
             <div className={styles.quizContainer}>
               <h3>{details?.quiz?.[currentQuestion]?.question?.[lang]}</h3>
 
               <div className={styles.answers}>
-  {details?.quiz?.[currentQuestion]?.options?.[lang]?.map((option, index) => {
-    const correctIndex = details?.quiz?.[currentQuestion]?.correct;
+                {details?.quiz?.[currentQuestion]?.options?.[lang]?.map(
+                  (option, index) => {
+                    const correctIndex =
+                      details?.quiz?.[currentQuestion]?.correct;
 
-    return (
-      <button
-        key={index}
-        className={`
+                    return (
+                      <button
+                        key={index}
+                        className={`
           ${styles.answerButton}
           ${isCorrect && index === correctIndex ? styles.correctAnswer : ""}
           ${selectedAnswer === index && !isCorrect ? styles.wrongAnswer : ""}
         `}
-        onClick={() => {
-          setSelectedAnswer(index);
+                        onClick={() => {
+                          setSelectedAnswer(index);
 
-          if (index === correctIndex) {
-            setIsCorrect(true);
+                          if (index === correctIndex) {
+                            setIsCorrect(true);
 
-            if (!hasMistake) {
-              setScore((prev) => prev + 1);
-            }
-          } else {
-            setIsCorrect(false);
-            setHasMistake(true);
-          }
-        }}
-      >
-        {option}
-      </button>
-    );
-  })}
-</div>
+                            if (!hasMistake) {
+                              setScore((prev) => prev + 1);
+                            }
+                          } else {
+                            setIsCorrect(false);
+                            setHasMistake(true);
+                          }
+                        }}
+                      >
+                        {option}
+                      </button>
+                    );
+                  },
+                )}
+              </div>
               {selectedAnswer !== null && !isCorrect && (
                 <p className={styles.tryAgain}>
                   {lang === "ru"
@@ -372,6 +384,11 @@ export default function CountryPage({ lang }) {
                       currentQuestion === details?.quiz?.length - 1;
 
                     if (isLastQuestion) {
+                      if (score > 2) {
+                        localStorage.setItem(`${id}-quiz-star`, "true");
+                        setQuizCompleted(true);
+                      }
+
                       setShowResultModal(true);
                       return;
                     }
@@ -416,6 +433,52 @@ export default function CountryPage({ lang }) {
             </div>
           )}
       </div>
+
+      {showResultModal && (
+        <div className={styles.quizModalOverlay}>
+          <div className={styles.quizModal}>
+            <h2>{lang === "ru" ? "Результат квиза" : "Quiz Result"}</h2>
+
+            <p>
+              {lang === "ru"
+                ? `Ваш результат: ${score} из ${details?.quiz?.length}`
+                : `Your score: ${score} out of ${details?.quiz?.length}`}
+            </p>
+
+            <p>
+              {score >= 10
+                ? lang === "ru"
+                  ? "Отличный результат! Вы получаете звезду. ⭐"
+                  : "Excellent result! You earned a star. ⭐"
+                : score >= 8
+                  ? lang === "ru"
+                    ? "Очень хороший результат! Ещё немного — и будет звезда."
+                    : "Great result! Just a little more to earn a star."
+                  : score >= 5
+                    ? lang === "ru"
+                      ? "Неплохой результат! Попробуйте пройти квиз ещё раз."
+                      : "Not bad! Try the quiz again."
+                    : lang === "ru"
+                      ? "Не расстраивайтесь. Изучите материал и попробуйте снова."
+                      : "Don't worry. Study the material and try again."}
+            </p>
+
+            <button
+              className={styles.nextButton}
+              onClick={() => {
+                setShowResultModal(false);
+                setCurrentQuestion(0);
+                setSelectedAnswer(null);
+                setIsCorrect(false);
+                setHasMistake(false);
+                setScore(0);
+              }}
+            >
+              OK
+            </button>
+          </div>
+        </div>
+      )}
       <button className={styles.backButton} onClick={() => navigate(-1)}>
         ← {lang === "ru" ? "Назад" : "Back"}
       </button>
