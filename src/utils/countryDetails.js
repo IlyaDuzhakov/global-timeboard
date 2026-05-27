@@ -181,10 +181,12 @@ import { japan } from "./countries/asia/japan.js";
 import { southKorea } from "./countries/asia/south-korea.js";
 import { northKorea } from "./countries/asia/north-korea.js";
 import { india } from "./countries/asia/india.js";
+import { pakistan } from "./countries/asia/pakistan.js";
 export const countryDetails = {
    china,
    japan,
    "south-korea": southKorea,
    "north-korea": northKorea,
    india,
+   pakistan,
 };
