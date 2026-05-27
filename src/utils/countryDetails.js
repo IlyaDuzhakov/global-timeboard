@@ -182,6 +182,10 @@ import { southKorea } from "./countries/asia/south-korea.js";
 import { northKorea } from "./countries/asia/north-korea.js";
 import { india } from "./countries/asia/india.js";
 import { pakistan } from "./countries/asia/pakistan.js";
+import { bangladesh  } from "./countries/asia/bangladesh.js";
+import { nepal  } from "./countries/asia/nepal.js";
+import { bhutan  } from "./countries/asia/bhutan.js";
+import { sriLanka  } from "./countries/asia/sriLanka.js";
 export const countryDetails = {
    china,
    japan,
@@ -189,4 +193,8 @@ export const countryDetails = {
    "north-korea": northKorea,
    india,
    pakistan,
+   bangladesh,
+   nepal,
+   bhutan,
+   "sri-lanka": sriLanka,
 };
