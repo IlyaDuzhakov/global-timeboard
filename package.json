@@ -21,6 +21,18 @@
     "react-tooltip": "^5.30.0",
     "topojson-client": "^3.1.0",
     "web-vitals": "^2.1.4",
+    "workbox-background-sync": "^7.4.1",
+    "workbox-broadcast-update": "^7.4.1",
+    "workbox-cacheable-response": "^7.4.1",
+    "workbox-core": "^7.4.1",
+    "workbox-expiration": "^7.4.1",
+    "workbox-google-analytics": "^7.4.1",
+    "workbox-navigation-preload": "^7.4.1",
+    "workbox-precaching": "^7.4.1",
+    "workbox-range-requests": "^7.4.1",
+    "workbox-routing": "^7.4.1",
+    "workbox-strategies": "^7.4.1",
+    "workbox-streams": "^7.4.1",
     "world-atlas": "^2.0.2"
   },
   "scripts": {
