@@ -189,6 +189,8 @@ import { sriLanka  } from "./countries/asia/sriLanka.js";
 import { maldives  } from "./countries/asia/maldives.js";
 import { afghanistan  } from "./countries/asia/afghanistan.js";
 import { kazakhstan } from "./countries/asia/kazakhstan.js";
+import { uzbekistan } from "./countries/asia/uzbekistan.js";
+import { turkmenistan } from "./countries/asia/turkmenistan.js";
 export const countryDetails = {
    china,
    japan,
@@ -203,4 +205,6 @@ export const countryDetails = {
    maldives,
    afghanistan,
    kazakhstan,
+   uzbekistan,
+   turkmenistan,
 };
