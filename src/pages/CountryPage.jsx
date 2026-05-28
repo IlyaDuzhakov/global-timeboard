@@ -11,7 +11,7 @@ export default function CountryPage({ lang }) {
   const [isCorrect, setIsCorrect] = useState(false);
   const [hasMistake, setHasMistake] = useState(false);
   const [showResultModal, setShowResultModal] = useState(false);
-  const [earnedStarNow, setEarnedStarNow] = useState(false);
+ 
 
   const [activeSection, setActiveSection] = useState("government");
   const [flippedCards, setFlippedCards] = useState([]);
@@ -390,7 +390,7 @@ export default function CountryPage({ lang }) {
 
                       const earned = score >= starLimit;
 
-                      setEarnedStarNow(earned);
+                      
 
                       if (earned) {
                         localStorage.setItem(`${id}-quiz-star`, "true");
