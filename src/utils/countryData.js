@@ -1552,7 +1552,6 @@ export const countryInfo = {
     },
 
     flag: "/global-timeboard/img/flags/china.png",
-    
   },
   Russia: {
     id: "russia",
@@ -6336,5 +6335,44 @@ export const countryInfo = {
       ru: "Испанский, французский, португальский",
     },
     flag: "/global-timeboard/img/flags/equatorial-guinea.png",
+  },
+  Maldives: {
+    id: "maldives",
+
+    name: {
+      en: "Maldives",
+      ru: "Мальдивы",
+    },
+
+    capital: {
+      en: "Male",
+      ru: "Мале",
+    },
+
+    area: 298,
+
+    population: {
+      en: "0.5 million",
+      ru: "0.5 млн",
+    },
+
+    timezone: "UTC+5 (GMT+5)",
+
+    currency: {
+      en: "MVR Maldivian rufiyaa",
+      ru: "MVR Мальдивская руфия",
+    },
+
+    government: {
+      en: "Presidential republic",
+      ru: "Президентская республика",
+    },
+
+    language: {
+      en: "Dhivehi",
+      ru: "Дивехи",
+    },
+
+    flag: "/global-timeboard/img/flags/maldives.png",
   },
 };
