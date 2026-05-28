@@ -1,13 +1,12 @@
 .App {
-    min-height: 100vh;
-    background-image: url('../public/img/tropical-bg.jpg');
-    background-attachment: fixed;
-    background-size: cover;
-    
+  min-height: 100vh;
+  background-image: url("../public/img/tropical-bg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .p {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .desktopMap {
@@ -17,7 +16,6 @@
 .mobileCountries {
   display: none;
 }
-
 
 .countryModalOverlay {
   position: fixed;
@@ -136,6 +134,33 @@
   cursor: pointer;
 }
 
+.timePanel {
+  width: 92%;
+  max-width: 1450px;
+  margin: 24px auto 40px;
+  padding: 20px 24px;
+
+  background: rgba(236, 210, 155, 0.82);
+  border: 2px solid rgba(95, 55, 18, 0.55);
+  border-radius: 24px;
+
+  box-shadow:
+    0 8px 24px rgba(40, 20, 5, 0.28),
+    inset 0 0 18px rgba(255, 235, 180, 0.22);
+}
+
+.topControls {
+  width: 58%;
+  max-width: 900px;
+  margin: -20px 70px 24px auto;
+}
+
+@media (max-width: 900px) {
+  .topControls {
+    width: 92%;
+    margin: 18px auto 24px;
+  }
+}
 
 @media (max-width: 1280px) {
   .desktopMap {
@@ -144,6 +169,12 @@
 
   .mobileCountries {
     display: block;
+  }
+}
+
+@media (max-width: 900px) {
+  .topPanel {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -206,7 +237,6 @@
   }
 }
 
-
 .langSwitcher {
   position: absolute;
   top: 28px;
@@ -223,8 +253,6 @@
   cursor: pointer;
   font-weight: 700;
 }
-
-
 
 .oceanLabels {
   position: absolute;
@@ -268,7 +296,6 @@
   top: -6%;
 }
 
-
 @media (max-width: 1280px) {
   .desktopMap {
     display: none;
@@ -276,5 +303,24 @@
 
   .mobileCountries {
     display: block;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .timePanel {
+    width: 88%;
+    padding: 16px 14px;
+    margin: 18px auto 22px;
+  }
+
+  .desktopMap {
+    display: none;
+  }
+
+  .mobileCountries {
+    display: block;
+    width: 88%;
+    margin: 18px auto;
   }
 }

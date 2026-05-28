@@ -12,15 +12,23 @@ const Header = ({ lang, setLang }) => {
       <div>
         <h1 className={styles.title}>Global Timeboard</h1>
 
-        <h3 className={styles.subtitle}>
-          Your interactive world clock & map
-        </h3>
+        <h3 className={styles.subtitle}>Your interactive world clock & map</h3>
       </div>
 
       <div className={styles.langSwitcher}>
-        <button onClick={() => setLang("ru")}>RU</button>
+        <button
+          className={lang === "ru" ? styles.activeLang : ""}
+          onClick={() => setLang("ru")}
+        >
+          RU
+        </button>
 
-        <button onClick={() => setLang("en")}>EN</button>
+        <button
+          className={lang === "en" ? styles.activeLang : ""}
+          onClick={() => setLang("en")}
+        >
+          EN
+        </button>
       </div>
     </div>
   );

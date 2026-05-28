@@ -21,8 +21,8 @@ const Form = ({ setTimes, times, openModal }) => {
       return;
     }
 
-    if (times.length >= 10) {
-      openModal("Можно добавить максимум 10 часов. Удалите один.");
+    if (times.length >= 6) {
+      openModal("Можно добавить максимум 6 часов. Удалите один.");
       return;
     }
 
@@ -37,25 +37,29 @@ const Form = ({ setTimes, times, openModal }) => {
   };
 
   return (
-    <form className={classes.containerForm}>
+    <form className={classes.containerForm} onSubmit={handleAdd}>
       <label className={classes.sity}>Выберите город</label>
 
-      <Select
-        className={classes.select}
-        options={timezoneOptions}
-        value={selected}
-        onChange={setSelected}
-        placeholder="Город"
-        isSearchable
-        menuPortalTarget={document.body}
-        styles={{
-          menuPortal: (base) => ({ ...base, zIndex: 9999 }),
-        }}
-      />
+      <div className={classes.selectRow}>
+        <div className={classes.selectBox}>
+          <Select
+            className={classes.select}
+            options={timezoneOptions}
+            value={selected}
+            onChange={setSelected}
+            placeholder="Город"
+            isSearchable
+            menuPortalTarget={document.body}
+            styles={{
+              menuPortal: (base) => ({ ...base, zIndex: 9999 }),
+            }}
+          />
+        </div>
 
-      <button className={classes.btnAdd} onClick={handleAdd}>
-        Добавить
-      </button>
+        <button className={classes.btnAdd} type="submit">
+          Добавить
+        </button>
+      </div>
     </form>
   );
 };

@@ -1,203 +1,114 @@
-#  Global Timeboard
+# 🌍 Global Timeboard
 
-Global Timeboard is an interactive React PWA application that combines world time, an interactive world map, and a country information system.
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
+![PWA](https://img.shields.io/badge/PWA-ready-5A0FC8)
+![Status](https://img.shields.io/badge/status-active%20development-brown)
+![Deploy](https://github.com/IlyaDuzhakov/global-timeboard/actions/workflows/deploy.yml/badge.svg)
 
-The project allows users to:
-- display world time in different countries,
-- work with an interactive world map,
-- explore information about countries,
-- view landmarks and famous places,
-- read interesting facts,
-- complete quizzes,
-- study culture, economy, geography, climate, religion, and other features of different nations.
+**Global Timeboard** is an interactive React PWA that combines world time, an SVG world map, and a country information system.
 
----
+The project is built as a personal geography-focused application with a vintage atlas interface.
 
-#  Main Features
+## Demo
 
-##  World Time System
-
-The application allows users to:
-- select world capitals,
-- display up to 10 analog clocks simultaneously,
-- use real IANA timezones,
-- automatically handle daylight saving time.
-
-Each clock:
-- has its own analog dial,
-- displays digital time,
-- can be removed,
-- is saved after page reload.
+🌐 Live demo: https://ilyaduzhakov.github.io/global-timeboard
 
 ---
 
-##  Interactive World Map
+## Screenshots
 
-The project includes:
-an interactive SVG world map.
+### Desktop
 
-Map functionality:
-- click on any country,
-- highlight selected countries,
-- tooltip with information,
-- active country markers,
-- responsive behavior for different devices.
+![Desktop clocks](public/screenshots/desktop-clocks.png)
 
-When a country is selected:
-detailed information about the country is displayed.
+![Desktop map](public/screenshots/desktop-map.png)
 
----
+### Mobile
 
-#  Country Information System
+![Mobile home](public/screenshots/mobile.png)
 
-A large country database is gradually being created for the project.
+![Mobile countries](public/screenshots/mobile-countries.png)
 
-Country content includes:
-- government system,
-- economy and trade,
-- natural resources,
-- climate and geography,
-- culture and religion,
-- sports,
-- strengths and weaknesses,
-- interesting facts.
+### Country Page
 
-The content supports:
-- English,
-- Russian.
+![Country page](public/screenshots/country-page.png)
+
+### Quiz
+
+![Quiz](public/screenshots/quiz.png)
 
 ---
 
-#  Landmarks
+## Features
 
-Countries include:
-landmark cards with images and detailed descriptions.
-
-The system contains:
-- title,
-- image,
-- description,
-- historical information,
-- cultural and natural details.
-
----
-
-#  Quizzes
-
-Interactive quizzes are included:
-to help users learn and remember information about countries.
-
-Quiz system includes:
-- questions,
-- answer options,
-- correct answer validation,
-- educational gameplay.
+- World time for selected capitals
+- Up to 6 analog clocks
+- Real IANA timezones with daylight saving support
+- Interactive SVG world map
+- Country information pages
+- Landmarks with images and descriptions
+- Interesting facts
+- Country quizzes
+- Russian and English language support
+- Responsive desktop, tablet, and mobile layout
+- PWA support
 
 ---
 
-#  Planned Features
+## Country Information
 
-The project will include:
-interactive country and landmark cards.
+Each country page can include:
 
-For example:
-- country flag cards,
-- short country information,
-- population,
-- language,
-- currency,
-- religion,
-- capital city,
-- flip-card system with additional information.
-
-A visual landmark gallery and expanded educational country system are also planned.
-
----
-
-#  Interface
-
-The project uses:
-a vintage world atlas inspired interface style.
-
-Design elements include:
-- map-style backgrounds,
-- warm colors,
-- soft shadows,
-- explorer-inspired atmosphere,
-- custom modal windows.
-
-The goal of the interface is:
-to create the feeling of exploring a historical world atlas.
+- government system
+- capital and flag
+- population
+- language
+- currency
+- natural resources
+- nature and climate
+- economy and trade
+- culture and religion
+- sports
+- strengths and challenges
+- landmarks
+- facts
+- quiz
 
 ---
 
-#  Responsive Design
-
-The application is adapted for:
--  desktop devices,
--  mobile phones,
--  tablets.
-
-The interface scales correctly:
-for different screen sizes.
-
----
-
-#  PWA Support
-
-The project supports:
-Progressive Web App functionality.
-
-Implemented features:
-- `manifest.json`
-- `serviceWorker`
-- offline support
-- installable application
-- icons and favicons
-
----
-
-#  Technologies
+## Technologies
 
 - React
 - JavaScript
 - Luxon
 - D3-geo
 - TopoJSON
-- react-select
+- React Select
 - CSS Modules
-- SVG Map
 - LocalStorage
 - PWA
-- Service Worker
+- GitHub Pages
 
 ---
 
-#  Data Storage
+## Project Goal
 
-The application uses:
-`localStorage` to save:
-- selected countries,
-- clocks,
-- interface state.
+The goal of Global Timeboard is to create an interactive world atlas that combines:
 
----
-
-#  Project Goal
-
-The goal of the project is:
-to create an interactive world platform that combines:
-- world time,
-- geography,
-- education,
-- visualization,
-- interactivity,
-- country exploration.
-
----
-
-#  Project Status
+- time
+- geography
+- education
+- maps
+- visual learning
+- country exploration
 
 The project is currently under active development.
+New countries, cards, quizzes, screenshots, and UI improvements are being added gradually.
 
-New countries, landmarks, quizzes, cards, and interface improvements are continuously being added.
+---
+
+## Author
+
+Created by **Ilya Duzhakov**.
+
+© 2026 Global Timeboard. All rights reserved.

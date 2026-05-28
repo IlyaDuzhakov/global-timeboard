@@ -1,21 +1,28 @@
 .clockContainer {
   position: relative;
-   display: inline-block;
-  margin: 30px;              
-  width: 180px;              
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  margin: 0;
   text-align: center;
-
-  padding: 24px 16px 32px;
-  min-height: 280px;
-
 }
 
 .clockTitle {
-    font-size: 18px;
-    font-weight: 700;
-    padding: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #2b1a0f;
 }
 
+.clock {
+  position: relative;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+}
 
 .handHour,
 .handMinute,
@@ -24,79 +31,79 @@
   bottom: 50%;
   left: 50%;
   transform-origin: bottom center;
-  background: black;
 }
 
 .handHour {
-  width: 4px;
-  height: 30px;
+  width: 6px;
+  height: 26px;
+  background: #120a04;
+  box-shadow: 0 0 4px #fff2c0, 0 0 6px rgba(0, 0, 0, 0.9);
 }
 
 .handMinute {
-    width: 2px;
-    height: 50px;
-    background: #011eae;
+  width: 4px;
+  height: 40px;
+  background: #120a04;
+  box-shadow: 0 0 4px #fff2c0, 0 0 6px rgba(0, 0, 0, 0.9);
 }
 
 .handSecond {
-    width: 1px;
-    height: 70px;
-    background: red;
-    text-shadow: 0 0 20px #000;
+  width: 2px;
+  height: 44px;
+  background: #7b2d18;
+  opacity: 0.85;
 }
-
-.clock {
-    background-image: url('/public/img/clock-face.png'); /* путь к SVG */
-    position: relative;
-    width: 140px;
-    height: 140px;
-    border: 1px solid #000;
-    border-radius: 50%;
-    background-size: cover;
-    background-position: center;
-}
-
 .closeBtn {
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: 4px;
+  right: 4px;
   z-index: 10;
-  background: #f90101;
-  border: none;
-  font-size: 20px;
+  background: #7b2d18;
+  border: 1px solid #3b1d0d;
+  color: #fff3d0;
+  font-size: 14px;
   font-weight: bold;
   cursor: pointer;
-  color: #000000;
   padding: 2px 6px;
   border-radius: 50%;
-  transition: background 0.2s ease;
-   opacity: 0;
+  opacity: 0;
   pointer-events: none;
 }
 
 .clockContainer:hover .closeBtn {
   opacity: 1;
   pointer-events: auto;
-  transform: scale(1.05);
 }
 
 .closeBtn:hover {
-  background: #eee;
+  background: #a13a20;
 }
-
 
 @media (max-width: 600px) {
   .clockContainer {
-    padding: 16px 12px 24px;
-    min-height: 240px;
+    width: 120px;
+    margin: 10px;
+    padding: 10px;
   }
 
   .clock {
-    transform: scale(0.9);
+    width: 90px;
+    height: 90px;
   }
 
   .clockTitle {
-    font-size: 18px;
-    margin-bottom: 8px;
+    font-size: 14px;
+  }
+
+  .handHour {
+    height: 20px;
+  }
+
+  .handMinute {
+    height: 30px;
+  }
+
+  .handSecond {
+    height: 38px;
   }
 }

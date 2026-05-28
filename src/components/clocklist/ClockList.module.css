@@ -1,66 +1,83 @@
 .clockWrapper {
-    width: 95%;
-    max-width: 1400px;
-    margin: 40px auto;
-    
-    padding: 30px 20px;
-    
-    background: rgba(255, 255, 255, 0.18);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(10px);
-    
-    border-radius: 28px;
-    border: 2px solid rgba(255, 255, 255, 0.35);
-    
-    box-shadow:
-    0 8px 30px rgba(0, 0, 0, 0.25),
-    inset 0 0 20px rgba(255, 255, 255, 0.15);
-}
+  width: 92%;
+  max-width: 1200px;
+  margin: 24px auto 32px;
+  padding: 18px 18px;
+} 
 
 .clockBoard {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 32px;
-  padding: 32px;
-  box-sizing: border-box;         
+  grid-template-columns: repeat(6, 1fr);
+  gap: 28px 34px;
+    /* gap: 40px 80px; */
+  box-sizing: border-box;
+  justify-content: center;
 }
 
-
 .emptyTitle {
-  font-size: 54px;
+  font-size: 34px;
   font-weight: 800;
   text-align: center;
-
-  color: #081426;
-
-  margin-top: 30px;
+  color: #2b1a0f;
+  margin-top: 12px;
 }
 
 .emptySubtitle {
   text-align: center;
-
-  font-size: 22px;
-
-  color: rgba(8, 20, 38, 0.75);
-
-  margin-top: -10px;
-  margin-bottom: 80px;
+  font-size: 18px;
+  color: rgba(43, 26, 15, 0.78);
+  margin-top: 4px;
+  margin-bottom: 24px;
 }
 
-@media (max-width: 768px) {
+.listClockWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.listClock {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+@media (max-width: 1250px) {
   .clockBoard {
-    padding: 14px 16px;
-    row-gap: 22px;
-    column-gap: 16px;
-    margin: 32px auto;
+     grid-template-columns: repeat(3, 220px);
+
+  justify-content: center;
+  justify-items: center;
+   gap: 40px 80px;
   }
+}
+
+@media (max-width: 780px) {
   .clockWrapper {
-    width: 80%;
+    width: 92%;
+    margin: 18px auto 26px;
+    padding: 14px 12px;
+  }
+
+  .clockBoard {
+    grid-template-columns: repeat(2, 220px);
+
+    gap: 36px 60px;
+  }
+
+  .emptyTitle {
+    font-size: 26px;
+  }
+
+  .emptySubtitle {
+    font-size: 16px;
+    margin-bottom: 16px;
   }
 }
 
 @media (max-width: 600px) {
   .clockBoard {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+    padding: 16px;
   }
 }

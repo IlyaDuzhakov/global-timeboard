@@ -4,7 +4,7 @@
   background: rgba(0, 0, 0, 0.45);
   backdrop-filter: blur(4px);
   z-index: 9999;
-
+  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,7 +16,13 @@
 
   padding: 30px 25px;
 
-  background: rgba(255, 255, 255, 0.22);
+  background: rgba(236, 210, 155, 0.82);
+  border: 2px solid rgba(95, 55, 18, 0.55);
+  border-radius: 22px;
+
+  box-shadow:
+    0 8px 24px rgba(40, 20, 5, 0.28),
+    inset 0 0 18px rgba(255, 235, 180, 0.22);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
 

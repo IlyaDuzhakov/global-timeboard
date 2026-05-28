@@ -243,7 +243,7 @@ export default function WorldMap({ activeCountries = [], lang, setLang }) {
   }
 
   return (
-    <div style={{ position: "relative", textAlign: "center" }}>
+    <div className={styles.mapWrapper}>
       <div className={styles.oceanLabels}>
         <span className={styles.pacificOcean}>Pacific Ocean</span>
         <span className={styles.atlanticOcean}>Atlantic Ocean</span>
@@ -254,9 +254,7 @@ export default function WorldMap({ activeCountries = [], lang, setLang }) {
         ref={svgRef}
         viewBox="0 0 960 500"
         width="100%"
-        height="700px"
         style={{
-          maxWidth: "100%",
           display: "block",
           margin: "0 auto",
         }}

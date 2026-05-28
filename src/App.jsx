@@ -40,43 +40,44 @@ function App() {
       <Route
         path="/"
         element={
-          
-            <div className="App">
-              <div
-                style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: "center",
-                }}
-              >
-                <Header lang={lang} setLang={setLang} />
-                <Form setTimes={setTimes} times={times} openModal={openModal} />
-                <ClockList times={times} setTimes={setTimes} lang={lang} />
-                <div className="desktopMap">
-                  <WorldMap
-                    activeCountries={times.map((t) => t.country)}
-                    lang={lang}
-                    setLang={setLang}
-                  />
-                </div>
+          <div className="App">
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+              }}
+            >
+              <Header lang={lang} setLang={setLang} />
 
-                <div className="mobileCountries">
-                  <MobileCountries lang={lang} />
-                </div>
-                <Footer />
-                <Modal
-                  isOpen={isModalOpen}
-                  message={modalMessage}
-                  onClose={closeModal}
+              <div className="timePanel">
+                <Form setTimes={setTimes} times={times} openModal={openModal} />
+
+                <ClockList times={times} setTimes={setTimes} lang={lang} />
+              </div>
+              <div className="desktopMap">
+                <WorldMap
+                  activeCountries={times.map((t) => t.country)}
+                  lang={lang}
+                  setLang={setLang}
                 />
               </div>
+
+              <div className="mobileCountries">
+                <MobileCountries lang={lang} />
+              </div>
+              <Footer lang={lang}/>
+              <Modal
+                isOpen={isModalOpen}
+                message={modalMessage}
+                onClose={closeModal}
+              />
             </div>
-          
+          </div>
         }
       />
       <Route path="/country/:id" element={<CountryPage lang={lang} />} />
     </Routes>
-
   );
 }
 

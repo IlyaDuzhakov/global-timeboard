@@ -18,15 +18,17 @@ const ClockList = ({ times, setTimes, lang }) => {
   if (times.length === 0) {
     return (
       <>
+      <div className={styles.listClockWrapper}>
     <h2 className={styles.listClock}>
       {lang === "ru" ? "Часы не добавлены" : "No clocks added"}
     </h2>
 
     <p className={styles.emptySubtitle}>
       {lang === "ru"
-        ? "Добавьте до 10 мировых часов"
-        : "Add up to 10 world clocks"}
+        ? "Добавьте до 6 мировых часов"
+        : "Add up to 6 world clocks"}
     </p>
+    </div>
   </>
     );
   }

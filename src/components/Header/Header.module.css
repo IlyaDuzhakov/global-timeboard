@@ -1,95 +1,129 @@
 .header {
   position: relative;
-
+  margin-top: 2px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  gap: 18px;
 
+  width: fit-content;
+  min-width: 520px;
+  max-width: 760px;
+  padding: 18px 28px;
 
-
-  width: 95%;
-  max-width: 700px;
-
-  margin: 30px auto;
-
-  padding: 30px;
-
-  background: rgba(255, 255, 255, 0.18);
-
-  backdrop-filter: blur(4px);
-
-  border-radius: 28px;
-
-  border: 2px solid rgba(255, 255, 255, 0.35);
+  background: rgba(236, 210, 155, 0.82);
+  border: 2px solid rgba(95, 55, 18, 0.55);
+  border-radius: 22px;
 
   box-shadow:
-    0 8px 30px rgba(0, 0, 0, 0.25),
-    inset 0 0 20px rgba(255, 255, 255, 0.15);
+    0 8px 24px rgba(40, 20, 5, 0.28),
+    inset 0 0 18px rgba(255, 235, 180, 0.22);
 }
 
 .langSwitcher {
   position: absolute;
-
-  top: 8px;
-  right: 10px;
+  top: 10px;
+  right: 12px;
 
   display: flex;
   gap: 8px;
 }
 
 .langSwitcher button {
-  border: none;
-
-  padding: 8px 12px;
-
+  border: 1px solid rgba(95, 55, 18, 0.45);
+  padding: 7px 12px;
   border-radius: 12px;
 
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 240, 200, 0.95);
+  color: #2b1a0f;
 
   font-weight: 800;
-
   cursor: pointer;
-
-  transition: 0.2s ease;
 }
 
 .langSwitcher button:hover {
-  transform: scale(1.05);
-
-  background: white;
+  transform: translateY(-1px);
+  background: #fbe8b2;
 }
 
 .title {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   margin: 0;
+  color: #160c05;
 }
 
 .subtitle {
-  font-size: 1rem;
+  font-size: 0.95rem;
   margin: 0;
-  opacity: 0.9;
+  color: rgba(22, 12, 5, 0.85);
 }
 
 .globe {
-  width: 250px;
-  height: 60px;
+  width: 56px;
+  height: 56px;
   animation: spin 10s linear infinite;
+  display: block;
+}
+
+.activeLang {
+  background: #8b2d14 !important;
+  color: #fbe8b2 !important;
+  border-color: #4d1f0e !important;
 }
 
 @keyframes spin {
-  0% {
+  from {
     transform: rotate(0deg);
   }
-  100% {
+
+  to {
     transform: rotate(360deg);
   }
 }
 
+@media (max-width: 900px) {
+  .header {
+    width: 92%;
+    min-width: 0;
+    margin: 18px auto;
+  }
+}
 
-@media (max-width: 560px) {
-  .header  {
-    flex-wrap: wrap;
-    padding: 10px 40px;
-  font-size: 12px;
+@media (max-width: 870px) {
+  .header {
+    width: 88%;
+    min-width: 0;
+    margin: 16px auto;
+    padding: 16px 14px;
+    gap: 10px;
+  }
+
+  .title {
+    font-size: 1.45rem;
+  }
+
+  .subtitle {
+    font-size: 0.75rem;
+  }
+
+  .globe {
+    width: 38px;
+    height: 38px;
+  }
+
+  .langSwitcher {
+    top: 8px;
+    right: 8px;
+  }
+
+  .langSwitcher button {
+    padding: 5px 8px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 400px) {
+  .header {
+    flex-direction: column;
   }
 }

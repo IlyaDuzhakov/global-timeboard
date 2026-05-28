@@ -115,8 +115,20 @@
   cursor: pointer;
 }
 
+.mapWrapper {
+  position: relative;
+  width: 92vw;
+  max-width: 1300px;
+  min-width: 900px;
+  margin: 20px auto 0;
+  text-align: center;
+}
 
-
+.mapWrapper svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
 @media (max-width: 768px) {
   .countryModalOverlay {
@@ -177,7 +189,6 @@
   }
 }
 
-
 .langSwitcher {
   position: absolute;
   top: 28px;
@@ -194,8 +205,6 @@
   cursor: pointer;
   font-weight: 700;
 }
-
-
 
 .oceanLabels {
   position: absolute;
@@ -238,5 +247,3 @@
   left: 44%;
   top: -6%;
 }
-
-

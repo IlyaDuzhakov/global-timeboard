@@ -11,10 +11,11 @@
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
     url("/public/img/tropical-bg.jpg");
-
+  background: rgba(213, 198, 180, 0.12);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
 }
 
 .countryCard,
@@ -25,25 +26,40 @@
 }
 
 .countryCard {
-  padding: 36px;
+  padding: 28px;
   border-radius: 28px;
 
-  background: rgba(255, 255, 255, 0.96);
+  background: rgba(236, 210, 155, 0.82);
   color: #111827;
 
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.28);
+  box-shadow:
+    0 8px 24px rgba(40, 20, 5, 0.28),
+    inset 0 0 18px rgba(255, 235, 180, 0.22);
 
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 22px;
+  gap: 14px;
+}
+
+
+.countryCard h1 {
+  margin: 0;
+  font-size: 34px;
+}
+
+.countryCard > p {
+  margin: 0 0 10px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #2b1a0f;
 }
 
 .countryCard img {
   width: 300px;
-  max-width: 80%;
-  height: auto;
+  max-width: 100%;
   border-radius: 12px;
+  margin: 8px 0 12px;
 }
 
 .countryInfo {
@@ -52,19 +68,25 @@
 
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 14px;
+  gap: 12px;
 }
 
 .countryInfo div {
-  padding: 16px;
-  border-radius: 16px;
+  padding: 12px 14px;
+  border-radius: 14px;
   background: #f3f4f6;
   text-align: center;
 }
 
 .countryInfo strong {
   display: block;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.countryInfo p {
+  font-size: 13px;
+  margin: 0;
 }
 
 .countrySections {
@@ -118,6 +140,36 @@
 
 .sectionContent p {
   margin-bottom: 14px;
+}
+
+
+.quizContainer {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.quizContainer h3 {
+  font-size: 20px;
+  line-height: 1.35;
+}
+
+.answers {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+
+  width: 100%;
+}
+
+.answerButton {
+  width: 100%;
+  min-width: 0;
+
+  white-space: normal;
+  word-break: break-word;
+
+  padding: 12px 14px;
 }
 
 @media (max-width: 1280px) {
@@ -367,9 +419,6 @@ strong {
   color: #b8860b;
 }
 
-
-
-
 .answerButton {
   padding: 14px;
   border-radius: 12px;
@@ -409,12 +458,6 @@ strong {
   border: 1px solid #292929;
 }
 
-/* .quizContainer {
-    display: flex;
-    gap: 20px;
-} */
-
-/* popup */
 
 .quizModalOverlay {
   position: fixed;
@@ -430,10 +473,44 @@ strong {
 .quizModal {
   max-width: 420px;
   width: 100%;
-  background: white;
+  background: rgba(236, 210, 155, 1);
+  border: 2px solid rgba(95, 55, 18, 0.55);
+  border-radius: 22px;
+
+  box-shadow:
+    0 8px 24px rgba(40, 20, 5, 0.28),
+    inset 0 0 18px rgba(255, 235, 180, 0.80);
   border-radius: 20px;
   padding: 28px;
   text-align: center;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
 }
 /* popup */
+
+@media (max-width: 600px) {
+  .quizContainer {
+    padding: 12px 8px;
+  }
+
+  .quizContainer h3 {
+    font-size: 15px;
+  }
+
+  .answers {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .answerButton {
+    font-size: 13px;
+    padding: 10px 8px;
+  }
+    .countryInfo {
+    gap: 10px;
+  }
+
+  .countryInfo div {
+    padding: 10px 12px;
+    border-radius: 12px;
+  }
+}
