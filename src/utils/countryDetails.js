@@ -194,6 +194,9 @@ import { turkmenistan } from "./countries/asia/turkmenistan.js";
 import { kyrgyzstan } from "./countries/asia/kyrgyzstan.js";
 import { tajikistan } from "./countries/asia/tajikistan.js";
 import { mongolia } from "./countries/asia/mongolia.js";
+import { thailand } from "./countries/asia/thailand.js";
+import { vietnam } from "./countries/asia/vietnam.js";
+import { laos } from "./countries/asia/laos.js";
 export const countryDetails = {
    china,
    japan,
@@ -213,4 +216,7 @@ export const countryDetails = {
    kyrgyzstan,
    tajikistan,
    mongolia,
+   thailand,
+   vietnam,
+   laos,
 };
