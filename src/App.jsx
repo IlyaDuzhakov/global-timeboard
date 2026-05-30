@@ -9,6 +9,10 @@ import Footer from "./components/Footer/Footer";
 import Modal from "./components/Modal/Modal";
 import MobileCountries from "./components/mobileCountries/MobileCountries";
 import CountryPage from "./pages/CountryPage";
+import { FlagQuizMenu } from "./pages/FlagQuizMenu/FlagQuizMenu.jsx";
+import { QuizRoom } from "./pages/QuizRoom/QuizRoom.jsx";
+import { FlagQuiz } from "./pages/FlagQuiz/FlagQuiz.jsx";
+import { FlagRegionSelect } from "./pages/FlagRegionSelect/FlagRegionSelect";
 
 function App() {
   const [lang, setLang] = useState("ru");
@@ -77,6 +81,10 @@ function App() {
         }
       />
       <Route path="/country/:id" element={<CountryPage lang={lang} />} />
+      <Route path="/quiz" element={<QuizRoom lang={lang}/>} />
+      <Route path="/quiz/flags" element={<FlagQuizMenu lang={lang} />} />
+      <Route path="/quiz/flags/play/:region" element={<FlagQuiz lang={lang} />} />
+      <Route path="/quiz/flags/play" element={<FlagRegionSelect lang={lang} />}/>
     </Routes>
   );
 }

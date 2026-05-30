@@ -1,0 +1,329 @@
+.flagQuiz {
+  min-height: 100vh;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(135deg, #8b5e2e, #d8b56d, #f3dfad);
+}
+
+.panel {
+  width: 100%;
+  max-width: 760px;
+  padding: 36px;
+  border-radius: 28px;
+  background: rgba(238, 216, 162, 0.96);
+  text-align: center;
+}
+
+.title {
+  font-size: 42px;
+  margin: 0 0 12px;
+}
+
+.progress,
+.score {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.flagImage {
+  width: 260px;
+  max-width: 80%;
+  margin: 24px auto;
+  display: block;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.question {
+  margin-bottom: 24px;
+}
+
+.optionsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.optionButton,
+.nextButton,
+.backButton {
+  border: none;
+  border-radius: 16px;
+  background: #071428;
+  color: white;
+  padding: 16px 20px;
+  font-weight: 800;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.optionButton:disabled {
+  cursor: default;
+  opacity: 0.8;
+}
+
+.result {
+  margin-top: 24px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.nextButton {
+  margin-top: 12px;
+  font-size: 18px;
+}
+
+.backButton {
+  width: fit-content;
+  margin: 28px auto 0;
+  display: flex;
+  font-size: 18px;
+}
+
+.finalText {
+  margin-top: 16px;
+}
+
+.finishBox {
+  margin: 34px auto 0;
+  padding: 34px 24px;
+  max-width: 760px;
+  border-radius: 28px;
+  background: rgba(255, 245, 210, 0.72);
+  border: 2px solid rgba(255, 255, 255, 0.75);
+  box-shadow: 0 18px 35px rgba(0, 0, 0, 0.18);
+  text-align: center;
+}
+
+.finishTitle {
+  margin: 0 0 22px;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 1.15;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+
+.finishIcon {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+}
+
+.finishPercent {
+  margin: 8px 0 0;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.finishGrade {
+  margin: 12px 0 28px;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.finishResult {
+  margin: 0 0 28px;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.finishActions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.finishButton,
+.nextButton,
+.backButton {
+  width: 240px;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 16px;
+  background: #071428;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 800;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  box-shadow: 0 6px 0 #020817;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.finishButton:hover,
+.nextButton:hover,
+.backButton:hover {
+  transform: translateY(-3px);
+  background: #0d2242;
+}
+
+.result {
+  margin-top: 24px;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 1.35;
+  text-align: center;
+}
+
+
+@media (max-width: 600px) {
+  .optionsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .title {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 520px) {
+  .panel {
+    padding: 26px 16px;
+    border-radius: 22px;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .flagImage {
+    width: 220px;
+    max-width: 100%;
+  }
+
+  .optionsGrid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .optionButton {
+    width: 100%;
+    min-height: 56px;
+  }
+
+  .finishBox {
+    padding: 28px 16px;
+    border-radius: 24px;
+  }
+
+  .finishTitle {
+    font-size: 30px;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .finishButton,
+  .nextButton,
+  .backButton {
+    width: 100%;
+    max-width: 280px;
+    min-height: 56px;
+    font-size: 15px;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .flagQuiz {
+    padding: 16px 8px;
+  }
+
+  .panel {
+    padding: 24px 12px;
+    border-radius: 18px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .progress,
+  .score {
+    font-size: 15px;
+  }
+
+  .flagImage {
+    width: 180px;
+  }
+
+  .question {
+    font-size: 22px;
+  }
+
+  .optionButton {
+    min-height: 48px;
+    font-size: 14px;
+  }
+
+  .result {
+    font-size: 20px;
+    line-height: 1.25;
+  }
+
+  .finishBox {
+    margin-top: 24px;
+    padding: 24px 14px;
+    border-radius: 22px;
+  }
+
+  .finishTitle {
+    font-size: 28px;
+  }
+
+  .finishIcon {
+    width: 48px;
+    height: 48px;
+  }
+
+  .finishResult,
+  .finishPercent,
+  .finishGrade {
+    font-size: 22px;
+    line-height: 1.25;
+  }
+
+  .finishButton,
+  .nextButton,
+  .backButton {
+    width: 100%;
+    max-width: 240px;
+    min-height: 54px;
+    padding: 10px 14px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 360px) {
+  .title {
+    font-size: 24px;
+  }
+
+  .finishTitle {
+    font-size: 24px;
+  }
+
+  .finishResult,
+  .finishPercent,
+  .finishGrade {
+    font-size: 19px;
+  }
+
+  .finishButton,
+  .nextButton,
+  .backButton {
+    max-width: 220px;
+    min-height: 50px;
+  }
+}

@@ -329,6 +329,16 @@ export default function MobileCountries({ lang }) {
           </button>
         ))}
       </div>
+      <Link to="/quiz" className={styles.quizRoomButton}>
+        <img
+          src="/global-timeboard/icons/quiz-room.svg"
+          alt="Quiz Room"
+          className={styles.quizRoomIcon}
+        />
+        <h1 className={styles.quizTitle}>
+          {lang === "ru" ? "Игровая комната" : "Quiz Room"}
+        </h1>
+      </Link>
 
       {selectedContinent && (
         <div className={styles.countryList}>

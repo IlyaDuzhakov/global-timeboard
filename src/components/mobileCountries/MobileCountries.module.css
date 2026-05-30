@@ -72,6 +72,17 @@
   text-decoration: none;
 }
 
+.quizRoomButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+
+
 @media (min-width: 700px) {
   .continentGrid {
     grid-template-columns: repeat(3, 1fr);

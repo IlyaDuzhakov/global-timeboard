@@ -1,0 +1,93 @@
+.flagQuizMenu {
+  min-height: 100vh;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(135deg, #8b5e2e, #d8b56d, #f3dfad);
+}
+
+.panel {
+  width: 100%;
+  max-width: 850px;
+  padding: 40px 32px;
+  border-radius: 28px;
+  background: rgba(238, 216, 162, 0.96);
+  text-align: center;
+}
+
+.title {
+  margin: 0 0 12px;
+  font-size: 46px;
+  font-weight: 800;
+}
+
+.subtitle {
+  margin: 0 auto 32px;
+  max-width: 560px;
+  font-size: 20px;
+}
+
+.modeGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
+}
+
+.modeCard {
+  min-height: 220px;
+  padding: 26px;
+  border-radius: 24px;
+  background: #071428;
+  color: white;
+  text-decoration: none;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+
+  box-shadow: 0 8px 0 #020817;
+  transition: 0.2s ease;
+}
+
+.modeCard:hover {
+  transform: translateY(-5px) scale(1.02);
+  background: #0d2242;
+}
+
+.modeIcon {
+  font-size: 48px;
+}
+
+.modeTitle {
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.modeText {
+  font-size: 16px;
+  opacity: 0.85;
+}
+
+.backButton {
+  width: fit-content;
+  margin: 30px auto 0;
+  padding: 12px 24px;
+  border-radius: 14px;
+  background: #071428;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  display: flex;
+}
+
+@media (max-width: 640px) {
+  .modeGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .title {
+    font-size: 38px;
+  }
+}
