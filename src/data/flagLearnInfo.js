@@ -954,4 +954,515 @@ export const flagLearnInfo = {
     currency: { ru: "Исландская крона", en: "Icelandic Króna" },
     government: { ru: "Республика", en: "Republic" },
   },
+  egypt: {
+    capital: { ru: "Каир", en: "Cairo" },
+    population: { ru: "112 млн", en: "112 million" },
+    area: { ru: "1 001 450 км²", en: "1,001,450 km²" },
+    language: { ru: "Арабский", en: "Arabic" },
+    currency: { ru: "Египетский фунт", en: "Egyptian Pound" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+
+  morocco: {
+    capital: { ru: "Рабат", en: "Rabat" },
+    population: { ru: "38 млн", en: "38 million" },
+    area: { ru: "446 550 км²", en: "446,550 km²" },
+    language: { ru: "Арабский, берберский", en: "Arabic, Berber" },
+    currency: { ru: "Марокканский дирхам", en: "Moroccan Dirham" },
+    government: {
+      ru: "Конституционная монархия",
+      en: "Constitutional monarchy",
+    },
+  },
+
+  algeria: {
+    capital: { ru: "Алжир", en: "Algiers" },
+    population: { ru: "46 млн", en: "46 million" },
+    area: { ru: "2 381 741 км²", en: "2,381,741 km²" },
+    language: { ru: "Арабский", en: "Arabic" },
+    currency: { ru: "Алжирский динар", en: "Algerian Dinar" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+
+  tunisia: {
+    capital: { ru: "Тунис", en: "Tunis" },
+    population: { ru: "12 млн", en: "12 million" },
+    area: { ru: "163 610 км²", en: "163,610 km²" },
+    language: { ru: "Арабский", en: "Arabic" },
+    currency: { ru: "Тунисский динар", en: "Tunisian Dinar" },
+    government: { ru: "Республика", en: "Republic" },
+  },
+
+  libya: {
+    capital: { ru: "Триполи", en: "Tripoli" },
+    population: { ru: "7 млн", en: "7 million" },
+    area: { ru: "1 759 540 км²", en: "1,759,540 km²" },
+    language: { ru: "Арабский", en: "Arabic" },
+    currency: { ru: "Ливийский динар", en: "Libyan Dinar" },
+    government: { ru: "Республика", en: "Republic" },
+  },
+
+  sudan: {
+    capital: { ru: "Хартум", en: "Khartoum" },
+    population: { ru: "50 млн", en: "50 million" },
+    area: { ru: "1 886 068 км²", en: "1,886,068 km²" },
+    language: { ru: "Арабский, английский", en: "Arabic, English" },
+    currency: { ru: "Суданский фунт", en: "Sudanese Pound" },
+    government: { ru: "Республика", en: "Republic" },
+  },
+
+  "south-sudan": {
+    capital: { ru: "Джуба", en: "Juba" },
+    population: { ru: "11 млн", en: "11 million" },
+    area: { ru: "619 745 км²", en: "619,745 km²" },
+    language: { ru: "Английский", en: "English" },
+    currency: { ru: "Южносуданский фунт", en: "South Sudanese Pound" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+
+  ethiopia: {
+    capital: { ru: "Аддис-Абеба", en: "Addis Ababa" },
+    population: { ru: "130 млн", en: "130 million" },
+    area: { ru: "1 104 300 км²", en: "1,104,300 km²" },
+    language: { ru: "Амхарский", en: "Amharic" },
+    currency: { ru: "Быр", en: "Birr" },
+    government: { ru: "Федеративная республика", en: "Federal republic" },
+  },
+
+  eritrea: {
+    capital: { ru: "Асмэра", en: "Asmara" },
+    population: { ru: "3,7 млн", en: "3.7 million" },
+    area: { ru: "117 600 км²", en: "117,600 km²" },
+    language: {
+      ru: "Тигринья, арабский, английский",
+      en: "Tigrinya, Arabic, English",
+    },
+    currency: { ru: "Накфа", en: "Nakfa" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+
+  djibouti: {
+    capital: { ru: "Джибути", en: "Djibouti" },
+    population: { ru: "1,1 млн", en: "1.1 million" },
+    area: { ru: "23 200 км²", en: "23,200 km²" },
+    language: { ru: "Французский, арабский", en: "French, Arabic" },
+    currency: { ru: "Франк Джибути", en: "Djiboutian Franc" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+  somalia: {
+    capital: { ru: "Могадишо", en: "Mogadishu" },
+    population: { ru: "19 млн", en: "19 million" },
+    area: { ru: "637 657 км²", en: "637,657 km²" },
+    language: { ru: "Сомалийский, арабский", en: "Somali, Arabic" },
+    currency: { ru: "Сомалийский шиллинг", en: "Somali Shilling" },
+    government: { ru: "Федеративная республика", en: "Federal republic" },
+  },
+
+  kenya: {
+    capital: { ru: "Найроби", en: "Nairobi" },
+    population: { ru: "55 млн", en: "55 million" },
+    area: { ru: "580 367 км²", en: "580,367 km²" },
+    language: { ru: "Суахили, английский", en: "Swahili, English" },
+    currency: { ru: "Кенийский шиллинг", en: "Kenyan Shilling" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+
+  uganda: {
+    capital: { ru: "Кампала", en: "Kampala" },
+    population: { ru: "50 млн", en: "50 million" },
+    area: { ru: "241 038 км²", en: "241,038 km²" },
+    language: { ru: "Английский, суахили", en: "English, Swahili" },
+    currency: { ru: "Угандийский шиллинг", en: "Ugandan Shilling" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+
+  tanzania: {
+    capital: { ru: "Додома", en: "Dodoma" },
+    population: { ru: "68 млн", en: "68 million" },
+    area: { ru: "945 087 км²", en: "945,087 km²" },
+    language: { ru: "Суахили, английский", en: "Swahili, English" },
+    currency: { ru: "Танзанийский шиллинг", en: "Tanzanian Shilling" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+
+  rwanda: {
+    capital: { ru: "Кигали", en: "Kigali" },
+    population: { ru: "14 млн", en: "14 million" },
+    area: { ru: "26 338 км²", en: "26,338 km²" },
+    language: {
+      ru: "Киньяруанда, английский, французский",
+      en: "Kinyarwanda, English, French",
+    },
+    currency: { ru: "Франк Руанды", en: "Rwandan Franc" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+
+  burundi: {
+    capital: { ru: "Гитега", en: "Gitega" },
+    population: { ru: "14 млн", en: "14 million" },
+    area: { ru: "27 834 км²", en: "27,834 km²" },
+    language: { ru: "Кирунди, французский", en: "Kirundi, French" },
+    currency: { ru: "Франк Бурунди", en: "Burundian Franc" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+
+  "democratic-republic-of-the-congo": {
+    capital: { ru: "Киншаса", en: "Kinshasa" },
+    population: { ru: "112 млн", en: "112 million" },
+    area: { ru: "2 344 858 км²", en: "2,344,858 km²" },
+    language: { ru: "Французский", en: "French" },
+    currency: { ru: "Конголезский франк", en: "Congolese Franc" },
+    government: {
+      ru: "Полупрезидентская республика",
+      en: "Semi-presidential republic",
+    },
+  },
+
+  "republic-of-the-congo": {
+    capital: { ru: "Браззавиль", en: "Brazzaville" },
+    population: { ru: "6 млн", en: "6 million" },
+    area: { ru: "342 000 км²", en: "342,000 km²" },
+    language: { ru: "Французский", en: "French" },
+    currency: { ru: "Франк КФА", en: "CFA Franc" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+
+  "central-african-republic": {
+    capital: { ru: "Банги", en: "Bangui" },
+    population: { ru: "5,5 млн", en: "5.5 million" },
+    area: { ru: "622 984 км²", en: "622,984 km²" },
+    language: { ru: "Французский, санго", en: "French, Sango" },
+    currency: { ru: "Франк КФА", en: "CFA Franc" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+
+  chad: {
+    capital: { ru: "Нджамена", en: "N'Djamena" },
+    population: { ru: "21 млн", en: "21 million" },
+    area: { ru: "1 284 000 км²", en: "1,284,000 km²" },
+    language: { ru: "Французский, арабский", en: "French, Arabic" },
+    currency: { ru: "Франк КФА", en: "CFA Franc" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+  nigeria: {
+    capital: { ru: "Абуджа", en: "Abuja" },
+    population: { ru: "230 млн", en: "230 million" },
+    area: { ru: "923 768 км²", en: "923,768 km²" },
+    language: { ru: "Английский", en: "English" },
+    currency: { ru: "Найра", en: "Naira" },
+    government: { ru: "Федеративная республика", en: "Federal republic" },
+  },
+
+  niger: {
+    capital: { ru: "Ниамей", en: "Niamey" },
+    population: { ru: "28 млн", en: "28 million" },
+    area: { ru: "1 267 000 км²", en: "1,267,000 km²" },
+    language: { ru: "Французский", en: "French" },
+    currency: { ru: "Франк КФА", en: "CFA Franc" },
+    government: { ru: "Республика", en: "Republic" },
+  },
+
+  mali: {
+    capital: { ru: "Бамако", en: "Bamako" },
+    population: { ru: "24 млн", en: "24 million" },
+    area: { ru: "1 240 192 км²", en: "1,240,192 km²" },
+    language: { ru: "Французский", en: "French" },
+    currency: { ru: "Франк КФА", en: "CFA Franc" },
+    government: { ru: "Республика", en: "Republic" },
+  },
+
+  mauritania: {
+    capital: { ru: "Нуакшот", en: "Nouakchott" },
+    population: { ru: "5 млн", en: "5 million" },
+    area: { ru: "1 030 700 км²", en: "1,030,700 km²" },
+    language: { ru: "Арабский", en: "Arabic" },
+    currency: { ru: "Угия", en: "Ouguiya" },
+    government: { ru: "Исламская республика", en: "Islamic republic" },
+  },
+
+  senegal: {
+    capital: { ru: "Дакар", en: "Dakar" },
+    population: { ru: "19 млн", en: "19 million" },
+    area: { ru: "196 722 км²", en: "196,722 km²" },
+    language: { ru: "Французский", en: "French" },
+    currency: { ru: "Франк КФА", en: "CFA Franc" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+
+  gambia: {
+    capital: { ru: "Банжул", en: "Banjul" },
+    population: { ru: "2,8 млн", en: "2.8 million" },
+    area: { ru: "11 295 км²", en: "11,295 km²" },
+    language: { ru: "Английский", en: "English" },
+    currency: { ru: "Даласи", en: "Dalasi" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+
+  guinea: {
+    capital: { ru: "Конакри", en: "Conakry" },
+    population: { ru: "15 млн", en: "15 million" },
+    area: { ru: "245 857 км²", en: "245,857 km²" },
+    language: { ru: "Французский", en: "French" },
+    currency: { ru: "Гвинейский франк", en: "Guinean Franc" },
+    government: { ru: "Республика", en: "Republic" },
+  },
+
+  "guinea-bissau": {
+    capital: { ru: "Бисау", en: "Bissau" },
+    population: { ru: "2,2 млн", en: "2.2 million" },
+    area: { ru: "36 125 км²", en: "36,125 km²" },
+    language: { ru: "Португальский", en: "Portuguese" },
+    currency: { ru: "Франк КФА", en: "CFA Franc" },
+    government: { ru: "Республика", en: "Republic" },
+  },
+
+  "sierra-leone": {
+    capital: { ru: "Фритаун", en: "Freetown" },
+    population: { ru: "9 млн", en: "9 million" },
+    area: { ru: "71 740 км²", en: "71,740 km²" },
+    language: { ru: "Английский", en: "English" },
+    currency: { ru: "Леоне", en: "Leone" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+
+  liberia: {
+    capital: { ru: "Монровия", en: "Monrovia" },
+    population: { ru: "5,5 млн", en: "5.5 million" },
+    area: { ru: "111 369 км²", en: "111,369 km²" },
+    language: { ru: "Английский", en: "English" },
+    currency: { ru: "Либерийский доллар", en: "Liberian Dollar" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+  ghana: {
+    capital: { ru: "Аккра", en: "Accra" },
+    population: { ru: "35 млн", en: "35 million" },
+    area: { ru: "238 535 км²", en: "238,535 km²" },
+    language: { ru: "Английский", en: "English" },
+    currency: { ru: "Седи", en: "Cedi" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+
+  togo: {
+    capital: { ru: "Ломе", en: "Lomé" },
+    population: { ru: "9 млн", en: "9 million" },
+    area: { ru: "56 785 км²", en: "56,785 km²" },
+    language: { ru: "Французский", en: "French" },
+    currency: { ru: "Франк КФА", en: "CFA Franc" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+
+  benin: {
+    capital: { ru: "Порто-Ново", en: "Porto-Novo" },
+    population: { ru: "14 млн", en: "14 million" },
+    area: { ru: "114 763 км²", en: "114,763 km²" },
+    language: { ru: "Французский", en: "French" },
+    currency: { ru: "Франк КФА", en: "CFA Franc" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+
+  "burkina-faso": {
+    capital: { ru: "Уагадугу", en: "Ouagadougou" },
+    population: { ru: "24 млн", en: "24 million" },
+    area: { ru: "274 222 км²", en: "274,222 km²" },
+    language: { ru: "Французский", en: "French" },
+    currency: { ru: "Франк КФА", en: "CFA Franc" },
+    government: { ru: "Республика", en: "Republic" },
+  },
+
+  "ivory-coast": {
+    capital: { ru: "Ямусукро", en: "Yamoussoukro" },
+    population: { ru: "32 млн", en: "32 million" },
+    area: { ru: "322 463 км²", en: "322,463 km²" },
+    language: { ru: "Французский", en: "French" },
+    currency: { ru: "Франк КФА", en: "CFA Franc" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+
+  cameroon: {
+    capital: { ru: "Яунде", en: "Yaoundé" },
+    population: { ru: "30 млн", en: "30 million" },
+    area: { ru: "475 442 км²", en: "475,442 km²" },
+    language: { ru: "Французский, английский", en: "French, English" },
+    currency: { ru: "Франк КФА", en: "CFA Franc" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+
+  gabon: {
+    capital: { ru: "Либревиль", en: "Libreville" },
+    population: { ru: "2,5 млн", en: "2.5 million" },
+    area: { ru: "267 667 км²", en: "267,667 km²" },
+    language: { ru: "Французский", en: "French" },
+    currency: { ru: "Франк КФА", en: "CFA Franc" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+
+  "equatorial-guinea": {
+    capital: { ru: "Малабо", en: "Malabo" },
+    population: { ru: "1,8 млн", en: "1.8 million" },
+    area: { ru: "28 051 км²", en: "28,051 km²" },
+    language: { ru: "Испанский, французский", en: "Spanish, French" },
+    currency: { ru: "Франк КФА", en: "CFA Franc" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+
+  angola: {
+    capital: { ru: "Луанда", en: "Luanda" },
+    population: { ru: "38 млн", en: "38 million" },
+    area: { ru: "1 246 700 км²", en: "1,246,700 km²" },
+    language: { ru: "Португальский", en: "Portuguese" },
+    currency: { ru: "Кванза", en: "Kwanza" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+
+  zambia: {
+    capital: { ru: "Лусака", en: "Lusaka" },
+    population: { ru: "21 млн", en: "21 million" },
+    area: { ru: "752 618 км²", en: "752,618 km²" },
+    language: { ru: "Английский", en: "English" },
+    currency: { ru: "Замбийская квача", en: "Zambian Kwacha" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+  zimbabwe: {
+    capital: { ru: "Хараре", en: "Harare" },
+    population: { ru: "17 млн", en: "17 million" },
+    area: { ru: "390 757 км²", en: "390,757 km²" },
+    language: {
+      ru: "Английский, шона, ндебеле",
+      en: "English, Shona, Ndebele",
+    },
+    currency: { ru: "Зимбабвийский доллар", en: "Zimbabwe Dollar" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+
+  mozambique: {
+    capital: { ru: "Мапуту", en: "Maputo" },
+    population: { ru: "35 млн", en: "35 million" },
+    area: { ru: "801 590 км²", en: "801,590 km²" },
+    language: { ru: "Португальский", en: "Portuguese" },
+    currency: { ru: "Метикал", en: "Metical" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+
+  namibia: {
+    capital: { ru: "Виндхук", en: "Windhoek" },
+    population: { ru: "3 млн", en: "3 million" },
+    area: { ru: "825 615 км²", en: "825,615 km²" },
+    language: { ru: "Английский", en: "English" },
+    currency: { ru: "Намибийский доллар", en: "Namibian Dollar" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+
+  botswana: {
+    capital: { ru: "Габороне", en: "Gaborone" },
+    population: { ru: "2,7 млн", en: "2.7 million" },
+    area: { ru: "581 730 км²", en: "581,730 km²" },
+    language: { ru: "Английский, тсвана", en: "English, Tswana" },
+    currency: { ru: "Пула", en: "Pula" },
+    government: {
+      ru: "Парламентская республика",
+      en: "Parliamentary republic",
+    },
+  },
+
+  "south-africa": {
+    capital: { ru: "Претория", en: "Pretoria" },
+    population: { ru: "63 млн", en: "63 million" },
+    area: { ru: "1 221 037 км²", en: "1,221,037 km²" },
+    language: { ru: "11 официальных языков", en: "11 official languages" },
+    currency: { ru: "Рэнд", en: "Rand" },
+    government: {
+      ru: "Парламентская республика",
+      en: "Parliamentary republic",
+    },
+  },
+
+  lesotho: {
+    capital: { ru: "Масеру", en: "Maseru" },
+    population: { ru: "2,3 млн", en: "2.3 million" },
+    area: { ru: "30 355 км²", en: "30,355 km²" },
+    language: { ru: "Сесото, английский", en: "Sesotho, English" },
+    currency: { ru: "Лоти", en: "Loti" },
+    government: {
+      ru: "Конституционная монархия",
+      en: "Constitutional monarchy",
+    },
+  },
+
+  eswatini: {
+    capital: { ru: "Мбабане", en: "Mbabane" },
+    population: { ru: "1,2 млн", en: "1.2 million" },
+    area: { ru: "17 364 км²", en: "17,364 km²" },
+    language: { ru: "Свати, английский", en: "Swati, English" },
+    currency: { ru: "Лилангени", en: "Lilangeni" },
+    government: { ru: "Абсолютная монархия", en: "Absolute monarchy" },
+  },
+
+  malawi: {
+    capital: { ru: "Лилонгве", en: "Lilongwe" },
+    population: { ru: "22 млн", en: "22 million" },
+    area: { ru: "118 484 км²", en: "118,484 km²" },
+    language: { ru: "Английский, чичева", en: "English, Chichewa" },
+    currency: { ru: "Квача", en: "Kwacha" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+
+  madagascar: {
+    capital: { ru: "Антананариву", en: "Antananarivo" },
+    population: { ru: "32 млн", en: "32 million" },
+    area: { ru: "587 041 км²", en: "587,041 km²" },
+    language: { ru: "Малагасийский, французский", en: "Malagasy, French" },
+    currency: { ru: "Ариари", en: "Ariary" },
+    government: {
+      ru: "Полупрезидентская республика",
+      en: "Semi-presidential republic",
+    },
+  },
+
+  mauritius: {
+    capital: { ru: "Порт-Луи", en: "Port Louis" },
+    population: { ru: "1,3 млн", en: "1.3 million" },
+    area: { ru: "2 040 км²", en: "2,040 km²" },
+    language: { ru: "Английский", en: "English" },
+    currency: { ru: "Маврикийская рупия", en: "Mauritian Rupee" },
+    government: {
+      ru: "Парламентская республика",
+      en: "Parliamentary republic",
+    },
+  },
+  seychelles: {
+  capital: { ru: "Виктория", en: "Victoria" },
+  population: { ru: "110 тыс", en: "110 thousand" },
+  area: { ru: "459 км²", en: "459 km²" },
+  language: { ru: "Креольский, английский, французский", en: "Creole, English, French" },
+  currency: { ru: "Сейшельская рупия", en: "Seychellois Rupee" },
+  government: { ru: "Президентская республика", en: "Presidential republic" },
+},
+
+comoros: {
+  capital: { ru: "Морони", en: "Moroni" },
+  population: { ru: "900 тыс", en: "900 thousand" },
+  area: { ru: "1 862 км²", en: "1,862 km²" },
+  language: { ru: "Коморский, французский, арабский", en: "Comorian, French, Arabic" },
+  currency: { ru: "Коморский франк", en: "Comorian Franc" },
+  government: { ru: "Федеральная республика", en: "Federal republic" },
+},
+
+"cape-verde": {
+  capital: { ru: "Прая", en: "Praia" },
+  population: { ru: "600 тыс", en: "600 thousand" },
+  area: { ru: "4 033 км²", en: "4,033 km²" },
+  language: { ru: "Португальский", en: "Portuguese" },
+  currency: { ru: "Эскудо Кабо-Верде", en: "Cape Verdean Escudo" },
+  government: { ru: "Парламентская республика", en: "Parliamentary republic" },
+},
+
+"sao-tome-and-principe": {
+  capital: { ru: "Сан-Томе", en: "São Tomé" },
+  population: { ru: "240 тыс", en: "240 thousand" },
+  area: { ru: "964 км²", en: "964 km²" },
+  language: { ru: "Португальский", en: "Portuguese" },
+  currency: { ru: "Добра", en: "Dobra" },
+  government: { ru: "Полупрезидентская республика", en: "Semi-presidential republic" },
+},
+ 
 };
