@@ -95,7 +95,12 @@ export function FlagQuiz({ lang = "ru" }) {
 
   if (!currentQuestion) {
     return (
-      <main className={styles.flagQuiz}>
+      <main
+        className={styles.flagQuiz}
+        style={{
+          backgroundImage: `url(${process.env.PUBLIC_URL}/img/tropical-bg.jpg)`,
+        }}
+      >
         <section className={styles.panel}>
           <h1 className={styles.title}>
             {lang === "ru"

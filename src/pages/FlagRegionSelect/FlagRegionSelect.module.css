@@ -59,8 +59,8 @@
 }
 
 .regionIcon {
-  width: 68px;
-  height: 68px;
+  width: 88px;
+  height: 88px;
   object-fit: contain;
 }
 
@@ -83,6 +83,30 @@
   box-shadow: 0 5px 0 #020817;
 }
 
+@keyframes spinGlobe {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.worldIcon {
+  animation: spinGlobe 12s linear infinite;
+}
+
+.worldCard {
+  grid-column: span 2;
+}
+
+@media (max-width: 800px) {
+  .worldCard {
+    grid-column: span 1;
+  }
+}
+
 @media (max-width: 640px) {
   .regionGrid {
     grid-template-columns: 1fr;
@@ -91,4 +115,8 @@
   .title {
     font-size: 38px;
   }
+  .worldCard {
+    grid-column: span 1;
+  }
 }
+

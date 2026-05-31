@@ -6648,4 +6648,322 @@ export const countryInfo = {
 
     flag: "/global-timeboard/img/flags/dominica.png",
   },
+  Palau: {
+    id: "palau",
+
+    name: {
+      en: "Palau",
+      ru: "Палау",
+    },
+
+    capital: {
+      en: "Ngerulmud",
+      ru: "Нгерулмуд",
+    },
+
+    area: 459,
+
+    population: {
+      en: "0.02 million",
+      ru: "0.02 млн",
+    },
+
+    timezone: "UTC+9 (GMT+9)",
+
+    currency: {
+      en: "USD United States dollar",
+      ru: "USD Доллар США",
+    },
+
+    government: {
+      en: "Presidential republic",
+      ru: "Президентская республика",
+    },
+
+    language: {
+      en: "Palauan, English",
+      ru: "Палауский, английский",
+    },
+
+    flag: "/global-timeboard/img/flags/palau.png",
+  },
+
+  Kiribati: {
+    id: "kiribati",
+
+    name: {
+      en: "Kiribati",
+      ru: "Кирибати",
+    },
+
+    capital: {
+      en: "South Tarawa",
+      ru: "Южная Тарава",
+    },
+
+    area: 811,
+
+    population: {
+      en: "0.13 million",
+      ru: "0.13 млн",
+    },
+
+    timezone: "UTC+12 to UTC+14 (GMT+12 to GMT+14)",
+
+    currency: {
+      en: "AUD Australian dollar",
+      ru: "AUD Австралийский доллар",
+    },
+
+    government: {
+      en: "Presidential republic",
+      ru: "Президентская республика",
+    },
+
+    language: {
+      en: "English, Gilbertese",
+      ru: "Английский, кирибати",
+    },
+
+    flag: "/global-timeboard/img/flags/kiribati.png",
+  },
+
+  Micronesia: {
+    id: "micronesia",
+
+    name: {
+      en: "Micronesia",
+      ru: "Микронезия",
+    },
+
+    capital: {
+      en: "Palikir",
+      ru: "Паликир",
+    },
+
+    area: 702,
+
+    population: {
+      en: "0.11 million",
+      ru: "0.11 млн",
+    },
+
+    timezone: "UTC+10 to UTC+11 (GMT+10 to GMT+11)",
+
+    currency: {
+      en: "USD United States dollar",
+      ru: "USD Доллар США",
+    },
+
+    government: {
+      en: "Federal republic",
+      ru: "Федеративная республика",
+    },
+
+    language: {
+      en: "English",
+      ru: "Английский",
+    },
+
+    flag: "/global-timeboard/img/flags/micronesia.png",
+  },
+
+  Nauru: {
+    id: "nauru",
+
+    name: {
+      en: "Nauru",
+      ru: "Науру",
+    },
+
+    capital: {
+      en: "Yaren",
+      ru: "Ярен",
+    },
+
+    area: 21,
+
+    population: {
+      en: "0.01 million",
+      ru: "0.01 млн",
+    },
+
+    timezone: "UTC+12 (GMT+12)",
+
+    currency: {
+      en: "AUD Australian dollar",
+      ru: "AUD Австралийский доллар",
+    },
+
+    government: {
+      en: "Parliamentary republic",
+      ru: "Парламентская республика",
+    },
+
+    language: {
+      en: "Nauruan, English",
+      ru: "Науруанский, английский",
+    },
+
+    flag: "/global-timeboard/img/flags/nauru.png",
+  },
+  MarshallIslands: {
+    id: "marshall-islands",
+
+    name: {
+      en: "Marshall Islands",
+      ru: "Маршалловы Острова",
+    },
+
+    capital: {
+      en: "Majuro",
+      ru: "Маджуро",
+    },
+
+    area: 181,
+
+    population: {
+      en: "0.04 million",
+      ru: "0.04 млн",
+    },
+
+    timezone: "UTC+12 (GMT+12)",
+
+    currency: {
+      en: "USD United States dollar",
+      ru: "USD Доллар США",
+    },
+
+    government: {
+      en: "Parliamentary republic",
+      ru: "Парламентская республика",
+    },
+
+    language: {
+      en: "Marshallese, English",
+      ru: "Маршалльский, английский",
+    },
+
+    flag: "/global-timeboard/img/flags/marshall-islands.png",
+  },
+
+  Samoa: {
+    id: "samoa",
+
+    name: {
+      en: "Samoa",
+      ru: "Самоа",
+    },
+
+    capital: {
+      en: "Apia",
+      ru: "Апиа",
+    },
+
+    area: 2842,
+
+    population: {
+      en: "0.22 million",
+      ru: "0.22 млн",
+    },
+
+    timezone: "UTC+13 (GMT+13)",
+
+    currency: {
+      en: "Samoan tala",
+      ru: "Самоанская тала",
+    },
+
+    government: {
+      en: "Parliamentary republic",
+      ru: "Парламентская республика",
+    },
+
+    language: {
+      en: "Samoan, English",
+      ru: "Самоанский, английский",
+    },
+
+    flag: "/global-timeboard/img/flags/samoa.png",
+  },
+
+  Tonga: {
+    id: "tonga",
+
+    name: {
+      en: "Tonga",
+      ru: "Тонга",
+    },
+
+    capital: {
+      en: "Nuku'alofa",
+      ru: "Нукуалофа",
+    },
+
+    area: 747,
+
+    population: {
+      en: "0.1 million",
+      ru: "0.1 млн",
+    },
+
+    timezone: "UTC+13 (GMT+13)",
+
+    currency: {
+      en: "Paʻanga",
+      ru: "Паанга",
+    },
+
+    government: {
+      en: "Constitutional monarchy",
+      ru: "Конституционная монархия",
+    },
+
+    language: {
+      en: "Tongan, English",
+      ru: "Тонганский, английский",
+    },
+
+    flag: "/global-timeboard/img/flags/tonga.png",
+  },
+
+  Tuvalu: {
+    id: "tuvalu",
+
+    name: {
+      en: "Tuvalu",
+      ru: "Тувалу",
+    },
+
+    capital: {
+      en: "Funafuti",
+      ru: "Фунафути",
+    },
+
+    area: 26,
+
+    population: {
+      en: "0.01 million",
+      ru: "0.01 млн",
+    },
+
+    timezone: "UTC+12 (GMT+12)",
+
+    currency: {
+      en: "Tuvaluan dollar, Australian dollar",
+      ru: "Доллар Тувалу, Австралийский доллар",
+    },
+
+    government: {
+      en: "Constitutional monarchy",
+      ru: "Конституционная монархия",
+    },
+
+    language: {
+      en: "Tuvaluan, English",
+      ru: "Тувалуанский, английский",
+    },
+
+    flag: "/global-timeboard/img/flags/tuvalu.png",
+  },
 };

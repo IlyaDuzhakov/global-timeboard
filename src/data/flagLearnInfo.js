@@ -1695,4 +1695,280 @@ export const flagLearnInfo = {
     currency: { ru: "Восточнокарибский доллар", en: "East Caribbean Dollar" },
     government: { ru: "Парламентская монархия", en: "Parliamentary monarchy" },
   },
+  argentina: {
+    capital: { ru: "Буэнос-Айрес", en: "Buenos Aires" },
+    population: { ru: "46 млн", en: "46 million" },
+    area: { ru: "2 780 400 км²", en: "2,780,400 km²" },
+    language: { ru: "Испанский", en: "Spanish" },
+    currency: { ru: "Аргентинское песо", en: "Argentine Peso" },
+    government: { ru: "Федеративная республика", en: "Federal republic" },
+  },
+
+  bolivia: {
+    capital: { ru: "Сукре", en: "Sucre" },
+    population: { ru: "12 млн", en: "12 million" },
+    area: { ru: "1 098 581 км²", en: "1,098,581 km²" },
+    language: {
+      ru: "Испанский, кечуа, аймара",
+      en: "Spanish, Quechua, Aymara",
+    },
+    currency: { ru: "Боливиано", en: "Boliviano" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+
+  brazil: {
+    capital: { ru: "Бразилиа", en: "Brasília" },
+    population: { ru: "216 млн", en: "216 million" },
+    area: { ru: "8 515 767 км²", en: "8,515,767 km²" },
+    language: { ru: "Португальский", en: "Portuguese" },
+    currency: { ru: "Бразильский реал", en: "Brazilian Real" },
+    government: { ru: "Федеративная республика", en: "Federal republic" },
+  },
+
+  chile: {
+    capital: { ru: "Сантьяго", en: "Santiago" },
+    population: { ru: "20 млн", en: "20 million" },
+    area: { ru: "756 102 км²", en: "756,102 km²" },
+    language: { ru: "Испанский", en: "Spanish" },
+    currency: { ru: "Чилийское песо", en: "Chilean Peso" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+
+  colombia: {
+    capital: { ru: "Богота", en: "Bogotá" },
+    population: { ru: "52 млн", en: "52 million" },
+    area: { ru: "1 141 748 км²", en: "1,141,748 km²" },
+    language: { ru: "Испанский", en: "Spanish" },
+    currency: { ru: "Колумбийское песо", en: "Colombian Peso" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+
+  ecuador: {
+    capital: { ru: "Кито", en: "Quito" },
+    population: { ru: "18 млн", en: "18 million" },
+    area: { ru: "283 561 км²", en: "283,561 km²" },
+    language: { ru: "Испанский", en: "Spanish" },
+    currency: { ru: "Доллар США", en: "US Dollar" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+
+  guyana: {
+    capital: { ru: "Джорджтаун", en: "Georgetown" },
+    population: { ru: "0.8 млн", en: "0.8 million" },
+    area: { ru: "214 969 км²", en: "214,969 km²" },
+    language: { ru: "Английский", en: "English" },
+    currency: { ru: "Гайанский доллар", en: "Guyanese Dollar" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+
+  paraguay: {
+    capital: { ru: "Асунсьон", en: "Asunción" },
+    population: { ru: "7 млн", en: "7 million" },
+    area: { ru: "406 752 км²", en: "406,752 km²" },
+    language: { ru: "Испанский, гуарани", en: "Spanish, Guarani" },
+    currency: { ru: "Гуарани", en: "Guaraní" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+
+  peru: {
+    capital: { ru: "Лима", en: "Lima" },
+    population: { ru: "34 млн", en: "34 million" },
+    area: { ru: "1 285 216 км²", en: "1,285,216 km²" },
+    language: {
+      ru: "Испанский, кечуа, аймара",
+      en: "Spanish, Quechua, Aymara",
+    },
+    currency: { ru: "Соль", en: "Sol" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+
+  suriname: {
+    capital: { ru: "Парамарибо", en: "Paramaribo" },
+    population: { ru: "0.6 млн", en: "0.6 million" },
+    area: { ru: "163 820 км²", en: "163,820 km²" },
+    language: { ru: "Нидерландский", en: "Dutch" },
+    currency: { ru: "Суринамский доллар", en: "Surinamese Dollar" },
+    government: {
+      ru: "Парламентская республика",
+      en: "Parliamentary republic",
+    },
+  },
+
+  uruguay: {
+    capital: { ru: "Монтевидео", en: "Montevideo" },
+    population: { ru: "3.5 млн", en: "3.5 million" },
+    area: { ru: "176 215 км²", en: "176,215 km²" },
+    language: { ru: "Испанский", en: "Spanish" },
+    currency: { ru: "Уругвайское песо", en: "Uruguayan Peso" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+
+  venezuela: {
+    capital: { ru: "Каракас", en: "Caracas" },
+    population: { ru: "29 млн", en: "29 million" },
+    area: { ru: "916 445 км²", en: "916,445 km²" },
+    language: { ru: "Испанский", en: "Spanish" },
+    currency: { ru: "Боливар", en: "Bolívar" },
+    government: {
+      ru: "Федеративная президентская республика",
+      en: "Federal presidential republic",
+    },
+  },
+  australia: {
+    capital: { ru: "Канберра", en: "Canberra" },
+    population: { ru: "27 млн", en: "27 million" },
+    area: { ru: "7 692 024 км²", en: "7,692,024 km²" },
+    language: { ru: "Английский", en: "English" },
+    currency: { ru: "Австралийский доллар", en: "Australian Dollar" },
+    government: {
+      ru: "Конституционная монархия",
+      en: "Constitutional monarchy",
+    },
+  },
+
+  "new-zealand": {
+    capital: { ru: "Веллингтон", en: "Wellington" },
+    population: { ru: "5 млн", en: "5 million" },
+    area: { ru: "268 021 км²", en: "268,021 km²" },
+    language: { ru: "Английский, маори", en: "English, Maori" },
+    currency: { ru: "Новозеландский доллар", en: "New Zealand Dollar" },
+    government: {
+      ru: "Конституционная монархия",
+      en: "Constitutional monarchy",
+    },
+  },
+
+  "papua-new-guinea": {
+    capital: { ru: "Порт-Морсби", en: "Port Moresby" },
+    population: { ru: "11 млн", en: "11 million" },
+    area: { ru: "462 840 км²", en: "462,840 km²" },
+    language: { ru: "Английский, ток-писин", en: "English, Tok Pisin" },
+    currency: { ru: "Кина", en: "Kina" },
+    government: { ru: "Парламентская монархия", en: "Parliamentary monarchy" },
+  },
+
+  fiji: {
+    capital: { ru: "Сува", en: "Suva" },
+    population: { ru: "0.9 млн", en: "0.9 million" },
+    area: { ru: "18 274 км²", en: "18,274 km²" },
+    language: { ru: "Английский, фиджийский", en: "English, Fijian" },
+    currency: { ru: "Фиджийский доллар", en: "Fijian Dollar" },
+    government: {
+      ru: "Парламентская республика",
+      en: "Parliamentary republic",
+    },
+  },
+
+  "solomon-islands": {
+    capital: { ru: "Хониара", en: "Honiara" },
+    population: { ru: "0.8 млн", en: "0.8 million" },
+    area: { ru: "28 896 км²", en: "28,896 km²" },
+    language: { ru: "Английский", en: "English" },
+    currency: {
+      ru: "Доллар Соломоновых Островов",
+      en: "Solomon Islands Dollar",
+    },
+    government: { ru: "Парламентская монархия", en: "Parliamentary monarchy" },
+  },
+
+  vanuatu: {
+    capital: { ru: "Порт-Вила", en: "Port Vila" },
+    population: { ru: "0.3 млн", en: "0.3 million" },
+    area: { ru: "12 189 км²", en: "12,189 km²" },
+    language: {
+      ru: "Бислама, английский, французский",
+      en: "Bislama, English, French",
+    },
+    currency: { ru: "Вату", en: "Vatu" },
+    government: {
+      ru: "Парламентская республика",
+      en: "Parliamentary republic",
+    },
+  },
+
+  samoa: {
+    capital: { ru: "Апиа", en: "Apia" },
+    population: { ru: "0.22 млн", en: "0.22 million" },
+    area: { ru: "2 842 км²", en: "2,842 km²" },
+    language: { ru: "Самоанский, английский", en: "Samoan, English" },
+    currency: { ru: "Тала", en: "Tala" },
+    government: {
+      ru: "Парламентская республика",
+      en: "Parliamentary republic",
+    },
+  },
+  tonga: {
+    capital: { ru: "Нукуалофа", en: "Nuku'alofa" },
+    population: { ru: "0.1 млн", en: "0.1 million" },
+    area: { ru: "747 км²", en: "747 km²" },
+    language: { ru: "Тонганский, английский", en: "Tongan, English" },
+    currency: { ru: "Паанга", en: "Paʻanga" },
+    government: {
+      ru: "Конституционная монархия",
+      en: "Constitutional monarchy",
+    },
+  },
+
+  tuvalu: {
+    capital: { ru: "Фунафути", en: "Funafuti" },
+    population: { ru: "0.01 млн", en: "0.01 million" },
+    area: { ru: "26 км²", en: "26 km²" },
+    language: { ru: "Тувалуанский, английский", en: "Tuvaluan, English" },
+    currency: { ru: "Доллар Тувалу", en: "Tuvalu Dollar" },
+    government: {
+      ru: "Конституционная монархия",
+      en: "Constitutional monarchy",
+    },
+  },
+
+  nauru: {
+    capital: { ru: "Ярен", en: "Yaren" },
+    population: { ru: "0.01 млн", en: "0.01 million" },
+    area: { ru: "21 км²", en: "21 km²" },
+    language: { ru: "Науруанский, английский", en: "Nauruan, English" },
+    currency: { ru: "Австралийский доллар", en: "Australian Dollar" },
+    government: {
+      ru: "Парламентская республика",
+      en: "Parliamentary republic",
+    },
+  },
+
+  kiribati: {
+    capital: { ru: "Южная Тарава", en: "South Tarawa" },
+    population: { ru: "0.13 млн", en: "0.13 million" },
+    area: { ru: "811 км²", en: "811 km²" },
+    language: { ru: "Кирибати, английский", en: "Gilbertese, English" },
+    currency: { ru: "Австралийский доллар", en: "Australian Dollar" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+
+  "marshall-islands": {
+    capital: { ru: "Маджуро", en: "Majuro" },
+    population: { ru: "0.04 млн", en: "0.04 million" },
+    area: { ru: "181 км²", en: "181 km²" },
+    language: { ru: "Маршалльский, английский", en: "Marshallese, English" },
+    currency: { ru: "Доллар США", en: "US Dollar" },
+    government: {
+      ru: "Парламентская республика",
+      en: "Parliamentary republic",
+    },
+  },
+
+  micronesia: {
+    capital: { ru: "Паликир", en: "Palikir" },
+    population: { ru: "0.11 млн", en: "0.11 million" },
+    area: { ru: "702 км²", en: "702 km²" },
+    language: { ru: "Английский", en: "English" },
+    currency: { ru: "Доллар США", en: "US Dollar" },
+    government: { ru: "Федеративная республика", en: "Federal republic" },
+  },
+
+  palau: {
+    capital: { ru: "Нгерулмуд", en: "Ngerulmud" },
+    population: { ru: "0.02 млн", en: "0.02 million" },
+    area: { ru: "459 км²", en: "459 km²" },
+    language: { ru: "Палауский, английский", en: "Palauan, English" },
+    currency: { ru: "Доллар США", en: "US Dollar" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
 };
