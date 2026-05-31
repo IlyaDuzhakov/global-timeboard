@@ -1,0 +1,158 @@
+.learnPage {
+  min-height: 100vh;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  /* background: url("/global-timeboard/img/tropical-bg.jpg") center/cover no-repeat; */
+}
+
+.cardsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  margin-top: 28px;
+}
+
+.learnCard {
+  height: 150px;
+  padding: 0;
+  border: none;
+  border-radius: 18px;
+  background: #071428;
+  cursor: pointer;
+  overflow-y: auto;
+  box-shadow: 0 7px 0 #020817;
+}
+
+.panel {
+  width: 100%;
+  max-width: 760px;
+  padding: 36px;
+  border-radius: 28px;
+  background: rgba(238, 216, 162, 0.96);
+  text-align: center;
+ 
+}
+
+.title {
+  font-size: 42px;
+  margin: 0 0 12px;
+}
+
+.progress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.cardHint {
+  margin-top: 8px;
+  font-size: 13px;
+  font-weight: 800;
+  color: white;
+}
+
+.flagImage {
+  width: 320px;
+  max-width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.cardFront {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.cardBack {
+  width: 100%;
+  height: 100%;
+
+  background: #071428;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.cardBack h2 {
+  margin: 0 0 10px;
+  font-size: 22px;
+}
+
+.cardBack p {
+  margin: 2px 0;
+  font-size: 16px;
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.controls button,
+.backButton {
+  width: 220px;
+  min-height: 56px;
+  border: none;
+  border-radius: 16px;
+  background: #071428;
+  color: white;
+  text-decoration: none;
+  font-weight: 800;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.controls button:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.backButton {
+  margin: 26px auto 0;
+}
+
+@media (max-width: 520px) {
+  .panel {
+    padding: 26px 14px;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  .card {
+    min-height: 330px;
+    padding: 22px 16px;
+  }
+
+  .controls {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .controls button,
+  .backButton {
+    width: 100%;
+    max-width: 260px;
+  }
+}

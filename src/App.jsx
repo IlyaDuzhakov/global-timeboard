@@ -13,6 +13,7 @@ import { FlagQuizMenu } from "./pages/FlagQuizMenu/FlagQuizMenu.jsx";
 import { QuizRoom } from "./pages/QuizRoom/QuizRoom.jsx";
 import { FlagQuiz } from "./pages/FlagQuiz/FlagQuiz.jsx";
 import { FlagRegionSelect } from "./pages/FlagRegionSelect/FlagRegionSelect";
+import { FlagLearn } from "./pages/FlagLearn/FlagLearn";
 
 function App() {
   const [lang, setLang] = useState("ru");
@@ -70,7 +71,7 @@ function App() {
               <div className="mobileCountries">
                 <MobileCountries lang={lang} />
               </div>
-              <Footer lang={lang}/>
+              <Footer lang={lang} />
               <Modal
                 isOpen={isModalOpen}
                 message={modalMessage}
@@ -81,10 +82,29 @@ function App() {
         }
       />
       <Route path="/country/:id" element={<CountryPage lang={lang} />} />
-      <Route path="/quiz" element={<QuizRoom lang={lang}/>} />
+      <Route path="/quiz" element={<QuizRoom lang={lang} />} />
       <Route path="/quiz/flags" element={<FlagQuizMenu lang={lang} />} />
-      <Route path="/quiz/flags/play/:region" element={<FlagQuiz lang={lang} />} />
-      <Route path="/quiz/flags/play" element={<FlagRegionSelect lang={lang} />}/>
+      <Route
+        path="/quiz/flags/play/:region"
+        element={<FlagQuiz lang={lang} />}
+      />
+      <Route
+        path="/quiz/flags/play"
+        element={<FlagRegionSelect lang={lang} />}
+      />
+      <Route
+        path="/quiz/flags/play"
+        element={<FlagRegionSelect lang={lang} mode="play" />}
+      />
+
+      <Route
+        path="/quiz/flags/learn"
+        element={<FlagRegionSelect lang={lang} mode="learn" />}
+      />
+      <Route
+        path="/quiz/flags/learn/:region"
+        element={<FlagLearn lang={lang} />}
+      />
     </Routes>
   );
 }

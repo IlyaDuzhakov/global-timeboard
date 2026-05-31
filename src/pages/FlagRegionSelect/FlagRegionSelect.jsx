@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import styles from "./FlagRegionSelect.module.css";
 
-export function FlagRegionSelect({ lang = "ru" }) {
+export function FlagRegionSelect({ lang = "ru", mode = "play" }) {
   const regions = [
     {
       key: "asia",
@@ -41,7 +41,11 @@ export function FlagRegionSelect({ lang = "ru" }) {
   ];
 
   return (
-    <main className={styles.regionPage}>
+    <main  className={styles.regionPage}
+      style={{
+        backgroundImage: `url(${process.env.PUBLIC_URL}/img/tropical-bg.jpg)`,
+      }}
+    > 
       <section className={styles.panel}>
         <h1 className={styles.title}>
           {lang === "ru" ? "Выберите регион" : "Choose a region"}
@@ -57,7 +61,11 @@ export function FlagRegionSelect({ lang = "ru" }) {
           {regions.map((region) => (
             <Link
               key={region.key}
-              to={`/quiz/flags/play/${region.key}`}
+              to={
+                mode === "learn"
+                  ? `/quiz/flags/learn/${region.key}`
+                  : `/quiz/flags/play/${region.key}`
+              }
               className={styles.regionCard}
             >
               <img className={styles.regionIcon} src={region.icon} alt="" />
