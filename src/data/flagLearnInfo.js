@@ -1430,39 +1430,269 @@ export const flagLearnInfo = {
     },
   },
   seychelles: {
-  capital: { ru: "Виктория", en: "Victoria" },
-  population: { ru: "110 тыс", en: "110 thousand" },
-  area: { ru: "459 км²", en: "459 km²" },
-  language: { ru: "Креольский, английский, французский", en: "Creole, English, French" },
-  currency: { ru: "Сейшельская рупия", en: "Seychellois Rupee" },
-  government: { ru: "Президентская республика", en: "Presidential republic" },
-},
+    capital: { ru: "Виктория", en: "Victoria" },
+    population: { ru: "110 тыс", en: "110 thousand" },
+    area: { ru: "459 км²", en: "459 km²" },
+    language: {
+      ru: "Креольский, английский, французский",
+      en: "Creole, English, French",
+    },
+    currency: { ru: "Сейшельская рупия", en: "Seychellois Rupee" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
 
-comoros: {
-  capital: { ru: "Морони", en: "Moroni" },
-  population: { ru: "900 тыс", en: "900 thousand" },
-  area: { ru: "1 862 км²", en: "1,862 km²" },
-  language: { ru: "Коморский, французский, арабский", en: "Comorian, French, Arabic" },
-  currency: { ru: "Коморский франк", en: "Comorian Franc" },
-  government: { ru: "Федеральная республика", en: "Federal republic" },
-},
+  comoros: {
+    capital: { ru: "Морони", en: "Moroni" },
+    population: { ru: "900 тыс", en: "900 thousand" },
+    area: { ru: "1 862 км²", en: "1,862 km²" },
+    language: {
+      ru: "Коморский, французский, арабский",
+      en: "Comorian, French, Arabic",
+    },
+    currency: { ru: "Коморский франк", en: "Comorian Franc" },
+    government: { ru: "Федеральная республика", en: "Federal republic" },
+  },
 
-"cape-verde": {
-  capital: { ru: "Прая", en: "Praia" },
-  population: { ru: "600 тыс", en: "600 thousand" },
-  area: { ru: "4 033 км²", en: "4,033 km²" },
-  language: { ru: "Португальский", en: "Portuguese" },
-  currency: { ru: "Эскудо Кабо-Верде", en: "Cape Verdean Escudo" },
-  government: { ru: "Парламентская республика", en: "Parliamentary republic" },
-},
+  "cape-verde": {
+    capital: { ru: "Прая", en: "Praia" },
+    population: { ru: "600 тыс", en: "600 thousand" },
+    area: { ru: "4 033 км²", en: "4,033 km²" },
+    language: { ru: "Португальский", en: "Portuguese" },
+    currency: { ru: "Эскудо Кабо-Верде", en: "Cape Verdean Escudo" },
+    government: {
+      ru: "Парламентская республика",
+      en: "Parliamentary republic",
+    },
+  },
 
-"sao-tome-and-principe": {
-  capital: { ru: "Сан-Томе", en: "São Tomé" },
-  population: { ru: "240 тыс", en: "240 thousand" },
-  area: { ru: "964 км²", en: "964 km²" },
-  language: { ru: "Португальский", en: "Portuguese" },
-  currency: { ru: "Добра", en: "Dobra" },
-  government: { ru: "Полупрезидентская республика", en: "Semi-presidential republic" },
-},
- 
+  "sao-tome-and-principe": {
+    capital: { ru: "Сан-Томе", en: "São Tomé" },
+    population: { ru: "240 тыс", en: "240 thousand" },
+    area: { ru: "964 км²", en: "964 km²" },
+    language: { ru: "Португальский", en: "Portuguese" },
+    currency: { ru: "Добра", en: "Dobra" },
+    government: {
+      ru: "Полупрезидентская республика",
+      en: "Semi-presidential republic",
+    },
+  },
+  canada: {
+    capital: { ru: "Оттава", en: "Ottawa" },
+    population: { ru: "41 млн", en: "41 million" },
+    area: { ru: "9 984 670 км²", en: "9,984,670 km²" },
+    language: { ru: "Английский, французский", en: "English, French" },
+    currency: { ru: "Канадский доллар", en: "Canadian Dollar" },
+    government: {
+      ru: "Конституционная монархия",
+      en: "Constitutional monarchy",
+    },
+  },
+
+  "united-states": {
+    capital: { ru: "Вашингтон", en: "Washington, D.C." },
+    population: { ru: "340 млн", en: "340 million" },
+    area: { ru: "9 833 520 км²", en: "9,833,520 km²" },
+    language: { ru: "Английский", en: "English" },
+    currency: { ru: "Доллар США", en: "US Dollar" },
+    government: { ru: "Федеративная республика", en: "Federal republic" },
+  },
+
+  mexico: {
+    capital: { ru: "Мехико", en: "Mexico City" },
+    population: { ru: "130 млн", en: "130 million" },
+    area: { ru: "1 964 375 км²", en: "1,964,375 km²" },
+    language: { ru: "Испанский", en: "Spanish" },
+    currency: { ru: "Мексиканское песо", en: "Mexican Peso" },
+    government: { ru: "Федеративная республика", en: "Federal republic" },
+  },
+
+  guatemala: {
+    capital: { ru: "Гватемала", en: "Guatemala City" },
+    population: { ru: "19 млн", en: "19 million" },
+    area: { ru: "108 889 км²", en: "108,889 km²" },
+    language: { ru: "Испанский", en: "Spanish" },
+    currency: { ru: "Кетсаль", en: "Quetzal" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+
+  belize: {
+    capital: { ru: "Бельмопан", en: "Belmopan" },
+    population: { ru: "0.4 млн", en: "0.4 million" },
+    area: { ru: "22 966 км²", en: "22,966 km²" },
+    language: { ru: "Английский", en: "English" },
+    currency: { ru: "Белизский доллар", en: "Belize Dollar" },
+    government: { ru: "Парламентская монархия", en: "Parliamentary monarchy" },
+  },
+
+  honduras: {
+    capital: { ru: "Тегусигальпа", en: "Tegucigalpa" },
+    population: { ru: "11 млн", en: "11 million" },
+    area: { ru: "112 492 км²", en: "112,492 km²" },
+    language: { ru: "Испанский", en: "Spanish" },
+    currency: { ru: "Лемпира", en: "Lempira" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+
+  "el-salvador": {
+    capital: { ru: "Сан-Сальвадор", en: "San Salvador" },
+    population: { ru: "6 млн", en: "6 million" },
+    area: { ru: "21 041 км²", en: "21,041 km²" },
+    language: { ru: "Испанский", en: "Spanish" },
+    currency: { ru: "Доллар США", en: "US Dollar" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+
+  nicaragua: {
+    capital: { ru: "Манагуа", en: "Managua" },
+    population: { ru: "7 млн", en: "7 million" },
+    area: { ru: "130 373 км²", en: "130,373 km²" },
+    language: { ru: "Испанский", en: "Spanish" },
+    currency: { ru: "Кордоба", en: "Córdoba" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+
+  "costa-rica": {
+    capital: { ru: "Сан-Хосе", en: "San José" },
+    population: { ru: "5 млн", en: "5 million" },
+    area: { ru: "51 100 км²", en: "51,100 km²" },
+    language: { ru: "Испанский", en: "Spanish" },
+    currency: { ru: "Колон", en: "Colón" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+
+  panama: {
+    capital: { ru: "Панама", en: "Panama City" },
+    population: { ru: "4,5 млн", en: "4.5 million" },
+    area: { ru: "75 417 км²", en: "75,417 km²" },
+    language: { ru: "Испанский", en: "Spanish" },
+    currency: { ru: "Бальбоа, доллар США", en: "Balboa, US Dollar" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+  cuba: {
+    capital: { ru: "Гавана", en: "Havana" },
+    population: { ru: "11 млн", en: "11 million" },
+    area: { ru: "109 884 км²", en: "109,884 km²" },
+    language: { ru: "Испанский", en: "Spanish" },
+    currency: { ru: "Кубинское песо", en: "Cuban Peso" },
+    government: { ru: "Социалистическая республика", en: "Socialist republic" },
+  },
+
+  jamaica: {
+    capital: { ru: "Кингстон", en: "Kingston" },
+    population: { ru: "2,8 млн", en: "2.8 million" },
+    area: { ru: "10 991 км²", en: "10,991 km²" },
+    language: { ru: "Английский", en: "English" },
+    currency: { ru: "Ямайский доллар", en: "Jamaican Dollar" },
+    government: { ru: "Парламентская монархия", en: "Parliamentary monarchy" },
+  },
+
+  haiti: {
+    capital: { ru: "Порт-о-Пренс", en: "Port-au-Prince" },
+    population: { ru: "12 млн", en: "12 million" },
+    area: { ru: "27 750 км²", en: "27,750 km²" },
+    language: { ru: "Французский, креольский", en: "French, Haitian Creole" },
+    currency: { ru: "Гурд", en: "Gourde" },
+    government: { ru: "Республика", en: "Republic" },
+  },
+
+  "dominican-republic": {
+    capital: { ru: "Санто-Доминго", en: "Santo Domingo" },
+    population: { ru: "11 млн", en: "11 million" },
+    area: { ru: "48 671 км²", en: "48,671 km²" },
+    language: { ru: "Испанский", en: "Spanish" },
+    currency: { ru: "Доминиканское песо", en: "Dominican Peso" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+
+  bahamas: {
+    capital: { ru: "Нассау", en: "Nassau" },
+    population: { ru: "0.4 млн", en: "0.4 million" },
+    area: { ru: "13 880 км²", en: "13,880 km²" },
+    language: { ru: "Английский", en: "English" },
+    currency: { ru: "Багамский доллар", en: "Bahamian Dollar" },
+    government: { ru: "Парламентская монархия", en: "Parliamentary monarchy" },
+  },
+
+  barbados: {
+    capital: { ru: "Бриджтаун", en: "Bridgetown" },
+    population: { ru: "0.28 млн", en: "0.28 million" },
+    area: { ru: "430 км²", en: "430 km²" },
+    language: { ru: "Английский", en: "English" },
+    currency: { ru: "Барбадосский доллар", en: "Barbadian Dollar" },
+    government: {
+      ru: "Парламентская республика",
+      en: "Parliamentary republic",
+    },
+  },
+
+  "trinidad-and-tobago": {
+    capital: { ru: "Порт-оф-Спейн", en: "Port of Spain" },
+    population: { ru: "1,5 млн", en: "1.5 million" },
+    area: { ru: "5 128 км²", en: "5,128 km²" },
+    language: { ru: "Английский", en: "English" },
+    currency: {
+      ru: "Доллар Тринидада и Тобаго",
+      en: "Trinidad and Tobago Dollar",
+    },
+    government: {
+      ru: "Парламентская республика",
+      en: "Parliamentary republic",
+    },
+  },
+
+  "antigua-and-barbuda": {
+    capital: { ru: "Сент-Джонс", en: "Saint John's" },
+    population: { ru: "0.1 млн", en: "0.1 million" },
+    area: { ru: "442 км²", en: "442 km²" },
+    language: { ru: "Английский", en: "English" },
+    currency: { ru: "Восточнокарибский доллар", en: "East Caribbean Dollar" },
+    government: { ru: "Парламентская монархия", en: "Parliamentary monarchy" },
+  },
+
+  "saint-kitts-and-nevis": {
+    capital: { ru: "Бастер", en: "Basseterre" },
+    population: { ru: "0.05 млн", en: "0.05 million" },
+    area: { ru: "261 км²", en: "261 km²" },
+    language: { ru: "Английский", en: "English" },
+    currency: { ru: "Восточнокарибский доллар", en: "East Caribbean Dollar" },
+    government: { ru: "Парламентская монархия", en: "Parliamentary monarchy" },
+  },
+
+  dominica: {
+    capital: { ru: "Розо", en: "Roseau" },
+    population: { ru: "0.07 млн", en: "0.07 million" },
+    area: { ru: "751 км²", en: "751 km²" },
+    language: { ru: "Английский", en: "English" },
+    currency: { ru: "Восточнокарибский доллар", en: "East Caribbean Dollar" },
+    government: {
+      ru: "Парламентская республика",
+      en: "Parliamentary republic",
+    },
+  },
+  "saint-lucia": {
+    capital: { ru: "Кастри", en: "Castries" },
+    population: { ru: "0.18 млн", en: "0.18 million" },
+    area: { ru: "617 км²", en: "617 km²" },
+    language: { ru: "Английский", en: "English" },
+    currency: { ru: "Восточнокарибский доллар", en: "East Caribbean Dollar" },
+    government: { ru: "Парламентская монархия", en: "Parliamentary monarchy" },
+  },
+
+  "saint-vincent-and-the-grenadines": {
+    capital: { ru: "Кингстаун", en: "Kingstown" },
+    population: { ru: "0.1 млн", en: "0.1 million" },
+    area: { ru: "389 км²", en: "389 km²" },
+    language: { ru: "Английский", en: "English" },
+    currency: { ru: "Восточнокарибский доллар", en: "East Caribbean Dollar" },
+    government: { ru: "Парламентская монархия", en: "Parliamentary monarchy" },
+  },
+
+  grenada: {
+    capital: { ru: "Сент-Джорджес", en: "Saint George's" },
+    population: { ru: "0.13 млн", en: "0.13 million" },
+    area: { ru: "349 км²", en: "349 km²" },
+    language: { ru: "Английский", en: "English" },
+    currency: { ru: "Восточнокарибский доллар", en: "East Caribbean Dollar" },
+    government: { ru: "Парламентская монархия", en: "Parliamentary monarchy" },
+  },
 };

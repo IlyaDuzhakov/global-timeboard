@@ -6375,4 +6375,277 @@ export const countryInfo = {
 
     flag: "/global-timeboard/img/flags/maldives.png",
   },
+  SaintLucia: {
+    id: "saint-lucia",
+
+    name: {
+      en: "Saint Lucia",
+      ru: "Сент-Люсия",
+    },
+
+    capital: {
+      en: "Castries",
+      ru: "Кастри",
+    },
+
+    area: 617,
+
+    population: {
+      en: "0.18 million",
+      ru: "0.18 млн",
+    },
+
+    timezone: "UTC-4 (GMT-4)",
+
+    currency: {
+      en: "East Caribbean dollar",
+      ru: "Восточнокарибский доллар",
+    },
+
+    government: {
+      en: "Parliamentary monarchy",
+      ru: "Парламентская монархия",
+    },
+
+    language: {
+      en: "English",
+      ru: "Английский",
+    },
+
+    flag: "/global-timeboard/img/flags/saint-lucia.png",
+  },
+  Barbados: {
+    id: "barbados",
+
+    name: {
+      en: "Barbados",
+      ru: "Барбадос",
+    },
+
+    capital: {
+      en: "Bridgetown",
+      ru: "Бриджтаун",
+    },
+
+    area: 430,
+
+    population: {
+      en: "0.28 million",
+      ru: "0.28 млн",
+    },
+
+    timezone: "UTC-4 (GMT-4)",
+
+    currency: {
+      en: "Barbadian dollar",
+      ru: "Барбадосский доллар",
+    },
+
+    government: {
+      en: "Parliamentary republic",
+      ru: "Парламентская республика",
+    },
+
+    language: {
+      en: "English",
+      ru: "Английский",
+    },
+
+    flag: "/global-timeboard/img/flags/barbados.png",
+  },
+  AntiguaAndBarbuda: {
+    id: "antigua-and-barbuda",
+
+    name: {
+      en: "Antigua and Barbuda",
+      ru: "Антигуа и Барбуда",
+    },
+
+    capital: {
+      en: "Saint John's",
+      ru: "Сент-Джонс",
+    },
+
+    area: 442,
+
+    population: {
+      en: "0.1 million",
+      ru: "0.1 млн",
+    },
+
+    timezone: "UTC-4 (GMT-4)",
+
+    currency: {
+      en: "East Caribbean dollar",
+      ru: "Восточнокарибский доллар",
+    },
+
+    government: {
+      en: "Parliamentary monarchy",
+      ru: "Парламентская монархия",
+    },
+
+    language: {
+      en: "English",
+      ru: "Английский",
+    },
+
+    flag: "/global-timeboard/img/flags/antigua-and-barbuda.png",
+  },
+  SaintKittsAndNevis: {
+    id: "saint-kitts-and-nevis",
+
+    name: {
+      en: "Saint Kitts and Nevis",
+      ru: "Сент-Китс и Невис",
+    },
+
+    capital: {
+      en: "Basseterre",
+      ru: "Бастер",
+    },
+
+    area: 261,
+
+    population: {
+      en: "0.05 million",
+      ru: "0.05 млн",
+    },
+
+    timezone: "UTC-4 (GMT-4)",
+
+    currency: {
+      en: "East Caribbean dollar",
+      ru: "Восточнокарибский доллар",
+    },
+
+    government: {
+      en: "Parliamentary monarchy",
+      ru: "Парламентская монархия",
+    },
+
+    language: {
+      en: "English",
+      ru: "Английский",
+    },
+
+    flag: "/global-timeboard/img/flags/saint-kitts-and-nevis.png",
+  },
+  SaintVincentAndTheGrenadines: {
+    id: "saint-vincent-and-the-grenadines",
+
+    name: {
+      en: "Saint Vincent and the Grenadines",
+      ru: "Сент-Винсент и Гренадины",
+    },
+
+    capital: {
+      en: "Kingstown",
+      ru: "Кингстаун",
+    },
+
+    area: 389,
+
+    population: {
+      en: "0.1 million",
+      ru: "0.1 млн",
+    },
+
+    timezone: "UTC-4 (GMT-4)",
+
+    currency: {
+      en: "East Caribbean dollar",
+      ru: "Восточнокарибский доллар",
+    },
+
+    government: {
+      en: "Parliamentary monarchy",
+      ru: "Парламентская монархия",
+    },
+
+    language: {
+      en: "English",
+      ru: "Английский",
+    },
+
+    flag: "/global-timeboard/img/flags/saint-vincent-and-the-grenadines.png",
+  },
+  Grenada: {
+    id: "grenada",
+
+    name: {
+      en: "Grenada",
+      ru: "Гренада",
+    },
+
+    capital: {
+      en: "Saint George's",
+      ru: "Сент-Джорджес",
+    },
+
+    area: 349,
+
+    population: {
+      en: "0.13 million",
+      ru: "0.13 млн",
+    },
+
+    timezone: "UTC-4 (GMT-4)",
+
+    currency: {
+      en: "East Caribbean dollar",
+      ru: "Восточнокарибский доллар",
+    },
+
+    government: {
+      en: "Parliamentary monarchy",
+      ru: "Парламентская монархия",
+    },
+
+    language: {
+      en: "English",
+      ru: "Английский",
+    },
+
+    flag: "/global-timeboard/img/flags/grenada.png",
+  },
+  Dominica: {
+    id: "dominica",
+
+    name: {
+      en: "Dominica",
+      ru: "Доминика",
+    },
+
+    capital: {
+      en: "Roseau",
+      ru: "Розо",
+    },
+
+    area: 751,
+
+    population: {
+      en: "0.07 million",
+      ru: "0.07 млн",
+    },
+
+    timezone: "UTC-4 (GMT-4)",
+
+    currency: {
+      en: "East Caribbean dollar",
+      ru: "Восточнокарибский доллар",
+    },
+
+    government: {
+      en: "Parliamentary republic",
+      ru: "Парламентская республика",
+    },
+
+    language: {
+      en: "English",
+      ru: "Английский",
+    },
+
+    flag: "/global-timeboard/img/flags/dominica.png",
+  },
 };
