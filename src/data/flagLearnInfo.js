@@ -502,4 +502,456 @@ export const flagLearnInfo = {
       en: "Semi-presidential republic",
     },
   },
+  russia: {
+    capital: { ru: "Москва", en: "Moscow" },
+    population: { ru: "146 млн", en: "146 million" },
+    area: { ru: "17 098 246 км²", en: "17,098,246 km²" },
+    language: { ru: "Русский", en: "Russian" },
+    currency: { ru: "Российский рубль", en: "Russian Ruble" },
+    government: { ru: "Федеративная республика", en: "Federal republic" },
+  },
+
+  germany: {
+    capital: { ru: "Берлин", en: "Berlin" },
+    population: { ru: "84 млн", en: "84 million" },
+    area: { ru: "357 588 км²", en: "357,588 km²" },
+    language: { ru: "Немецкий", en: "German" },
+    currency: { ru: "Евро", en: "Euro" },
+    government: { ru: "Федеративная республика", en: "Federal republic" },
+  },
+
+  france: {
+    capital: { ru: "Париж", en: "Paris" },
+    population: { ru: "68 млн", en: "68 million" },
+    area: { ru: "551 695 км²", en: "551,695 km²" },
+    language: { ru: "Французский", en: "French" },
+    currency: { ru: "Евро", en: "Euro" },
+    government: { ru: "Республика", en: "Republic" },
+  },
+
+  italy: {
+    capital: { ru: "Рим", en: "Rome" },
+    population: { ru: "59 млн", en: "59 million" },
+    area: { ru: "301 340 км²", en: "301,340 km²" },
+    language: { ru: "Итальянский", en: "Italian" },
+    currency: { ru: "Евро", en: "Euro" },
+    government: {
+      ru: "Парламентская республика",
+      en: "Parliamentary republic",
+    },
+  },
+
+  spain: {
+    capital: { ru: "Мадрид", en: "Madrid" },
+    population: { ru: "48 млн", en: "48 million" },
+    area: { ru: "505 990 км²", en: "505,990 km²" },
+    language: { ru: "Испанский", en: "Spanish" },
+    currency: { ru: "Евро", en: "Euro" },
+    government: {
+      ru: "Конституционная монархия",
+      en: "Constitutional monarchy",
+    },
+  },
+
+  "united-kingdom": {
+    capital: { ru: "Лондон", en: "London" },
+    population: { ru: "68 млн", en: "68 million" },
+    area: { ru: "243 610 км²", en: "243,610 km²" },
+    language: { ru: "Английский", en: "English" },
+    currency: { ru: "Фунт стерлингов", en: "Pound Sterling" },
+    government: {
+      ru: "Конституционная монархия",
+      en: "Constitutional monarchy",
+    },
+  },
+
+  poland: {
+    capital: { ru: "Варшава", en: "Warsaw" },
+    population: { ru: "38 млн", en: "38 million" },
+    area: { ru: "312 696 км²", en: "312,696 km²" },
+    language: { ru: "Польский", en: "Polish" },
+    currency: { ru: "Злотый", en: "Złoty" },
+    government: { ru: "Республика", en: "Republic" },
+  },
+
+  ukraine: {
+    capital: { ru: "Киев", en: "Kyiv" },
+    population: { ru: "37 млн", en: "37 million" },
+    area: { ru: "603 628 км²", en: "603,628 km²" },
+    language: { ru: "Украинский", en: "Ukrainian" },
+    currency: { ru: "Гривна", en: "Hryvnia" },
+    government: { ru: "Республика", en: "Republic" },
+  },
+
+  netherlands: {
+    capital: { ru: "Амстердам", en: "Amsterdam" },
+    population: { ru: "18 млн", en: "18 million" },
+    area: { ru: "41 865 км²", en: "41,865 km²" },
+    language: { ru: "Нидерландский", en: "Dutch" },
+    currency: { ru: "Евро", en: "Euro" },
+    government: {
+      ru: "Конституционная монархия",
+      en: "Constitutional monarchy",
+    },
+  },
+
+  belgium: {
+    capital: { ru: "Брюссель", en: "Brussels" },
+    population: { ru: "12 млн", en: "12 million" },
+    area: { ru: "30 689 км²", en: "30,689 km²" },
+    language: {
+      ru: "Нидерландский, французский, немецкий",
+      en: "Dutch, French, German",
+    },
+    currency: { ru: "Евро", en: "Euro" },
+    government: {
+      ru: "Конституционная монархия",
+      en: "Constitutional monarchy",
+    },
+  },
+  sweden: {
+    capital: { ru: "Стокгольм", en: "Stockholm" },
+    population: { ru: "10,5 млн", en: "10.5 million" },
+    area: { ru: "450 295 км²", en: "450,295 km²" },
+    language: { ru: "Шведский", en: "Swedish" },
+    currency: { ru: "Шведская крона", en: "Swedish Krona" },
+    government: {
+      ru: "Конституционная монархия",
+      en: "Constitutional monarchy",
+    },
+  },
+
+  norway: {
+    capital: { ru: "Осло", en: "Oslo" },
+    population: { ru: "5,5 млн", en: "5.5 million" },
+    area: { ru: "385 207 км²", en: "385,207 km²" },
+    language: { ru: "Норвежский", en: "Norwegian" },
+    currency: { ru: "Норвежская крона", en: "Norwegian Krone" },
+    government: {
+      ru: "Конституционная монархия",
+      en: "Constitutional monarchy",
+    },
+  },
+
+  finland: {
+    capital: { ru: "Хельсинки", en: "Helsinki" },
+    population: { ru: "5,6 млн", en: "5.6 million" },
+    area: { ru: "338 455 км²", en: "338,455 km²" },
+    language: { ru: "Финский", en: "Finnish" },
+    currency: { ru: "Евро", en: "Euro" },
+    government: { ru: "Республика", en: "Republic" },
+  },
+
+  denmark: {
+    capital: { ru: "Копенгаген", en: "Copenhagen" },
+    population: { ru: "6 млн", en: "6 million" },
+    area: { ru: "42 943 км²", en: "42,943 km²" },
+    language: { ru: "Датский", en: "Danish" },
+    currency: { ru: "Датская крона", en: "Danish Krone" },
+    government: {
+      ru: "Конституционная монархия",
+      en: "Constitutional monarchy",
+    },
+  },
+
+  switzerland: {
+    capital: { ru: "Берн", en: "Bern" },
+    population: { ru: "9 млн", en: "9 million" },
+    area: { ru: "41 285 км²", en: "41,285 km²" },
+    language: {
+      ru: "Немецкий, французский, итальянский",
+      en: "German, French, Italian",
+    },
+    currency: { ru: "Швейцарский франк", en: "Swiss Franc" },
+    government: { ru: "Федеративная республика", en: "Federal republic" },
+  },
+
+  austria: {
+    capital: { ru: "Вена", en: "Vienna" },
+    population: { ru: "9 млн", en: "9 million" },
+    area: { ru: "83 879 км²", en: "83,879 km²" },
+    language: { ru: "Немецкий", en: "German" },
+    currency: { ru: "Евро", en: "Euro" },
+    government: { ru: "Федеративная республика", en: "Federal republic" },
+  },
+
+  czechia: {
+    capital: { ru: "Прага", en: "Prague" },
+    population: { ru: "11 млн", en: "11 million" },
+    area: { ru: "78 871 км²", en: "78,871 km²" },
+    language: { ru: "Чешский", en: "Czech" },
+    currency: { ru: "Чешская крона", en: "Czech Koruna" },
+    government: { ru: "Республика", en: "Republic" },
+  },
+
+  slovakia: {
+    capital: { ru: "Братислава", en: "Bratislava" },
+    population: { ru: "5,4 млн", en: "5.4 million" },
+    area: { ru: "49 035 км²", en: "49,035 km²" },
+    language: { ru: "Словацкий", en: "Slovak" },
+    currency: { ru: "Евро", en: "Euro" },
+    government: { ru: "Республика", en: "Republic" },
+  },
+
+  hungary: {
+    capital: { ru: "Будапешт", en: "Budapest" },
+    population: { ru: "9,6 млн", en: "9.6 million" },
+    area: { ru: "93 030 км²", en: "93,030 km²" },
+    language: { ru: "Венгерский", en: "Hungarian" },
+    currency: { ru: "Форинт", en: "Forint" },
+    government: { ru: "Республика", en: "Republic" },
+  },
+
+  romania: {
+    capital: { ru: "Бухарест", en: "Bucharest" },
+    population: { ru: "19 млн", en: "19 million" },
+    area: { ru: "238 397 км²", en: "238,397 km²" },
+    language: { ru: "Румынский", en: "Romanian" },
+    currency: { ru: "Лей", en: "Leu" },
+    government: { ru: "Республика", en: "Republic" },
+  },
+  portugal: {
+    capital: { ru: "Лиссабон", en: "Lisbon" },
+    population: { ru: "10,4 млн", en: "10.4 million" },
+    area: { ru: "92 212 км²", en: "92,212 km²" },
+    language: { ru: "Португальский", en: "Portuguese" },
+    currency: { ru: "Евро", en: "Euro" },
+    government: { ru: "Республика", en: "Republic" },
+  },
+
+  ireland: {
+    capital: { ru: "Дублин", en: "Dublin" },
+    population: { ru: "5,3 млн", en: "5.3 million" },
+    area: { ru: "70 273 км²", en: "70,273 km²" },
+    language: { ru: "Английский, ирландский", en: "English, Irish" },
+    currency: { ru: "Евро", en: "Euro" },
+    government: { ru: "Республика", en: "Republic" },
+  },
+
+  greece: {
+    capital: { ru: "Афины", en: "Athens" },
+    population: { ru: "10,4 млн", en: "10.4 million" },
+    area: { ru: "131 957 км²", en: "131,957 km²" },
+    language: { ru: "Греческий", en: "Greek" },
+    currency: { ru: "Евро", en: "Euro" },
+    government: { ru: "Республика", en: "Republic" },
+  },
+
+  bulgaria: {
+    capital: { ru: "София", en: "Sofia" },
+    population: { ru: "6,4 млн", en: "6.4 million" },
+    area: { ru: "110 994 км²", en: "110,994 km²" },
+    language: { ru: "Болгарский", en: "Bulgarian" },
+    currency: { ru: "Лев", en: "Lev" },
+    government: { ru: "Республика", en: "Republic" },
+  },
+
+  croatia: {
+    capital: { ru: "Загреб", en: "Zagreb" },
+    population: { ru: "3,9 млн", en: "3.9 million" },
+    area: { ru: "56 594 км²", en: "56,594 km²" },
+    language: { ru: "Хорватский", en: "Croatian" },
+    currency: { ru: "Евро", en: "Euro" },
+    government: { ru: "Республика", en: "Republic" },
+  },
+
+  slovenia: {
+    capital: { ru: "Любляна", en: "Ljubljana" },
+    population: { ru: "2,1 млн", en: "2.1 million" },
+    area: { ru: "20 273 км²", en: "20,273 km²" },
+    language: { ru: "Словенский", en: "Slovene" },
+    currency: { ru: "Евро", en: "Euro" },
+    government: { ru: "Республика", en: "Republic" },
+  },
+
+  serbia: {
+    capital: { ru: "Белград", en: "Belgrade" },
+    population: { ru: "6,6 млн", en: "6.6 million" },
+    area: { ru: "88 499 км²", en: "88,499 km²" },
+    language: { ru: "Сербский", en: "Serbian" },
+    currency: { ru: "Сербский динар", en: "Serbian Dinar" },
+    government: { ru: "Республика", en: "Republic" },
+  },
+
+  "bosnia-and-herzegovina": {
+    capital: { ru: "Сараево", en: "Sarajevo" },
+    population: { ru: "3,2 млн", en: "3.2 million" },
+    area: { ru: "51 197 км²", en: "51,197 km²" },
+    language: {
+      ru: "Боснийский, сербский, хорватский",
+      en: "Bosnian, Serbian, Croatian",
+    },
+    currency: { ru: "Конвертируемая марка", en: "Convertible Mark" },
+    government: { ru: "Федеративная республика", en: "Federal republic" },
+  },
+
+  montenegro: {
+    capital: { ru: "Подгорица", en: "Podgorica" },
+    population: { ru: "620 тыс", en: "620 thousand" },
+    area: { ru: "13 812 км²", en: "13,812 km²" },
+    language: { ru: "Черногорский", en: "Montenegrin" },
+    currency: { ru: "Евро", en: "Euro" },
+    government: { ru: "Республика", en: "Republic" },
+  },
+
+  "north-macedonia": {
+    capital: { ru: "Скопье", en: "Skopje" },
+    population: { ru: "1,8 млн", en: "1.8 million" },
+    area: { ru: "25 713 км²", en: "25,713 km²" },
+    language: { ru: "Македонский", en: "Macedonian" },
+    currency: { ru: "Денар", en: "Denar" },
+    government: { ru: "Республика", en: "Republic" },
+  },
+  estonia: {
+    capital: { ru: "Таллин", en: "Tallinn" },
+    population: { ru: "1,4 млн", en: "1.4 million" },
+    area: { ru: "45 339 км²", en: "45,339 km²" },
+    language: { ru: "Эстонский", en: "Estonian" },
+    currency: { ru: "Евро", en: "Euro" },
+    government: { ru: "Республика", en: "Republic" },
+  },
+
+  latvia: {
+    capital: { ru: "Рига", en: "Riga" },
+    population: { ru: "1,9 млн", en: "1.9 million" },
+    area: { ru: "64 589 км²", en: "64,589 km²" },
+    language: { ru: "Латышский", en: "Latvian" },
+    currency: { ru: "Евро", en: "Euro" },
+    government: { ru: "Республика", en: "Republic" },
+  },
+
+  lithuania: {
+    capital: { ru: "Вильнюс", en: "Vilnius" },
+    population: { ru: "2,9 млн", en: "2.9 million" },
+    area: { ru: "65 300 км²", en: "65,300 km²" },
+    language: { ru: "Литовский", en: "Lithuanian" },
+    currency: { ru: "Евро", en: "Euro" },
+    government: { ru: "Республика", en: "Republic" },
+  },
+
+  belarus: {
+    capital: { ru: "Минск", en: "Minsk" },
+    population: { ru: "9,2 млн", en: "9.2 million" },
+    area: { ru: "207 600 км²", en: "207,600 km²" },
+    language: { ru: "Белорусский, русский", en: "Belarusian, Russian" },
+    currency: { ru: "Белорусский рубль", en: "Belarusian Ruble" },
+    government: { ru: "Президентская республика", en: "Presidential republic" },
+  },
+
+  moldova: {
+    capital: { ru: "Кишинёв", en: "Chișinău" },
+    population: { ru: "2,5 млн", en: "2.5 million" },
+    area: { ru: "33 846 км²", en: "33,846 km²" },
+    language: { ru: "Румынский", en: "Romanian" },
+    currency: { ru: "Молдавский лей", en: "Moldovan Leu" },
+    government: { ru: "Республика", en: "Republic" },
+  },
+
+  albania: {
+    capital: { ru: "Тирана", en: "Tirana" },
+    population: { ru: "2,8 млн", en: "2.8 million" },
+    area: { ru: "28 748 км²", en: "28,748 km²" },
+    language: { ru: "Албанский", en: "Albanian" },
+    currency: { ru: "Лек", en: "Lek" },
+    government: { ru: "Республика", en: "Republic" },
+  },
+
+  kosovo: {
+    capital: { ru: "Приштина", en: "Pristina" },
+    population: { ru: "1,8 млн", en: "1.8 million" },
+    area: { ru: "10 887 км²", en: "10,887 km²" },
+    language: { ru: "Албанский, сербский", en: "Albanian, Serbian" },
+    currency: { ru: "Евро", en: "Euro" },
+    government: { ru: "Республика", en: "Republic" },
+  },
+
+  luxembourg: {
+    capital: { ru: "Люксембург", en: "Luxembourg" },
+    population: { ru: "670 тыс", en: "670 thousand" },
+    area: { ru: "2 586 км²", en: "2,586 km²" },
+    language: {
+      ru: "Люксембургский, французский, немецкий",
+      en: "Luxembourgish, French, German",
+    },
+    currency: { ru: "Евро", en: "Euro" },
+    government: {
+      ru: "Конституционная монархия",
+      en: "Constitutional monarchy",
+    },
+  },
+  malta: {
+    capital: { ru: "Валлетта", en: "Valletta" },
+    population: { ru: "540 тыс", en: "540 thousand" },
+    area: { ru: "316 км²", en: "316 km²" },
+    language: { ru: "Мальтийский, английский", en: "Maltese, English" },
+    currency: { ru: "Евро", en: "Euro" },
+    government: { ru: "Республика", en: "Republic" },
+  },
+  andorra: {
+    capital: { ru: "Андорра-ла-Велья", en: "Andorra la Vella" },
+    population: { ru: "82 тыс", en: "82 thousand" },
+    area: { ru: "468 км²", en: "468 km²" },
+    language: { ru: "Каталанский", en: "Catalan" },
+    currency: { ru: "Евро", en: "Euro" },
+    government: {
+      ru: "Парламентское княжество",
+      en: "Parliamentary principality",
+    },
+  },
+
+  monaco: {
+    capital: { ru: "Монако", en: "Monaco" },
+    population: { ru: "39 тыс", en: "39 thousand" },
+    area: { ru: "2 км²", en: "2 km²" },
+    language: { ru: "Французский", en: "French" },
+    currency: { ru: "Евро", en: "Euro" },
+    government: {
+      ru: "Конституционная монархия",
+      en: "Constitutional monarchy",
+    },
+  },
+
+  "san-marino": {
+    capital: { ru: "Сан-Марино", en: "San Marino" },
+    population: { ru: "34 тыс", en: "34 thousand" },
+    area: { ru: "61 км²", en: "61 km²" },
+    language: { ru: "Итальянский", en: "Italian" },
+    currency: { ru: "Евро", en: "Euro" },
+    government: {
+      ru: "Парламентская республика",
+      en: "Parliamentary republic",
+    },
+  },
+
+  vatican: {
+    capital: { ru: "Ватикан", en: "Vatican City" },
+    population: { ru: "800 человек", en: "800 people" },
+    area: { ru: "0,49 км²", en: "0.49 km²" },
+    language: { ru: "Итальянский, латинский", en: "Italian, Latin" },
+    currency: { ru: "Евро", en: "Euro" },
+    government: {
+      ru: "Абсолютная теократическая монархия",
+      en: "Absolute theocratic monarchy",
+    },
+  },
+
+  liechtenstein: {
+    capital: { ru: "Вадуц", en: "Vaduz" },
+    population: { ru: "40 тыс", en: "40 thousand" },
+    area: { ru: "160 км²", en: "160 km²" },
+    language: { ru: "Немецкий", en: "German" },
+    currency: { ru: "Швейцарский франк", en: "Swiss Franc" },
+    government: {
+      ru: "Конституционная монархия",
+      en: "Constitutional monarchy",
+    },
+  },
+  iceland: {
+    capital: { ru: "Рейкьявик", en: "Reykjavik" },
+    population: { ru: "400 тыс", en: "400 thousand" },
+    area: { ru: "103 000 км²", en: "103,000 km²" },
+    language: { ru: "Исландский", en: "Icelandic" },
+    currency: { ru: "Исландская крона", en: "Icelandic Króna" },
+    government: { ru: "Республика", en: "Republic" },
+  },
 };
