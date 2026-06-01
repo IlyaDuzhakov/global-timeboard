@@ -56,7 +56,7 @@ export function JuniorQuiz({ lang = "ru" }) {
     >
       <section className={styles.panel}>
         <h1 className={styles.title}>
-          {lang === "ru" ? "Junior Geography" : "Junior Geography"}
+          {lang === "ru" ? "Юный Географ" : "Junior Geography"}
         </h1>
 
         <p className={styles.progress}>
@@ -105,6 +105,15 @@ export function JuniorQuiz({ lang = "ru" }) {
                   : `❌ Wrong. Correct answer: ${currentQuestion.correctAnswer[lang]}`}
             </p>
 
+            {currentQuestion.fact && (
+              <div className={styles.factBox}>
+                <h3>
+                  {lang === "ru" ? "Интересный факт:" : "Interesting fact:"}
+                </h3>
+                <p>{currentQuestion.fact[lang]}</p>
+              </div>
+            )}
+
             {!isLastQuestion ? (
               <button
                 className={styles.nextButton}
@@ -121,9 +130,7 @@ export function JuniorQuiz({ lang = "ru" }) {
                     ? `Результат: ${score} из ${questions.length}`
                     : `Result: ${score} out of ${questions.length}`}
                 </p>
-                <h1>Интереcный факт:
-                <p className={styles.factBox}>{currentQuestion.fact?.[lang]}</p>
-                </h1>
+
                 <button
                   className={styles.nextButton}
                   onClick={handleRestartQuiz}

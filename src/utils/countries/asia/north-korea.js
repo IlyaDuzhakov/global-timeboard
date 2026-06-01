@@ -102,7 +102,7 @@ Despite its political isolation, North Korea remains one of the world’s most d
     en: "Juche Tower",
   },
 
-  image: "/global-timeboard/img/landmarks/north-korea/juche-tower.jpg",
+  image: "/global-timeboard/img/landmarks/north-korea/juche-tower.webp",
 
   description: {
     ru: `
@@ -165,7 +165,7 @@ Today, Juche Tower remains one of North Korea’s most recognizable landmarks.
     en: "Kim Il Sung Square",
   },
 
-  image: "/global-timeboard/img/landmarks/north-korea/kim-il-sung-square.jpg",
+  image: "/global-timeboard/img/landmarks/north-korea/kim-il-sung-square.webp",
 
   description: {
     ru: `
@@ -225,7 +225,7 @@ Kim Il Sung Square remains one of North Korea’s most recognizable places and a
     en: "Pyongyang Metro",
   },
 
-  image: "/global-timeboard/img/landmarks/north-korea/pyongyang-metro.jpg",
+  image: "/global-timeboard/img/landmarks/north-korea/pyongyang-metro.webp",
 
   description: {
     ru: `
@@ -289,7 +289,7 @@ Today, the Pyongyang Metro remains one of the capital’s most recognizable land
     en: "Mount Paektu",
   },
 
-  image: "/global-timeboard/img/landmarks/north-korea/paektu.jpg",
+  image: "/global-timeboard/img/landmarks/north-korea/paektu.webp",
 
   description: {
     ru: `
@@ -351,7 +351,7 @@ Today, it remains one of North Korea’s most famous natural and ideological sym
     en: "Kumsusan Palace of the Sun",
   },
 
-  image: "/global-timeboard/img/landmarks/north-korea/kumsusan.jpg",
+  image: "/global-timeboard/img/landmarks/north-korea/kumsusan.webp",
 
   description: {
     ru: `
@@ -415,7 +415,7 @@ Kumsusan remains one of the world’s most unusual political and ideological lan
     en: "Demilitarized Zone (DMZ)",
   },
 
-  image: "/global-timeboard/img/landmarks/north-korea/dmz.jpg",
+  image: "/global-timeboard/img/landmarks/north-korea/dmz.webp",
 
   description: {
     ru: `
@@ -487,7 +487,7 @@ Today, the DMZ remains one of the world’s most famous political borders.
     en: "Arirang Mass Games",
   },
 
-  image: "/global-timeboard/img/landmarks/north-korea/arirang.jpg",
+  image: "/global-timeboard/img/landmarks/north-korea/arirang.webp",
 
   description: {
     ru: `
@@ -559,7 +559,7 @@ For many foreign visitors, the show became one of the most unusual experiences o
     en: "Monument to Party Founding",
   },
 
-  image: "/global-timeboard/img/landmarks/north-korea/party-monument.jpg",
+  image: "/global-timeboard/img/landmarks/north-korea/party-monument.webp",
 
   description: {
     ru: `
@@ -629,7 +629,7 @@ Today, it remains one of Pyongyang’s most recognizable attractions.
     en: "Mansu Hill Grand Monument",
   },
 
-  image: "/global-timeboard/img/landmarks/north-korea/mansu-hill.jpg",
+  image: "/global-timeboard/img/landmarks/north-korea/mansu-hill.webp",
 
   description: {
     ru: `
@@ -689,7 +689,7 @@ Mansu Hill Grand Monument remains one of the most recognizable symbols of Pyongy
     en: "Rungrado 1st of May Stadium",
   },
 
-  image: "/global-timeboard/img/landmarks/north-korea/rungrado.jpg",
+  image: "/global-timeboard/img/landmarks/north-korea/rungrado.webp",
 
   description: {
     ru: `
@@ -735,7 +735,7 @@ At night, the structure is brightly illuminated and dominates the Pyongyang skyl
     en: "Victorious Fatherland Liberation War Museum",
   },
 
-  image: "/global-timeboard/img/landmarks/north-korea/war-museum.jpg",
+  image: "/global-timeboard/img/landmarks/north-korea/war-museum.webp",
 
   description: {
     ru: `
@@ -787,7 +787,7 @@ Today, it remains one of the country’s largest historical and ideological comp
     en: "Arch of Reunification",
   },
 
-  image: "/global-timeboard/img/landmarks/north-korea/reunification-arch.jpg",
+  image: "/global-timeboard/img/landmarks/north-korea/reunification-arch.webp",
 
   description: {
     ru: `

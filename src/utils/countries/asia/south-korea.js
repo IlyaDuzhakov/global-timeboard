@@ -48,7 +48,7 @@ Today, South Korea plays an important role in the global economy, technology, au
         en: "Gyeongbokgung Palace",
       },
 
-      image: "/global-timeboard/img/landmarks/south-korea/gyeongbokgung.jpg",
+      image: "/global-timeboard/img/landmarks/south-korea/gyeongbokgung.webp",
 
       description: {
         ru: `
@@ -82,7 +82,7 @@ Today, Gyeongbokgung is one of South Korea’s most visited landmarks and an imp
         en: "N Seoul Tower",
       },
 
-      image: "/global-timeboard/img/landmarks/south-korea/n-seoul-tower.jpg",
+      image: "/global-timeboard/img/landmarks/south-korea/n-seoul-tower.webp",
 
       description: {
         ru: `
@@ -116,7 +116,7 @@ Today, N Seoul Tower is a symbol of modern Seoul and one of the city’s most po
         en: "Jeju Island",
       },
 
-      image: "/global-timeboard/img/landmarks/south-korea/jeju.jpg",
+      image: "/global-timeboard/img/landmarks/south-korea/jeju.webp",
 
       description: {
         ru: `
@@ -150,7 +150,7 @@ Today, Jeju is considered a symbol of South Korea’s natural beauty and one of 
         en: "Bukchon Hanok Village",
       },
 
-      image: "/global-timeboard/img/landmarks/south-korea/bukchon.jpg",
+      image: "/global-timeboard/img/landmarks/south-korea/bukchon.webp",
 
       description: {
         ru: `
@@ -184,7 +184,7 @@ Today, it remains one of Seoul’s most popular tourist attractions.
         en: "Haeundae Beach",
       },
 
-      image: "/global-timeboard/img/landmarks/south-korea/haeundae.jpg",
+      image: "/global-timeboard/img/landmarks/south-korea/haeundae.webp",
 
       description: {
         ru: `
@@ -223,7 +223,7 @@ Today it remains one of South Korea’s most popular tourist destinations.
       },
 
       image:
-        "/global-timeboard/img/landmarks/south-korea/lotte-world-tower.jpg",
+        "/global-timeboard/img/landmarks/south-korea/lotte-world-tower.webp",
 
       description: {
         ru: `
@@ -257,7 +257,7 @@ Lotte World Tower became a symbol of South Korea’s modern technological develo
         en: "Changdeokgung Palace",
       },
 
-      image: "/global-timeboard/img/landmarks/south-korea/changdeokgung.jpg",
+      image: "/global-timeboard/img/landmarks/south-korea/changdeokgung.webp",
 
       description: {
         ru: `
@@ -291,7 +291,7 @@ Today, Changdeokgung is listed as a <strong>UNESCO World Heritage Site</strong> 
         en: "Gamcheon Culture Village",
       },
 
-      image: "/global-timeboard/img/landmarks/south-korea/gamcheon.jpg",
+      image: "/global-timeboard/img/landmarks/south-korea/gamcheon.webp",
 
       description: {
         ru: `
@@ -325,7 +325,7 @@ Today, Gamcheon is one of Busan’s most popular tourist destinations and a symb
         en: "Haeinsa Temple",
       },
 
-      image: "/global-timeboard/img/landmarks/south-korea/haeinsa.jpg",
+      image: "/global-timeboard/img/landmarks/south-korea/haeinsa.webp",
 
       description: {
         ru: `
@@ -363,7 +363,7 @@ Today, Haeinsa Temple is listed as a <strong>UNESCO World Heritage Site</strong>
         en: "Everland Theme Park",
       },
 
-      image: "/global-timeboard/img/landmarks/south-korea/everland.jpg",
+      image: "/global-timeboard/img/landmarks/south-korea/everland.webp",
 
       description: {
         ru: `
@@ -401,7 +401,7 @@ Today, Everland attracts millions of visitors from South Korea and around the wo
         en: "Bulguksa Temple",
       },
 
-      image: "/global-timeboard/img/landmarks/south-korea/bulguksa.jpg",
+      image: "/global-timeboard/img/landmarks/south-korea/bulguksa.webp",
 
       description: {
         ru: `
@@ -435,7 +435,7 @@ Today, the temple is listed as a <strong>UNESCO World Heritage Site</strong> and
         en: "Hwaseong Fortress",
       },
 
-      image: "/global-timeboard/img/landmarks/south-korea/hwaseong.jpg",
+      image: "/global-timeboard/img/landmarks/south-korea/hwaseong.webp",
 
       description: {
         ru: `
@@ -469,7 +469,7 @@ Today, the fortress is listed as a <strong>UNESCO World Heritage Site</strong> a
         en: "Gangnam District",
       },
 
-      image: "/global-timeboard/img/landmarks/south-korea/gangnam.jpg",
+      image: "/global-timeboard/img/landmarks/south-korea/gangnam.webp",
 
       description: {
         ru: `
@@ -503,7 +503,7 @@ Today, Gangnam represents economic success, modern culture, and South Korea’s 
         en: "Myeongdong District",
       },
 
-      image: "/global-timeboard/img/landmarks/south-korea/myeongdong.jpg",
+      image: "/global-timeboard/img/landmarks/south-korea/myeongdong.webp",
 
       description: {
         ru: `

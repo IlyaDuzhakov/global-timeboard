@@ -304,7 +304,7 @@ Despite its high population density and industrial development, Japan places gre
         en: "Mount Fuji",
       },
 
-      image: "/global-timeboard/img/landmarks/japan/mount-fuji.jpg",
+      image: "/global-timeboard/img/landmarks/japan/mount-fuji.webp",
 
       description: {
         ru: `
@@ -338,7 +338,7 @@ Mount Fuji is listed as a <strong>UNESCO World Heritage Site</strong> as a cultu
         en: "Fushimi Inari Shrine",
       },
 
-      image: "/global-timeboard/img/landmarks/japan/fushimi-inari.jpg",
+      image: "/global-timeboard/img/landmarks/japan/fushimi-inari.webp",
 
       description: {
         ru: `
@@ -372,7 +372,7 @@ Fushimi Inari became world famous because of its unique atmosphere and beautiful
         en: "Himeji Castle",
       },
 
-      image: "/global-timeboard/img/landmarks/japan/himeji-castle.jpg",
+      image: "/global-timeboard/img/landmarks/japan/himeji-castle.webp",
 
       description: {
         ru: `
@@ -406,7 +406,7 @@ Himeji Castle was one of the first Japanese sites added to the <strong>UNESCO Wo
         en: "Arashiyama Bamboo Grove",
       },
 
-      image: "/global-timeboard/img/landmarks/japan/arashiyama-bamboo.jpg",
+      image: "/global-timeboard/img/landmarks/japan/arashiyama-bamboo.webp",
 
       description: {
         ru: `
@@ -444,7 +444,7 @@ Today, the Arashiyama Bamboo Grove is considered one of Japan’s most famous na
         en: "Shinkansen",
       },
 
-      image: "/global-timeboard/img/landmarks/japan/shinkansen.jpg",
+      image: "/global-timeboard/img/landmarks/japan/shinkansen.webp",
 
       description: {
         ru: `
@@ -478,7 +478,7 @@ Today, the Shinkansen is considered one of the greatest achievements of Japanese
         en: "Shibuya District",
       },
 
-      image: "/global-timeboard/img/landmarks/japan/shibuya.jpg",
+      image: "/global-timeboard/img/landmarks/japan/shibuya.webp",
 
       description: {
         ru: `
@@ -516,7 +516,7 @@ Today, Shibuya remains one of the strongest symbols of modern Japan and attracts
         en: "Tokyo Skytree",
       },
 
-      image: "/global-timeboard/img/landmarks/japan/tokyo-skytree.jpg",
+      image: "/global-timeboard/img/landmarks/japan/tokyo-skytree.webp",
 
       description: {
         ru: `
@@ -554,7 +554,7 @@ Today, Tokyo Skytree is regarded as a symbol of Japan’s technological power, m
         en: "Kinkaku-ji Golden Pavilion",
       },
 
-      image: "/global-timeboard/img/landmarks/japan/kinkakuji.jpg",
+      image: "/global-timeboard/img/landmarks/japan/kinkakuji.webp",
 
       description: {
         ru: `
@@ -592,7 +592,7 @@ Today, the Golden Pavilion is listed as a <strong>UNESCO World Heritage Site</st
         en: "Nara Park",
       },
 
-      image: "/global-timeboard/img/landmarks/japan/nara-park.jpg",
+      image: "/global-timeboard/img/landmarks/japan/nara-park.webp",
 
       description: {
         ru: `
@@ -630,7 +630,7 @@ Today, Nara Park is considered one of Japan’s most atmospheric and beloved tou
         en: "Okinawa",
       },
 
-      image: "/global-timeboard/img/landmarks/japan/okinawa.jpg",
+      image: "/global-timeboard/img/landmarks/japan/okinawa.webp",
 
       description: {
         ru: `
@@ -664,7 +664,7 @@ Today, Okinawa is one of Japan’s most popular tourist destinations and represe
         en: "Itsukushima Floating Torii",
       },
 
-      image: "/global-timeboard/img/landmarks/japan/itsukushima.jpg",
+      image: "/global-timeboard/img/landmarks/japan/itsukushima.webp",
 
       description: {
         ru: `
@@ -702,7 +702,7 @@ Today, the Itsukushima Floating Torii is listed as a <strong>UNESCO World Herita
         en: "Jigokudani Snow Monkeys",
       },
 
-      image: "/global-timeboard/img/landmarks/japan/jigokudani.jpg",
+      image: "/global-timeboard/img/landmarks/japan/jigokudani.webp",
 
       description: {
         ru: `
@@ -736,7 +736,7 @@ Today, the park attracts thousands of tourists and photographers from around the
         en: "Miyajima Island",
       },
 
-      image: "/global-timeboard/img/landmarks/japan/miyajima.jpg",
+      image: "/global-timeboard/img/landmarks/japan/miyajima.webp",
 
       description: {
         ru: `
@@ -774,7 +774,7 @@ Today, the island is listed as a <strong>UNESCO World Heritage Site</strong> and
         en: "Tokyo Imperial Palace",
       },
 
-      image: "/global-timeboard/img/landmarks/japan/imperial-palace.jpg",
+      image: "/global-timeboard/img/landmarks/japan/imperial-palace.webp",
 
       description: {
         ru: `

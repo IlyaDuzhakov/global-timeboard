@@ -171,7 +171,7 @@ one of the world’s most unusual and environmentally focused countries.
         en: "Tiger’s Nest Monastery",
       },
 
-      image: "/global-timeboard/img/landmarks/bhutan/tigers-nest.jpg",
+      image: "/global-timeboard/img/landmarks/bhutan/tigers-nest.webp",
 
       description: {
         ru: `
@@ -262,7 +262,7 @@ Bhutan’s main spiritual and tourism symbol.
         en: "Punakha Dzong",
       },
 
-      image: "/global-timeboard/img/landmarks/bhutan/punakha-dzong.jpg",
+      image: "/global-timeboard/img/landmarks/bhutan/punakha-dzong.webp",
 
       description: {
         ru: `
@@ -349,7 +349,7 @@ this dzong as the most beautiful building in the country.
         en: "Thimphu",
       },
 
-      image: "/global-timeboard/img/landmarks/bhutan/thimphu.jpg",
+      image: "/global-timeboard/img/landmarks/bhutan/thimphu.webp",
 
       description: {
         ru: `
@@ -429,7 +429,7 @@ the country’s main political, cultural, and spiritual center.
         en: "Buddha Dordenma",
       },
 
-      image: "/global-timeboard/img/landmarks/bhutan/buddha-dordenma.jpg",
+      image: "/global-timeboard/img/landmarks/bhutan/buddha-dordenma.webp",
 
       description: {
         ru: `
@@ -502,7 +502,7 @@ one of Bhutan’s most recognizable landmarks.
         en: "Paro Valley",
       },
 
-      image: "/global-timeboard/img/landmarks/bhutan/paro-valley.jpg",
+      image: "/global-timeboard/img/landmarks/bhutan/paro-valley.webp",
 
       description: {
         ru: `
@@ -575,7 +575,7 @@ Paro Valley becomes their first introduction to Bhutan.
         en: "National Museum of Bhutan",
       },
 
-      image: "/global-timeboard/img/landmarks/bhutan/national-museum.jpg",
+      image: "/global-timeboard/img/landmarks/bhutan/national-museum.webp",
 
       description: {
         ru: `
@@ -647,7 +647,7 @@ one of the best places to learn about Bhutanese history and culture.
         en: "Dochula Pass",
       },
 
-      image: "/global-timeboard/img/landmarks/bhutan/dochula-pass.jpg",
+      image: "/global-timeboard/img/landmarks/bhutan/dochula-pass.webp",
 
       description: {
         ru: `
@@ -714,7 +714,7 @@ one of the most beautiful viewpoints in Bhutan.
         en: "Phobjikha Valley",
       },
 
-      image: "/global-timeboard/img/landmarks/bhutan/phobjikha.jpg",
+      image: "/global-timeboard/img/landmarks/bhutan/phobjikha.webp",
 
       description: {
         ru: `
@@ -787,7 +787,7 @@ one of the country’s leading eco-tourism destinations.
         en: "Paro Tsechu Festival",
       },
 
-      image: "/global-timeboard/img/landmarks/bhutan/paro-tsechu.jpg",
+      image: "/global-timeboard/img/landmarks/bhutan/paro-tsechu.webp",
 
       description: {
         ru: `
@@ -860,7 +860,7 @@ an essential part of Bhutan’s cultural and spiritual life.
         en: "Gangtey Monastery",
       },
 
-      image: "/global-timeboard/img/landmarks/bhutan/gangtey-monastery.jpg",
+      image: "/global-timeboard/img/landmarks/bhutan/gangtey-monastery.webp",
 
       description: {
         ru: `
@@ -927,7 +927,7 @@ one of the most peaceful and atmospheric places in Bhutan.
         en: "Bumthang Valley",
       },
 
-      image: "/global-timeboard/img/landmarks/bhutan/bumthang.jpg",
+      image: "/global-timeboard/img/landmarks/bhutan/bumthang.webp",
 
       description: {
         ru: `
@@ -1000,7 +1000,7 @@ one of the best places in Bhutan to experience the country’s culture and histo
         en: "Trongsa Dzong",
       },
 
-      image: "/global-timeboard/img/landmarks/bhutan/trongsa-dzong.jpg",
+      image: "/global-timeboard/img/landmarks/bhutan/trongsa-dzong.webp",
 
       description: {
         ru: `

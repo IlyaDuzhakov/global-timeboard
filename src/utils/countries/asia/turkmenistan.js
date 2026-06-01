@@ -160,7 +160,7 @@ desert landscapes, rich energy resources, ancient history, and a highly centrali
         en: "Ashgabat",
       },
 
-      image: "/global-timeboard/img/landmarks/turkmenistan/ashgabat.jpg",
+      image: "/global-timeboard/img/landmarks/turkmenistan/ashgabat.webp",
 
       description: {
         ru: `
@@ -257,7 +257,7 @@ one of the most recognizable and unusual cities in Central Asia.
         en: "Door to Hell (Darvaza Gas Crater)",
       },
 
-      image: "/global-timeboard/img/landmarks/turkmenistan/darvaza.jpg",
+      image: "/global-timeboard/img/landmarks/turkmenistan/darvaza.webp",
 
       description: {
         ru: `
@@ -354,7 +354,7 @@ one of Central Asia’s most famous attractions.
         en: "Ancient Merv",
       },
 
-      image: "/global-timeboard/img/landmarks/turkmenistan/merv.jpg",
+      image: "/global-timeboard/img/landmarks/turkmenistan/merv.webp",
 
       description: {
         ru: `
@@ -445,7 +445,7 @@ one of Turkmenistan’s main historical symbols.
       },
 
       image:
-        "/global-timeboard/img/landmarks/turkmenistan/turkmenbashi-mosque.jpg",
+        "/global-timeboard/img/landmarks/turkmenistan/turkmenbashi-mosque.webp",
 
       description: {
         ru: `
@@ -531,7 +531,7 @@ one of Turkmenistan’s best-known religious landmarks.
       },
 
       image:
-        "/global-timeboard/img/landmarks/turkmenistan/independence-monument.jpg",
+        "/global-timeboard/img/landmarks/turkmenistan/independence-monument.webp",
 
       description: {
         ru: `
@@ -617,7 +617,7 @@ an important national symbol of the country.
       },
 
       image:
-        "/global-timeboard/img/landmarks/turkmenistan/neutrality-monument.jpg",
+        "/global-timeboard/img/landmarks/turkmenistan/neutrality-monument.webp",
 
       description: {
         ru: `
@@ -701,7 +701,7 @@ one of Turkmenistan’s most recognizable attractions.
         en: "Turkmen Carpet Museum",
       },
 
-      image: "/global-timeboard/img/landmarks/turkmenistan/carpet-museum.jpg",
+      image: "/global-timeboard/img/landmarks/turkmenistan/carpet-museum.webp",
 
       description: {
         ru: `
@@ -792,7 +792,7 @@ one of Turkmenistan’s main cultural symbols.
         en: "Caspian Coast",
       },
 
-      image: "/global-timeboard/img/landmarks/turkmenistan/caspian-coast.jpg",
+      image: "/global-timeboard/img/landmarks/turkmenistan/caspian-coast.webp",
 
       description: {
         ru: `
@@ -883,7 +883,7 @@ an important part of the country’s economy and tourism sector.
         en: "Kow Ata Cave",
       },
 
-      image: "/global-timeboard/img/landmarks/turkmenistan/kow-ata.jpg",
+      image: "/global-timeboard/img/landmarks/turkmenistan/kow-ata.webp",
 
       description: {
         ru: `
@@ -973,7 +973,7 @@ one of Turkmenistan’s most famous natural attractions.
         en: "Akhal-Teke Horse Complex",
       },
 
-      image: "/global-timeboard/img/landmarks/turkmenistan/akhal-teke.jpg",
+      image: "/global-timeboard/img/landmarks/turkmenistan/akhal-teke.webp",
 
       description: {
         ru: `
@@ -1063,7 +1063,7 @@ one of Turkmenistan’s main national symbols.
         en: "Ruhnama Monument",
       },
 
-      image: "/global-timeboard/img/landmarks/turkmenistan/ruhnama.jpg",
+      image: "/global-timeboard/img/landmarks/turkmenistan/ruhnama.webp",
 
       description: {
         ru: `
@@ -1153,7 +1153,7 @@ one of the best-known symbols of modern Turkmen history.
         en: "Ancient Nisa",
       },
 
-      image: "/global-timeboard/img/landmarks/turkmenistan/nisa.jpg",
+      image: "/global-timeboard/img/landmarks/turkmenistan/nisa.webp",
 
       description: {
         ru: `
@@ -1244,7 +1244,7 @@ one of Turkmenistan’s main historical symbols.
         en: "Altyn Asyr Lake",
       },
 
-      image: "/global-timeboard/img/landmarks/turkmenistan/altyn-asyr.jpg",
+      image: "/global-timeboard/img/landmarks/turkmenistan/altyn-asyr.webp",
 
       description: {
         ru: `
@@ -1335,7 +1335,7 @@ one of Turkmenistan’s largest infrastructure projects.
         en: "Yangykala Canyons",
       },
 
-      image: "/global-timeboard/img/landmarks/turkmenistan/yangykala.jpg",
+      image: "/global-timeboard/img/landmarks/turkmenistan/yangykala.webp",
 
       description: {
         ru: `

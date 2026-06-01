@@ -190,7 +190,7 @@ ancient nomadic traditions, dramatic mountain landscapes, rich history, and mode
         en: "Issyk-Kul Lake",
       },
 
-      image: "/global-timeboard/img/landmarks/kyrgyzstan/issyk-kul.jpg",
+      image: "/global-timeboard/img/landmarks/kyrgyzstan/issyk-kul.webp",
 
       description: {
         ru: `
@@ -310,7 +310,7 @@ one of the symbols of Kyrgyzstan and Central Asia.
         en: "Ala-Archa National Park",
       },
 
-      image: "/global-timeboard/img/landmarks/kyrgyzstan/ala-archa.jpg",
+      image: "/global-timeboard/img/landmarks/kyrgyzstan/ala-archa.webp",
 
       description: {
         ru: `
@@ -436,7 +436,7 @@ one of the country's most visited natural attractions.
         en: "Song-Kul Lake",
       },
 
-      image: "/global-timeboard/img/landmarks/kyrgyzstan/song-kul.jpg",
+      image: "/global-timeboard/img/landmarks/kyrgyzstan/song-kul.webp",
 
       description: {
         ru: `
@@ -556,7 +556,7 @@ for ecotourism.
         en: "Burana Tower",
       },
 
-      image: "/global-timeboard/img/landmarks/kyrgyzstan/burana-tower.jpg",
+      image: "/global-timeboard/img/landmarks/kyrgyzstan/burana-tower.webp",
 
       description: {
         ru: `
@@ -670,7 +670,7 @@ one of the country's most visited historical attractions.
         en: "Sulaiman-Too Sacred Mountain",
       },
 
-      image: "/global-timeboard/img/landmarks/kyrgyzstan/sulaiman-too.jpg",
+      image: "/global-timeboard/img/landmarks/kyrgyzstan/sulaiman-too.webp",
 
       description: {
         ru: `
@@ -772,7 +772,7 @@ one of the country's most visited attractions.
         en: "Jeti-Oguz Gorge",
       },
 
-      image: "/global-timeboard/img/landmarks/kyrgyzstan/jeti-oguz.jpg",
+      image: "/global-timeboard/img/landmarks/kyrgyzstan/jeti-oguz.webp",
 
       description: {
         ru: `
@@ -874,7 +874,7 @@ one of Kyrgyzstan’s natural treasures.
         en: "Skazka Canyon",
       },
 
-      image: "/global-timeboard/img/landmarks/kyrgyzstan/skazka-canyon.jpg",
+      image: "/global-timeboard/img/landmarks/kyrgyzstan/skazka-canyon.webp",
 
       description: {
         ru: `
@@ -979,7 +979,7 @@ one of Kyrgyzstan’s most photogenic natural attractions.
         en: "Sary-Chelek Lake",
       },
 
-      image: "/global-timeboard/img/landmarks/kyrgyzstan/sary-chelek.jpg",
+      image: "/global-timeboard/img/landmarks/kyrgyzstan/sary-chelek.webp",
 
       description: {
         ru: `
@@ -1087,7 +1087,7 @@ one of the jewels of Kyrgyz nature.
         en: "Jengish Chokusu (Peak Pobeda)",
       },
 
-      image: "/global-timeboard/img/landmarks/kyrgyzstan/peak-pobeda.jpg",
+      image: "/global-timeboard/img/landmarks/kyrgyzstan/peak-pobeda.webp",
 
       description: {
         ru: `
@@ -1189,7 +1189,7 @@ the ultimate symbol of high-mountain Kyrgyzstan.
         en: "Lenin Peak",
       },
 
-      image: "/global-timeboard/img/landmarks/kyrgyzstan/lenin-peak.jpg",
+      image: "/global-timeboard/img/landmarks/kyrgyzstan/lenin-peak.webp",
 
       description: {
         ru: `
@@ -1291,7 +1291,7 @@ one of Kyrgyzstan’s most famous mountains.
         en: "Kel-Suu Lake",
       },
 
-      image: "/global-timeboard/img/landmarks/kyrgyzstan/kel-suu.jpg",
+      image: "/global-timeboard/img/landmarks/kyrgyzstan/kel-suu.webp",
 
       description: {
         ru: `
@@ -1399,7 +1399,7 @@ one of Kyrgyzstan’s most sought-after adventure destinations.
         en: "Tash Rabat Caravanserai",
       },
 
-      image: "/global-timeboard/img/landmarks/kyrgyzstan/tash-rabat.jpg",
+      image: "/global-timeboard/img/landmarks/kyrgyzstan/tash-rabat.webp",
 
       description: {
         ru: `
@@ -1507,7 +1507,7 @@ one of the symbols of historic Kyrgyzstan.
         en: "Arslanbob",
       },
 
-      image: "/global-timeboard/img/landmarks/kyrgyzstan/arslanbob.jpg",
+      image: "/global-timeboard/img/landmarks/kyrgyzstan/arslanbob.webp",
 
       description: {
         ru: `
@@ -1609,7 +1609,7 @@ one of the natural gems of the country.
         en: "Chatyr-Kul Lake",
       },
 
-      image: "/global-timeboard/img/landmarks/kyrgyzstan/chatyr-kul.jpg",
+      image: "/global-timeboard/img/landmarks/kyrgyzstan/chatyr-kul.webp",
 
       description: {
         ru: `
@@ -1717,7 +1717,7 @@ one of Kyrgyzstan’s wildest and least-known natural attractions.
         en: "Karakol",
       },
 
-      image: "/global-timeboard/img/landmarks/kyrgyzstan/karakol.jpg",
+      image: "/global-timeboard/img/landmarks/kyrgyzstan/karakol.webp",
 
       description: {
         ru: `
@@ -1819,7 +1819,7 @@ one of the most attractive destinations for travelers in Kyrgyzstan.
         en: "Grigoriev Gorge",
       },
 
-      image: "/global-timeboard/img/landmarks/kyrgyzstan/grigoriev-gorge.jpg",
+      image: "/global-timeboard/img/landmarks/kyrgyzstan/grigoriev-gorge.webp",
 
       description: {
         ru: `
@@ -1921,7 +1921,7 @@ one of Kyrgyzstan’s natural calling cards.
         en: "Semenov Gorge",
       },
 
-      image: "/global-timeboard/img/landmarks/kyrgyzstan/semenov-gorge.jpg",
+      image: "/global-timeboard/img/landmarks/kyrgyzstan/semenov-gorge.webp",
 
       description: {
         ru: `
@@ -2023,7 +2023,7 @@ one of the natural gems of the Issyk-Kul region.
         en: "Ala-Too Square",
       },
 
-      image: "/global-timeboard/img/landmarks/kyrgyzstan/ala-too-square.jpg",
+      image: "/global-timeboard/img/landmarks/kyrgyzstan/ala-too-square.webp",
 
       description: {
         ru: `

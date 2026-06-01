@@ -121,7 +121,7 @@ one of South Asia’s fastest-growing economies.
         en: "Sundarbans",
       },
 
-      image: "/global-timeboard/img/landmarks/bangladesh/sundarbans.jpg",
+      image: "/global-timeboard/img/landmarks/bangladesh/sundarbans.webp",
 
       description: {
         ru: `
@@ -215,7 +215,7 @@ one of South Asia’s greatest natural treasures.
         en: "Sixty Dome Mosque",
       },
 
-      image: "/global-timeboard/img/landmarks/bangladesh/mosque.jpg",
+      image: "/global-timeboard/img/landmarks/bangladesh/mosque.webp",
 
       description: {
         ru: `
@@ -299,7 +299,7 @@ one of Bangladesh’s main historical symbols.
         en: "Cox’s Bazar",
       },
 
-      image: "/global-timeboard/img/landmarks/bangladesh/coxs-bazar.jpg",
+      image: "/global-timeboard/img/landmarks/bangladesh/coxs-bazar.webp",
 
       description: {
         ru: `
@@ -376,7 +376,7 @@ a symbol of Bangladesh’s coastal beauty.
         en: "Dhaka",
       },
 
-      image: "/global-timeboard/img/landmarks/bangladesh/dhaka.jpg",
+      image: "/global-timeboard/img/landmarks/bangladesh/dhaka.webp",
 
       description: {
         ru: `
@@ -460,7 +460,7 @@ the heart of Bangladesh and one of South Asia’s largest cities.
         en: "River Markets and Life on Water",
       },
 
-      image: "/global-timeboard/img/landmarks/bangladesh/river-life.jpg",
+      image: "/global-timeboard/img/landmarks/bangladesh/river-life.webp",
 
       description: {
         ru: `
@@ -557,7 +557,7 @@ one of the country’s most recognizable symbols.
         en: "Lalbagh Fort",
       },
 
-      image: "/global-timeboard/img/landmarks/bangladesh/lalbagh-fort.jpg",
+      image: "/global-timeboard/img/landmarks/bangladesh/lalbagh-fort.webp",
 
       description: {
         ru: `
@@ -599,7 +599,7 @@ one of Bangladesh’s main historical symbols.
         en: "Chittagong Hill Tracts",
       },
 
-      image: "/global-timeboard/img/landmarks/bangladesh/chittagong-hills.jpg",
+      image: "/global-timeboard/img/landmarks/bangladesh/chittagong-hills.webp",
 
       description: {
         ru: `
@@ -641,7 +641,7 @@ among nature lovers and trekkers.
         en: "Paharpur Buddhist Monastery",
       },
 
-      image: "/global-timeboard/img/landmarks/bangladesh/paharpur.jpg",
+      image: "/global-timeboard/img/landmarks/bangladesh/paharpur.webp",
 
       description: {
         ru: `
@@ -683,7 +683,7 @@ The site is listed as a:
         en: "Kaptai Lake",
       },
 
-      image: "/global-timeboard/img/landmarks/bangladesh/kaptai-lake.jpg",
+      image: "/global-timeboard/img/landmarks/bangladesh/kaptai-lake.webp",
 
       description: {
         ru: `
@@ -725,7 +725,7 @@ especially picturesque.
         en: "Bengal Tigers",
       },
 
-      image: "/global-timeboard/img/landmarks/bangladesh/bengal-tigers.jpg",
+      image: "/global-timeboard/img/landmarks/bangladesh/bengal-tigers.webp",
 
       description: {
         ru: `
@@ -771,7 +771,7 @@ from poaching and habitat destruction.
         en: "Old Port of Chittagong",
       },
 
-      image: "/global-timeboard/img/landmarks/bangladesh/chittagong-port.jpg",
+      image: "/global-timeboard/img/landmarks/bangladesh/chittagong-port.webp",
 
       description: {
         ru: `
@@ -819,7 +819,7 @@ one of South Asia’s most important ports.
         en: "Ganges-Brahmaputra Delta",
       },
 
-      image: "/global-timeboard/img/landmarks/bangladesh/ganges-delta.jpg",
+      image: "/global-timeboard/img/landmarks/bangladesh/ganges-delta.webp",
 
       description: {
         ru: `
@@ -873,7 +873,7 @@ Bangladesh’s main natural system.
         en: "Railways and River Transport",
       },
 
-      image: "/global-timeboard/img/landmarks/bangladesh/river-transport.jpg",
+      image: "/global-timeboard/img/landmarks/bangladesh/river-transport.webp",
 
       description: {
         ru: `
@@ -921,7 +921,7 @@ one of the most unique and colorful in the region.
         en: "Star Mosque",
       },
 
-      image: "/global-timeboard/img/landmarks/bangladesh/star-mosque.jpg",
+      image: "/global-timeboard/img/landmarks/bangladesh/star-mosque.webp",
 
       description: {
         ru: `

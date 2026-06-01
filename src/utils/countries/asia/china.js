@@ -51,7 +51,7 @@ Today, China is considered one of the world’s leading powers with enormous inf
         en: "Great Wall of China",
       },
 
-      image: "/global-timeboard/img/landmarks/china/great-wall.jpg",
+      image: "/global-timeboard/img/landmarks/china/great-wall.webp",
 
       description: {
         ru: `
@@ -84,7 +84,7 @@ Today, the wall is one of the world’s greatest landmarks, listed as a <strong>
         ru: "Запретный город (Гугун)",
         en: "Forbidden City (Gugong)",
       },
-      image: "/global-timeboard/img/landmarks/china/forbidden-city.jpg",
+      image: "/global-timeboard/img/landmarks/china/forbidden-city.webp",
       description: {
         ru: `
 <strong>Запретный город (Гугун)</strong> — крупнейший дворцовый комплекс в мире, расположенный в самом центре Пекина. На протяжении почти <strong>500 лет</strong> он служил главной резиденцией китайских императоров династий <strong>Мин</strong> и <strong>Цин</strong>.
@@ -117,7 +117,7 @@ The complex is listed as a <strong>UNESCO World Heritage Site</strong> and is co
         en: "Terracotta Army",
       },
 
-      image: "/global-timeboard/img/landmarks/china/terracotta-army.jpg",
+      image: "/global-timeboard/img/landmarks/china/terracotta-army.webp",
 
       description: {
         ru: `
@@ -151,7 +151,7 @@ Today, the archaeological site is listed as a <strong>UNESCO World Heritage Site
         en: "Temple of Heaven",
       },
 
-      image: "/global-timeboard/img/landmarks/china/temple-of-heaven.jpg",
+      image: "/global-timeboard/img/landmarks/china/temple-of-heaven.webp",
 
       description: {
         ru: `
@@ -185,7 +185,7 @@ Today, the Temple of Heaven is a <strong>UNESCO World Heritage Site</strong> and
         en: "Shanghai Tower",
       },
 
-      image: "/global-timeboard/img/landmarks/china/shanghai-tower.jpg",
+      image: "/global-timeboard/img/landmarks/china/shanghai-tower.webp",
 
       description: {
         ru: `
@@ -219,7 +219,7 @@ Shanghai Tower is considered a symbol of China’s economic growth, technologica
         en: "Zhangjiajie Mountains",
       },
 
-      image: "/global-timeboard/img/landmarks/china/zhangjiajie.jpg",
+      image: "/global-timeboard/img/landmarks/china/zhangjiajie.webp",
 
       description: {
         ru: `
@@ -253,7 +253,7 @@ Today, the Zhangjiajie Mountains are listed as a <strong>UNESCO World Heritage S
         en: "Potala Palace",
       },
 
-      image: "/global-timeboard/img/landmarks/china/potala-palace.jpg",
+      image: "/global-timeboard/img/landmarks/china/potala-palace.webp",
 
       description: {
         ru: `
@@ -287,7 +287,7 @@ Today, Potala Palace is considered one of China’s greatest landmarks and a <st
         en: "Li River",
       },
 
-      image: "/global-timeboard/img/landmarks/china/li-river.jpg",
+      image: "/global-timeboard/img/landmarks/china/li-river.webp",
 
       description: {
         ru: `
@@ -321,7 +321,7 @@ Thanks to its extraordinary beauty, the region attracts millions of visitors eve
     en: "Leshan Giant Buddha",
   },
 
-  image: "/global-timeboard/img/landmarks/china/leshan-buddha.jpg",
+  image: "/global-timeboard/img/landmarks/china/leshan-buddha.webp",
 
   description: {
     ru: `
@@ -355,7 +355,7 @@ Today, the Leshan Giant Buddha is listed as a <strong>UNESCO World Heritage Site
     en: "Victoria Peak / Hong Kong",
   },
 
-  image: "/global-timeboard/img/landmarks/china/victoria-peak.jpg",
+  image: "/global-timeboard/img/landmarks/china/victoria-peak.webp",
 
   description: {
     ru: `
@@ -389,7 +389,7 @@ Today, Victoria Peak remains one of the main symbols of modern Hong Kong and att
     en: "Mount Tai",
   },
 
-  image: "/global-timeboard/img/landmarks/china/mount-tai.jpg",
+  image: "/global-timeboard/img/landmarks/china/mount-tai.webp",
 
   description: {
     ru: `
@@ -423,7 +423,7 @@ Today, Mount Tai is listed as a <strong>UNESCO World Heritage Site</strong> and 
     en: "West Lake",
   },
 
-  image: "/global-timeboard/img/landmarks/china/west-lake.jpg",
+  image: "/global-timeboard/img/landmarks/china/west-lake.webp",
 
   description: {
     ru: `
@@ -457,7 +457,7 @@ Today, West Lake is listed as a <strong>UNESCO World Heritage Site</strong> and 
     en: "Jiuzhaigou National Park",
   },
 
-  image: "/global-timeboard/img/landmarks/china/jiuzhaigou.jpg",
+  image: "/global-timeboard/img/landmarks/china/jiuzhaigou.webp",
 
   description: {
     ru: `
@@ -491,7 +491,7 @@ Jiuzhaigou is considered one of China’s greatest natural treasures and is list
     en: "Mogao Caves",
   },
 
-  image: "/global-timeboard/img/landmarks/china/mogao-caves.jpg",
+  image: "/global-timeboard/img/landmarks/china/mogao-caves.webp",
 
   description: {
     ru: `

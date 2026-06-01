@@ -126,7 +126,7 @@ an important cultural and турист destination in South Asia.
         en: "Mount Everest",
       },
 
-      image: "/global-timeboard/img/landmarks/nepal/everest.jpg",
+      image: "/global-timeboard/img/landmarks/nepal/everest.webp",
 
       description: {
         ru: `
@@ -169,7 +169,7 @@ extreme weather conditions, glaciers, and breathtaking landscapes.
         en: "Kathmandu Durbar Square",
       },
 
-      image: "/global-timeboard/img/landmarks/nepal/kathmandu.jpg",
+      image: "/global-timeboard/img/landmarks/nepal/kathmandu.webp",
 
       description: {
         ru: `
@@ -212,7 +212,7 @@ among tourists interested in Himalayan history and architecture.
         en: "Pashupatinath Temple",
       },
 
-      image: "/global-timeboard/img/landmarks/nepal/pashupatinath.jpg",
+      image: "/global-timeboard/img/landmarks/nepal/pashupatinath.webp",
 
       description: {
         ru: `
@@ -254,7 +254,7 @@ on the UNESCO World Heritage list.
         en: "Boudhanath Stupa",
       },
 
-      image: "/global-timeboard/img/landmarks/nepal/boudhanath.jpg",
+      image: "/global-timeboard/img/landmarks/nepal/boudhanath.webp",
 
       description: {
         ru: `
@@ -321,7 +321,7 @@ on the UNESCO World Heritage list and is considered one of the most sacred place
         en: "Pokhara",
       },
 
-      image: "/global-timeboard/img/landmarks/nepal/pokhara.jpg",
+      image: "/global-timeboard/img/landmarks/nepal/pokhara.webp",
 
       description: {
         ru: `
@@ -394,7 +394,7 @@ one of the most beautiful destinations in South Asia.
         en: "Chitwan National Park",
       },
 
-      image: "/global-timeboard/img/landmarks/nepal/chitwan.jpg",
+      image: "/global-timeboard/img/landmarks/nepal/chitwan.webp",
 
       description: {
         ru: `
@@ -466,7 +466,7 @@ one of the best places in Asia to experience the wildlife of the Himalayas and S
         en: "Lumbini",
       },
 
-      image: "/global-timeboard/img/landmarks/nepal/lumbini.jpg",
+      image: "/global-timeboard/img/landmarks/nepal/lumbini.webp",
 
       description: {
         ru: `
@@ -533,7 +533,7 @@ on the UNESCO World Heritage list and is considered a spiritual center of global
         en: "Annapurna",
       },
 
-      image: "/global-timeboard/img/landmarks/nepal/annapurna.jpg",
+      image: "/global-timeboard/img/landmarks/nepal/annapurna.webp",
 
       description: {
         ru: `
@@ -602,7 +602,7 @@ one of the country’s most important tourism and mountaineering centers.
         en: "Swayambhunath",
       },
 
-      image: "/global-timeboard/img/landmarks/nepal/swayambhunath.jpg",
+      image: "/global-timeboard/img/landmarks/nepal/swayambhunath.webp",
 
       description: {
         ru: `
@@ -674,7 +674,7 @@ on the UNESCO World Heritage list and is considered one of Nepal’s national sy
         en: "Phewa Lake",
       },
 
-      image: "/global-timeboard/img/landmarks/nepal/phewa-lake.jpg",
+      image: "/global-timeboard/img/landmarks/nepal/phewa-lake.webp",
 
       description: {
         ru: `
@@ -741,7 +741,7 @@ Phewa is regarded as one of the most beautiful places in all of Nepal.
         en: "Machapuchare",
       },
 
-      image: "/global-timeboard/img/landmarks/nepal/machapuchare.jpg",
+      image: "/global-timeboard/img/landmarks/nepal/machapuchare.webp",
 
       description: {
         ru: `
@@ -814,7 +814,7 @@ Machapuchare is considered one of the most beautiful mountains in the world.
         en: "Thorong La Pass",
       },
 
-      image: "/global-timeboard/img/landmarks/nepal/thorong-la.jpg",
+      image: "/global-timeboard/img/landmarks/nepal/thorong-la.webp",
 
       description: {
         ru: `

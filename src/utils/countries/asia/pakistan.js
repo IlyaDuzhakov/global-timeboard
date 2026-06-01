@@ -96,7 +96,7 @@ Today, Pakistan remains one of the most important yet complex countries in South
         en: "K2",
       },
 
-      image: "/global-timeboard/img/landmarks/pakistan/k2.jpg",
+      image: "/global-timeboard/img/landmarks/pakistan/k2.webp",
 
       description: {
         ru: `
@@ -164,7 +164,7 @@ Today, the mountain remains one of the world’s most legendary and mysterious p
         en: "Hunza Valley",
       },
 
-      image: "/global-timeboard/img/landmarks/pakistan/hunza-valley.jpg",
+      image: "/global-timeboard/img/landmarks/pakistan/hunza-valley.webp",
 
       description: {
         ru: `
@@ -238,7 +238,7 @@ Today, the valley remains a symbol of Pakistan’s natural beauty.
         en: "Badshahi Mosque",
       },
 
-      image: "/global-timeboard/img/landmarks/pakistan/badshahi-mosque.jpg",
+      image: "/global-timeboard/img/landmarks/pakistan/badshahi-mosque.webp",
 
       description: {
         ru: `
@@ -304,7 +304,7 @@ a symbol of Pakistan’s Islamic architecture and one of the country’s greates
         en: "Lahore Fort",
       },
 
-      image: "/global-timeboard/img/landmarks/pakistan/lahore-fort.jpg",
+      image: "/global-timeboard/img/landmarks/pakistan/lahore-fort.webp",
 
       description: {
         ru: `
@@ -372,7 +372,7 @@ Today, it remains one of the country’s leading tourist attractions.
         en: "Karakoram Highway",
       },
 
-      image: "/global-timeboard/img/landmarks/pakistan/karakoram-highway.jpg",
+      image: "/global-timeboard/img/landmarks/pakistan/karakoram-highway.webp",
 
       description: {
         ru: `
@@ -446,7 +446,7 @@ tourism, trade, and strategic cooperation between Pakistan and China.
         en: "Nanga Parbat",
       },
 
-      image: "/global-timeboard/img/landmarks/pakistan/nanga-parbat.jpg",
+      image: "/global-timeboard/img/landmarks/pakistan/nanga-parbat.webp",
 
       description: {
         ru: `
@@ -524,7 +524,7 @@ Today, Nanga Parbat remains one of the symbols of mountain Pakistan and world mo
         en: "Mohenjo-daro",
       },
 
-      image: "/global-timeboard/img/landmarks/pakistan/mohenjo-daro.jpg",
+      image: "/global-timeboard/img/landmarks/pakistan/mohenjo-daro.webp",
 
       description: {
         ru: `
@@ -600,7 +600,7 @@ Today, the ruins remain a symbol of Pakistan’s ancient history and one of the 
         en: "Attabad Lake",
       },
 
-      image: "/global-timeboard/img/landmarks/pakistan/attabad-lake.jpg",
+      image: "/global-timeboard/img/landmarks/pakistan/attabad-lake.webp",
 
       description: {
         ru: `
@@ -670,7 +670,7 @@ Today, Attabad remains a symbol of northern Pakistan’s natural beauty.
         en: "Faisal Mosque",
       },
 
-      image: "/global-timeboard/img/landmarks/pakistan/faisal-mosque.jpg",
+      image: "/global-timeboard/img/landmarks/pakistan/faisal-mosque.webp",
 
       description: {
         ru: `
@@ -746,7 +746,7 @@ the country’s most important religious center and one of Islamabad’s main at
         en: "Thar Desert",
       },
 
-      image: "/global-timeboard/img/landmarks/pakistan/thar-desert.jpg",
+      image: "/global-timeboard/img/landmarks/pakistan/thar-desert.webp",
 
       description: {
         ru: `
@@ -828,7 +828,7 @@ a symbol of desert culture, tradition, and natural diversity in South Asia.
         en: "Fairy Meadows",
       },
 
-      image: "/global-timeboard/img/landmarks/pakistan/fairy-meadows.jpg",
+      image: "/global-timeboard/img/landmarks/pakistan/fairy-meadows.webp",
 
       description: {
         ru: `
@@ -906,7 +906,7 @@ a symbol of northern Pakistan’s natural beauty.
         en: "Baltit Fort",
       },
 
-      image: "/global-timeboard/img/landmarks/pakistan/baltit-fort.jpg",
+      image: "/global-timeboard/img/landmarks/pakistan/baltit-fort.webp",
 
       description: {
         ru: `
@@ -984,7 +984,7 @@ one of the symbols of Hunza Valley and Pakistan’s historical heritage.
         en: "Swat Valley",
       },
 
-      image: "/global-timeboard/img/landmarks/pakistan/swat-valley.jpg",
+      image: "/global-timeboard/img/landmarks/pakistan/swat-valley.webp",
 
       description: {
         ru: `
@@ -1064,7 +1064,7 @@ a symbol of mountain nature and Pakistan’s tourism potential.
         en: "Karachi and the Arabian Sea Coast",
       },
 
-      image: "/global-timeboard/img/landmarks/pakistan/karachi-coast.jpg",
+      image: "/global-timeboard/img/landmarks/pakistan/karachi-coast.webp",
 
       description: {
         ru: `

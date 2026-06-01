@@ -86,7 +86,7 @@ Today, India is considered one of the world’s most influential, rapidly develo
     en: "Taj Mahal",
   },
 
-  image: "/global-timeboard/img/landmarks/india/taj-mahal.jpg",
+  image: "/global-timeboard/img/landmarks/india/taj-mahal.webp",
 
   description: {
     ru: `
@@ -142,7 +142,7 @@ Today, millions of tourists from around the globe visit the Taj Mahal every year
     en: "Red Fort",
   },
 
-  image: "/global-timeboard/img/landmarks/india/red-fort.jpg",
+  image: "/global-timeboard/img/landmarks/india/red-fort.webp",
 
   description: {
     ru: `
@@ -200,7 +200,7 @@ Today, the Red Fort is listed as a <strong>UNESCO World Heritage Site</strong> a
     en: "Lotus Temple",
   },
 
-  image: "/global-timeboard/img/landmarks/india/lotus-temple.jpg",
+  image: "/global-timeboard/img/landmarks/india/lotus-temple.webp",
 
   description: {
     ru: `
@@ -261,7 +261,7 @@ At night, the illuminated structure looks especially spectacular.
     en: "Varanasi and the Ganges River",
   },
 
-  image: "/global-timeboard/img/landmarks/india/varanasi-ganges.jpg",
+  image: "/global-timeboard/img/landmarks/india/varanasi-ganges.webp",
 
   description: {
     ru: `
@@ -321,7 +321,7 @@ Today, Varanasi remains one of the world’s most famous spiritual destinations.
     en: "Jaipur — The Pink City",
   },
 
-  image: "/global-timeboard/img/landmarks/india/jaipur.jpg",
+  image: "/global-timeboard/img/landmarks/india/jaipur.webp",
 
   description: {
     ru: `
@@ -381,7 +381,7 @@ Today, Jaipur remains one of India’s most atmospheric and recognizable cities.
     en: "Hawa Mahal",
   },
 
-  image: "/global-timeboard/img/landmarks/india/hawa-mahal.jpg",
+  image: "/global-timeboard/img/landmarks/india/hawa-mahal.webp",
 
   description: {
     ru: `
@@ -435,7 +435,7 @@ The palace looks especially beautiful at sunrise when the pink sandstone glows i
     en: "Golden Temple Amritsar",
   },
 
-  image: "/global-timeboard/img/landmarks/india/golden-temple.jpg",
+  image: "/global-timeboard/img/landmarks/india/golden-temple.webp",
 
   description: {
     ru: `
@@ -497,7 +497,7 @@ Today, the Golden Temple is considered one of India’s most spiritual and atmos
     en: "The Himalayas in India",
   },
 
-  image: "/global-timeboard/img/landmarks/india/himalayas.jpg",
+  image: "/global-timeboard/img/landmarks/india/himalayas.webp",
 
   description: {
     ru: `
@@ -565,7 +565,7 @@ Many travelers consider the Himalayas one of the most beautiful places on Earth.
     en: "Rishikesh",
   },
 
-  image: "/global-timeboard/img/landmarks/india/rishikesh.jpg",
+  image: "/global-timeboard/img/landmarks/india/rishikesh.webp",
 
   description: {
     ru: `
@@ -625,7 +625,7 @@ Today, Rishikesh is considered one of India’s most spiritual and atmospheric d
     en: "Goa",
   },
 
-  image: "/global-timeboard/img/landmarks/india/goa.jpg",
+  image: "/global-timeboard/img/landmarks/india/goa.webp",
 
   description: {
     ru: `
@@ -689,7 +689,7 @@ Today, Goa remains one of Asia’s best-known travel destinations.
     en: "Gateway of India",
   },
 
-  image: "/global-timeboard/img/landmarks/india/gateway-of-india.jpg",
+  image: "/global-timeboard/img/landmarks/india/gateway-of-india.webp",
 
   description: {
     ru: `
@@ -743,7 +743,7 @@ At night, the Gateway of India is beautifully illuminated and becomes one of Mum
     en: "Ranthambore National Park",
   },
 
-  image: "/global-timeboard/img/landmarks/india/ranthambore.jpg",
+  image: "/global-timeboard/img/landmarks/india/ranthambore.webp",
 
   description: {
     ru: `
@@ -801,7 +801,7 @@ Today, Ranthambore remains one of India’s most famous national parks.
     en: "Ajanta and Ellora Caves",
   },
 
-  image: "/global-timeboard/img/landmarks/india/ajanta-ellora.jpg",
+  image: "/global-timeboard/img/landmarks/india/ajanta-ellora.webp",
 
   description: {
     ru: `
@@ -861,7 +861,7 @@ Today, they remain among the country’s most famous historical attractions.
     en: "Khajuraho Temples",
   },
 
-  image: "/global-timeboard/img/landmarks/india/khajuraho.jpg",
+  image: "/global-timeboard/img/landmarks/india/khajuraho.webp",
 
   description: {
     ru: `
@@ -925,7 +925,7 @@ tourists, historians, photographers, and cultural researchers from around the wo
     en: "Mumbai",
   },
 
-  image: "/global-timeboard/img/landmarks/india/mumbai.jpg",
+  image: "/global-timeboard/img/landmarks/india/mumbai.webp",
 
   description: {
     ru: `
@@ -989,7 +989,7 @@ Today, Mumbai remains a symbol of modern urban India and its dramatic contrasts.
     en: "Indian Railways",
   },
 
-  image: "/global-timeboard/img/landmarks/india/indian-railways.jpg",
+  image: "/global-timeboard/img/landmarks/india/indian-railways.webp",
 
   description: {
     ru: `
@@ -1055,7 +1055,7 @@ For many travelers, riding an Indian train becomes one of the most memorable par
     en: "Kerala and the Backwaters",
   },
 
-  image: "/global-timeboard/img/landmarks/india/kerala-backwaters.jpg",
+  image: "/global-timeboard/img/landmarks/india/kerala-backwaters.webp",
 
   description: {
     ru: `
@@ -1121,7 +1121,7 @@ Today, Kerala remains one of India’s most beautiful and popular tourist destin
     en: "Jama Masjid",
   },
 
-  image: "/global-timeboard/img/landmarks/india/jama-masjid.jpg",
+  image: "/global-timeboard/img/landmarks/india/jama-masjid.webp",
 
   description: {
     ru: `
@@ -1179,7 +1179,7 @@ Today, the mosque remains one of the country’s most important religious and ar
     en: "Elephant Festival and Indian Festivals",
   },
 
-  image: "/global-timeboard/img/landmarks/india/elephant-festival.jpg",
+  image: "/global-timeboard/img/landmarks/india/elephant-festival.webp",
 
   description: {
     ru: `
@@ -1253,7 +1253,7 @@ Today, India’s festivals attract millions of visitors from around the world.
     en: "Indian Space Program ISRO",
   },
 
-  image: "/global-timeboard/img/landmarks/india/isro.jpg",
+  image: "/global-timeboard/img/landmarks/india/isro.webp",
 
   description: {
     ru: `

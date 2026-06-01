@@ -280,7 +280,7 @@ rich natural resources, steppe culture, Soviet heritage, modern urban developmen
         en: "Bayterek Tower",
       },
 
-      image: "/global-timeboard/img/landmarks/kazakhstan/bayterek.jpg",
+      image: "/global-timeboard/img/landmarks/kazakhstan/bayterek.webp",
 
       description: {
         ru: `
@@ -385,7 +385,7 @@ one of Kazakhstan’s main tourist and architectural symbols.
         en: "Khan Shatyr",
       },
 
-      image: "/global-timeboard/img/landmarks/kazakhstan/khan-shatyr.jpg",
+      image: "/global-timeboard/img/landmarks/kazakhstan/khan-shatyr.webp",
 
       description: {
         ru: `
@@ -490,7 +490,7 @@ one of the main shopping and entertainment centers of modern Kazakhstan.
         en: "Palace of Peace and Reconciliation",
       },
 
-      image: "/global-timeboard/img/landmarks/kazakhstan/pyramid.jpg",
+      image: "/global-timeboard/img/landmarks/kazakhstan/pyramid.webp",
 
       description: {
         ru: `
@@ -594,7 +594,7 @@ an important symbol of international dialogue and modern Kazakh architecture.
         en: "Hazrat Sultan Mosque",
       },
 
-      image: "/global-timeboard/img/landmarks/kazakhstan/hazrat-sultan.jpg",
+      image: "/global-timeboard/img/landmarks/kazakhstan/hazrat-sultan.webp",
 
       description: {
         ru: `
@@ -681,7 +681,7 @@ one of Astana’s most visited landmarks.
         en: "National Museum of Kazakhstan",
       },
 
-      image: "/global-timeboard/img/landmarks/kazakhstan/national-museum.jpg",
+      image: "/global-timeboard/img/landmarks/kazakhstan/national-museum.webp",
 
       description: {
         ru: `
@@ -770,7 +770,7 @@ one of Astana’s main cultural attractions.
         en: "Baikonur Cosmodrome",
       },
 
-      image: "/global-timeboard/img/landmarks/kazakhstan/baikonur.jpg",
+      image: "/global-timeboard/img/landmarks/kazakhstan/baikonur.webp",
 
       description: {
         ru: `
@@ -868,7 +868,7 @@ an important international center for space launches.
         en: "Charyn Canyon",
       },
 
-      image: "/global-timeboard/img/landmarks/kazakhstan/charyn-canyon.jpg",
+      image: "/global-timeboard/img/landmarks/kazakhstan/charyn-canyon.webp",
 
       description: {
         ru: `
@@ -959,7 +959,7 @@ one of the most impressive natural places in Central Asia.
         en: "Kolsai Lakes",
       },
 
-      image: "/global-timeboard/img/landmarks/kazakhstan/kolsai.jpg",
+      image: "/global-timeboard/img/landmarks/kazakhstan/kolsai.webp",
 
       description: {
         ru: `
@@ -1050,7 +1050,7 @@ one of Kazakhstan’s main natural attractions.
         en: "Kaindy Lake",
       },
 
-      image: "/global-timeboard/img/landmarks/kazakhstan/kaindy.jpg",
+      image: "/global-timeboard/img/landmarks/kazakhstan/kaindy.webp",
 
       description: {
         ru: `
@@ -1140,7 +1140,7 @@ one of Central Asia’s most unique natural attractions.
         en: "Big Almaty Lake",
       },
 
-      image: "/global-timeboard/img/landmarks/kazakhstan/big-almaty-lake.jpg",
+      image: "/global-timeboard/img/landmarks/kazakhstan/big-almaty-lake.webp",
 
       description: {
         ru: `
@@ -1231,7 +1231,7 @@ one of the natural symbols of Almaty and Kazakhstan.
         en: "Medeu",
       },
 
-      image: "/global-timeboard/img/landmarks/kazakhstan/medeu.jpg",
+      image: "/global-timeboard/img/landmarks/kazakhstan/medeu.webp",
 
       description: {
         ru: `
@@ -1322,7 +1322,7 @@ one of Almaty’s most popular attractions.
         en: "Shymbulak",
       },
 
-      image: "/global-timeboard/img/landmarks/kazakhstan/shymbulak.jpg",
+      image: "/global-timeboard/img/landmarks/kazakhstan/shymbulak.webp",
 
       description: {
         ru: `
@@ -1412,7 +1412,7 @@ one of Kazakhstan’s most popular tourist attractions.
         en: "Altyn-Emel National Park",
       },
 
-      image: "/global-timeboard/img/landmarks/kazakhstan/altyn-emel.jpg",
+      image: "/global-timeboard/img/landmarks/kazakhstan/altyn-emel.webp",
 
       description: {
         ru: `
@@ -1503,7 +1503,7 @@ one of Kazakhstan’s main natural attractions.
         en: "Singing Dune",
       },
 
-      image: "/global-timeboard/img/landmarks/kazakhstan/singing-dune.jpg",
+      image: "/global-timeboard/img/landmarks/kazakhstan/singing-dune.webp",
 
       description: {
         ru: `
@@ -1594,7 +1594,7 @@ one of the main attractions of Altyn-Emel National Park.
         en: "Mausoleum of Khoja Ahmed Yasawi",
       },
 
-      image: "/global-timeboard/img/landmarks/kazakhstan/yasawi.jpg",
+      image: "/global-timeboard/img/landmarks/kazakhstan/yasawi.webp",
 
       description: {
         ru: `
@@ -1684,7 +1684,7 @@ one of Kazakhstan’s main historical landmarks.
         en: "Turkistan",
       },
 
-      image: "/global-timeboard/img/landmarks/kazakhstan/turkistan.jpg",
+      image: "/global-timeboard/img/landmarks/kazakhstan/turkistan.webp",
 
       description: {
         ru: `
@@ -1775,7 +1775,7 @@ one of Kazakhstan’s main historical symbols.
         en: "Bozzhyra",
       },
 
-      image: "/global-timeboard/img/landmarks/kazakhstan/bozzhyra.jpg",
+      image: "/global-timeboard/img/landmarks/kazakhstan/bozzhyra.webp",
 
       description: {
         ru: `
@@ -1860,7 +1860,7 @@ one of western Kazakhstan’s natural symbols.
         en: "Mangystau",
       },
 
-      image: "/global-timeboard/img/landmarks/kazakhstan/mangystau.jpg",
+      image: "/global-timeboard/img/landmarks/kazakhstan/mangystau.webp",
 
       description: {
         ru: `

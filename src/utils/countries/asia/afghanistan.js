@@ -92,7 +92,7 @@ Today, Afghanistan remains a country with a highly complex political situation, 
         en: "Bamiyan Buddhas",
       },
 
-      image: "/global-timeboard/img/landmarks/afghanistan/bamiyan-buddhas.jpg",
+      image: "/global-timeboard/img/landmarks/afghanistan/bamiyan-buddhas.webp",
 
       description: {
         ru: `
@@ -162,7 +162,7 @@ on the UNESCO World Heritage list.
         en: "Minaret of Jam",
       },
 
-      image: "/global-timeboard/img/landmarks/afghanistan/minaret-of-jam.jpg",
+      image: "/global-timeboard/img/landmarks/afghanistan/minaret-of-jam.webp",
 
       description: {
         ru: `
@@ -239,7 +239,7 @@ and is regarded as one of Afghanistan’s greatest historical landmarks.
         en: "Blue Mosque of Mazar-i-Sharif",
       },
 
-      image: "/global-timeboard/img/landmarks/afghanistan/blue-mosque.jpg",
+      image: "/global-timeboard/img/landmarks/afghanistan/blue-mosque.webp",
 
       description: {
         ru: `
@@ -316,7 +316,7 @@ one of the most recognizable landmarks in Afghanistan.
         en: "Band-e Amir Lakes",
       },
 
-      image: "/global-timeboard/img/landmarks/afghanistan/band-e-amir.jpg",
+      image: "/global-timeboard/img/landmarks/afghanistan/band-e-amir.webp",
 
       description: {
         ru: `
@@ -392,7 +392,7 @@ one of Afghanistan’s greatest natural attractions.
         en: "Gardens of Babur",
       },
 
-      image: "/global-timeboard/img/landmarks/afghanistan/gardens-of-babur.jpg",
+      image: "/global-timeboard/img/landmarks/afghanistan/gardens-of-babur.webp",
 
       description: {
         ru: `
@@ -480,7 +480,7 @@ and learning about Afghan history.
         en: "Citadel of Herat",
       },
 
-      image: "/global-timeboard/img/landmarks/afghanistan/herat-citadel.jpg",
+      image: "/global-timeboard/img/landmarks/afghanistan/herat-citadel.webp",
 
       description: {
         ru: `
@@ -562,7 +562,7 @@ into a museum and historical center.
         en: "National Museum of Afghanistan",
       },
 
-      image: "/global-timeboard/img/landmarks/afghanistan/kabul-museum.jpg",
+      image: "/global-timeboard/img/landmarks/afghanistan/kabul-museum.webp",
 
       description: {
         ru: `
@@ -597,7 +597,7 @@ Today, the National Museum of Afghanistan remains an important symbol of the cou
         en: "Hindu Kush Mountains",
       },
 
-      image: "/global-timeboard/img/landmarks/afghanistan/hindu-kush.jpg",
+      image: "/global-timeboard/img/landmarks/afghanistan/hindu-kush.webp",
 
       description: {
         ru: `
@@ -632,7 +632,7 @@ For Afghanistan, the Hindu Kush has both natural and strategic importance. The m
         en: "Salang Pass",
       },
 
-      image: "/global-timeboard/img/landmarks/afghanistan/salang-pass.jpg",
+      image: "/global-timeboard/img/landmarks/afghanistan/salang-pass.webp",
 
       description: {
         ru: `
@@ -666,7 +666,7 @@ Despite the harsh environment, the region is famous for its dramatic mountain sc
         en: "Old Herat",
       },
 
-      image: "/global-timeboard/img/landmarks/afghanistan/old-herat.jpg",
+      image: "/global-timeboard/img/landmarks/afghanistan/old-herat.webp",
 
       description: {
         ru: `
@@ -714,7 +714,7 @@ Today, Old Herat remains an important part of Afghanistan’s historical heritag
       },
 
       image:
-        "/global-timeboard/img/landmarks/afghanistan/friday-mosque-herat.jpg",
+        "/global-timeboard/img/landmarks/afghanistan/friday-mosque-herat.webp",
 
       description: {
         ru: `
@@ -781,7 +781,7 @@ one of the most recognizable landmarks of Herat and Afghanistan.
         en: "Panjshir Valley",
       },
 
-      image: "/global-timeboard/img/landmarks/afghanistan/panjshir-valley.jpg",
+      image: "/global-timeboard/img/landmarks/afghanistan/panjshir-valley.webp",
 
       description: {
         ru: `
@@ -845,7 +845,7 @@ one of the most beautiful mountain regions in Afghanistan and a symbol of the co
         en: "Kabul Bazaar",
       },
 
-      image: "/global-timeboard/img/landmarks/afghanistan/kabul-bazaar.jpg",
+      image: "/global-timeboard/img/landmarks/afghanistan/kabul-bazaar.webp",
 
       description: {
         ru: `
@@ -927,7 +927,7 @@ one of the most atmospheric attractions in the capital city.
         en: "Bala Hissar Fortress",
       },
 
-      image: "/global-timeboard/img/landmarks/afghanistan/bala-hissar.jpg",
+      image: "/global-timeboard/img/landmarks/afghanistan/bala-hissar.webp",
 
       description: {
         ru: `

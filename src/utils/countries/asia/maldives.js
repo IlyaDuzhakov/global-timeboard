@@ -124,7 +124,7 @@ a <strong>small island state</strong> with a developed tourism sector, unique na
         en: "Male",
       },
 
-      image: "/global-timeboard/img/landmarks/maldives/male.jpg",
+      image: "/global-timeboard/img/landmarks/maldives/male.webp",
 
       description: {
         ru: `
@@ -193,7 +193,7 @@ connecting the many islands and atolls of the Maldives.
         en: "Vaadhoo Island",
       },
 
-      image: "/global-timeboard/img/landmarks/maldives/vaadhoo.jpg",
+      image: "/global-timeboard/img/landmarks/maldives/vaadhoo.webp",
 
       description: {
         ru: `
@@ -258,7 +258,7 @@ its peaceful atmosphere, white beaches, and crystal-clear water.
         en: "Banana Reef",
       },
 
-      image: "/global-timeboard/img/landmarks/maldives/banana-reef.jpg",
+      image: "/global-timeboard/img/landmarks/maldives/banana-reef.webp",
 
       description: {
         ru: `
@@ -325,7 +325,7 @@ as a symbol of Maldivian underwater tourism.
         en: "Baa Atoll",
       },
 
-      image: "/global-timeboard/img/landmarks/maldives/baa-atoll.jpg",
+      image: "/global-timeboard/img/landmarks/maldives/baa-atoll.webp",
 
       description: {
         ru: `
@@ -389,7 +389,7 @@ an important example of environmental protection and sustainable tourism in the 
         en: "Maafushi Island",
       },
 
-      image: "/global-timeboard/img/landmarks/maldives/maafushi.jpg",
+      image: "/global-timeboard/img/landmarks/maldives/maafushi.webp",
 
       description: {
         ru: `
@@ -456,7 +456,7 @@ one of the main centers of local tourism in the Maldives.
         en: "Grand Friday Mosque",
       },
 
-      image: "/global-timeboard/img/landmarks/maldives/grand-friday-mosque.jpg",
+      image: "/global-timeboard/img/landmarks/maldives/grand-friday-mosque.webp",
 
       description: {
         ru: `
@@ -521,7 +521,7 @@ one of the most recognizable landmarks in the country.
         en: "Hulhumale",
       },
 
-      image: "/global-timeboard/img/landmarks/maldives/hulhumale.jpg",
+      image: "/global-timeboard/img/landmarks/maldives/hulhumale.webp",
 
       description: {
         ru: `
@@ -587,7 +587,7 @@ urban development, modernization, and adaptation to climate challenges.
         en: "Hanifaru Bay",
       },
 
-      image: "/global-timeboard/img/landmarks/maldives/hanifaru-bay.jpg",
+      image: "/global-timeboard/img/landmarks/maldives/hanifaru-bay.webp",
 
       description: {
         ru: `
@@ -648,7 +648,7 @@ in marine conservation efforts in the Maldives.
         en: "National Museum of Maldives",
       },
 
-      image: "/global-timeboard/img/landmarks/maldives/national-museum.jpg",
+      image: "/global-timeboard/img/landmarks/maldives/national-museum.webp",
 
       description: {
         ru: `
@@ -716,7 +716,7 @@ to explore the country's history and heritage.
         en: "Fuvahmulah Island",
       },
 
-      image: "/global-timeboard/img/landmarks/maldives/fuvahmulah.jpg",
+      image: "/global-timeboard/img/landmarks/maldives/fuvahmulah.webp",
 
       description: {
         ru: `
@@ -795,7 +795,7 @@ different from many other parts of the Maldives.
       },
 
       image:
-        "/global-timeboard/img/landmarks/maldives/underwater-restaurant.jpg",
+        "/global-timeboard/img/landmarks/maldives/underwater-restaurant.webp",
 
       description: {
         ru: `
@@ -864,7 +864,7 @@ thousands of visitors from around the world.
         en: "Addu Atoll",
       },
 
-      image: "/global-timeboard/img/landmarks/maldives/addu-atoll.jpg",
+      image: "/global-timeboard/img/landmarks/maldives/addu-atoll.webp",
 
       description: {
         ru: `
@@ -945,7 +945,7 @@ Addu one of the most peaceful and scenic locations in the Maldives.
         en: "Sun Island",
       },
 
-      image: "/global-timeboard/img/landmarks/maldives/sun-island.jpg",
+      image: "/global-timeboard/img/landmarks/maldives/sun-island.webp",
 
       description: {
         ru: `
@@ -1027,7 +1027,7 @@ one of the most popular tourist destinations in the Maldives.
         en: "Artificial Beach",
       },
 
-      image: "/global-timeboard/img/landmarks/maldives/artificial-beach.jpg",
+      image: "/global-timeboard/img/landmarks/maldives/artificial-beach.webp",
 
       description: {
         ru: `
@@ -1096,7 +1096,7 @@ one of the most famous recreational areas in the capital.
         en: "Coral Reefs of Maldives",
       },
 
-      image: "/global-timeboard/img/landmarks/maldives/coral-reefs.jpg",
+      image: "/global-timeboard/img/landmarks/maldives/coral-reefs.webp",
 
       description: {
         ru: `
@@ -1189,7 +1189,7 @@ one of the Maldives' most important environmental priorities.
         en: "Veligandu Island",
       },
 
-      image: "/global-timeboard/img/landmarks/maldives/veligandu.jpg",
+      image: "/global-timeboard/img/landmarks/maldives/veligandu.webp",
 
       description: {
         ru: `
@@ -1271,7 +1271,7 @@ one of the most beautiful romantic destinations in the Maldives.
         en: "Cocoa Island",
       },
 
-      image: "/global-timeboard/img/landmarks/maldives/cocoa-island.jpg",
+      image: "/global-timeboard/img/landmarks/maldives/cocoa-island.webp",
 
       description: {
         ru: `
@@ -1344,7 +1344,7 @@ one of the most atmospheric and secluded resorts in the Maldives.
         en: "Ari Atoll",
       },
 
-      image: "/global-timeboard/img/landmarks/maldives/ari-atoll.jpg",
+      image: "/global-timeboard/img/landmarks/maldives/ari-atoll.webp",
 
       description: {
         ru: `

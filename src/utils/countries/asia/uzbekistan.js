@@ -136,7 +136,7 @@ ancient history, Islamic architecture, Soviet heritage, and modern development.
         en: "Registan",
       },
 
-      image: "/global-timeboard/img/landmarks/uzbekistan/registan.jpg",
+      image: "/global-timeboard/img/landmarks/uzbekistan/registan.webp",
 
       description: {
         ru: `
@@ -239,7 +239,7 @@ thanks to artistic illumination.
         en: "Samarkand",
       },
 
-      image: "/global-timeboard/img/landmarks/uzbekistan/samarkand.jpg",
+      image: "/global-timeboard/img/landmarks/uzbekistan/samarkand.webp",
 
       description: {
         ru: `
@@ -342,7 +342,7 @@ for its ancient architecture, history, and Silk Road atmosphere.
         en: "Bukhara",
       },
 
-      image: "/global-timeboard/img/landmarks/uzbekistan/bukhara.jpg",
+      image: "/global-timeboard/img/landmarks/uzbekistan/bukhara.webp",
 
       description: {
         ru: `
@@ -438,7 +438,7 @@ one of Uzbekistan’s most important tourism and spiritual centers.
         en: "Khiva",
       },
 
-      image: "/global-timeboard/img/landmarks/uzbekistan/khiva.jpg",
+      image: "/global-timeboard/img/landmarks/uzbekistan/khiva.webp",
 
       description: {
         ru: `
@@ -536,7 +536,7 @@ one of Uzbekistan’s most famous historical cities.
       },
 
       image:
-        "/global-timeboard/img/landmarks/uzbekistan/independence-square.jpg",
+        "/global-timeboard/img/landmarks/uzbekistan/independence-square.webp",
 
       description: {
         ru: `
@@ -627,7 +627,7 @@ an important political and cultural center of the country.
         en: "Bibi-Khanym Mosque",
       },
 
-      image: "/global-timeboard/img/landmarks/uzbekistan/bibi-khanym.jpg",
+      image: "/global-timeboard/img/landmarks/uzbekistan/bibi-khanym.webp",
 
       description: {
         ru: `
@@ -717,7 +717,7 @@ against the blue sky and evening illumination.
     en: "Shah-i-Zinda",
   },
 
-  image: "/global-timeboard/img/landmarks/uzbekistan/shah-i-zinda.jpg",
+  image: "/global-timeboard/img/landmarks/uzbekistan/shah-i-zinda.webp",
 
   description: {
     ru: `
@@ -814,7 +814,7 @@ one of Samarkand’s main symbols.
     en: "Ark Fortress",
   },
 
-  image: "/global-timeboard/img/landmarks/uzbekistan/ark-fortress.jpg",
+  image: "/global-timeboard/img/landmarks/uzbekistan/ark-fortress.webp",
 
   description: {
     ru: `
@@ -911,7 +911,7 @@ one of Uzbekistan’s most important landmarks.
     en: "Minor Mosque",
   },
 
-  image: "/global-timeboard/img/landmarks/uzbekistan/minor-mosque.jpg",
+  image: "/global-timeboard/img/landmarks/uzbekistan/minor-mosque.webp",
 
   description: {
     ru: `
@@ -1001,7 +1001,7 @@ one of Uzbekistan’s most recognizable modern landmarks.
     en: "Ulugh Beg Observatory",
   },
 
-  image: "/global-timeboard/img/landmarks/uzbekistan/ulugh-beg-observatory.jpg",
+  image: "/global-timeboard/img/landmarks/uzbekistan/ulugh-beg-observatory.webp",
 
   description: {
     ru: `
@@ -1098,7 +1098,7 @@ a symbol of scientific progress in the medieval East.
     en: "Kyzylkum Desert",
   },
 
-  image: "/global-timeboard/img/landmarks/uzbekistan/kyzylkum.jpg",
+  image: "/global-timeboard/img/landmarks/uzbekistan/kyzylkum.webp",
 
   description: {
     ru: `
@@ -1194,7 +1194,7 @@ one of Uzbekistan’s best-known natural regions.
     en: "Monument to Alisher Navoi",
   },
 
-  image: "/global-timeboard/img/landmarks/uzbekistan/alisher-navoi-monument.jpg",
+  image: "/global-timeboard/img/landmarks/uzbekistan/alisher-navoi-monument.webp",
 
   description: {
     ru: `
@@ -1290,7 +1290,7 @@ one of Tashkent’s most recognizable cultural landmarks.
     en: "Hazrati Imam Complex",
   },
 
-  image: "/global-timeboard/img/landmarks/uzbekistan/hazrati-imam.jpg",
+  image: "/global-timeboard/img/landmarks/uzbekistan/hazrati-imam.webp",
 
   description: {
     ru: `
@@ -1375,7 +1375,7 @@ one of Tashkent’s main religious landmarks.
     en: "Charvak Reservoir",
   },
 
-  image: "/global-timeboard/img/landmarks/uzbekistan/charvak.jpg",
+  image: "/global-timeboard/img/landmarks/uzbekistan/charvak.webp",
 
   description: {
     ru: `

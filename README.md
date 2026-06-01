@@ -5,6 +5,9 @@
 ![Status](https://img.shields.io/badge/status-active%20development-brown)
 ![Deploy](https://github.com/IlyaDuzhakov/global-timeboard/actions/workflows/deploy.yml/badge.svg)
 
+![Demo](public/media/global-timeboard-demo.gif)
+Interactive World Atlas • World Clocks • Geography Learning • Quizzes
+
 **Global Timeboard** is an interactive React PWA that combines world time, an SVG world map, and a country information system.
 
 The project is built as a personal geography-focused application with a vintage atlas interface.
@@ -21,37 +24,47 @@ The project is built as a personal geography-focused application with a vintage 
 
 ![Desktop clocks](public/screenshots/desktop-clocks.jpg)
 
-![Desktop map](public/screenshots/desktop-map.webp)
-
 ### Mobile
 
 ![Mobile home](public/screenshots/mobile.webp)
 
-![Mobile countries](public/screenshots/mobile-countries.webp)
 
 ### Country Page
 
 ![Country page](public/screenshots/country-page.webp)
 
-### Quiz
+### Quiz Hub
 
-![Quiz](public/screenshots/quiz.webp)
+![Quiz Hub](public/screenshots/quiz-hub.webp)
+
+### Learn Flags
+
+![Learn Flags](public/screenshots/learn-flags.webp)
+
+### Flag Quiz
+
+![Flag Quiz](public/screenshots/flag-quiz.webp)
+
+### Junior Geography
+
+![Junior Geography](public/screenshots/junior-geography.webp)
 
 ---
 
 ## Features
 
-- World time for selected capitals
-- Up to 6 analog clocks
-- Real IANA timezones with daylight saving support
-- Interactive SVG world map
+- Interactive world map
+- World clocks with real IANA timezones
 - Country information pages
-- Landmarks with images and descriptions
-- Interesting facts
-- Country quizzes
+- Learn Flags mode
+- Flag Quiz
+- Capitals Quiz
+- Junior Geography Quiz
+- Educational facts after answers
+- Landmarks and points of interest
 - Russian and English language support
-- Responsive desktop, tablet, and mobile layout
-- PWA support
+- Responsive desktop and mobile layout
+- Progressive Web App (PWA)
 
 ---
 

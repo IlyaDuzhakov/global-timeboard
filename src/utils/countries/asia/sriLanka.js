@@ -183,7 +183,7 @@ one of South Asia’s most famous island nations with a rich history and culture
         en: "Sigiriya",
       },
 
-      image: "/global-timeboard/img/landmarks/sri-lanka/sigiriya.jpg",
+      image: "/global-timeboard/img/landmarks/sri-lanka/sigiriya.webp",
 
       description: {
         ru: `
@@ -268,7 +268,7 @@ one of Sri Lanka’s main symbols and one of Asia’s most famous ancient monume
         en: "Temple of the Tooth",
       },
 
-      image: "/global-timeboard/img/landmarks/sri-lanka/temple-of-tooth.jpg",
+      image: "/global-timeboard/img/landmarks/sri-lanka/temple-of-tooth.webp",
 
       description: {
         ru: `
@@ -349,7 +349,7 @@ one of the most important spiritual landmarks in South Asia.
         en: "Nine Arch Bridge",
       },
 
-      image: "/global-timeboard/img/landmarks/sri-lanka/nine-arch-bridge.jpg",
+      image: "/global-timeboard/img/landmarks/sri-lanka/nine-arch-bridge.webp",
 
       description: {
         ru: `
@@ -427,7 +427,7 @@ one of the most recognizable modern symbols of Sri Lanka.
         en: "Adam’s Peak",
       },
 
-      image: "/global-timeboard/img/landmarks/sri-lanka/adams-peak.jpg",
+      image: "/global-timeboard/img/landmarks/sri-lanka/adams-peak.webp",
 
       description: {
         ru: `
@@ -518,7 +518,7 @@ one of Sri Lanka’s most mystical and spiritual places.
         en: "Yala National Park",
       },
 
-      image: "/global-timeboard/img/landmarks/sri-lanka/yala.jpg",
+      image: "/global-timeboard/img/landmarks/sri-lanka/yala.webp",
 
       description: {
         ru: `
@@ -591,7 +591,7 @@ one of Sri Lanka’s main natural attractions and a center of eco-tourism.
         en: "Galle Fort",
       },
 
-      image: "/global-timeboard/img/landmarks/sri-lanka/galle-fort.jpg",
+      image: "/global-timeboard/img/landmarks/sri-lanka/galle-fort.webp",
 
       description: {
         ru: `
@@ -669,7 +669,7 @@ an important tourist, historical, and cultural center of the island.
         en: "Ella",
       },
 
-      image: "/global-timeboard/img/landmarks/sri-lanka/ella.jpg",
+      image: "/global-timeboard/img/landmarks/sri-lanka/ella.webp",
 
       description: {
         ru: `
@@ -748,7 +748,7 @@ one of Sri Lanka’s best destinations for eco-tourism and mountain relaxation.
         en: "Dambulla Cave Temple",
       },
 
-      image: "/global-timeboard/img/landmarks/sri-lanka/dambulla.jpg",
+      image: "/global-timeboard/img/landmarks/sri-lanka/dambulla.webp",
 
       description: {
         ru: `
@@ -827,7 +827,7 @@ a UNESCO World Heritage Site and one of the country’s most important religious
         en: "Kandy to Ella Train Route",
       },
 
-      image: "/global-timeboard/img/landmarks/sri-lanka/kandy-ella-train.jpg",
+      image: "/global-timeboard/img/landmarks/sri-lanka/kandy-ella-train.webp",
 
       description: {
         ru: `
@@ -899,7 +899,7 @@ to experience the island’s mountain landscapes and tea-growing regions.
         en: "Nuwara Eliya",
       },
 
-      image: "/global-timeboard/img/landmarks/sri-lanka/nuwara-eliya.jpg",
+      image: "/global-timeboard/img/landmarks/sri-lanka/nuwara-eliya.webp",
 
       description: {
         ru: `
@@ -978,7 +978,7 @@ one of Sri Lanka’s most scenic and atmospheric regions.
         en: "Mirissa",
       },
 
-      image: "/global-timeboard/img/landmarks/sri-lanka/mirissa.jpg",
+      image: "/global-timeboard/img/landmarks/sri-lanka/mirissa.webp",
 
       description: {
         ru: `
@@ -1051,7 +1051,7 @@ one of Sri Lanka’s most famous seaside destinations.
         en: "Polonnaruwa",
       },
 
-      image: "/global-timeboard/img/landmarks/sri-lanka/polonnaruwa.jpg",
+      image: "/global-timeboard/img/landmarks/sri-lanka/polonnaruwa.webp",
 
       description: {
         ru: `
@@ -1129,7 +1129,7 @@ one of Sri Lanka’s main historical and cultural centers.
         en: "Anuradhapura",
       },
 
-      image: "/global-timeboard/img/landmarks/sri-lanka/anuradhapura.jpg",
+      image: "/global-timeboard/img/landmarks/sri-lanka/anuradhapura.webp",
 
       description: {
         ru: `
@@ -1208,7 +1208,7 @@ one of South Asia’s most important spiritual and historical centers.
         en: "Unawatuna",
       },
 
-      image: "/global-timeboard/img/landmarks/sri-lanka/unawatuna.jpg",
+      image: "/global-timeboard/img/landmarks/sri-lanka/unawatuna.webp",
 
       description: {
         ru: `
@@ -1282,7 +1282,7 @@ one of Sri Lanka’s most popular tourist destinations.
         en: "Pinnawala Elephant Orphanage",
       },
 
-      image: "/global-timeboard/img/landmarks/sri-lanka/pinnawala.jpg",
+      image: "/global-timeboard/img/landmarks/sri-lanka/pinnawala.webp",
 
       description: {
         ru: `
@@ -1360,7 +1360,7 @@ one of Sri Lanka’s most visited wildlife attractions.
         en: "Minneriya National Park",
       },
 
-      image: "/global-timeboard/img/landmarks/sri-lanka/minneriya.jpg",
+      image: "/global-timeboard/img/landmarks/sri-lanka/minneriya.webp",
 
       description: {
         ru: `
@@ -1433,7 +1433,7 @@ one of Sri Lanka’s most important natural parks.
         en: "Ravana Falls",
       },
 
-      image: "/global-timeboard/img/landmarks/sri-lanka/ravana-falls.jpg",
+      image: "/global-timeboard/img/landmarks/sri-lanka/ravana-falls.webp",
 
       description: {
         ru: `
@@ -1506,7 +1506,7 @@ one of central Sri Lanka’s most famous natural attractions.
         en: "Sinharaja Forest Reserve",
       },
 
-      image: "/global-timeboard/img/landmarks/sri-lanka/sinharaja.jpg",
+      image: "/global-timeboard/img/landmarks/sri-lanka/sinharaja.webp",
 
       description: {
         ru: `
