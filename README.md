@@ -6,6 +6,8 @@
 ![Deploy](https://github.com/IlyaDuzhakov/global-timeboard/actions/workflows/deploy.yml/badge.svg)
 
 ![Demo](public/media/global-timeboard-demo.gif)
+
+
 Interactive World Atlas • World Clocks • Geography Learning • Quizzes
 
 **Global Timeboard** is an interactive React PWA that combines world time, an SVG world map, and a country information system.
