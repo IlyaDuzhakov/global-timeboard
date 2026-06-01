@@ -1,0 +1,128 @@
+.juniorQuiz {
+  min-height: 100vh;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.panel {
+  width: 100%;
+  max-width: 760px;
+  padding: 36px;
+  border-radius: 28px;
+  background: rgba(238, 216, 162, 0.96);
+  text-align: center;
+}
+
+.title {
+  font-size: 42px;
+  margin: 0 0 12px;
+}
+
+.progress,
+.score {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.question {
+  margin: 30px 0;
+  font-size: 36px;
+  line-height: 1.3;
+}
+
+.optionsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-bottom: 30px;
+}
+
+.optionButton,
+.nextButton,
+.backButton {
+  border: none;
+  border-radius: 16px;
+  background: #071428;
+  color: white;
+  padding: 16px 20px;
+  font-weight: 800;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.optionButton.correctOption {
+  background: #1f8f3a;
+}
+
+.optionButton.wrongOption {
+  background: #b42323;
+}
+
+.result {
+  margin-top: 24px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.nextButton {
+  margin-top: 12px;
+}
+
+.backButton {
+  width: fit-content;
+  margin: 28px auto 0;
+  display: flex;
+}
+
+.finishBox {
+  margin-top: 30px;
+}
+
+.finishBox h2 {
+  margin-bottom: 16px;
+}
+
+.factBox {
+  margin: 18px auto 0;
+  padding: 16px 18px;
+  max-width: 620px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.55);
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 700;
+}
+
+@media (max-width: 600px) {
+  .optionsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .title {
+    font-size: 34px;
+  }
+
+  .question {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 420px) {
+  .panel {
+    padding: 24px 14px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .question {
+    font-size: 24px;
+  }
+
+  .optionButton {
+    min-height: 52px;
+    font-size: 14px;
+  }
+}

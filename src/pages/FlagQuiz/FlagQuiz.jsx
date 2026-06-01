@@ -168,7 +168,17 @@ export function FlagQuiz({ lang = "ru" }) {
           {currentQuestion.options.map((option) => (
             <button
               key={option}
-              className={styles.optionButton}
+              className={`${styles.optionButton} ${
+                isAnswered && option === currentQuestion.correctAnswer
+                  ? styles.correctOption
+                  : ""
+              } ${
+                isAnswered &&
+                option === selectedAnswer &&
+                option !== currentQuestion.correctAnswer
+                  ? styles.wrongOption
+                  : ""
+              }`}
               onClick={() => handleAnswer(option)}
               disabled={isAnswered}
             >

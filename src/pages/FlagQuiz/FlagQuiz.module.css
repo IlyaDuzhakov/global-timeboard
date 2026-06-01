@@ -58,10 +58,10 @@
   text-decoration: none;
 }
 
-.optionButton:disabled {
+/* .optionButton:disabled {
   cursor: default;
   opacity: 0.8;
-}
+} */
 
 .result {
   margin-top: 24px;
@@ -177,6 +177,16 @@
   text-align: center;
 }
 
+.correctOption {
+  background: #1f8f3a;
+  color: white;
+}
+
+.wrongOption {
+  background: #b42323;
+  color: white;
+}
+
 
 @media (max-width: 600px) {
   .optionsGrid {
@@ -266,6 +276,8 @@
     min-height: 48px;
     font-size: 14px;
   }
+
+
 
   .result {
     font-size: 20px;

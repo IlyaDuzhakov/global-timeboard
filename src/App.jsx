@@ -14,6 +14,8 @@ import { QuizRoom } from "./pages/QuizRoom/QuizRoom.jsx";
 import { FlagQuiz } from "./pages/FlagQuiz/FlagQuiz.jsx";
 import { FlagRegionSelect } from "./pages/FlagRegionSelect/FlagRegionSelect";
 import { FlagLearn } from "./pages/FlagLearn/FlagLearn";
+import { CapitalQuiz } from "./pages/CapitalQuiz/CapitalQuiz.jsx";
+import { JuniorQuiz } from "./pages/JuniorQuiz/JuniorQuiz.jsx";
 
 function App() {
   const [lang, setLang] = useState("ru");
@@ -105,6 +107,11 @@ function App() {
         path="/quiz/flags/learn/:region"
         element={<FlagLearn lang={lang} />}
       />
+      <Route
+        path="/quiz/capitals/play/:region"
+        element={<CapitalQuiz lang={lang} />}
+      />
+      <Route path="/quiz/junior" element={<JuniorQuiz lang={lang} />} />
     </Routes>
   );
 }

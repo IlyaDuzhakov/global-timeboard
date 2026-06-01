@@ -21,6 +21,7 @@ export function QuizRoom({ lang }) {
       iconSrc: "/global-timeboard/icons/quiz-capitals.png",
       title: { ru: "Столицы", en: "Capitals" },
       text: { ru: "Проверь столицы мира", en: "Test world capitals" },
+      path: "/quiz/capitals/play/world",
     },
     {
       iconSrc: "/global-timeboard/icons/quiz-currencies.png",
@@ -34,6 +35,7 @@ export function QuizRoom({ lang }) {
       iconSrc: "/global-timeboard/icons/quiz-junior.png",
       title: { ru: "Junior", en: "Junior" },
       text: { ru: "40 лёгких вопросов", en: "40 easy questions" },
+      path: "/quiz/junior",
     },
     {
       iconSrc: "/global-timeboard/icons/quiz-middle.png",

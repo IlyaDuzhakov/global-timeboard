@@ -11,7 +11,7 @@ const AnalogClock = ({ time, title, onDelete }) => {
       <div
         className={classes.clock}
         style={{
-          backgroundImage: `url(${process.env.PUBLIC_URL}/img/clock-face.png)`,
+          backgroundImage: `url(${process.env.PUBLIC_URL}/img/clock-face.webp)`,
         }}
       >
         <div

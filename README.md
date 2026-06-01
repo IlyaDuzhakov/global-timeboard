@@ -19,23 +19,23 @@ The project is built as a personal geography-focused application with a vintage 
 
 ### Desktop
 
-![Desktop clocks](public/screenshots/desktop-clocks.png)
+![Desktop clocks](public/screenshots/desktop-clocks.jpg)
 
-![Desktop map](public/screenshots/desktop-map.png)
+![Desktop map](public/screenshots/desktop-map.webp)
 
 ### Mobile
 
-![Mobile home](public/screenshots/mobile.png)
+![Mobile home](public/screenshots/mobile.webp)
 
-![Mobile countries](public/screenshots/mobile-countries.png)
+![Mobile countries](public/screenshots/mobile-countries.webp)
 
 ### Country Page
 
-![Country page](public/screenshots/country-page.png)
+![Country page](public/screenshots/country-page.webp)
 
 ### Quiz
 
-![Quiz](public/screenshots/quiz.png)
+![Quiz](public/screenshots/quiz.webp)
 
 ---
 
