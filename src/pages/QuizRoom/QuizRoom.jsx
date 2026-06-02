@@ -41,11 +41,13 @@ export function QuizRoom({ lang }) {
       iconSrc: "/global-timeboard/icons/quiz-middle.png",
       title: { ru: "Middle", en: "Middle" },
       text: { ru: "40 вопросов посложнее", en: "40 medium questions" },
+      path: "/quiz/middle",
     },
     {
       iconSrc: "/global-timeboard/icons/quiz-expert.png",
       title: { ru: "Expert", en: "Expert" },
       text: { ru: "40 сложных вопросов", en: "40 hard questions" },
+      path: "/quiz/expert",
     },
     {
       iconSrc: "/global-timeboard/icons/quiz-marathon.png",
