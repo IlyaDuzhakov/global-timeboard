@@ -214,7 +214,7 @@ one of the most beautiful and distinctive countries in Central Asia.
         en: "Pamir Mountains",
       },
 
-      image: "/global-timeboard/img/landmarks/tajikistan/pamir.jpg",
+      image: "/global-timeboard/img/landmarks/tajikistan/pamir.webp",
 
       description: {
         ru: `
@@ -310,7 +310,7 @@ strength, freedom, and national pride.
         en: "Pamir Highway",
       },
 
-      image: "/global-timeboard/img/landmarks/tajikistan/pamir-highway.jpg",
+      image: "/global-timeboard/img/landmarks/tajikistan/pamir-highway.webp",
 
       description: {
         ru: `
@@ -406,7 +406,7 @@ one of Tajikistan's most iconic attractions.
         en: "Iskanderkul Lake",
       },
 
-      image: "/global-timeboard/img/landmarks/tajikistan/iskanderkul.jpg",
+      image: "/global-timeboard/img/landmarks/tajikistan/iskanderkul.webp",
 
       description: {
         ru: `
@@ -502,7 +502,7 @@ one of the country's most visited attractions.
         en: "Karakul Lake",
       },
 
-      image: "/global-timeboard/img/landmarks/tajikistan/karakul.jpg",
+      image: "/global-timeboard/img/landmarks/tajikistan/karakul.webp",
 
       description: {
         ru: `
@@ -603,7 +603,7 @@ one of Tajikistan’s most unusual natural attractions.
         en: "Fann Mountains",
       },
 
-      image: "/global-timeboard/img/landmarks/tajikistan/fann-mountains.jpg",
+      image: "/global-timeboard/img/landmarks/tajikistan/fann-mountains.webp",
 
       description: {
         ru: `
@@ -700,7 +700,7 @@ one of the country's most popular tourist destinations.
       },
 
       image:
-        "/global-timeboard/img/landmarks/tajikistan/tajik-national-park.jpg",
+        "/global-timeboard/img/landmarks/tajikistan/tajik-national-park.webp",
 
       description: {
         ru: `
@@ -803,7 +803,7 @@ one of the country's greatest natural attractions.
       },
 
       image:
-        "/global-timeboard/img/landmarks/tajikistan/ismoil-somoni-peak.jpg",
+        "/global-timeboard/img/landmarks/tajikistan/ismoil-somoni-peak.webp",
 
       description: {
         ru: `
@@ -906,7 +906,7 @@ one of Central Asia's most prestigious mountaineering objectives.
       },
 
       image:
-        "/global-timeboard/img/landmarks/tajikistan/korzhenevskaya-peak.jpg",
+        "/global-timeboard/img/landmarks/tajikistan/korzhenevskaya-peak.webp",
 
       description: {
         ru: `
@@ -1008,7 +1008,7 @@ one of Central Asia’s most famous mountains.
         en: "Wakhan Corridor",
       },
 
-      image: "/global-timeboard/img/landmarks/tajikistan/wakhan-corridor.jpg",
+      image: "/global-timeboard/img/landmarks/tajikistan/wakhan-corridor.webp",
 
       description: {
         ru: `
@@ -1104,7 +1104,7 @@ an important destination within the Pamirs.
         en: "Hisor Fortress",
       },
 
-      image: "/global-timeboard/img/landmarks/tajikistan/hisor-fortress.jpg",
+      image: "/global-timeboard/img/landmarks/tajikistan/hisor-fortress.webp",
 
       description: {
         ru: `
@@ -1200,7 +1200,7 @@ one of the country's most visited attractions.
         en: "Hulbuk Fortress",
       },
 
-      image: "/global-timeboard/img/landmarks/tajikistan/hulbuk-fortress.jpg",
+      image: "/global-timeboard/img/landmarks/tajikistan/hulbuk-fortress.webp",
 
       description: {
         ru: `
@@ -1296,7 +1296,7 @@ historians, archaeologists, and travelers from around the world.
         en: "Sarazm",
       },
 
-      image: "/global-timeboard/img/landmarks/tajikistan/sarazm.jpg",
+      image: "/global-timeboard/img/landmarks/tajikistan/sarazm.webp",
 
       description: {
         ru: `
@@ -1392,7 +1392,7 @@ one of the country's most valuable historical treasures.
         en: "Seven Lakes (Haft Kul)",
       },
 
-      image: "/global-timeboard/img/landmarks/tajikistan/seven-lakes.jpg",
+      image: "/global-timeboard/img/landmarks/tajikistan/seven-lakes.webp",
 
       description: {
         ru: `
@@ -1488,7 +1488,7 @@ one of Tajikistan's natural calling cards.
         en: "Yamchun Fortress",
       },
 
-      image: "/global-timeboard/img/landmarks/tajikistan/yamchun-fortress.jpg",
+      image: "/global-timeboard/img/landmarks/tajikistan/yamchun-fortress.webp",
 
       description: {
         ru: `
@@ -1590,7 +1590,7 @@ one of Tajikistan's most remarkable landmarks.
         en: "Nurek Dam and Hydroelectric Station",
       },
 
-      image: "/global-timeboard/img/landmarks/tajikistan/nurek-dam.jpg",
+      image: "/global-timeboard/img/landmarks/tajikistan/nurek-dam.webp",
 
       description: {
         ru: `
@@ -1686,7 +1686,7 @@ one of the country's most important technical landmarks.
         en: "Rogun Hydroelectric Station",
       },
 
-      image: "/global-timeboard/img/landmarks/tajikistan/rogun-dam.jpg",
+      image: "/global-timeboard/img/landmarks/tajikistan/rogun-dam.webp",
 
       description: {
         ru: `
@@ -1782,7 +1782,7 @@ one of Tajikistan's most important national initiatives.
         en: "Dushanbe Flagpole",
       },
 
-      image: "/global-timeboard/img/landmarks/tajikistan/dushanbe-flagpole.jpg",
+      image: "/global-timeboard/img/landmarks/tajikistan/dushanbe-flagpole.webp",
 
       description: {
         ru: `
@@ -1867,7 +1867,7 @@ one of Tajikistan's most recognizable structures.
       },
 
       image:
-        "/global-timeboard/img/landmarks/tajikistan/ismoil-somoni-monument.jpg",
+        "/global-timeboard/img/landmarks/tajikistan/ismoil-somoni-monument.webp",
 
       description: {
         ru: `

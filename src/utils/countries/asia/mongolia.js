@@ -220,7 +220,7 @@ one of Asia's most distinctive and fascinating countries.
         en: "Genghis Khan Equestrian Statue",
       },
 
-      image: "/global-timeboard/img/landmarks/mongolia/genghis-khan-statue.jpg",
+      image: "/global-timeboard/img/landmarks/mongolia/genghis-khan-statue.webp",
 
       description: {
         ru: `
@@ -302,7 +302,7 @@ one of the most important symbols of modern Mongolia.
         en: "Karakorum",
       },
 
-      image: "/global-timeboard/img/landmarks/mongolia/karakorum.jpg",
+      image: "/global-timeboard/img/landmarks/mongolia/karakorum.webp",
 
       description: {
         ru: `
@@ -392,7 +392,7 @@ one of the country's leading historical attractions.
         en: "Erdene Zuu Monastery",
       },
 
-      image: "/global-timeboard/img/landmarks/mongolia/erdene-zuu.jpg",
+      image: "/global-timeboard/img/landmarks/mongolia/erdene-zuu.webp",
 
       description: {
         ru: `
@@ -482,7 +482,7 @@ one of Mongolia's most important spiritual centers.
         en: "Gorkhi-Terelj National Park",
       },
 
-      image: "/global-timeboard/img/landmarks/mongolia/terelj.jpg",
+      image: "/global-timeboard/img/landmarks/mongolia/terelj.webp",
 
       description: {
         ru: `
@@ -572,7 +572,7 @@ one of the best places to explore Mongolia's natural beauty.
         en: "Turtle Rock",
       },
 
-      image: "/global-timeboard/img/landmarks/mongolia/turtle-rock.jpg",
+      image: "/global-timeboard/img/landmarks/mongolia/turtle-rock.webp",
 
       description: {
         ru: `
@@ -656,7 +656,7 @@ one of Mongolia's best-known natural attractions.
         en: "Zaisan Memorial Hill",
       },
 
-      image: "/global-timeboard/img/landmarks/mongolia/zaisan.jpg",
+      image: "/global-timeboard/img/landmarks/mongolia/zaisan.webp",
 
       description: {
         ru: `
@@ -740,7 +740,7 @@ one of the capital's most visited attractions.
         en: "Bayanzag Flaming Cliffs",
       },
 
-      image: "/global-timeboard/img/landmarks/mongolia/bayanzag.jpg",
+      image: "/global-timeboard/img/landmarks/mongolia/bayanzag.webp",
 
       description: {
         ru: `
@@ -830,7 +830,7 @@ one of Mongolia's most iconic attractions.
         en: "Lake Khuvsgul",
       },
 
-      image: "/global-timeboard/img/landmarks/mongolia/khuvsgul.jpg",
+      image: "/global-timeboard/img/landmarks/mongolia/khuvsgul.webp",
 
       description: {
         ru: `
@@ -926,7 +926,7 @@ one of the country's greatest natural attractions.
         en: "Orkhon Valley",
       },
 
-      image: "/global-timeboard/img/landmarks/mongolia/orkhon-valley.jpg",
+      image: "/global-timeboard/img/landmarks/mongolia/orkhon-valley.webp",
 
       description: {
         ru: `
@@ -1016,7 +1016,7 @@ one of the country's national symbols.
         en: "Yolyn Am Gorge",
       },
 
-      image: "/global-timeboard/img/landmarks/mongolia/yolyn-am.jpg",
+      image: "/global-timeboard/img/landmarks/mongolia/yolyn-am.webp",
 
       description: {
         ru: `
@@ -1100,7 +1100,7 @@ one of the country's most remarkable natural landmarks.
         en: "Altai Tavan Bogd National Park",
       },
 
-      image: "/global-timeboard/img/landmarks/mongolia/altai-tavan-bogd.jpg",
+      image: "/global-timeboard/img/landmarks/mongolia/altai-tavan-bogd.webp",
 
       description: {
         ru: `
@@ -1190,7 +1190,7 @@ one of the country's greatest natural attractions.
         en: "Khuiten Peak",
       },
 
-      image: "/global-timeboard/img/landmarks/mongolia/khuiten-peak.jpg",
+      image: "/global-timeboard/img/landmarks/mongolia/khuiten-peak.webp",
 
       description: {
         ru: `
@@ -1280,7 +1280,7 @@ one of Mongolia's most famous natural landmarks.
         en: "Bogd Khan Palace Museum",
       },
 
-      image: "/global-timeboard/img/landmarks/mongolia/bogd-khan-palace.jpg",
+      image: "/global-timeboard/img/landmarks/mongolia/bogd-khan-palace.webp",
 
       description: {
         ru: `
@@ -1364,7 +1364,7 @@ one of Ulaanbaatar's leading cultural attractions.
         en: "Amarbayasgalant Monastery",
       },
 
-      image: "/global-timeboard/img/landmarks/mongolia/amarbayasgalant.jpg",
+      image: "/global-timeboard/img/landmarks/mongolia/amarbayasgalant.webp",
 
       description: {
         ru: `
@@ -1460,7 +1460,7 @@ among the country's most beautiful landmarks.
         en: "Tsagaan Suvarga White Stupa",
       },
 
-      image: "/global-timeboard/img/landmarks/mongolia/tsagaan-suvarga.jpg",
+      image: "/global-timeboard/img/landmarks/mongolia/tsagaan-suvarga.webp",
 
       description: {
         ru: `
@@ -1544,7 +1544,7 @@ one of the natural symbols of the Gobi Desert.
         en: "Uvs Lake",
       },
 
-      image: "/global-timeboard/img/landmarks/mongolia/uvs-lake.jpg",
+      image: "/global-timeboard/img/landmarks/mongolia/uvs-lake.webp",
 
       description: {
         ru: `
@@ -1629,7 +1629,7 @@ one of Mongolia's most important natural attractions.
       },
 
       image:
-        "/global-timeboard/img/landmarks/mongolia/hustai-national-park.jpg",
+        "/global-timeboard/img/landmarks/mongolia/hustai-national-park.webp",
 
       description: {
         ru: `
@@ -1719,7 +1719,7 @@ one of Mongolia's leading natural attractions.
         en: "Sukhbaatar Square",
       },
 
-      image: "/global-timeboard/img/landmarks/mongolia/sukhbaatar-square.jpg",
+      image: "/global-timeboard/img/landmarks/mongolia/sukhbaatar-square.webp",
 
       description: {
         ru: `
@@ -1809,7 +1809,7 @@ one of Mongolia's most recognizable landmarks.
         en: "Central Museum of Mongolian Dinosaurs",
       },
 
-      image: "/global-timeboard/img/landmarks/mongolia/dinosaur-museum.jpg",
+      image: "/global-timeboard/img/landmarks/mongolia/dinosaur-museum.webp",
 
       description: {
         ru: `
@@ -1893,7 +1893,7 @@ one of Mongolia's most interesting scientific attractions.
         en: "Orkhon Waterfall",
       },
 
-      image: "/global-timeboard/img/landmarks/mongolia/orkhon-waterfall.jpg",
+      image: "/global-timeboard/img/landmarks/mongolia/orkhon-waterfall.webp",
 
       description: {
         ru: `

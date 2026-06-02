@@ -58,7 +58,7 @@ export function ExpertQuiz({ lang = "ru" }) {
 
   return (
     <main
-      className={styles.middleQuiz}
+      className={styles.expertQuiz}
       style={{
         backgroundImage: `url(${process.env.PUBLIC_URL}/img/tropical-bg.jpg)`,
       }}
