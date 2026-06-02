@@ -220,7 +220,7 @@ one of the most popular and recognizable countries in Asia.
         en: "The Grand Palace",
       },
 
-      image: "/global-timeboard/img/landmarks/thailand/grand-palace.jpg",
+      image: "/global-timeboard/img/landmarks/thailand/grand-palace.webp",
 
       description: {
         ru: `
@@ -304,7 +304,7 @@ one of the country's top attractions.
         en: "Temple of the Emerald Buddha",
       },
 
-      image: "/global-timeboard/img/landmarks/thailand/wat-phra-kaew.jpg",
+      image: "/global-timeboard/img/landmarks/thailand/wat-phra-kaew.webp",
 
       description: {
         ru: `
@@ -388,7 +388,7 @@ one of Thailand's holiest places.
         en: "Wat Pho (Temple of the Reclining Buddha)",
       },
 
-      image: "/global-timeboard/img/landmarks/thailand/wat-pho.jpg",
+      image: "/global-timeboard/img/landmarks/thailand/wat-pho.webp",
 
       description: {
         ru: `
@@ -478,7 +478,7 @@ one of Thailand's most recognizable landmarks.
         en: "Wat Arun (Temple of Dawn)",
       },
 
-      image: "/global-timeboard/img/landmarks/thailand/wat-arun.jpg",
+      image: "/global-timeboard/img/landmarks/thailand/wat-arun.webp",
 
       description: {
         ru: `
@@ -562,7 +562,7 @@ one of Bangkok's top attractions.
         en: "Ayutthaya Historical City",
       },
 
-      image: "/global-timeboard/img/landmarks/thailand/ayutthaya.jpg",
+      image: "/global-timeboard/img/landmarks/thailand/ayutthaya.webp",
 
       description: {
         ru: `
@@ -646,7 +646,7 @@ one of Thailand's most visited attractions.
         en: "Sukhothai Historical Park",
       },
 
-      image: "/global-timeboard/img/landmarks/thailand/sukhothai.jpg",
+      image: "/global-timeboard/img/landmarks/thailand/sukhothai.webp",
 
       description: {
         ru: `
@@ -736,7 +736,7 @@ one of the country's most valuable historical attractions.
         en: "Wat Rong Khun (White Temple)",
       },
 
-      image: "/global-timeboard/img/landmarks/thailand/white-temple.jpg",
+      image: "/global-timeboard/img/landmarks/thailand/white-temple.webp",
 
       description: {
         ru: `
@@ -826,7 +826,7 @@ one of Southeast Asia's most famous landmarks.
         en: "Khao Sok National Park",
       },
 
-      image: "/global-timeboard/img/landmarks/thailand/khao-sok.jpg",
+      image: "/global-timeboard/img/landmarks/thailand/khao-sok.webp",
 
       description: {
         ru: `
@@ -916,7 +916,7 @@ one of the country's most spectacular natural attractions.
         en: "Phi Phi Islands",
       },
 
-      image: "/global-timeboard/img/landmarks/thailand/phi-phi-islands.jpg",
+      image: "/global-timeboard/img/landmarks/thailand/phi-phi-islands.webp",
 
       description: {
         ru: `
@@ -1000,7 +1000,7 @@ one of Thailand's most recognizable destinations.
         en: "Maya Bay",
       },
 
-      image: "/global-timeboard/img/landmarks/thailand/maya-bay.jpg",
+      image: "/global-timeboard/img/landmarks/thailand/maya-bay.webp",
 
       description: {
         ru: `
@@ -1090,7 +1090,7 @@ it represents the ultimate image of tropical Thailand.
         en: "Phuket",
       },
 
-      image: "/global-timeboard/img/landmarks/thailand/phuket.jpg",
+      image: "/global-timeboard/img/landmarks/thailand/phuket.webp",
 
       description: {
         ru: `
@@ -1180,7 +1180,7 @@ Thailand's leading tourism icon.
         en: "Ko Samui",
       },
 
-      image: "/global-timeboard/img/landmarks/thailand/koh-samui.jpg",
+      image: "/global-timeboard/img/landmarks/thailand/koh-samui.webp",
 
       description: {
         ru: `
@@ -1270,7 +1270,7 @@ one of the country's most important tourist destinations.
         en: "Phang Nga Bay",
       },
 
-      image: "/global-timeboard/img/landmarks/thailand/phang-nga-bay.jpg",
+      image: "/global-timeboard/img/landmarks/thailand/phang-nga-bay.webp",
 
       description: {
         ru: `
@@ -1355,7 +1355,7 @@ one of the country's most visited attractions.
       },
 
       image:
-        "/global-timeboard/img/landmarks/thailand/erawan-national-park.jpg",
+        "/global-timeboard/img/landmarks/thailand/erawan-national-park.webp",
 
       description: {
         ru: `
@@ -1445,7 +1445,7 @@ one of the country's leading natural attractions.
         en: "Bridge over the River Kwai",
       },
 
-      image: "/global-timeboard/img/landmarks/thailand/bridge-river-kwai.jpg",
+      image: "/global-timeboard/img/landmarks/thailand/bridge-river-kwai.webp",
 
       description: {
         ru: `
@@ -1529,7 +1529,7 @@ one of Thailand's most visited historical sites.
         en: "Doi Inthanon",
       },
 
-      image: "/global-timeboard/img/landmarks/thailand/doi-inthanon.jpg",
+      image: "/global-timeboard/img/landmarks/thailand/doi-inthanon.webp",
 
       description: {
         ru: `
@@ -1619,7 +1619,7 @@ one of the country's most popular natural attractions.
         en: "Chiang Mai",
       },
 
-      image: "/global-timeboard/img/landmarks/thailand/chiang-mai.jpg",
+      image: "/global-timeboard/img/landmarks/thailand/chiang-mai.webp",
 
       description: {
         ru: `
@@ -1703,7 +1703,7 @@ one of Thailand's most popular tourist destinations.
         en: "Similan Islands",
       },
 
-      image: "/global-timeboard/img/landmarks/thailand/similan-islands.jpg",
+      image: "/global-timeboard/img/landmarks/thailand/similan-islands.webp",
 
       description: {
         ru: `
@@ -1787,7 +1787,7 @@ one of Thailand's greatest natural treasures.
         en: "Damnoen Saduak Floating Market",
       },
 
-      image: "/global-timeboard/img/landmarks/thailand/damnoen-saduak.jpg",
+      image: "/global-timeboard/img/landmarks/thailand/damnoen-saduak.webp",
 
       description: {
         ru: `
@@ -1871,7 +1871,7 @@ a vivid example of traditional Thailand.
         en: "Golden Triangle",
       },
 
-      image: "/global-timeboard/img/landmarks/thailand/golden-triangle.jpg",
+      image: "/global-timeboard/img/landmarks/thailand/golden-triangle.webp",
 
       description: {
         ru: `
@@ -1956,7 +1956,7 @@ one of Thailand's most unusual attractions.
       },
 
       image:
-        "/global-timeboard/img/landmarks/thailand/elephant-nature-park.jpg",
+        "/global-timeboard/img/landmarks/thailand/elephant-nature-park.webp",
 
       description: {
         ru: `
@@ -2040,7 +2040,7 @@ one of the country's best-known conservation attractions.
         en: "Krabi",
       },
 
-      image: "/global-timeboard/img/landmarks/thailand/krabi.jpg",
+      image: "/global-timeboard/img/landmarks/thailand/krabi.webp",
 
       description: {
         ru: `

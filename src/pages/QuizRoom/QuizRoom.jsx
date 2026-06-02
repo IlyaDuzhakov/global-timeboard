@@ -53,6 +53,7 @@ export function QuizRoom({ lang }) {
       iconSrc: "/global-timeboard/icons/quiz-marathon.png",
       title: { ru: "Марафон 100", en: "Marathon 100" },
       text: { ru: "Большой мировой челлендж", en: "Big world challenge" },
+      path: "/quiz/marathon",
     },
   ];
 

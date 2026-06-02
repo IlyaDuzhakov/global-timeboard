@@ -220,7 +220,7 @@ The main symbols of Vietnam are:
     en: "Ha Long Bay",
   },
 
-  image: "/global-timeboard/img/landmarks/vietnam/ha-long-bay.jpg",
+  image: "/global-timeboard/img/landmarks/vietnam/ha-long-bay.webp",
 
   description: {
     ru: `
@@ -304,7 +304,7 @@ one of Asia's most visited attractions.
     en: "Hanoi Old Quarter",
   },
 
-  image: "/global-timeboard/img/landmarks/vietnam/hanoi-old-quarter.jpg",
+  image: "/global-timeboard/img/landmarks/vietnam/hanoi-old-quarter.webp",
 
   description: {
     ru: `
@@ -388,7 +388,7 @@ one of Hanoi's most famous attractions.
     en: "Ho Chi Minh Mausoleum",
   },
 
-  image: "/global-timeboard/img/landmarks/vietnam/ho-chi-minh-mausoleum.jpg",
+  image: "/global-timeboard/img/landmarks/vietnam/ho-chi-minh-mausoleum.webp",
 
   description: {
     ru: `
@@ -472,7 +472,7 @@ one of the country's most visited attractions.
     en: "Temple of Literature",
   },
 
-  image: "/global-timeboard/img/landmarks/vietnam/temple-of-literature.jpg",
+  image: "/global-timeboard/img/landmarks/vietnam/temple-of-literature.webp",
 
   description: {
     ru: `
@@ -556,7 +556,7 @@ one of Vietnam's most important cultural symbols.
     en: "Imperial City of Hue",
   },
 
-  image: "/global-timeboard/img/landmarks/vietnam/imperial-city-hue.jpg",
+  image: "/global-timeboard/img/landmarks/vietnam/imperial-city-hue.webp",
 
   description: {
     ru: `
@@ -646,7 +646,7 @@ one of Vietnam's most important historical destinations.
     en: "Hoi An Ancient Town",
   },
 
-  image: "/global-timeboard/img/landmarks/vietnam/hoi-an.jpg",
+  image: "/global-timeboard/img/landmarks/vietnam/hoi-an.webp",
 
   description: {
     ru: `
@@ -730,7 +730,7 @@ one of Vietnam's most visited tourist destinations.
     en: "My Son Sanctuary",
   },
 
-  image: "/global-timeboard/img/landmarks/vietnam/my-son.jpg",
+  image: "/global-timeboard/img/landmarks/vietnam/my-son.webp",
 
   description: {
     ru: `
@@ -820,7 +820,7 @@ one of Vietnam's most valuable archaeological treasures.
     en: "Japanese Covered Bridge",
   },
 
-  image: "/global-timeboard/img/landmarks/vietnam/japanese-covered-bridge.jpg",
+  image: "/global-timeboard/img/landmarks/vietnam/japanese-covered-bridge.webp",
 
   description: {
     ru: `
@@ -910,7 +910,7 @@ on numerous postcards and souvenirs.
     en: "Son Doong Cave",
   },
 
-  image: "/global-timeboard/img/landmarks/vietnam/son-doong-cave.jpg",
+  image: "/global-timeboard/img/landmarks/vietnam/son-doong-cave.webp",
 
   description: {
     ru: `
@@ -1006,7 +1006,7 @@ one of the world's most remarkable attractions.
     en: "Phong Nha-Ke Bang National Park",
   },
 
-  image: "/global-timeboard/img/landmarks/vietnam/phong-nha-ke-bang.jpg",
+  image: "/global-timeboard/img/landmarks/vietnam/phong-nha-ke-bang.webp",
 
   description: {
     ru: `
@@ -1096,7 +1096,7 @@ one of the country's leading natural attractions.
     en: "Sapa Rice Terraces",
   },
 
-  image: "/global-timeboard/img/landmarks/vietnam/sapa-rice-terraces.jpg",
+  image: "/global-timeboard/img/landmarks/vietnam/sapa-rice-terraces.webp",
 
   description: {
     ru: `
@@ -1180,7 +1180,7 @@ one of Vietnam's most famous tourist regions.
     en: "Mount Fansipan",
   },
 
-  image: "/global-timeboard/img/landmarks/vietnam/fansipan.jpg",
+  image: "/global-timeboard/img/landmarks/vietnam/fansipan.webp",
 
   description: {
     ru: `
@@ -1264,7 +1264,7 @@ reaching the summit becomes one of the highlights of their journey.
     en: "Mekong Delta",
   },
 
-  image: "/global-timeboard/img/landmarks/vietnam/mekong-delta.jpg",
+  image: "/global-timeboard/img/landmarks/vietnam/mekong-delta.webp",
 
   description: {
     ru: `
@@ -1354,7 +1354,7 @@ one of Vietnam's most popular attractions.
     en: "Golden Bridge",
   },
 
-  image: "/global-timeboard/img/landmarks/vietnam/golden-bridge.jpg",
+  image: "/global-timeboard/img/landmarks/vietnam/golden-bridge.webp",
 
   description: {
     ru: `
@@ -1438,7 +1438,7 @@ one of the most recognizable symbols of modern Vietnam.
     en: "Cu Chi Tunnels",
   },
 
-  image: "/global-timeboard/img/landmarks/vietnam/cu-chi-tunnels.jpg",
+  image: "/global-timeboard/img/landmarks/vietnam/cu-chi-tunnels.webp",
 
   description: {
     ru: `
@@ -1522,7 +1522,7 @@ one of Vietnam's most remarkable historical attractions.
     en: "War Remnants Museum",
   },
 
-  image: "/global-timeboard/img/landmarks/vietnam/war-remnants-museum.jpg",
+  image: "/global-timeboard/img/landmarks/vietnam/war-remnants-museum.webp",
 
   description: {
     ru: `
@@ -1606,7 +1606,7 @@ one of Ho Chi Minh City's most famous attractions.
     en: "Nha Trang",
   },
 
-  image: "/global-timeboard/img/landmarks/vietnam/nha-trang.jpg",
+  image: "/global-timeboard/img/landmarks/vietnam/nha-trang.webp",
 
   description: {
     ru: `
@@ -1690,7 +1690,7 @@ Vietnam's premier beach resort.
     en: "Phu Quoc Island",
   },
 
-  image: "/global-timeboard/img/landmarks/vietnam/phu-quoc.jpg",
+  image: "/global-timeboard/img/landmarks/vietnam/phu-quoc.webp",
 
   description: {
     ru: `
@@ -1774,7 +1774,7 @@ one of Southeast Asia's most popular vacation destinations.
     en: "Marble Mountains",
   },
 
-  image: "/global-timeboard/img/landmarks/vietnam/marble-mountains.jpg",
+  image: "/global-timeboard/img/landmarks/vietnam/marble-mountains.webp",
 
   description: {
     ru: `
@@ -1858,7 +1858,7 @@ one of Vietnam's most popular attractions.
     en: "Mui Ne Red and White Sand Dunes",
   },
 
-  image: "/global-timeboard/img/landmarks/vietnam/mui-ne-dunes.jpg",
+  image: "/global-timeboard/img/landmarks/vietnam/mui-ne-dunes.webp",
 
   description: {
     ru: `
@@ -1942,7 +1942,7 @@ one of Vietnam's most unique natural attractions.
     en: "Imperial Citadel of Thang Long",
   },
 
-  image: "/global-timeboard/img/landmarks/vietnam/thang-long-citadel.jpg",
+  image: "/global-timeboard/img/landmarks/vietnam/thang-long-citadel.webp",
 
   description: {
     ru: `
@@ -2026,7 +2026,7 @@ one of Hanoi's most important historical attractions.
     en: "Dragon Bridge",
   },
 
-  image: "/global-timeboard/img/landmarks/vietnam/dragon-bridge.jpg",
+  image: "/global-timeboard/img/landmarks/vietnam/dragon-bridge.webp",
 
   description: {
     ru: `

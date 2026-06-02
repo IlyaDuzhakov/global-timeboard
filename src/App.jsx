@@ -18,6 +18,7 @@ import { CapitalQuiz } from "./pages/CapitalQuiz/CapitalQuiz.jsx";
 import { JuniorQuiz } from "./pages/JuniorQuiz/JuniorQuiz.jsx";
 import { MiddleQuiz } from "./pages/MiddleQuiz/MiddleQuiz.jsx";
 import { ExpertQuiz } from "./pages/ExpertQuiz/ExpertQuiz.jsx";
+import { MarathonQuiz } from "./pages/MarathonQuiz/MarathonQuiz.jsx";
 
 function App() {
   const [lang, setLang] = useState("ru");
@@ -116,6 +117,7 @@ function App() {
       <Route path="/quiz/junior" element={<JuniorQuiz lang={lang} />} />
       <Route path="/quiz/middle" element={<MiddleQuiz lang={lang} />} />
       <Route path="/quiz/expert" element={<ExpertQuiz lang={lang} />} />
+      <Route path="/quiz/marathon" element={<MarathonQuiz lang={lang} />} />
     </Routes>
   );
 }

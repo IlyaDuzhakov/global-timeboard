@@ -1,15 +1,15 @@
 import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
-import { expertQuizData } from "../../data/expertQuizData.js";
-import styles from "./ExpertQuiz.module.css";
+import { marathonQuizData } from "../../data/marathonQuizData.js";
+import styles from "./MarathonQuiz.module.css";
 
 function shuffleArray(array) {
   return [...array].sort(() => Math.random() - 0.5);
 }
 
-export function ExpertQuiz({ lang = "ru" }) {
+export function MarathonQuiz({ lang = "ru" }) {
   const questions = useMemo(() => {
-    return shuffleArray(expertQuizData);
+    return shuffleArray(marathonQuizData);
   }, []);
 
   const [questionIndex, setQuestionIndex] = useState(0);
@@ -19,16 +19,14 @@ export function ExpertQuiz({ lang = "ru" }) {
   const currentQuestion = questions[questionIndex];
 
   if (!currentQuestion) {
-    return (
-      <h1
-        className={styles.expertQuiz}
+    return<h1
+        className={styles.marathonQuiz}
         style={{
           backgroundImage: `url(${process.env.PUBLIC_URL}/img/tropical-bg.jpg)`,
         }}
       >
-        Нет вопросов для Expert Quiz
+        Нет вопросов для Marathon Quiz
       </h1>
-    );
   }
 
   const isAnswered = selectedAnswer !== null;
@@ -58,7 +56,7 @@ export function ExpertQuiz({ lang = "ru" }) {
 
   return (
     <main
-      className={styles.expertQuiz}
+      className={styles.marathonQuiz}
       style={{
         backgroundImage: `url(${process.env.PUBLIC_URL}/img/tropical-bg.jpg)`,
       }}
@@ -69,7 +67,6 @@ export function ExpertQuiz({ lang = "ru" }) {
             ? "Мировой географический марафон"
             : "World Geography Marathon"}
         </h1>
-
         <p className={styles.progress}>
           {lang === "ru" ? "Вопрос" : "Question"} {questionIndex + 1} /{" "}
           {questions.length}
