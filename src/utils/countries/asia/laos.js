@@ -213,7 +213,7 @@ The main symbols of Laos are:
     en: "Luang Prabang",
   },
 
-  image: "/global-timeboard/img/landmarks/laos/luang-prabang.jpg",
+  image: "/global-timeboard/img/landmarks/laos/luang-prabang.webp",
 
   description: {
     ru: `
@@ -297,7 +297,7 @@ one of Asia's most beautiful cities.
     en: "Wat Xieng Thong",
   },
 
-  image: "/global-timeboard/img/landmarks/laos/wat-xieng-thong.jpg",
+  image: "/global-timeboard/img/landmarks/laos/wat-xieng-thong.webp",
 
   description: {
     ru: `
@@ -381,7 +381,7 @@ the principal symbol of Luang Prabang.
     en: "Mount Phousi",
   },
 
-  image: "/global-timeboard/img/landmarks/laos/mount-phousi.jpg",
+  image: "/global-timeboard/img/landmarks/laos/mount-phousi.webp",
 
   description: {
     ru: `
@@ -465,7 +465,7 @@ one of the symbols of Luang Prabang.
     en: "Kuang Si Falls",
   },
 
-  image: "/global-timeboard/img/landmarks/laos/kuang-si-falls.jpg",
+  image: "/global-timeboard/img/landmarks/laos/kuang-si-falls.webp",
 
   description: {
     ru: `
@@ -549,7 +549,7 @@ the country's most famous natural attraction.
     en: "Royal Palace Museum",
   },
 
-  image: "/global-timeboard/img/landmarks/laos/royal-palace.jpg",
+  image: "/global-timeboard/img/landmarks/laos/royal-palace.webp",
 
   description: {
     ru: `
@@ -633,7 +633,7 @@ one of the country's most important historical monuments.
     en: "Pak Ou Caves",
   },
 
-  image: "/global-timeboard/img/landmarks/laos/pak-ou-caves.jpg",
+  image: "/global-timeboard/img/landmarks/laos/pak-ou-caves.webp",
 
   description: {
     ru: `
@@ -723,7 +723,7 @@ by boat along the Mekong River.
     en: "Plain of Jars",
   },
 
-  image: "/global-timeboard/img/landmarks/laos/plain-of-jars.jpg",
+  image: "/global-timeboard/img/landmarks/laos/plain-of-jars.webp",
 
   description: {
     ru: `
@@ -807,7 +807,7 @@ one of Southeast Asia's most unusual attractions.
     en: "Pha That Luang",
   },
 
-  image: "/global-timeboard/img/landmarks/laos/pha-that-luang.jpg",
+  image: "/global-timeboard/img/landmarks/laos/pha-that-luang.webp",
 
   description: {
     ru: `
@@ -891,7 +891,7 @@ the country's most sacred religious attraction.
     en: "Patuxai",
   },
 
-  image: "/global-timeboard/img/landmarks/laos/patuxai.jpg",
+  image: "/global-timeboard/img/landmarks/laos/patuxai.webp",
 
   description: {
     ru: `
@@ -975,7 +975,7 @@ one of Laos' most visited attractions.
     en: "Buddha Park",
   },
 
-  image: "/global-timeboard/img/landmarks/laos/buddha-park.jpg",
+  image: "/global-timeboard/img/landmarks/laos/buddha-park.webp",
 
   description: {
     ru: `
@@ -1059,7 +1059,7 @@ one of Laos' most unique tourist attractions.
     en: "Vang Vieng",
   },
 
-  image: "/global-timeboard/img/landmarks/laos/vang-vieng.jpg",
+  image: "/global-timeboard/img/landmarks/laos/vang-vieng.webp",
 
   description: {
     ru: `
@@ -1143,7 +1143,7 @@ as one of the natural symbols of modern Laos.
     en: "Blue Lagoon",
   },
 
-  image: "/global-timeboard/img/landmarks/laos/blue-lagoon.jpg",
+  image: "/global-timeboard/img/landmarks/laos/blue-lagoon.webp",
 
   description: {
     ru: `
@@ -1227,7 +1227,7 @@ one of the country's most beautiful natural attractions.
     en: "Bolaven Plateau",
   },
 
-  image: "/global-timeboard/img/landmarks/laos/bolaven-plateau.jpg",
+  image: "/global-timeboard/img/landmarks/laos/bolaven-plateau.webp",
 
   description: {
     ru: `
@@ -1311,7 +1311,7 @@ one of Laos' most important natural and economic attractions.
     en: "Tad Fane Waterfall",
   },
 
-  image: "/global-timeboard/img/landmarks/laos/tad-fane-waterfall.jpg",
+  image: "/global-timeboard/img/landmarks/laos/tad-fane-waterfall.webp",
 
   description: {
     ru: `
@@ -1395,7 +1395,7 @@ one of Laos' most beautiful natural attractions.
     en: "Khone Phapheng Falls",
   },
 
-  image: "/global-timeboard/img/landmarks/laos/khone-phapheng-falls.jpg",
+  image: "/global-timeboard/img/landmarks/laos/khone-phapheng-falls.webp",
 
   description: {
     ru: `
@@ -1479,7 +1479,7 @@ a symbol of the power of the Mekong River.
     en: "Si Phan Don (4,000 Islands)",
   },
 
-  image: "/global-timeboard/img/landmarks/laos/si-phan-don.jpg",
+  image: "/global-timeboard/img/landmarks/laos/si-phan-don.webp",
 
   description: {
     ru: `
@@ -1569,7 +1569,7 @@ one of the country's most important tourist attractions.
     en: "Vat Phou",
   },
 
-  image: "/global-timeboard/img/landmarks/laos/vat-phou.jpg",
+  image: "/global-timeboard/img/landmarks/laos/vat-phou.webp",
 
   description: {
     ru: `
@@ -1659,7 +1659,7 @@ one of Laos' most valuable historical attractions.
     en: "Kong Lor Cave",
   },
 
-  image: "/global-timeboard/img/landmarks/laos/kong-lor-cave.jpg",
+  image: "/global-timeboard/img/landmarks/laos/kong-lor-cave.webp",
 
   description: {
     ru: `
@@ -1749,7 +1749,7 @@ one of Southeast Asia's largest river caves.
     en: "Nam Ha National Protected Area",
   },
 
-  image: "/global-timeboard/img/landmarks/laos/nam-ha.jpg",
+  image: "/global-timeboard/img/landmarks/laos/nam-ha.webp",
 
   description: {
     ru: `
@@ -1833,7 +1833,7 @@ one of the finest ecotourism locations in Laos.
     en: "First Thai–Lao Friendship Bridge",
   },
 
-  image: "/global-timeboard/img/landmarks/laos/friendship-bridge.jpg",
+  image: "/global-timeboard/img/landmarks/laos/friendship-bridge.webp",
 
   description: {
     ru: `

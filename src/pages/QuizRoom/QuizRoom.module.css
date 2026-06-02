@@ -100,15 +100,17 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
+  font-size: 18px;
   gap: 10px;
   box-shadow: 0 8px 0 #020817;
   transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
 }
 
 .quizModeCard:hover {
-  transform: translateY(-5px);
-  background: #0d2242;
-  box-shadow: 0 13px 0 #020817;
+  transform: translateY(-3px);
+  background: #3570c9;
+  box-shadow: 0 8px 0 #020817;
 }
 
 .quizModeIcon {
@@ -118,14 +120,16 @@
 }
 
 .quizModeTitle {
-  font-size: 20px;
+  font-size: 28px;
   font-weight: 800;
 }
 
 .quizModeText {
-  font-size: 14px;
+  font-size: 20px;
   line-height: 1.35;
   opacity: 0.85;
+  font-weight: 600;
+  color: #00ffea;
 }
 
 .backButton {

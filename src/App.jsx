@@ -19,6 +19,9 @@ import { JuniorQuiz } from "./pages/JuniorQuiz/JuniorQuiz.jsx";
 import { MiddleQuiz } from "./pages/MiddleQuiz/MiddleQuiz.jsx";
 import { ExpertQuiz } from "./pages/ExpertQuiz/ExpertQuiz.jsx";
 import { MarathonQuiz } from "./pages/MarathonQuiz/MarathonQuiz.jsx";
+import { MoneyPage } from "./pages/MoneyPage/MoneyPage.jsx";
+import { MoneyMarathon } from "./pages/MoneyMarathon/MoneyMarathon.jsx";
+import { CurrencyQuiz } from "./pages/CurrencyQuiz/CurrencyQuiz.jsx";
 
 function App() {
   const [lang, setLang] = useState("ru");
@@ -118,6 +121,9 @@ function App() {
       <Route path="/quiz/middle" element={<MiddleQuiz lang={lang} />} />
       <Route path="/quiz/expert" element={<ExpertQuiz lang={lang} />} />
       <Route path="/quiz/marathon" element={<MarathonQuiz lang={lang} />} />
+      <Route path="/money" element={<MoneyPage lang={lang} />} />
+      <Route path="/money/marathon" element={<MoneyMarathon lang={lang} />} />
+      <Route path="/money/currencies" element={<CurrencyQuiz lang={lang} />} />
     </Routes>
   );
 }

@@ -24,12 +24,13 @@ export function QuizRoom({ lang }) {
       path: "/quiz/capitals/play/world",
     },
     {
-      iconSrc: "/global-timeboard/icons/quiz-currencies.png",
+      iconSrc: "/global-timeboard/icons/currencies.svg",
       title: { ru: "Валюты", en: "Currencies" },
       text: {
-        ru: "Угадай валюту по изображению",
-        en: "Guess the currency by image",
+        ru: "Угадай валюту страны",
+        en: "Guess the country currency",
       },
+      path: "/money",
     },
     {
       iconSrc: "/global-timeboard/icons/quiz-junior.png",
