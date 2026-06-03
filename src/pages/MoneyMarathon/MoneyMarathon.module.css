@@ -1,0 +1,260 @@
+.moneyMarathon {
+  min-height: 100vh;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.panel {
+  width: 100%;
+  max-width: 760px;
+  padding: 36px;
+  border-radius: 28px;
+  background: rgba(238, 216, 162, 0.96);
+  text-align: center;
+}
+
+.title {
+  font-size: 42px;
+  margin: 0 0 12px;
+}
+
+.progress,
+.score {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.question {
+  margin: 24px 0 28px;
+
+  font-size: 28px;
+
+  font-weight: 700;
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.optionsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-bottom: 30px;
+}
+
+.optionButton,
+.nextButton,
+.backButton {
+  border: none;
+  border-radius: 16px;
+  background: #071428;
+  color: white;
+  padding: 16px 20px;
+  font-weight: 800;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.optionButton.correctOption {
+  background: #1f8f3a;
+}
+
+.optionButton.wrongOption {
+  background: #b42323;
+}
+
+.result {
+  margin-top: 24px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.nextButton {
+  margin-top: 12px;
+}
+
+.backButton {
+  width: fit-content;
+  margin: 28px auto 0;
+  display: flex;
+}
+
+.finishBox {
+  margin-top: 30px;
+}
+
+.finishBox h2 {
+  margin-bottom: 16px;
+}
+
+.factBox {
+  margin: 24px auto;
+  padding: 16px 20px;
+  max-width: 620px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.55);
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 700;
+}
+
+/* popup */
+.finishModalOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  z-index: 1000;
+}
+
+.finishModal {
+  width: min(520px, 100%);
+  padding: 36px 28px;
+  border-radius: 28px;
+  background: linear-gradient(145deg, #071526, #123456);
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0 28px 80px rgba(0, 0, 0, 0.45);
+  border: 2px solid rgba(255, 255, 255, 0.16);
+}
+
+.trophy {
+  font-size: 64px;
+  margin-bottom: 12px;
+}
+
+.finalScore {
+  font-size: 22px;
+  margin: 16px 0 8px;
+}
+
+.finalPercent {
+  font-size: 46px;
+  font-weight: 800;
+  margin: 10px 0;
+}
+
+.rank {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 12px 0 28px;
+}
+
+.modalButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+        gap: 16px;
+}
+
+.modalButtons button,
+.modalButtons a {
+  width: 170px;
+  height: 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-decoration: none;
+}
+
+.modalAction {
+  width: 140px;
+  height: 48px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 12px;
+
+  background: #001a40;
+  color: white;
+
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+.storyTitle {
+  margin: 24px 0 18px;
+
+  font-size: 32px;
+  font-weight: 800;
+
+  text-align: center;
+
+  color: #ffd700;
+
+  text-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.35);
+}
+
+.description {
+  margin: 0 auto 24px;
+
+  max-width: 850px;
+
+  padding: 18px 24px;
+
+  border-radius: 18px;
+
+  background: rgba(30, 190, 248, 0.32);
+
+  border: 1px solid rgba(255, 255, 255, 0.15);
+
+  line-height: 1.7;
+
+  font-size: 20px;
+
+  text-align: left;
+
+  color: #020202;
+}
+
+
+/* popup */
+
+@media (max-width: 600px) {
+  .optionsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .title {
+    font-size: 34px;
+  }
+
+  .question {
+    font-size: 28px;
+  }
+  .storyTitle {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 420px) {
+  .panel {
+    padding: 24px 14px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .question {
+    font-size: 24px;
+  }
+
+  .optionButton {
+    min-height: 52px;
+    font-size: 14px;
+  }
+}

@@ -202,7 +202,7 @@ one of Southeast Asia's fastest-growing countries.
     en: "Angkor Wat",
   },
 
-  image: "/global-timeboard/img/landmarks/cambodia/angkor-wat.jpg",
+  image: "/global-timeboard/img/landmarks/cambodia/angkor-wat.webp",
 
   description: {
     ru: `
@@ -298,7 +298,7 @@ one of Asia's most visited attractions.
     en: "Angkor Thom",
   },
 
-  image: "/global-timeboard/img/landmarks/cambodia/angkor-thom.jpg",
+  image: "/global-timeboard/img/landmarks/cambodia/angkor-thom.webp",
 
   description: {
     ru: `
@@ -382,7 +382,7 @@ a key part of the Angkor Archaeological Park.
     en: "Bayon Temple",
   },
 
-  image: "/global-timeboard/img/landmarks/cambodia/bayon.jpg",
+  image: "/global-timeboard/img/landmarks/cambodia/bayon.webp",
 
   description: {
     ru: `
@@ -466,7 +466,7 @@ one of the symbols of Angkor.
     en: "Ta Prohm",
   },
 
-  image: "/global-timeboard/img/landmarks/cambodia/ta-prohm.jpg",
+  image: "/global-timeboard/img/landmarks/cambodia/ta-prohm.webp",
 
   description: {
     ru: `
@@ -544,7 +544,7 @@ one of the most visited sites in Angkor.
     en: "Banteay Srei",
   },
 
-  image: "/global-timeboard/img/landmarks/cambodia/banteay-srei.jpg",
+  image: "/global-timeboard/img/landmarks/cambodia/banteay-srei.webp",
 
   description: {
     ru: `
@@ -628,7 +628,7 @@ as one of the jewels of Angkor Archaeological Park.
     en: "Phnom Bakheng",
   },
 
-  image: "/global-timeboard/img/landmarks/cambodia/phnom-bakheng.jpg",
+  image: "/global-timeboard/img/landmarks/cambodia/phnom-bakheng.webp",
 
   description: {
     ru: `
@@ -712,7 +712,7 @@ one of the most popular places to watch the sunset over Angkor.
     en: "Terrace of the Elephants",
   },
 
-  image: "/global-timeboard/img/landmarks/cambodia/terrace-of-elephants.jpg",
+  image: "/global-timeboard/img/landmarks/cambodia/terrace-of-elephants.webp",
 
   description: {
     ru: `
@@ -796,7 +796,7 @@ one of the most visited monuments in the archaeological park.
     en: "Terrace of the Leper King",
   },
 
-  image: "/global-timeboard/img/landmarks/cambodia/terrace-of-the-leper-king.jpg",
+  image: "/global-timeboard/img/landmarks/cambodia/terrace-of-the-leper-king.webp",
 
   description: {
     ru: `
@@ -886,7 +886,7 @@ history enthusiasts, archaeologists, and lovers of ancient legends.
     en: "Royal Palace of Phnom Penh",
   },
 
-  image: "/global-timeboard/img/landmarks/cambodia/royal-palace.jpg",
+  image: "/global-timeboard/img/landmarks/cambodia/royal-palace.webp",
 
   description: {
     ru: `
@@ -970,7 +970,7 @@ one of Phnom Penh's most visited attractions.
     en: "Silver Pagoda",
   },
 
-  image: "/global-timeboard/img/landmarks/cambodia/silver-pagoda.jpg",
+  image: "/global-timeboard/img/landmarks/cambodia/silver-pagoda.webp",
 
   description: {
     ru: `
@@ -1054,7 +1054,7 @@ a symbol of Buddhism and Cambodia's national heritage.
     en: "Independence Monument",
   },
 
-  image: "/global-timeboard/img/landmarks/cambodia/independence-monument.jpg",
+  image: "/global-timeboard/img/landmarks/cambodia/independence-monument.webp",
 
   description: {
     ru: `
@@ -1138,7 +1138,7 @@ one of Phnom Penh's most recognizable landmarks.
     en: "Bokor National Park",
   },
 
-  image: "/global-timeboard/img/landmarks/cambodia/bokor-national-park.jpg",
+  image: "/global-timeboard/img/landmarks/cambodia/bokor-national-park.webp",
 
   description: {
     ru: `
@@ -1222,7 +1222,7 @@ nature lovers, history enthusiasts, and photographers.
     en: "Tonle Sap Lake",
   },
 
-  image: "/global-timeboard/img/landmarks/cambodia/tonle-sap.jpg",
+  image: "/global-timeboard/img/landmarks/cambodia/tonle-sap.webp",
 
   description: {
     ru: `
@@ -1312,7 +1312,7 @@ one of Cambodia's most important natural symbols.
     en: "Floating Villages of Tonle Sap",
   },
 
-  image: "/global-timeboard/img/landmarks/cambodia/floating-villages.jpg",
+  image: "/global-timeboard/img/landmarks/cambodia/floating-villages.webp",
 
   description: {
     ru: `
@@ -1396,7 +1396,7 @@ a popular tourist destination.
     en: "Koh Ker",
   },
 
-  image: "/global-timeboard/img/landmarks/cambodia/koh-ker.jpg",
+  image: "/global-timeboard/img/landmarks/cambodia/koh-ker.webp",
 
   description: {
     ru: `
@@ -1486,7 +1486,7 @@ history enthusiasts and archaeologists from around the world.
     en: "Preah Vihear Temple",
   },
 
-  image: "/global-timeboard/img/landmarks/cambodia/preah-vihear.jpg",
+  image: "/global-timeboard/img/landmarks/cambodia/preah-vihear.webp",
 
   description: {
     ru: `
@@ -1576,7 +1576,7 @@ one of Cambodia's most important historical landmarks.
     en: "Koh Rong",
   },
 
-  image: "/global-timeboard/img/landmarks/cambodia/koh-rong.jpg",
+  image: "/global-timeboard/img/landmarks/cambodia/koh-rong.webp",
 
   description: {
     ru: `
@@ -1660,7 +1660,7 @@ Cambodia's premier island resort destination.
     en: "Bou Sra Waterfall",
   },
 
-  image: "/global-timeboard/img/landmarks/cambodia/bou-sra-waterfall.jpg",
+  image: "/global-timeboard/img/landmarks/cambodia/bou-sra-waterfall.webp",
 
   description: {
     ru: `
@@ -1744,7 +1744,7 @@ one of the most beautiful waterfalls in Cambodia.
     en: "Phnom Sampeau Caves",
   },
 
-  image: "/global-timeboard/img/landmarks/cambodia/phnom-sampeau.jpg",
+  image: "/global-timeboard/img/landmarks/cambodia/phnom-sampeau.webp",
 
   description: {
     ru: `
@@ -1828,7 +1828,7 @@ one of Cambodia's most popular natural attractions.
     en: "National Museum of Cambodia",
   },
 
-  image: "/global-timeboard/img/landmarks/cambodia/national-museum.jpg",
+  image: "/global-timeboard/img/landmarks/cambodia/national-museum.webp",
 
   description: {
     ru: `

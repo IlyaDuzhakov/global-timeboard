@@ -8,15 +8,21 @@ function shuffleArray(array) {
 }
 
 export function CurrencyQuiz({ lang = "ru" }) {
-    const STORAGE_KEY = "global-timeboard-currency-quiz-progress";
-    const savedProgress = JSON.parse(localStorage.getItem(STORAGE_KEY));
-  let questions;
+  const STORAGE_KEY = "global-timeboard-currency-quiz-progress";
+  const savedProgress = JSON.parse(localStorage.getItem(STORAGE_KEY));
+  const [questions] = useState(() => {
+    if (savedProgress?.questions) {
+      return savedProgress.questions;
+    }
 
-if (savedProgress?.questions) {
-  questions = savedProgress.questions;
-} else {
-  questions = shuffleArray(currencyQuizData);
-}
+    return shuffleArray(currencyQuizData).map((question) => ({
+      ...question,
+      shuffledOptions: {
+        ru: shuffleArray(question.options.ru),
+        en: shuffleArray(question.options.en),
+      },
+    }));
+  });
 
   const [questionIndex, setQuestionIndex] = useState(
     savedProgress?.questionIndex || 0,
@@ -36,12 +42,15 @@ if (savedProgress?.questions) {
       }),
     );
   }, [questionIndex, score, questions]);
-  const currentQuestion = questions[questionIndex];
 
+  const currentQuestion = questions[questionIndex];
   if (!currentQuestion) {
     return <h1>Нет вопросов для Junior Quiz</h1>;
   }
 
+  const shuffledOptions =
+    currentQuestion?.shuffledOptions?.[lang] ||
+    currentQuestion?.options?.[lang];
   const isAnswered = selectedAnswer !== null;
   const isCorrect = selectedAnswer === currentQuestion.correctAnswer[lang];
   const isLastQuestion = questionIndex === questions.length - 1;
@@ -64,6 +73,19 @@ if (savedProgress?.questions) {
   function handleRestartQuiz() {
     localStorage.removeItem(STORAGE_KEY);
     window.location.reload();
+  }
+
+  const percent = Math.round((score / questions.length) * 100);
+  const rank = getCurrencyRank(score, questions.length);
+
+  function getCurrencyRank(score, total) {
+    const percent = Math.round((score / total) * 100);
+
+    if (percent >= 95) return "🌍 Легенда мировых валют";
+    if (percent >= 85) return "💰 Валютный эксперт";
+    if (percent >= 70) return "🧭 Знаток стран и валют";
+    if (percent >= 50) return "🎒 Путешественник";
+    return "📚 Новичок в мире валют";
   }
 
   return (
@@ -90,7 +112,7 @@ if (savedProgress?.questions) {
         <h2 className={styles.question}>{currentQuestion.question[lang]}</h2>
 
         <div className={styles.optionsGrid}>
-          {currentQuestion.options[lang].map((option) => (
+          {shuffledOptions.map((option) => (
             <button
               key={option}
               className={`${styles.optionButton} ${
@@ -141,21 +163,37 @@ if (savedProgress?.questions) {
                 {lang === "ru" ? "Следующий вопрос →" : "Next question →"}
               </button>
             ) : (
-              <div className={styles.finishBox}>
-                <h2>{lang === "ru" ? "Квиз завершён!" : "Quiz completed!"}</h2>
+              <div className={styles.finishModalOverlay}>
+                <div className={styles.finishModal}>
+                  <div className={styles.trophy}>🏆</div>
 
-                <p>
-                  {lang === "ru"
-                    ? `Результат: ${score} из ${questions.length}`
-                    : `Result: ${score} out of ${questions.length}`}
-                </p>
+                  <h2>
+                    {lang === "ru" ? "Квиз завершён!" : "Quiz completed!"}
+                  </h2>
 
-                <button
-                  className={styles.nextButton}
-                  onClick={handleRestartQuiz}
-                >
-                  {lang === "ru" ? "Сыграть ещё раз" : "Play again"}
-                </button>
+                  <p className={styles.finalScore}>
+                    {lang === "ru"
+                      ? `Результат: ${score} из ${questions.length}`
+                      : `Result: ${score} out of ${questions.length}`}
+                  </p>
+
+                  <p className={styles.finalPercent}>{percent}%</p>
+
+                  <p className={styles.rank}>{rank}</p>
+
+                  <div className={styles.modalButtons}>
+                    <button
+                      className={styles.modalAction}
+                      onClick={handleRestartQuiz}
+                    >
+                      {lang === "ru" ? "Пройти снова" : "Play again"}
+                    </button>
+
+                    <Link to="/money" className={styles.modalAction}>
+                      {lang === "ru" ? "В меню" : "Menu"}
+                    </Link>
+                  </div>
+                </div>
               </div>
             )}
           </div>

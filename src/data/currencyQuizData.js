@@ -1,31 +1,12 @@
 export const currencyQuizData = [
   {
     question: {
-      ru: "Какая валюта используется в Японии?",
-      en: "Which currency is used in Japan?",
-    },
-    options: {
-      ru: ["Йена", "Юань", "Вона", "Бат"],
-      en: ["Yen", "Yuan", "Won", "Baht"],
-    },
-    correctAnswer: {
-      ru: "Йена",
-      en: "Yen",
-    },
-    fact: {
-      ru: "Японская йена имеет международный код JPY и входит в число самых торгуемых валют мира. Название «йена» означает «круглый предмет» — это связано с формой монет.",
-      en: "The Japanese yen has the international code JPY and is one of the world's most traded currencies. The word 'yen' means 'round object', referring to the shape of coins.",
-    },
-  },
-
-  {
-    question: {
       ru: "Какая валюта используется в Китае?",
       en: "Which currency is used in China?",
     },
     options: {
-      ru: ["Юань", "Йена", "Вона", "Рупия"],
-      en: ["Yuan", "Yen", "Won", "Rupee"],
+      ru: [ "Йена", "Вона", "Юань", "Рупия"],
+      en: [ "Yen", "Won", "Yuan", "Rupee"],
     },
     correctAnswer: {
       ru: "Юань",
@@ -153,25 +134,6 @@ export const currencyQuizData = [
 
   {
     question: {
-      ru: "Какая валюта используется в Австралии?",
-      en: "Which currency is used in Australia?",
-    },
-    options: {
-      ru: ["Австралийский доллар", "Фунт", "Рупия", "Динар"],
-      en: ["Australian Dollar", "Pound", "Rupee", "Dinar"],
-    },
-    correctAnswer: {
-      ru: "Австралийский доллар",
-      en: "Australian Dollar",
-    },
-    fact: {
-      ru: "Австралийский доллар имеет код AUD. Австралия одной из первых начала выпускать пластиковые полимерные банкноты, которые служат дольше бумажных и лучше защищены от подделок.",
-      en: "The Australian dollar has the code AUD. Australia was one of the first countries to issue polymer banknotes, which last longer than paper notes and are harder to counterfeit.",
-    },
-  },
-
-  {
-    question: {
       ru: "Какая валюта используется в Южной Корее?",
       en: "Which currency is used in South Korea?",
     },
@@ -210,25 +172,6 @@ export const currencyQuizData = [
 
   {
     question: {
-      ru: "Какая валюта используется в Турции?",
-      en: "Which currency is used in Turkey?",
-    },
-    options: {
-      ru: ["Турецкая лира", "Евро", "Динар", "Дирхам"],
-      en: ["Turkish Lira", "Euro", "Dinar", "Dirham"],
-    },
-    correctAnswer: {
-      ru: "Турецкая лира",
-      en: "Turkish Lira",
-    },
-    fact: {
-      ru: "Турецкая лира имеет код TRY. Слово «лира» исторически связано с латинским libra — мерой веса. Название родственно старым европейским валютам, включая итальянскую лиру.",
-      en: "The Turkish lira has the code TRY. The word 'lira' is historically linked to the Latin libra, a unit of weight. The name is related to older European currencies such as the Italian lira.",
-    },
-  },
-
-  {
-    question: {
       ru: "Какая валюта используется в Бразилии?",
       en: "Which currency is used in Brazil?",
     },
@@ -243,82 +186,6 @@ export const currencyQuizData = [
     fact: {
       ru: "Бразильский реал имеет код BRL. Название real означает «королевский» и использовалось ещё в португальской денежной традиции. Современный реал был введён в 1994 году.",
       en: "The Brazilian real has the code BRL. The name real means 'royal' and comes from Portuguese monetary tradition. The modern real was introduced in 1994.",
-    },
-  },
-
-  {
-    question: {
-      ru: "Какая валюта используется в Мексике?",
-      en: "Which currency is used in Mexico?",
-    },
-    options: {
-      ru: ["Мексиканское песо", "Реал", "Соль", "Доллар"],
-      en: ["Mexican Peso", "Real", "Sol", "Dollar"],
-    },
-    correctAnswer: {
-      ru: "Мексиканское песо",
-      en: "Mexican Peso",
-    },
-    fact: {
-      ru: "Мексиканское песо имеет код MXN. Символ $ изначально широко использовался именно для песо, а уже позже стал ассоциироваться прежде всего с долларом США.",
-      en: "The Mexican peso has the code MXN. The $ symbol was widely used for the peso before it became mainly associated with the US dollar.",
-    },
-  },
-
-  {
-    question: {
-      ru: "Какая валюта используется в Аргентине?",
-      en: "Which currency is used in Argentina?",
-    },
-    options: {
-      ru: ["Аргентинское песо", "Реал", "Соль", "Гуарани"],
-      en: ["Argentine Peso", "Real", "Sol", "Guaraní"],
-    },
-    correctAnswer: {
-      ru: "Аргентинское песо",
-      en: "Argentine Peso",
-    },
-    fact: {
-      ru: "Аргентинское песо имеет код ARS. Название «песо» происходит от испанского слова, означающего «вес», потому что ранние монеты оценивались по весу металла.",
-      en: "The Argentine peso has the code ARS. The name 'peso' comes from the Spanish word for 'weight', because early coins were valued by their metal weight.",
-    },
-  },
-
-  {
-    question: {
-      ru: "Какая валюта используется в Чили?",
-      en: "Which currency is used in Chile?",
-    },
-    options: {
-      ru: ["Чилийское песо", "Соль", "Реал", "Боливиано"],
-      en: ["Chilean Peso", "Sol", "Real", "Boliviano"],
-    },
-    correctAnswer: {
-      ru: "Чилийское песо",
-      en: "Chilean Peso",
-    },
-    fact: {
-      ru: "Чилийское песо имеет код CLP. Чили — одна из самых экономически развитых стран Южной Америки, а её валюта активно используется в торговле медью, одним из главных экспортных товаров страны.",
-      en: "The Chilean peso has the code CLP. Chile is one of South America's more developed economies, and its currency is closely connected to trade in copper, one of the country's main exports.",
-    },
-  },
-
-  {
-    question: {
-      ru: "Какая валюта используется в Перу?",
-      en: "Which currency is used in Peru?",
-    },
-    options: {
-      ru: ["Соль", "Песо", "Реал", "Боливар"],
-      en: ["Sol", "Peso", "Real", "Bolívar"],
-    },
-    correctAnswer: {
-      ru: "Соль",
-      en: "Sol",
-    },
-    fact: {
-      ru: "Перуанский соль имеет код PEN. Слово sol по-испански означает «солнце». Это название хорошо подходит стране с наследием инков, для которых Солнце имело огромное значение.",
-      en: "The Peruvian sol has the code PEN. The word sol means 'sun' in Spanish. The name fits a country with Inca heritage, where the Sun had great importance.",
     },
   },
 
@@ -360,24 +227,6 @@ export const currencyQuizData = [
     },
   },
 
-  {
-    question: {
-      ru: "Какая валюта используется в ОАЭ?",
-      en: "Which currency is used in the United Arab Emirates?",
-    },
-    options: {
-      ru: ["Дирхам", "Риял", "Динар", "Фунт"],
-      en: ["Dirham", "Riyal", "Dinar", "Pound"],
-    },
-    correctAnswer: {
-      ru: "Дирхам",
-      en: "Dirham",
-    },
-    fact: {
-      ru: "Дирхам ОАЭ имеет код AED. Название «дирхам» уходит корнями к древнегреческой драхме и использовалось в разных частях исламского мира на протяжении веков.",
-      en: "The UAE dirham has the code AED. The name 'dirham' traces back to the ancient Greek drachma and has been used across parts of the Islamic world for centuries.",
-    },
-  },
   {
     question: {
       ru: "Какая валюта используется в Германии?",
@@ -661,21 +510,6 @@ export const currencyQuizData = [
     fact: {
       ru: "Болгарская валюта называется лев, код BGN. Как и румынский лей, название связано со словом «лев».",
       en: "Bulgaria's currency is the lev, code BGN. Like the Romanian leu, its name is connected with the word 'lion'.",
-    },
-  },
-  {
-    question: {
-      ru: "Какая валюта используется в Сербии?",
-      en: "Which currency is used in Serbia?",
-    },
-    options: {
-      ru: ["Сербский динар", "Евро", "Лев", "Куна"],
-      en: ["Serbian Dinar", "Euro", "Lev", "Kuna"],
-    },
-    correctAnswer: { ru: "Сербский динар", en: "Serbian Dinar" },
-    fact: {
-      ru: "Сербия использует сербский динар, код RSD. Название «динар» восходит к древнеримской монете денарию.",
-      en: "Serbia uses the Serbian dinar, code RSD. The name 'dinar' goes back to the ancient Roman coin denarius.",
     },
   },
   {
@@ -1040,25 +874,6 @@ export const currencyQuizData = [
 
   {
     question: {
-      ru: "Какая валюта используется в Непале?",
-      en: "Which currency is used in Nepal?",
-    },
-    options: {
-      ru: ["Рупия", "Така", "Сом", "Тенге"],
-      en: ["Rupee", "Taka", "Som", "Tenge"],
-    },
-    correctAnswer: {
-      ru: "Рупия",
-      en: "Rupee",
-    },
-    fact: {
-      ru: "Курс непальской рупии жёстко привязан к индийской рупии.",
-      en: "The Nepalese rupee is pegged to the Indian rupee.",
-    },
-  },
-
-  {
-    question: {
       ru: "Какая валюта используется в Индонезии?",
       en: "Which currency is used in Indonesia?",
     },
@@ -1092,25 +907,6 @@ export const currencyQuizData = [
     fact: {
       ru: "Слово «ринггит» означает «зазубренный» и связано с краями старинных серебряных монет.",
       en: "The word 'ringgit' means 'jagged' and refers to the edges of old silver coins.",
-    },
-  },
-
-  {
-    question: {
-      ru: "Какая валюта используется в Таиланде?",
-      en: "Which currency is used in Thailand?",
-    },
-    options: {
-      ru: ["Бат", "Ринггит", "Донг", "Кьят"],
-      en: ["Baht", "Ringgit", "Dong", "Kyat"],
-    },
-    correctAnswer: {
-      ru: "Бат",
-      en: "Baht",
-    },
-    fact: {
-      ru: "Название тайской валюты происходит от старинной меры веса серебра.",
-      en: "The Thai currency's name comes from an old unit of silver weight.",
     },
   },
 
@@ -1359,26 +1155,6 @@ export const currencyQuizData = [
       en: "Algeria is the largest country in Africa by area.",
     },
   },
-
-  {
-    question: {
-      ru: "Какая валюта используется в Египте?",
-      en: "Which currency is used in Egypt?",
-    },
-    options: {
-      ru: ["Египетский фунт", "Динар", "Дирхам", "Риал"],
-      en: ["Egyptian Pound", "Dinar", "Dirham", "Riyal"],
-    },
-    correctAnswer: {
-      ru: "Египетский фунт",
-      en: "Egyptian Pound",
-    },
-    fact: {
-      ru: "На египетских банкнотах можно увидеть как древние памятники, так и знаменитые мечети.",
-      en: "Egyptian banknotes feature both ancient monuments and famous mosques.",
-    },
-  },
-
   {
     question: {
       ru: "Какая валюта используется в Замбии?",
@@ -1552,25 +1328,6 @@ export const currencyQuizData = [
     fact: {
       ru: "На островах Вануату до появления денег большое значение имели клыки кабанов.",
       en: "Before modern money, pig tusks were highly valued on the islands of Vanuatu.",
-    },
-  },
-
-  {
-    question: {
-      ru: "Какая валюта используется в Швейцарии?",
-      en: "Which currency is used in Switzerland?",
-    },
-    options: {
-      ru: ["Швейцарский франк", "Евро", "Крона", "Фунт"],
-      en: ["Swiss Franc", "Euro", "Krona", "Pound"],
-    },
-    correctAnswer: {
-      ru: "Швейцарский франк",
-      en: "Swiss Franc",
-    },
-    fact: {
-      ru: "Швейцарский франк считается одной из самых стабильных валют мира.",
-      en: "The Swiss franc is considered one of the world's most stable currencies.",
     },
   },
 
@@ -1822,25 +1579,6 @@ export const currencyQuizData = [
 
   {
     question: {
-      ru: "Какая валюта используется в Чили?",
-      en: "Which currency is used in Chile?",
-    },
-    options: {
-      ru: ["Чилийское песо", "Аргентинское песо", "Реал", "Соль"],
-      en: ["Chilean Peso", "Argentine Peso", "Real", "Sol"],
-    },
-    correctAnswer: {
-      ru: "Чилийское песо",
-      en: "Chilean Peso",
-    },
-    fact: {
-      ru: "Чили является одним из крупнейших производителей меди в мире.",
-      en: "Chile is one of the world's largest copper producers.",
-    },
-  },
-
-  {
-    question: {
       ru: "Какая валюта используется в Колумбии?",
       en: "Which currency is used in Colombia?",
     },
@@ -1874,25 +1612,6 @@ export const currencyQuizData = [
     fact: {
       ru: "Валюта названа в честь Симона Боливара — героя борьбы за независимость Южной Америки.",
       en: "The currency is named after Simón Bolívar, a hero of South American independence.",
-    },
-  },
-
-  {
-    question: {
-      ru: "Какая валюта используется в Боливии?",
-      en: "Which currency is used in Bolivia?",
-    },
-    options: {
-      ru: ["Боливиано", "Боливар", "Соль", "Песо"],
-      en: ["Boliviano", "Bolivar", "Sol", "Peso"],
-    },
-    correctAnswer: {
-      ru: "Боливиано",
-      en: "Boliviano",
-    },
-    fact: {
-      ru: "И страна, и валюта названы в честь Симона Боливара.",
-      en: "Both the country and its currency are named after Simón Bolívar.",
     },
   },
 
@@ -2025,25 +1744,6 @@ export const currencyQuizData = [
     fact: {
       ru: "Название валюты означает «солнце». Солнце играло важную роль в культуре инков.",
       en: "The currency's name means 'sun'. The sun played an important role in Inca culture.",
-    },
-  },
-
-  {
-    question: {
-      ru: "Какая валюта используется в Бразилии?",
-      en: "Which currency is used in Brazil?",
-    },
-    options: {
-      ru: ["Реал", "Песо", "Соль", "Боливар"],
-      en: ["Real", "Peso", "Sol", "Bolivar"],
-    },
-    correctAnswer: {
-      ru: "Реал",
-      en: "Real",
-    },
-    fact: {
-      ru: "Бразильский реал был введён в 1994 году и помог остановить гиперинфляцию в стране.",
-      en: "The Brazilian real was introduced in 1994 and helped stop hyperinflation.",
     },
   },
 
@@ -2198,26 +1898,6 @@ export const currencyQuizData = [
       en: "El Salvador became the first country in the world to recognize Bitcoin as legal tender.",
     },
   },
-
-  {
-    question: {
-      ru: "Какая валюта используется в Чехии?",
-      en: "Which currency is used in Czechia?",
-    },
-    options: {
-      ru: ["Чешская крона", "Евро", "Злотый", "Форинт"],
-      en: ["Czech Koruna", "Euro", "Zloty", "Forint"],
-    },
-    correctAnswer: {
-      ru: "Чешская крона",
-      en: "Czech Koruna",
-    },
-    fact: {
-      ru: "Чехия входит в ЕС, но сохранила собственную валюту.",
-      en: "Czechia is in the EU but has kept its own currency.",
-    },
-  },
-
   {
     question: {
       ru: "Какая валюта используется в Турции?",
@@ -2291,25 +1971,6 @@ export const currencyQuizData = [
     fact: {
       ru: "ОАЭ используют дирхам с 1973 года. Код валюты — AED.",
       en: "The UAE has used the dirham since 1973. Currency code: AED.",
-    },
-  },
-
-  {
-    question: {
-      ru: "Какая валюта используется в Саудовской Аравии?",
-      en: "Which currency is used in Saudi Arabia?",
-    },
-    options: {
-      ru: ["Риял", "Динар", "Дирхам", "Фунт"],
-      en: ["Riyal", "Dinar", "Dirham", "Pound"],
-    },
-    correctAnswer: {
-      ru: "Риял",
-      en: "Riyal",
-    },
-    fact: {
-      ru: "На банкнотах Саудовской Аравии часто изображаются священные города Мекка и Медина.",
-      en: "Saudi Arabian banknotes often depict the holy cities of Mecca and Medina.",
     },
   },
 
@@ -2461,25 +2122,6 @@ export const currencyQuizData = [
     fact: {
       ru: "Японская йена входит в число самых торгуемых валют мира наряду с долларом и евро.",
       en: "The Japanese yen is one of the most traded currencies in the world alongside the dollar and euro.",
-    },
-  },
-
-  {
-    question: {
-      ru: "Какая валюта используется в Южной Корее?",
-      en: "Which currency is used in South Korea?",
-    },
-    options: {
-      ru: ["Вона", "Йена", "Юань", "Бат"],
-      en: ["Won", "Yen", "Yuan", "Baht"],
-    },
-    correctAnswer: {
-      ru: "Вона",
-      en: "Won",
-    },
-    fact: {
-      ru: "На крупнейшей банкноте Южной Кореи изображён король Седжон Великий — создатель корейского алфавита.",
-      en: "The highest South Korean banknote features King Sejong the Great, creator of the Korean alphabet.",
     },
   },
 
@@ -3234,44 +2876,6 @@ export const currencyQuizData = [
 
   {
     question: {
-      ru: "Какая валюта используется в Сербии?",
-      en: "Which currency is used in Serbia?",
-    },
-    options: {
-      ru: ["Динар", "Евро", "Куна", "Лев"],
-      en: ["Dinar", "Euro", "Kuna", "Lev"],
-    },
-    correctAnswer: {
-      ru: "Динар",
-      en: "Dinar",
-    },
-    fact: {
-      ru: "Название «динар» происходит от древнеримского денария.",
-      en: "The name 'dinar' comes from the ancient Roman denarius.",
-    },
-  },
-
-  {
-    question: {
-      ru: "Какая валюта используется в Хорватии?",
-      en: "Which currency is used in Croatia?",
-    },
-    options: {
-      ru: ["Евро", "Куна", "Динар", "Лев"],
-      en: ["Euro", "Kuna", "Dinar", "Lev"],
-    },
-    correctAnswer: {
-      ru: "Евро",
-      en: "Euro",
-    },
-    fact: {
-      ru: "До 2023 года в Хорватии использовалась куна — валюта, названная в честь куницы.",
-      en: "Before 2023 Croatia used the kuna, named after the marten.",
-    },
-  },
-
-  {
-    question: {
       ru: "Какая валюта используется в Австралии?",
       en: "Which currency is used in Australia?",
     },
@@ -3286,101 +2890,6 @@ export const currencyQuizData = [
     fact: {
       ru: "Австралия первой в мире начала массово выпускать пластиковые банкноты.",
       en: "Australia was the first country to widely introduce polymer banknotes.",
-    },
-  },
-
-  {
-    question: {
-      ru: "Какая валюта используется в Канаде?",
-      en: "Which currency is used in Canada?",
-    },
-    options: {
-      ru: ["Канадский доллар", "Доллар США", "Фунт", "Евро"],
-      en: ["Canadian Dollar", "US Dollar", "Pound", "Euro"],
-    },
-    correctAnswer: {
-      ru: "Канадский доллар",
-      en: "Canadian Dollar",
-    },
-    fact: {
-      ru: "На канадской монете в 1 доллар изображена гагара, поэтому её называют 'луни'.",
-      en: "Canada's one-dollar coin features a loon bird, giving it the nickname 'loonie'.",
-    },
-  },
-
-  {
-    question: {
-      ru: "Какая валюта используется в США?",
-      en: "Which currency is used in the United States?",
-    },
-    options: {
-      ru: ["Доллар США", "Канадский доллар", "Песо", "Фунт"],
-      en: ["US Dollar", "Canadian Dollar", "Peso", "Pound"],
-    },
-    correctAnswer: {
-      ru: "Доллар США",
-      en: "US Dollar",
-    },
-    fact: {
-      ru: "Доллар США является основной резервной валютой мира.",
-      en: "The US dollar is the world's primary reserve currency.",
-    },
-  },
-
-  {
-    question: {
-      ru: "Какая валюта используется в Великобритании?",
-      en: "Which currency is used in the United Kingdom?",
-    },
-    options: {
-      ru: ["Фунт стерлингов", "Евро", "Крона", "Франк"],
-      en: ["Pound Sterling", "Euro", "Krona", "Franc"],
-    },
-    correctAnswer: {
-      ru: "Фунт стерлингов",
-      en: "Pound Sterling",
-    },
-    fact: {
-      ru: "Фунт стерлингов считается старейшей валютой мира, которая используется до сих пор.",
-      en: "Pound sterling is considered the oldest currency still in continuous use.",
-    },
-  },
-
-  {
-    question: {
-      ru: "Какая валюта используется в Швейцарии?",
-      en: "Which currency is used in Switzerland?",
-    },
-    options: {
-      ru: ["Швейцарский франк", "Евро", "Фунт", "Крона"],
-      en: ["Swiss Franc", "Euro", "Pound", "Krona"],
-    },
-    correctAnswer: {
-      ru: "Швейцарский франк",
-      en: "Swiss Franc",
-    },
-    fact: {
-      ru: "Швейцарский франк часто называют 'валютой-убежищем' во времена кризисов.",
-      en: "The Swiss franc is often considered a safe-haven currency during crises.",
-    },
-  },
-
-  {
-    question: {
-      ru: "Какая валюта используется в Китае?",
-      en: "Which currency is used in China?",
-    },
-    options: {
-      ru: ["Юань", "Йена", "Вона", "Рупия"],
-      en: ["Yuan", "Yen", "Won", "Rupee"],
-    },
-    correctAnswer: {
-      ru: "Юань",
-      en: "Yuan",
-    },
-    fact: {
-      ru: "Официальное название валюты Китая — жэньминьби, что означает 'народные деньги'.",
-      en: "China's official currency name is Renminbi, meaning 'people's currency'.",
     },
   },
 
@@ -3443,25 +2952,6 @@ export const currencyQuizData = [
 
   {
     question: {
-      ru: "Какая валюта используется в Аргентине?",
-      en: "Which currency is used in Argentina?",
-    },
-    options: {
-      ru: ["Аргентинское песо", "Реал", "Соль", "Гуарани"],
-      en: ["Argentine Peso", "Real", "Sol", "Guarani"],
-    },
-    correctAnswer: {
-      ru: "Аргентинское песо",
-      en: "Argentine Peso",
-    },
-    fact: {
-      ru: "Аргентина пережила несколько денежных реформ и периодов высокой инфляции.",
-      en: "Argentina has experienced several monetary reforms and periods of high inflation.",
-    },
-  },
-
-  {
-    question: {
       ru: "Какая валюта используется в Чили?",
       en: "Which currency is used in Chile?",
     },
@@ -3476,25 +2966,6 @@ export const currencyQuizData = [
     fact: {
       ru: "Чили является крупнейшим производителем меди на планете.",
       en: "Chile is the world's largest producer of copper.",
-    },
-  },
-
-  {
-    question: {
-      ru: "Какая валюта используется в Перу?",
-      en: "Which currency is used in Peru?",
-    },
-    options: {
-      ru: ["Соль", "Песо", "Реал", "Боливиано"],
-      en: ["Sol", "Peso", "Real", "Boliviano"],
-    },
-    correctAnswer: {
-      ru: "Соль",
-      en: "Sol",
-    },
-    fact: {
-      ru: "Название валюты означает 'солнце' — важный символ цивилизации инков.",
-      en: "The currency name means 'sun', an important symbol of the Inca civilization.",
     },
   },
 
@@ -3519,24 +2990,6 @@ export const currencyQuizData = [
 
   {
     question: {
-      ru: "Какая валюта используется в Парагвае?",
-      en: "Which currency is used in Paraguay?",
-    },
-    options: {
-      ru: ["Гуарани", "Песо", "Реал", "Соль"],
-      en: ["Guarani", "Peso", "Real", "Sol"],
-    },
-    correctAnswer: {
-      ru: "Гуарани",
-      en: "Guarani",
-    },
-    fact: {
-      ru: "Гуарани — не только валюта, но и название коренного народа Южной Америки.",
-      en: "Guaraní is both a currency and the name of an indigenous South American people.",
-    },
-  },
-  {
-    question: {
       ru: "Какая валюта используется в Эритрее?",
       en: "Which currency is used in Eritrea?",
     },
@@ -3756,221 +3209,342 @@ export const currencyQuizData = [
   },
   {
     question: {
-      ru: "Какая валюта используется в Эритрее?",
-      en: "Which currency is used in Eritrea?",
+      ru: "Какая валюта используется на Мальте?",
+      en: "Which currency is used in Malta?",
     },
     options: {
-      ru: ["Накфа", "Быр", "Шиллинг", "Франк"],
-      en: ["Nakfa", "Birr", "Shilling", "Franc"],
+      ru: ["Евро", "Фунт", "Крона", "Франк"],
+      en: ["Euro", "Pound", "Krona", "Franc"],
     },
     correctAnswer: {
-      ru: "Накфа",
-      en: "Nakfa",
+      ru: "Евро",
+      en: "Euro",
     },
     fact: {
-      ru: "Валюта названа в честь города Накфа, ставшего символом борьбы за независимость страны.",
-      en: "The currency is named after the town of Nakfa, a symbol of the country's independence struggle.",
+      ru: "Мальта — островное государство в Средиземном море и член Европейского союза с 2004 года.",
+      en: "Malta is an island nation in the Mediterranean Sea and has been a member of the European Union since 2004.",
     },
   },
 
   {
     question: {
-      ru: "Какая валюта используется в Кабо-Верде?",
-      en: "Which currency is used in Cape Verde?",
+      ru: "Какая валюта используется в Греции?",
+      en: "Which currency is used in Greece?",
     },
     options: {
-      ru: ["Эскудо", "Франк КФА", "Евро", "Реал"],
-      en: ["Escudo", "CFA Franc", "Euro", "Real"],
+      ru: ["Евро", "Лира", "Динар", "Крона"],
+      en: ["Euro", "Lira", "Dinar", "Krona"],
     },
     correctAnswer: {
-      ru: "Эскудо",
-      en: "Escudo",
+      ru: "Евро",
+      en: "Euro",
     },
     fact: {
-      ru: "Кабо-Верде состоит из вулканических островов в Атлантическом океане у берегов Африки.",
-      en: "Cape Verde consists of volcanic islands in the Atlantic Ocean off the coast of Africa.",
+      ru: "До введения евро в Греции использовалась драхма — одна из древнейших валют мира.",
+      en: "Before adopting the euro, Greece used the drachma, one of the oldest currencies in history.",
     },
   },
 
   {
     question: {
-      ru: "Какая валюта используется в Эсватини?",
-      en: "Which currency is used in Eswatini?",
+      ru: "Какая валюта используется в Люксембурге?",
+      en: "Which currency is used in Luxembourg?",
     },
     options: {
-      ru: ["Лилангени", "Рэнд", "Пула", "Лоти"],
-      en: ["Lilangeni", "Rand", "Pula", "Loti"],
+      ru: ["Евро", "Франк", "Гульден", "Крона"],
+      en: ["Euro", "Franc", "Guilder", "Krona"],
     },
     correctAnswer: {
-      ru: "Лилангени",
-      en: "Lilangeni",
+      ru: "Евро",
+      en: "Euro",
     },
     fact: {
-      ru: "До 2018 года страна называлась Свазиленд.",
-      en: "Until 2018 the country was known as Swaziland.",
+      ru: "Люксембург — одна из самых богатых стран мира по ВВП на душу населения.",
+      en: "Luxembourg is one of the richest countries in the world by GDP per capita.",
     },
   },
 
   {
     question: {
-      ru: "Какая валюта используется в Кирибати?",
-      en: "Which currency is used in Kiribati?",
+      ru: "Какая валюта используется в Ливии?",
+      en: "Which currency is used in Libya?",
     },
     options: {
-      ru: [
-        "Австралийский доллар",
-        "Новозеландский доллар",
-        "Доллар Фиджи",
-        "Тала",
-      ],
-      en: ["Australian Dollar", "New Zealand Dollar", "Fijian Dollar", "Tala"],
+      ru: ["Ливийский динар", "Риал", "Дирхам", "Фунт"],
+      en: ["Libyan Dinar", "Riyal", "Dirham", "Pound"],
     },
     correctAnswer: {
-      ru: "Австралийский доллар",
-      en: "Australian Dollar",
+      ru: "Ливийский динар",
+      en: "Libyan Dinar",
     },
     fact: {
-      ru: "Кирибати — одна из первых стран мира, встречающих Новый год.",
-      en: "Kiribati is one of the first countries in the world to welcome the New Year.",
+      ru: "Ливия обладает крупнейшими доказанными запасами нефти в Африке.",
+      en: "Libya has the largest proven oil reserves in Africa.",
     },
   },
 
   {
     question: {
-      ru: "Какая валюта используется в Тувалу?",
-      en: "Which currency is used in Tuvalu?",
+      ru: "Какая валюта используется в Мавритании?",
+      en: "Which currency is used in Mauritania?",
     },
     options: {
-      ru: [
-        "Австралийский доллар",
-        "Новозеландский доллар",
-        "Доллар Фиджи",
-        "Тала",
-      ],
-      en: ["Australian Dollar", "New Zealand Dollar", "Fijian Dollar", "Tala"],
+      ru: ["Угия", "Динар", "Франк КФА", "Шиллинг"],
+      en: ["Ouguiya", "Dinar", "CFA Franc", "Shilling"],
     },
     correctAnswer: {
-      ru: "Австралийский доллар",
-      en: "Australian Dollar",
+      ru: "Угия",
+      en: "Ouguiya",
     },
     fact: {
-      ru: "Тувалу — одна из самых маленьких и низких стран мира.",
-      en: "Tuvalu is one of the world's smallest and lowest-lying countries.",
+      ru: "Угия — одна из немногих валют мира, которая исторически делилась не на 100 частей.",
+      en: "The ouguiya is one of the few currencies historically not divided into 100 units.",
     },
   },
 
   {
     question: {
-      ru: "Какая валюта используется в Науру?",
-      en: "Which currency is used in Nauru?",
+      ru: "Какая валюта используется в Гамбии?",
+      en: "Which currency is used in The Gambia?",
     },
     options: {
-      ru: [
-        "Австралийский доллар",
-        "Доллар США",
-        "Новозеландский доллар",
-        "Тала",
-      ],
-      en: ["Australian Dollar", "US Dollar", "New Zealand Dollar", "Tala"],
+      ru: ["Даласи", "Леоне", "Седи", "Шиллинг"],
+      en: ["Dalasi", "Leone", "Cedi", "Shilling"],
     },
     correctAnswer: {
-      ru: "Австралийский доллар",
-      en: "Australian Dollar",
+      ru: "Даласи",
+      en: "Dalasi",
     },
     fact: {
-      ru: "Науру — третье по площади государство мира после Ватикана и Монако.",
-      en: "Nauru is the world's third-smallest country after Vatican City and Monaco.",
+      ru: "Гамбия представляет собой узкую полосу земли вдоль одноимённой реки.",
+      en: "The Gambia is a narrow strip of land stretching along the Gambia River.",
     },
   },
 
   {
     question: {
-      ru: "Какая валюта используется на Соломоновых Островах?",
-      en: "Which currency is used in Solomon Islands?",
+      ru: "Какая валюта используется в Гвинее?",
+      en: "Which currency is used in Guinea?",
     },
     options: {
-      ru: [
-        "Доллар Соломоновых Островов",
-        "Австралийский доллар",
-        "Доллар Фиджи",
-        "Тала",
-      ],
-      en: [
-        "Solomon Islands Dollar",
-        "Australian Dollar",
-        "Fijian Dollar",
-        "Tala",
-      ],
+      ru: ["Гвинейский франк", "Франк КФА", "Леоне", "Даласи"],
+      en: ["Guinean Franc", "CFA Franc", "Leone", "Dalasi"],
     },
     correctAnswer: {
-      ru: "Доллар Соломоновых Островов",
-      en: "Solomon Islands Dollar",
+      ru: "Гвинейский франк",
+      en: "Guinean Franc",
     },
     fact: {
-      ru: "Во время Второй мировой войны здесь проходили ожесточённые сражения в Тихом океане.",
-      en: "Major Pacific battles of World War II were fought here.",
+      ru: "Гвинея обладает одними из крупнейших запасов бокситов на планете.",
+      en: "Guinea has some of the world's largest bauxite reserves.",
     },
   },
 
   {
     question: {
-      ru: "Какая валюта используется в Маршалловых Островах?",
-      en: "Which currency is used in the Marshall Islands?",
+      ru: "Какая валюта используется в Сомали?",
+      en: "Which currency is used in Somalia?",
     },
     options: {
-      ru: [
-        "Доллар США",
-        "Австралийский доллар",
-        "Новозеландский доллар",
-        "Тала",
-      ],
-      en: ["US Dollar", "Australian Dollar", "New Zealand Dollar", "Tala"],
+      ru: ["Сомалийский шиллинг", "Бирр", "Леоне", "Даласи"],
+      en: ["Somali Shilling", "Birr", "Leone", "Dalasi"],
     },
     correctAnswer: {
-      ru: "Доллар США",
-      en: "US Dollar",
+      ru: "Сомалийский шиллинг",
+      en: "Somali Shilling",
     },
     fact: {
-      ru: "Маршалловы Острова состоят из более чем тысячи коралловых островков и атоллов.",
-      en: "The Marshall Islands consist of more than a thousand coral islands and atolls.",
+      ru: "Береговая линия Сомали — самая длинная среди всех стран материковой Африки.",
+      en: "Somalia has the longest coastline of any mainland African country.",
     },
   },
 
   {
     question: {
-      ru: "Какая валюта используется в Микронезии?",
-      en: "Which currency is used in Micronesia?",
+      ru: "Какая валюта используется в Южном Судане?",
+      en: "Which currency is used in South Sudan?",
     },
     options: {
-      ru: ["Доллар США", "Австралийский доллар", "Тала", "Доллар Фиджи"],
-      en: ["US Dollar", "Australian Dollar", "Tala", "Fijian Dollar"],
+      ru: ["Южносуданский фунт", "Суданский фунт", "Шиллинг", "Бирр"],
+      en: ["South Sudanese Pound", "Sudanese Pound", "Shilling", "Birr"],
     },
     correctAnswer: {
-      ru: "Доллар США",
-      en: "US Dollar",
+      ru: "Южносуданский фунт",
+      en: "South Sudanese Pound",
     },
     fact: {
-      ru: "Федеративные Штаты Микронезии разбросаны по огромной территории Тихого океана.",
-      en: "The Federated States of Micronesia are scattered across a vast area of the Pacific Ocean.",
+      ru: "Южный Судан стал самым молодым признанным государством мира в 2011 году.",
+      en: "South Sudan became the world's newest recognized country in 2011.",
     },
   },
-
   {
-    question: {
-      ru: "Какая валюта используется в Палау?",
-      en: "Which currency is used in Palau?",
-    },
-    options: {
-      ru: ["Доллар США", "Австралийский доллар", "Тала", "Доллар Фиджи"],
-      en: ["US Dollar", "Australian Dollar", "Tala", "Fijian Dollar"],
-    },
-    correctAnswer: {
-      ru: "Доллар США",
-      en: "US Dollar",
-    },
-    fact: {
-      ru: "Палау славится одним из лучших дайвинговых районов мира и озером медуз.",
-      en: "Palau is famous for world-class diving and its Jellyfish Lake.",
-    },
+  question: {
+    ru: "Какая валюта используется на Кипре?",
+    en: "Which currency is used in Cyprus?",
   },
+  options: {
+    ru: ["Евро", "Лира", "Фунт", "Динар"],
+    en: ["Euro", "Lira", "Pound", "Dinar"],
+  },
+  correctAnswer: {
+    ru: "Евро",
+    en: "Euro",
+  },
+  fact: {
+    ru: "До введения евро на Кипре использовался кипрский фунт.",
+    en: "Before adopting the euro, Cyprus used the Cypriot pound.",
+  },
+},
+
+{
+  question: {
+    ru: "Какая валюта используется в Эстонии?",
+    en: "Which currency is used in Estonia?",
+  },
+  options: {
+    ru: ["Евро", "Крона", "Лат", "Лит"],
+    en: ["Euro", "Krona", "Lats", "Litas"],
+  },
+  correctAnswer: {
+    ru: "Евро",
+    en: "Euro",
+  },
+  fact: {
+    ru: "До евро в Эстонии использовалась эстонская крона.",
+    en: "Before the euro, Estonia used the Estonian kroon.",
+  },
+},
+
+{
+  question: {
+    ru: "Какая валюта используется в Латвии?",
+    en: "Which currency is used in Latvia?",
+  },
+  options: {
+    ru: ["Евро", "Лат", "Лит", "Крона"],
+    en: ["Euro", "Lats", "Litas", "Krona"],
+  },
+  correctAnswer: {
+    ru: "Евро",
+    en: "Euro",
+  },
+  fact: {
+    ru: "Латвийский лат считался одной из самых красивых валют Европы.",
+    en: "The Latvian lats was considered one of Europe's most beautiful currencies.",
+  },
+},
+
+{
+  question: {
+    ru: "Какая валюта используется в Литве?",
+    en: "Which currency is used in Lithuania?",
+  },
+  options: {
+    ru: ["Евро", "Лит", "Лат", "Крона"],
+    en: ["Euro", "Litas", "Lats", "Krona"],
+  },
+  correctAnswer: {
+    ru: "Евро",
+    en: "Euro",
+  },
+  fact: {
+    ru: "До евро в Литве использовался лит.",
+    en: "Before the euro, Lithuania used the litas.",
+  },
+},
+
+{
+  question: {
+    ru: "Какая валюта используется в Словакии?",
+    en: "Which currency is used in Slovakia?",
+  },
+  options: {
+    ru: ["Евро", "Крона", "Форинт", "Злотый"],
+    en: ["Euro", "Koruna", "Forint", "Zloty"],
+  },
+  correctAnswer: {
+    ru: "Евро",
+    en: "Euro",
+  },
+  fact: {
+    ru: "До перехода на евро в Словакии использовалась словацкая крона.",
+    en: "Before adopting the euro, Slovakia used the Slovak koruna.",
+  },
+},
+
+{
+  question: {
+    ru: "Какая валюта используется в Словении?",
+    en: "Which currency is used in Slovenia?",
+  },
+  options: {
+    ru: ["Евро", "Толар", "Куна", "Динар"],
+    en: ["Euro", "Tolar", "Kuna", "Dinar"],
+  },
+  correctAnswer: {
+    ru: "Евро",
+    en: "Euro",
+  },
+  fact: {
+    ru: "Словения первой из бывших социалистических стран перешла на евро.",
+    en: "Slovenia was the first former socialist country to adopt the euro.",
+  },
+},
+
+{
+  question: {
+    ru: "Какая валюта используется в Мали?",
+    en: "Which currency is used in Mali?",
+  },
+  options: {
+    ru: ["Франк КФА", "Даласи", "Леоне", "Седи"],
+    en: ["CFA Franc", "Dalasi", "Leone", "Cedi"],
+  },
+  correctAnswer: {
+    ru: "Франк КФА",
+    en: "CFA Franc",
+  },
+  fact: {
+    ru: "Мали — одна из крупнейших стран Африки по площади.",
+    en: "Mali is one of the largest countries in Africa by area.",
+  },
+},
+
+{
+  question: {
+    ru: "Какая валюта используется в Буркина-Фасо?",
+    en: "Which currency is used in Burkina Faso?",
+  },
+  options: {
+    ru: ["Франк КФА", "Леоне", "Даласи", "Седи"],
+    en: ["CFA Franc", "Leone", "Dalasi", "Cedi"],
+  },
+  correctAnswer: {
+    ru: "Франк КФА",
+    en: "CFA Franc",
+  },
+  fact: {
+    ru: "Название страны означает «земля достойных людей».",
+    en: "The country's name means 'land of honest people'.",
+  },
+},
+
+{
+  question: {
+    ru: "Какая валюта используется в Гвинее-Бисау?",
+    en: "Which currency is used in Guinea-Bissau?",
+  },
+  options: {
+    ru: ["Франк КФА", "Гвинейский франк", "Эскудо", "Леоне"],
+    en: ["CFA Franc", "Guinean Franc", "Escudo", "Leone"],
+  },
+  correctAnswer: {
+    ru: "Франк КФА",
+    en: "CFA Franc",
+  },
+  fact: {
+    ru: "Гвинея-Бисау известна своими островами Бижагош в Атлантическом океане.",
+    en: "Guinea-Bissau is known for the Bijagós Islands in the Atlantic Ocean.",
+  },
+},
 ];
