@@ -22,6 +22,8 @@ import { MarathonQuiz } from "./pages/MarathonQuiz/MarathonQuiz.jsx";
 import { MoneyPage } from "./pages/MoneyPage/MoneyPage.jsx";
 import { MoneyMarathon } from "./pages/MoneyMarathon/MoneyMarathon.jsx";
 import { CurrencyQuiz } from "./pages/CurrencyQuiz/CurrencyQuiz.jsx";
+import { LandmarksPage } from "./pages/Landmarks/LandmarksPage.jsx";
+import { LandmarksQuiz } from "./pages/Landmarks/LandmarksQuiz/LandmarksQuiz.jsx";
 
 function App() {
   const [lang, setLang] = useState("ru");
@@ -124,6 +126,8 @@ function App() {
       <Route path="/money" element={<MoneyPage lang={lang} />} />
       <Route path="/money/marathon" element={<MoneyMarathon lang={lang} />} />
       <Route path="/money/currencies" element={<CurrencyQuiz lang={lang} />} />
+      <Route path="/quiz/landmarks" element={<LandmarksPage lang={lang} />} />
+      <Route path="/quiz/landmarks/play/:region" element={<LandmarksQuiz lang={lang} />}/>
     </Routes>
   );
 }

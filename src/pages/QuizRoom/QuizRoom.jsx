@@ -16,6 +16,7 @@ export function QuizRoom({ lang }) {
       iconSrc: "/global-timeboard/icons/quiz-landmarks.png",
       title: { ru: "Достопримечательности", en: "Landmarks" },
       text: { ru: "Узнай объект по фото", en: "Guess the landmark by photo" },
+      path: "/quiz/landmarks",
     },
     {
       iconSrc: "/global-timeboard/icons/quiz-capitals.png",
