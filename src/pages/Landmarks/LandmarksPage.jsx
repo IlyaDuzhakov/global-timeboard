@@ -3,52 +3,6 @@ import styles from "./LandmarksPage.module.css";
 
 export function LandmarksPage({ lang }) {
 
-const continents = [
-  {
-    iconSrc: "/global-timeboard/icons/europe.svg",
-    title: { ru: "Европа", en: "Europe" },
-    path: "/quiz/landmarks/play/europe",
-  },
-
-  {
-    iconSrc: "/global-timeboard/icons/asia.svg",
-    title: { ru: "Азия", en: "Asia" },
-    path: "/quiz/landmarks/play/asia",
-  },
-
-  {
-    iconSrc: "/global-timeboard/icons/africa.svg",
-    title: { ru: "Африка", en: "Africa" },
-    path: "/quiz/landmarks/play/africa",
-  },
-
-  {
-    iconSrc: "/global-timeboard/north-america.svg",
-    title: {
-      ru: "Северная Америка",
-      en: "North America",
-    },
-    path: "/quiz/landmarks/play/north-america",
-  },
-
-  {
-    iconSrc: "/global-timeboard/play/south-america.svg",
-    title: {
-      ru: "Южная Америка",
-      en: "South America",
-    },
-    path: "/quiz/landmarks/play/south-america",
-  },
-
-  {
-    iconSrc: "/global-timeboard/icons/oceania.svg",
-    title: {
-      ru: "Океания",
-      en: "Oceania",
-    },
-    path: "/quiz/landmarks/play/oceania",
-  },
-];
 
   return (
     <main

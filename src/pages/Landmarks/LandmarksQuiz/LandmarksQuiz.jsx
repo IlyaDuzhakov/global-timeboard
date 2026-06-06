@@ -127,11 +127,7 @@ export function LandmarksQuiz({ lang = "ru" }) {
       </main>
     );
   }
-// console.log("LANG:", lang);
-// console.log("QUESTION:", currentQuestion);
-// console.log("DESCRIPTION:", currentQuestion?.description);
-// console.log("QUESTION TEXT:", currentQuestion?.question);
-// console.log("OPTIONS:", currentQuestion?.options);
+
   return (
     <main
       className={styles.quizPage}
