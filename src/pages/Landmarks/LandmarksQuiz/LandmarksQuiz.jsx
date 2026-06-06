@@ -1,5 +1,6 @@
 import { Link, useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
+import { africaLandmarks } from "../../../data/landmarks/africaLandmarks.js";
 
 import { europeLandmarks } from "../../../data/landmarks/europeLandmarks.js";
 import { asiaLandmarks } from "../../../data/landmarks/asiaLandmarks.js";
@@ -16,6 +17,7 @@ export function LandmarksQuiz({ lang = "ru" }) {
   const landmarksByRegion = {
     europe: europeLandmarks,
     asia: asiaLandmarks,
+    africa: africaLandmarks,
   };
 
   const regionLandmarks = landmarksByRegion[region] || [];
