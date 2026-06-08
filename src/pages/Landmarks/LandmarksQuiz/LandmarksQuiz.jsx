@@ -1,9 +1,9 @@
 import { Link, useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { africaLandmarks } from "../../../data/landmarks/africaLandmarks.js";
-
 import { europeLandmarks } from "../../../data/landmarks/europeLandmarks.js";
 import { asiaLandmarks } from "../../../data/landmarks/asiaLandmarks.js";
+import { northAmericaLandmarks } from "../../../data/landmarks/northAmericaLandmarks.js";
 
 import styles from "./LandmarksQuiz.module.css";
 
@@ -18,6 +18,7 @@ export function LandmarksQuiz({ lang = "ru" }) {
     europe: europeLandmarks,
     asia: asiaLandmarks,
     africa: africaLandmarks,
+    "north-america": northAmericaLandmarks,
   };
 
   const regionLandmarks = landmarksByRegion[region] || [];
