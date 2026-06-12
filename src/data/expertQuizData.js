@@ -511,10 +511,11 @@ export const expertQuizData = [
       ru: "Новая Зеландия",
       en: "New Zealand",
     },
-    fact: {
-      ru: "В Новой Зеландии находится холм с названием Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu. В нём 85 букв. В переводе с языка маори название означает примерно: «Вершина, где Таматеа, человек с большими коленями, покоритель гор, путешественник и музыкант, играл на своей флейте для любимой». Даже сами новозеландцы обычно используют сокращённое название — Taumata.",
-      en: "New Zealand is home to a hill named Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu. It contains 85 letters. Roughly translated from Māori, it means: 'The summit where Tamatea, the man with the big knees, the mountain climber, the traveler, and the flute player, played his flute for his loved one.' Even New Zealanders usually shorten it to simply 'Taumata'.",
-    },
+   fact: {
+  ru: "В Новой Зеландии находится холм Таумата, официальное название которого состоит из 85 букв и считается одним из самых длинных географических названий в мире. Полное название происходит из языка маори и рассказывает историю воина и путешественника Таматеа. Даже сами новозеландцы обычно используют сокращённое название — Таумата.",
+  
+  en: "New Zealand is home to Taumata Hill, whose official name contains 85 letters and is considered one of the longest geographical names in the world. The full name comes from the Māori language and tells the story of the warrior and traveler Tamatea. Even New Zealanders usually use the shortened name — Taumata.",
+},
   },
   {
     question: {

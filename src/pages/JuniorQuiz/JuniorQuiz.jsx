@@ -1,37 +1,71 @@
-import { useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { juniorQuizData } from "../../data/juniorQuizData";
 import styles from "./JuniorQuiz.module.css";
+
+const STORAGE_KEY = "global-timeboard-junior-progress";
 
 function shuffleArray(array) {
   return [...array].sort(() => Math.random() - 0.5);
 }
 
-export function JuniorQuiz({ lang = "ru" }) {
-  const questions = useMemo(() => {
-    return shuffleArray(juniorQuizData);
-  }, []);
+function getSavedProgress() {
+  try {
+    return JSON.parse(localStorage.getItem(STORAGE_KEY));
+  } catch {
+    return null;
+  }
+}
 
-  const [questionIndex, setQuestionIndex] = useState(0);
-  const [selectedAnswer, setSelectedAnswer] = useState(null);
-  const [score, setScore] = useState(0);
+export function JuniorQuiz({ lang = "ru" }) {
+  const savedProgress = getSavedProgress();
+
+  const [questions, setQuestions] = useState(() => {
+    return savedProgress?.questions || shuffleArray(juniorQuizData);
+  });
+
+  const [questionIndex, setQuestionIndex] = useState(() => {
+    return savedProgress?.questionIndex || 0;
+  });
+
+  const [selectedAnswer, setSelectedAnswer] = useState(() => {
+    return savedProgress?.selectedAnswer || null;
+  });
+
+  const [score, setScore] = useState(() => {
+    return savedProgress?.score || 0;
+  });
 
   const currentQuestion = questions[questionIndex];
+
+  useEffect(() => {
+    localStorage.setItem(
+      STORAGE_KEY,
+      JSON.stringify({
+        questions,
+        questionIndex,
+        selectedAnswer,
+        score,
+      }),
+    );
+  }, [questions, questionIndex, selectedAnswer, score]);
 
   if (!currentQuestion) {
     return <h1>Нет вопросов для Junior Quiz</h1>;
   }
 
   const isAnswered = selectedAnswer !== null;
-  const isCorrect = selectedAnswer === currentQuestion.correctAnswer[lang];
+  const correctAnswer = currentQuestion.correctAnswer[lang];
+  const isCorrect = selectedAnswer === correctAnswer;
   const isLastQuestion = questionIndex === questions.length - 1;
+  const isQuizFinished = isAnswered && isLastQuestion;
 
   function handleAnswer(answer) {
     if (isAnswered) return;
 
     setSelectedAnswer(answer);
 
-    if (answer === currentQuestion.correctAnswer[lang]) {
+    if (answer === correctAnswer) {
       setScore((prevScore) => prevScore + 1);
     }
   }
@@ -42,6 +76,9 @@ export function JuniorQuiz({ lang = "ru" }) {
   }
 
   function handleRestartQuiz() {
+    localStorage.removeItem(STORAGE_KEY);
+
+    setQuestions(shuffleArray(juniorQuizData));
     setQuestionIndex(0);
     setSelectedAnswer(null);
     setScore(0);
@@ -75,13 +112,13 @@ export function JuniorQuiz({ lang = "ru" }) {
             <button
               key={option}
               className={`${styles.optionButton} ${
-                isAnswered && option === currentQuestion.correctAnswer[lang]
+                isAnswered && option === correctAnswer
                   ? styles.correctOption
                   : ""
               } ${
                 isAnswered &&
                 option === selectedAnswer &&
-                option !== currentQuestion.correctAnswer[lang]
+                option !== correctAnswer
                   ? styles.wrongOption
                   : ""
               }`}
@@ -101,8 +138,8 @@ export function JuniorQuiz({ lang = "ru" }) {
                   ? "✅ Верно!"
                   : "✅ Correct!"
                 : lang === "ru"
-                  ? `❌ Неверно. Правильный ответ: ${currentQuestion.correctAnswer[lang]}`
-                  : `❌ Wrong. Correct answer: ${currentQuestion.correctAnswer[lang]}`}
+                  ? `❌ Неверно. Правильный ответ: ${correctAnswer}`
+                  : `❌ Wrong. Correct answer: ${correctAnswer}`}
             </p>
 
             {currentQuestion.fact && (
@@ -114,37 +151,52 @@ export function JuniorQuiz({ lang = "ru" }) {
               </div>
             )}
 
-            {!isLastQuestion ? (
+            {!isLastQuestion && (
               <button
                 className={styles.nextButton}
                 onClick={handleNextQuestion}
               >
                 {lang === "ru" ? "Следующий вопрос →" : "Next question →"}
               </button>
-            ) : (
-              <div className={styles.finishBox}>
-                <h2>{lang === "ru" ? "Квиз завершён!" : "Quiz completed!"}</h2>
-
-                <p>
-                  {lang === "ru"
-                    ? `Результат: ${score} из ${questions.length}`
-                    : `Result: ${score} out of ${questions.length}`}
-                </p>
-
-                <button
-                  className={styles.nextButton}
-                  onClick={handleRestartQuiz}
-                >
-                  {lang === "ru" ? "Сыграть ещё раз" : "Play again"}
-                </button>
-              </div>
             )}
           </div>
         )}
+
         <Link to="/quiz" className={styles.backButton}>
           {lang === "ru" ? "← Назад" : "← Back"}
         </Link>
       </section>
+
+      {isQuizFinished && (
+        <div className={styles.modalOverlay}>
+          <div className={styles.modal}>
+            <div className={styles.modalIcon}>🏆</div>
+
+            <h2>Квиз завершён!</h2>
+
+            <p>
+              Результат: {score} из {questions.length}
+            </p>
+
+            <div className={styles.modalPercent}>
+              {Math.round((score / questions.length) * 100)}%
+            </div>
+
+            <div className={styles.modalButtons}>
+              <button
+                className={styles.modalAction}
+                onClick={handleRestartQuiz}
+              >
+                Сыграть ещё раз
+              </button>
+
+              <Link to="/quiz" className={styles.modalAction}>
+                В игровую комнату
+              </Link>
+            </div>
+          </div>
+        </div>
+      )}
     </main>
   );
 }
