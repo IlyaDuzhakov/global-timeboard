@@ -5,6 +5,7 @@ import { europeLandmarks } from "../../../data/landmarks/europeLandmarks.js";
 import { asiaLandmarks } from "../../../data/landmarks/asiaLandmarks.js";
 import { northAmericaLandmarks } from "../../../data/landmarks/northAmericaLandmarks.js";
 import { southAmericaLandmarks } from "../../../data/landmarks/southAmericaLandmarks.js";
+import { oceaniaLandmarks } from "../../../data/landmarks/oceaniaLandmarks.js";
 
 
 import styles from "./LandmarksQuiz.module.css";
@@ -22,6 +23,7 @@ export function LandmarksQuiz({ lang = "ru" }) {
     africa: africaLandmarks,
     "north-america": northAmericaLandmarks,
     "south-america": southAmericaLandmarks,
+    oceania: oceaniaLandmarks,
   };
 
   const regionLandmarks = landmarksByRegion[region] || [];
