@@ -59,6 +59,8 @@ export function QuizRoom({ lang }) {
     },
   ];
 
+  
+
   return (
     <main
       className={styles.quizRoom}

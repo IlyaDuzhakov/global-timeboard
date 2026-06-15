@@ -1,0 +1,55 @@
+.plane {
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+  animation: flyAround 3s linear infinite;
+}
+
+.loader {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  background: #06152b;
+  color: white;
+}
+
+.title {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 20px;
+  opacity: 0.8;
+  animation: blink 1.5s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0.3;
+  }
+}
+
+@keyframes flyAround {
+  0% {
+    transform: translate(-300px, 40px) rotate(-15deg);
+    opacity: 0;
+  }
+
+  15% {
+    opacity: 1;
+  }
+
+  50% {
+    transform: translate(0px, -50px) rotate(0deg);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translate(300px, 40px) rotate(15deg);
+    opacity: 0;
+  }
+}

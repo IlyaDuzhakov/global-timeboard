@@ -7,6 +7,8 @@ import WorldMap from "./components/map/WorldMap";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Modal from "./components/Modal/Modal";
+import OfflineNotice from "./components/OfflineNotice/OfflineNotice.jsx";
+import PageLoader from "./components/PageLoader/PageLoader.jsx";
 import MobileCountries from "./components/mobileCountries/MobileCountries";
 const CountryPage = lazy(() => import("./pages/CountryPage"));
 
@@ -134,12 +136,13 @@ function App() {
   };
 
   return (
-    <Suspense fallback={<div className="pageLoader">Загрузка...</div>}>
+    <Suspense fallback={<PageLoader />}>
       <Routes>
         <Route
           path="/"
           element={
             <div className="App">
+              <OfflineNotice lang={lang} />
               <div
                 style={{
                   display: "flex",
