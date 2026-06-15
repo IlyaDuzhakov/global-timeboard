@@ -93,6 +93,23 @@ export function QuizRoom({ lang }) {
               <span className={styles.quizModeText}>{mode.text[lang]}</span>
             </Link>
           ))}
+          <Link to="/quiz/achievements" className={styles.quizCard}>
+            <div className={styles.quizIcon}>
+              <img
+                className={styles.quizMainIcon}
+                src="/global-timeboard/icons/achievements.svg"
+                alt="Quiz Room"
+              />
+            </div>
+
+            <h2>{lang === "ru" ? "Зал достижений" : "Achievements Hall"}</h2>
+
+            <p>
+              {lang === "ru"
+                ? "Ваши медали, рекорды и прогресс"
+                : "Your medals, records and progress"}
+            </p>
+          </Link>
         </div>
 
         <Link to="/" className={styles.backButton}>
