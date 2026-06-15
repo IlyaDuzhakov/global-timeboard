@@ -188,6 +188,66 @@
 }
 
 
+/*popup*/
+.modalOverlay {
+  position: fixed;
+  inset: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: rgba(0, 0, 0, 0.65);
+}
+
+.modal {
+  width: min(420px, 100%);
+  padding: 28px;
+  border-radius: 24px;
+  text-align: center;
+  color: white;
+  background: #06152b;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+}
+
+.modalIcon {
+  font-size: 46px;
+  margin-bottom: 12px;
+}
+
+.modalPercent {
+  margin: 10px 0;
+  font-size: 44px;
+  font-weight: 800;
+}
+
+.modalButtons {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 22px;
+}
+
+.modalAction {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+  min-height: 48px;
+  border: none;
+  border-radius: 14px;
+  text-decoration: none;
+  color: white;
+  background: #0b2d5c;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 0 12px;
+}
+/*popup*/
+
+
+
 @media (max-width: 600px) {
   .optionsGrid {
     grid-template-columns: 1fr;

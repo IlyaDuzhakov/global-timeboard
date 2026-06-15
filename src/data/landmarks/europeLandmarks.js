@@ -1429,4 +1429,244 @@ export const europeLandmarks = [
     en: "Hagia Sophia was built in the 6th century as the main cathedral of the Byzantine Empire and remained the world's largest Christian church for nearly a thousand years. After the conquest of Constantinople it became a mosque, later a museum, and then a mosque again. Its massive dome is considered one of the greatest engineering achievements of the ancient world.",
   },
 },
+{
+  title: {
+    ru: "Вопрос 36",
+    en: "Question 36",
+  },
+
+  image: "/global-timeboard/img/attractions/europe/sacre-coeur.webp",
+
+  description: {
+    ru: "Этот белоснежный храм возвышается на вершине холма Монмартр и считается одним из символов Парижа.",
+    en: "This white basilica stands atop Montmartre hill and is one of the symbols of Paris.",
+  },
+
+  question: {
+    ru: "Как называется эта достопримечательность?",
+    en: "What is the name of this landmark?",
+  },
+
+  options: {
+    ru: [
+      "Сакре-Кёр",
+      "Нотр-Дам",
+      "Пантеон",
+      "Собор Святого Петра",
+    ],
+    en: [
+      "Sacré-Cœur",
+      "Notre-Dame",
+      "Pantheon",
+      "St. Peter's Basilica",
+    ],
+  },
+
+  correctAnswer: {
+    ru: "Сакре-Кёр",
+    en: "Sacré-Cœur",
+  },
+
+  factTitle: {
+    ru: "🤍 Белая корона Монмартра",
+    en: "🤍 The White Crown of Montmartre",
+  },
+
+  fact: {
+    ru: "Базилика Сакре-Кёр была построена в конце XIX века на самой высокой точке Парижа. Для её строительства использовали особый белый камень, который со временем становится ещё светлее под воздействием дождя. Со ступеней храма открывается одна из лучших панорам французской столицы.",
+    en: "The Sacré-Cœur Basilica was built in the late 19th century on the highest point of Paris. Its special white stone becomes even brighter over time when exposed to rain. The steps of the basilica offer one of the finest panoramic views of the French capital.",
+  },
+},
+{
+  title: {
+    ru: "Вопрос 37",
+    en: "Question 37",
+  },
+
+  image: "/global-timeboard/img/attractions/europe/cliffs-of-moher.webp",
+
+  description: {
+    ru: "Эти знаменитые утёсы возвышаются над Атлантическим океаном и считаются одной из главных природных достопримечательностей Ирландии.",
+    en: "These famous cliffs rise above the Atlantic Ocean and are one of Ireland's top natural attractions.",
+  },
+
+  question: {
+    ru: "Как называется эта достопримечательность?",
+    en: "What is the name of this landmark?",
+  },
+
+  options: {
+    ru: [
+      "Скалы Мохер",
+      "Белые скалы Дувра",
+      "Гигантская тропа",
+      "Прекестулен",
+    ],
+    en: [
+      "Cliffs of Moher",
+      "White Cliffs of Dover",
+      "Giant's Causeway",
+      "Preikestolen",
+    ],
+  },
+
+  correctAnswer: {
+    ru: "Скалы Мохер",
+    en: "Cliffs of Moher",
+  },
+
+  factTitle: {
+    ru: "🌊 Стражи Атлантики",
+    en: "🌊 Guardians of the Atlantic",
+  },
+
+  fact: {
+    ru: "Скалы Мохер протянулись примерно на 14 километров вдоль западного побережья Ирландии. Их высота достигает более 200 метров над океаном.",
+    en: "The Cliffs of Moher stretch for about 14 kilometers along Ireland's west coast and rise more than 200 meters above the ocean.",
+  },
+},
+{
+  title: {
+    ru: "Вопрос 38",
+    en: "Question 38",
+  },
+
+  image: "/global-timeboard/img/attractions/europe/plitvice-lakes.webp",
+
+  description: {
+    ru: "Национальный парк с бирюзовыми озёрами, водопадами и деревянными мостиками является одной из жемчужин Балкан.",
+    en: "This national park with turquoise lakes, waterfalls, and wooden walkways is one of the gems of the Balkans.",
+  },
+
+  question: {
+    ru: "Как называется эта достопримечательность?",
+    en: "What is the name of this landmark?",
+  },
+
+  options: {
+    ru: [
+      "Плитвицкие озёра",
+      "Озеро Блед",
+      "Озеро Морейн",
+      "Лох-Несс",
+    ],
+    en: [
+      "Plitvice Lakes",
+      "Lake Bled",
+      "Lake Moraine",
+      "Loch Ness",
+    ],
+  },
+
+  correctAnswer: {
+    ru: "Плитвицкие озёра",
+    en: "Plitvice Lakes",
+  },
+
+  factTitle: {
+    ru: "💧 Царство водопадов",
+    en: "💧 Kingdom of Waterfalls",
+  },
+
+  fact: {
+    ru: "На территории парка расположены 16 озёр, соединённых десятками водопадов. Плитвицкие озёра входят в список Всемирного наследия ЮНЕСКО.",
+    en: "The park contains 16 lakes connected by dozens of waterfalls. Plitvice Lakes is a UNESCO World Heritage Site.",
+  },
+},
+{
+  title: {
+    ru: "Вопрос 39",
+    en: "Question 39",
+  },
+
+  image: "/global-timeboard/img/attractions/europe/trolltunga.webp",
+
+  description: {
+    ru: "Этот знаменитый скальный выступ нависает над озером на высоте сотен метров и является одним из символов Норвегии.",
+    en: "This famous rock formation hangs hundreds of meters above a lake and is one of Norway's most iconic landmarks.",
+  },
+
+  question: {
+    ru: "Как называется эта достопримечательность?",
+    en: "What is the name of this landmark?",
+  },
+
+  options: {
+    ru: [
+      "Тролльтунга",
+      "Прекестулен",
+      "Кафедра великанов",
+      "Мыс Нордкап",
+    ],
+    en: [
+      "Trolltunga",
+      "Preikestolen",
+      "Giant's Pulpit",
+      "North Cape",
+    ],
+  },
+
+  correctAnswer: {
+    ru: "Тролльтунга",
+    en: "Trolltunga",
+  },
+
+  factTitle: {
+    ru: "⛰️ Язык тролля",
+    en: "⛰️ The Troll's Tongue",
+  },
+
+  fact: {
+    ru: "Название Trolltunga переводится как «Язык тролля». Скала выступает почти на 12 метров над пропастью и является одним из самых популярных мест для фотографий в Норвегии.",
+    en: "Trolltunga means 'The Troll's Tongue'. The rock juts almost 12 meters out over a cliff and is one of Norway's most photographed locations.",
+  },
+},
+{
+  title: {
+    ru: "Вопрос 40",
+    en: "Question 40",
+  },
+
+  image: "/global-timeboard/img/attractions/europe/chambord-castle.webp",
+
+  description: {
+    ru: "Этот грандиозный замок эпохи Возрождения считается самым известным замком долины Луары.",
+    en: "This magnificent Renaissance castle is considered the most famous castle in the Loire Valley.",
+  },
+
+  question: {
+    ru: "Как называется эта достопримечательность?",
+    en: "What is the name of this landmark?",
+  },
+
+  options: {
+    ru: [
+      "Замок Шамбор",
+      "Замок Нойшванштайн",
+      "Замок Шенонсо",
+      "Виндзорский замок",
+    ],
+    en: [
+      "Château de Chambord",
+      "Neuschwanstein Castle",
+      "Château de Chenonceau",
+      "Windsor Castle",
+    ],
+  },
+
+  correctAnswer: {
+    ru: "Замок Шамбор",
+    en: "Château de Chambord",
+  },
+
+  factTitle: {
+    ru: "🏰 Шедевр французского Возрождения",
+    en: "🏰 Masterpiece of the French Renaissance",
+  },
+
+  fact: {
+    ru: "Замок Шамбор был построен по приказу короля Франциска I. Его знаменитая двойная винтовая лестница считается вдохновлённой идеями Леонардо да Винчи.",
+    en: "Chambord Castle was built by order of King Francis I. Its famous double-helix staircase is believed to have been inspired by Leonardo da Vinci.",
+  },
+},
 ];

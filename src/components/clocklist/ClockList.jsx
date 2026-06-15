@@ -2,9 +2,9 @@ import AnalogClock from "../analogclock/AnalogClock";
 import { useState, useEffect } from "react";
 import { getTimeForZone } from "../../utils/getTimeForZone";
 import styles from "./ClockList.module.css";
+import { Link } from "react-router-dom";
 
 const ClockList = ({ times, setTimes, lang }) => {
-  
   const [, setTick] = useState(0); // так можно делать в реакт
 
   useEffect(() => {
@@ -18,18 +18,21 @@ const ClockList = ({ times, setTimes, lang }) => {
   if (times.length === 0) {
     return (
       <>
-      <div className={styles.listClockWrapper}>
-    <h2 className={styles.listClock}>
-      {lang === "ru" ? "Часы не добавлены" : "No clocks added"}
-    </h2>
+        <div className={styles.listClockWrapper}>
+          <h2 className={styles.listClock}>
+            {lang === "ru" ? "Часы не добавлены" : "No clocks added"}
+          </h2>
+          <Link to="/quiz" className={styles.quizRoomButton}>
+             {lang === "ru" ? "Игровая комната" : "Quiz Room"}
+          </Link>
 
-    <p className={styles.emptySubtitle}>
-      {lang === "ru"
-        ? "Добавьте до 6 мировых часов"
-        : "Add up to 6 world clocks"}
-    </p>
-    </div>
-  </>
+          <p className={styles.emptySubtitle}>
+            {lang === "ru"
+              ? "Добавьте до 6 мировых часов"
+              : "Add up to 6 world clocks"}
+          </p>
+        </div>
+      </>
     );
   }
 
@@ -39,6 +42,9 @@ const ClockList = ({ times, setTimes, lang }) => {
 
   return (
     <div className={styles.clockWrapper}>
+      <Link to="/quiz" className={styles.quizRoomButton}>
+        🎮 {lang === "ru" ? "Игровая комната" : "Quiz Room"}
+      </Link>
       <div className={styles.clockBoard}>
         {times.map((el, index) => {
           const time = getTimeForZone(el.zone);

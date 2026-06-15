@@ -1524,4 +1524,246 @@ export const asiaLandmarks = [
     en: "The Red Fort was built in the 17th century by Emperor Shah Jahan. Every year, India's Prime Minister addresses the nation from its walls on Independence Day.",
   },
 },
+{
+  title: {
+    ru: "Вопрос 36",
+    en: "Question 36",
+  },
+
+  image: "/global-timeboard/img/attractions/asia/masada.webp",
+
+  description: {
+    ru: "Эта древняя крепость расположена на вершине скалы над Мёртвым морем и является одним из важнейших исторических памятников Ближнего Востока.",
+    en: "This ancient fortress stands atop a cliff overlooking the Dead Sea and is one of the most important historical sites in the Middle East.",
+  },
+
+  question: {
+    ru: "Как называется эта достопримечательность?",
+    en: "What is the name of this landmark?",
+  },
+
+  options: {
+    ru: [
+      "Масада",
+      "Петра",
+      "Цитадель Алеппо",
+      "Крак-де-Шевалье",
+    ],
+    en: [
+      "Masada",
+      "Petra",
+      "Aleppo Citadel",
+      "Krak des Chevaliers",
+    ],
+  },
+
+  correctAnswer: {
+    ru: "Масада",
+    en: "Masada",
+  },
+
+  factTitle: {
+    ru: "🏛 Крепость над Мёртвым морем",
+    en: "🏛 Fortress Above the Dead Sea",
+  },
+
+  fact: {
+    ru: "Масада была построена более двух тысяч лет назад царём Иродом Великим. Крепость расположена на вершине труднодоступной скалы высотой около 450 метров над окружающей местностью. Сегодня Масада считается одним из символов Израиля и входит в список Всемирного наследия ЮНЕСКО.",
+    
+    en: "Masada was built more than two thousand years ago by King Herod the Great. The fortress stands atop an isolated plateau rising about 450 meters above the surrounding landscape. Today Masada is one of Israel's national symbols and a UNESCO World Heritage Site.",
+  },
+},
+{
+  title: {
+    ru: "Вопрос 37",
+    en: "Question 37",
+  },
+
+  image: "/global-timeboard/img/attractions/asia/langkawi-sky-bridge.webp",
+
+  description: {
+    ru: "Этот изогнутый подвесной мост расположен высоко над тропическим лесом и считается одним из самых необычных мостов мира.",
+    en: "This curved suspension bridge is located high above a tropical rainforest and is considered one of the world's most unusual bridges.",
+  },
+
+  question: {
+    ru: "Как называется эта достопримечательность?",
+    en: "What is the name of this landmark?",
+  },
+
+  options: {
+    ru: [
+      "Золотой мост",
+      "Небесный мост Лангкави",
+      "Мост Радуги",
+      "Мост Тысячелетия",
+    ],
+    en: [
+      "Golden Bridge",
+      "Langkawi Sky Bridge",
+      "Rainbow Bridge",
+      "Millennium Bridge",
+    ],
+  },
+
+  correctAnswer: {
+    ru: "Небесный мост Лангкави",
+    en: "Langkawi Sky Bridge",
+  },
+
+  factTitle: {
+    ru: "🌉 Над джунглями",
+    en: "🌉 Above the Rainforest",
+  },
+
+  fact: {
+    ru: "Небесный мост Лангкави находится на высоте более 600 метров над уровнем моря. Он удерживается одной опорой и словно парит над тропическим лесом. С моста открываются впечатляющие виды на острова архипелага Лангкави.",
+    en: "The Langkawi Sky Bridge stands more than 600 meters above sea level. Supported by a single pylon, it appears to float above the rainforest. The bridge offers spectacular views of the Langkawi archipelago.",
+  },
+},
+{
+  title: {
+    ru: "Вопрос 38",
+    en: "Question 38",
+  },
+
+  image: "/global-timeboard/img/attractions/asia/tigers-nest.webp",
+
+  description: {
+    ru: "Этот знаменитый монастырь построен на отвесной скале и считается одним из символов Бутана.",
+    en: "This famous monastery is built on a sheer cliff and is considered one of Bhutan's national symbols.",
+  },
+
+  question: {
+    ru: "Как называется эта достопримечательность?",
+    en: "What is the name of this landmark?",
+  },
+
+  options: {
+    ru: [
+      "Дворец Потала",
+      "Монастырь Такцанг",
+      "Пагода Шведагон",
+      "Храм Неба",
+    ],
+    en: [
+      "Potala Palace",
+      "Tiger's Nest Monastery",
+      "Shwedagon Pagoda",
+      "Temple of Heaven",
+    ],
+  },
+
+  correctAnswer: {
+    ru: "Монастырь Такцанг",
+    en: "Tiger's Nest Monastery",
+  },
+
+  factTitle: {
+    ru: "🐅 Гнездо тигрицы",
+    en: "🐅 Tiger's Nest",
+  },
+
+  fact: {
+    ru: "Монастырь Такцанг расположен на высоте около 3100 метров над уровнем моря. Согласно легенде, буддийский учитель Падмасамбхава прилетел сюда верхом на тигрице и медитировал в пещере. Сегодня это главная святыня Бутана.",
+    en: "Tiger's Nest Monastery stands at about 3,100 meters above sea level. According to legend, the Buddhist master Padmasambhava flew here on the back of a tigress and meditated in a cave. Today it is Bhutan's most sacred site.",
+  },
+},
+{
+  title: {
+    ru: "Вопрос 39",
+    en: "Question 39",
+  },
+
+  image: "/global-timeboard/img/attractions/asia/jewel-changi.webp",
+
+  description: {
+    ru: "Этот футуристический комплекс знаменит крупнейшим в мире крытым водопадом.",
+    en: "This futuristic complex is famous for having the world's tallest indoor waterfall.",
+  },
+
+  question: {
+    ru: "Как называется эта достопримечательность?",
+    en: "What is the name of this landmark?",
+  },
+
+  options: {
+    ru: [
+      "Марина-Бэй-Сэндс",
+      "Сады у залива",
+      "Джевел Чанги",
+      "Башни Петронас",
+    ],
+    en: [
+      "Marina Bay Sands",
+      "Gardens by the Bay",
+      "Jewel Changi",
+      "Petronas Towers",
+    ],
+  },
+
+  correctAnswer: {
+    ru: "Джевел Чанги",
+    en: "Jewel Changi",
+  },
+
+  factTitle: {
+    ru: "💧 Водопад в аэропорту",
+    en: "💧 Waterfall Inside an Airport",
+  },
+
+  fact: {
+    ru: "Джевел Чанги является частью аэропорта Сингапура. Внутри комплекса расположен Rain Vortex — крупнейший крытый водопад в мире высотой около 40 метров. Пространство сочетает природу, торговые зоны и современные технологии.",
+    en: "Jewel Changi is part of Singapore's airport complex. Inside is the Rain Vortex, the world's tallest indoor waterfall at about 40 meters high. The space combines nature, shopping, and cutting-edge technology.",
+  },
+},
+{
+  title: {
+    ru: "Вопрос 39",
+    en: "Question 39",
+  },
+
+  image: "/global-timeboard/img/attractions/asia/wadi-rum.webp",
+
+  description: {
+    ru: "Эта пустыня с красными скалами и необычными ландшафтами часто используется как декорация для фильмов о других планетах.",
+    en: "This desert of red rocks and unusual landscapes is often used as a filming location for movies set on other planets.",
+  },
+
+  question: {
+    ru: "Как называется эта достопримечательность?",
+    en: "What is the name of this landmark?",
+  },
+
+  options: {
+    ru: [
+      "Вади-Рам",
+      "Данакильская впадина",
+      "Белая пустыня",
+      "Пустыня Гоби",
+    ],
+    en: [
+      "Wadi Rum",
+      "Danakil Depression",
+      "White Desert",
+      "Gobi Desert",
+    ],
+  },
+
+  correctAnswer: {
+    ru: "Вади-Рам",
+    en: "Wadi Rum",
+  },
+
+  factTitle: {
+    ru: "🚀 Марс на Земле",
+    en: "🚀 Mars on Earth",
+  },
+
+  fact: {
+    ru: "Вади-Рам называют «Долиной Луны». Красные пески и гигантские скалы создают пейзажи, напоминающие поверхность Марса. Здесь снимались фильмы «Марсианин», «Дюна», «Звёздные войны» и многие другие. Вади-Рам входит в список Всемирного наследия ЮНЕСКО.",
+    
+    en: "Wadi Rum is often called the 'Valley of the Moon'. Its red sands and giant rock formations create landscapes that resemble the surface of Mars. Movies such as The Martian, Dune, and Star Wars were filmed here. Wadi Rum is a UNESCO World Heritage Site.",
+  },
+},
 ];

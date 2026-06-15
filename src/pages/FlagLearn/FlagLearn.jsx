@@ -4,9 +4,12 @@ import { flagsQuizData } from "../../data/flagsQuizData";
 import styles from "./FlagLearn.module.css";
 import { flagLearnInfo } from "../../data/flagLearnInfo";
 
+const ITEMS_PER_PAGE = 20;
+
 export function FlagLearn({ lang = "ru" }) {
   const { region } = useParams();
   const [flippedCards, setFlippedCards] = useState({});
+  const [currentPage, setCurrentPage] = useState(1);
 
   const cards = useMemo(() => {
     if (region === "world") {
@@ -16,11 +19,26 @@ export function FlagLearn({ lang = "ru" }) {
     return flagsQuizData.filter((country) => country.region === region);
   }, [region]);
 
+  const totalPages = Math.ceil(cards.length / ITEMS_PER_PAGE);
+
+  const currentCards = useMemo(() => {
+    const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+    return cards.slice(startIndex, startIndex + ITEMS_PER_PAGE);
+  }, [cards, currentPage]);
+
   function toggleCard(slug) {
     setFlippedCards((prev) => ({
       ...prev,
       [slug]: !prev[slug],
     }));
+  }
+
+  function goToPreviousPage() {
+    setCurrentPage((prevPage) => Math.max(prevPage - 1, 1));
+  }
+
+  function goToNextPage() {
+    setCurrentPage((prevPage) => Math.min(prevPage + 1, totalPages));
   }
 
   if (cards.length === 0) {
@@ -48,8 +66,12 @@ export function FlagLearn({ lang = "ru" }) {
           />
         </p>
 
+        <p className={styles.pageInfo}>
+          {lang === "ru" ? "Страница" : "Page"} {currentPage} / {totalPages}
+        </p>
+
         <div className={styles.cardsGrid}>
-          {cards.map((country) => {
+          {currentCards.map((country) => {
             const isFlipped = flippedCards[country.slug];
             const info = flagLearnInfo[country.slug];
 
@@ -103,6 +125,30 @@ export function FlagLearn({ lang = "ru" }) {
             );
           })}
         </div>
+
+        {totalPages > 1 && (
+          <div className={styles.pagination}>
+            <button
+              className={styles.paginationButton}
+              onClick={goToPreviousPage}
+              disabled={currentPage === 1}
+            >
+              ← {lang === "ru" ? "Назад" : "Previous"}
+            </button>
+
+            <span className={styles.paginationText}>
+              {currentPage} / {totalPages}
+            </span>
+
+            <button
+              className={styles.paginationButton}
+              onClick={goToNextPage}
+              disabled={currentPage === totalPages}
+            >
+              {lang === "ru" ? "Вперёд" : "Next"} →
+            </button>
+          </div>
+        )}
 
         <Link to="/quiz/flags/learn" className={styles.backButton}>
           ← {lang === "ru" ? "К регионам" : "To regions"}

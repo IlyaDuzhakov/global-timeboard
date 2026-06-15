@@ -1461,4 +1461,229 @@ export const africaLandmarks = [
       en: "Blyde River Canyon stretches for about 26 kilometers and reaches depths of up to 800 meters. Unlike most famous canyons around the world, its slopes are covered with lush subtropical vegetation, making it one of the largest green canyons on Earth. Its most famous viewpoint is the Three Rondavels, rock formations that resemble traditional African huts. The canyon offers spectacular views of waterfalls, mountain rivers, and the vast South African landscape.",
     },
   },
+  {
+  title: {
+    ru: "Вопрос 36",
+    en: "Question 36",
+  },
+
+  image: "/global-timeboard/img/attractions/africa/etosha-national-park.webp",
+
+  description: {
+    ru: "Этот знаменитый национальный парк известен огромной соляной равниной и богатым животным миром.",
+    en: "This famous national park is known for its vast salt pan and incredible wildlife.",
+  },
+
+  question: {
+    ru: "Как называется эта достопримечательность?",
+    en: "What is the name of this landmark?",
+  },
+
+  options: {
+    ru: ["Крюгер", "Серенгети", "Этоша", "Масаи-Мара"],
+    en: ["Kruger", "Serengeti", "Etosha", "Maasai Mara"],
+  },
+
+  correctAnswer: {
+    ru: "Этоша",
+    en: "Etosha",
+  },
+
+  factTitle: {
+    ru: "🦏 Белая земля животных",
+    en: "🦏 The White Land of Wildlife",
+  },
+
+  fact: {
+    ru: "Национальный парк Этоша расположен на севере Намибии и считается одним из лучших мест Африки для наблюдения за дикой природой. Его центральную часть занимает огромная соляная равнина площадью около 5000 квадратных километров, которая в сухой сезон напоминает бескрайнее белое море. Здесь можно встретить львов, слонов, жирафов, носорогов, гепардов и сотни видов птиц. В засушливые месяцы животные собираются возле водоёмов, что позволяет наблюдать за ними практически круглый день. Этоша входит в число самых известных сафари-парков мира.",
+    
+    en: "Etosha National Park in northern Namibia is considered one of Africa's finest wildlife destinations. At its center lies a vast salt pan covering about 5,000 square kilometers, creating a landscape that resembles an endless white sea during the dry season. Visitors can spot lions, elephants, giraffes, rhinos, cheetahs, and hundreds of bird species. During drought periods, animals gather around waterholes, making wildlife viewing exceptionally rewarding. Etosha is regarded as one of the world's premier safari parks.",
+  },
+},
+{
+  title: {
+    ru: "Вопрос 37",
+    en: "Question 37",
+  },
+
+  image: "/global-timeboard/img/attractions/africa/erta-ale.webp",
+
+  description: {
+    ru: "Этот вулкан знаменит одним из немногих постоянных лавовых озёр на планете.",
+    en: "This volcano is famous for having one of the few permanent lava lakes on Earth.",
+  },
+
+  question: {
+    ru: "Как называется эта достопримечательность?",
+    en: "What is the name of this landmark?",
+  },
+
+options: {
+  ru: [
+    "Эрта-Але",
+    "Килиманджаро",
+    "Гора Кения",
+    "Вулкан Ньирагонго",
+  ],
+  en: [
+    "Erta Ale",
+    "Kilimanjaro",
+    "Mount Kenya",
+    "Nyiragongo Volcano",
+  ],
+},
+
+  correctAnswer: {
+    ru: "Эрта-Але",
+    en: "Erta Ale",
+  },
+
+  factTitle: {
+    ru: "🌋 Врата в ад",
+    en: "🌋 Gateway to Hell",
+  },
+
+  fact: {
+    ru: "Эрта-Але находится в Данакильской впадине Эфиопии и является одним из самых активных вулканов Африки. В его кратере находится постоянное лавовое озеро — крайне редкое природное явление. Температура воздуха в этом регионе нередко превышает 40°C, а окружающий ландшафт напоминает поверхность другой планеты. Благодаря необычному виду Эрта-Але часто называют одним из самых экстремальных мест Земли.",
+    
+    en: "Erta Ale is located in Ethiopia's Danakil Depression and is one of Africa's most active volcanoes. Its crater contains a permanent lava lake, a very rare geological phenomenon. Temperatures in the region often exceed 40°C, and the surrounding landscape resembles another planet. Because of its dramatic appearance, Erta Ale is often described as one of the most extreme places on Earth.",
+  },
+},
+{
+  title: {
+    ru: "Вопрос 38",
+    en: "Question 38",
+  },
+
+  image: "/global-timeboard/img/attractions/africa/maasai-mara.webp",
+
+  description: {
+    ru: "Этот знаменитый заповедник считается одним из лучших мест мира для наблюдения за львами и Великой миграцией животных.",
+    en: "This famous reserve is one of the best places on Earth to see lions and the Great Migration.",
+  },
+
+  question: {
+    ru: "Как называется эта достопримечательность?",
+    en: "What is the name of this landmark?",
+  },
+
+  options: {
+    ru: ["Крюгер", "Масаи-Мара", "Этоша", "Амбосели"],
+    en: ["Kruger", "Maasai Mara", "Etosha", "Amboseli"],
+  },
+
+  correctAnswer: {
+    ru: "Масаи-Мара",
+    en: "Maasai Mara",
+  },
+
+  factTitle: {
+    ru: "🦁 Царство львов",
+    en: "🦁 Kingdom of Lions",
+  },
+
+  fact: {
+    ru: "Масаи-Мара является продолжением экосистемы Серенгети на территории Кении. Каждый год сюда приходят миллионы антилоп гну, зебр и газелей во время Великой миграции. За стадами следуют львы, леопарды, гепарды и крокодилы, создавая одно из самых впечатляющих природных зрелищ мира. Масаи-Мара регулярно входит в рейтинги лучших сафари-направлений планеты.",
+    
+    en: "The Maasai Mara is the Kenyan extension of the Serengeti ecosystem. Every year millions of wildebeest, zebras, and gazelles arrive during the Great Migration. Lions, leopards, cheetahs, and crocodiles follow the herds, creating one of the greatest wildlife spectacles on Earth. The Maasai Mara is consistently ranked among the world's top safari destinations.",
+  },
+},
+{
+  title: {
+    ru: "Вопрос 39",
+    en: "Question 39",
+  },
+
+  image: "/global-timeboard/img/attractions/africa/richat-structure.webp",
+
+  description: {
+    ru: "Эта гигантская круговая структура посреди пустыни настолько велика, что её хорошо видно из космоса.",
+    en: "This giant circular formation in the middle of the desert is so large that it can easily be seen from space.",
+  },
+
+  question: {
+    ru: "Как называется эта достопримечательность?",
+    en: "What is the name of this landmark?",
+  },
+
+  options: {
+    ru: [
+      "Глаз Сахары",
+      "Кратер Нгоронгоро",
+      "Данакильская впадина",
+      "Белая пустыня",
+    ],
+    en: [
+      "Eye of the Sahara",
+      "Ngorongoro Crater",
+      "Danakil Depression",
+      "White Desert",
+    ],
+  },
+
+  correctAnswer: {
+    ru: "Глаз Сахары",
+    en: "Eye of the Sahara",
+  },
+
+  factTitle: {
+    ru: "🛰 Виден из космоса",
+    en: "🛰 Visible from Space",
+  },
+
+  fact: {
+    ru: "Глаз Сахары, также известный как структура Ришат, находится в Мавритании и имеет диаметр около 40 километров. Долгое время учёные спорили о его происхождении, предполагая удар метеорита или деятельность древнего вулкана. Сегодня считается, что необычная форма возникла в результате эрозии горных пород на протяжении миллионов лет. Благодаря своим размерам структура хорошо различима даже с орбиты Земли.",
+    
+    en: "The Eye of the Sahara, also known as the Richat Structure, is located in Mauritania and measures about 40 kilometers across. For many years scientists debated whether it was formed by a meteorite impact or volcanic activity. Today it is believed to be the result of erosion acting on rock formations over millions of years. Due to its enormous size, the structure is clearly visible from Earth orbit.",
+  },
+},
+{
+  title: {
+    ru: "Вопрос 40",
+    en: "Question 40",
+  },
+
+  image: "/global-timeboard/img/attractions/africa/blue-hole-dahab.webp",
+
+  description: {
+    ru: "Этот знаменитый подводный провал в Красном море считается одним из самых известных мест для дайвинга в мире.",
+    en: "This famous underwater sinkhole in the Red Sea is considered one of the world's most famous diving sites.",
+  },
+
+  question: {
+    ru: "Как называется эта достопримечательность?",
+    en: "What is the name of this landmark?",
+  },
+
+  options: {
+    ru: [
+      "Голубая дыра",
+      "Большой Барьерный риф",
+      "Озеро Виктория",
+      "Данакильская впадина",
+    ],
+    en: [
+      "Blue Hole",
+      "Great Barrier Reef",
+      "Lake Victoria",
+      "Danakil Depression",
+    ],
+  },
+
+  correctAnswer: {
+    ru: "Голубая дыра",
+    en: "Blue Hole",
+  },
+
+  factTitle: {
+    ru: "🤿 Мекка дайверов",
+    en: "🤿 A Diver's Paradise",
+  },
+
+  fact: {
+    ru: "Голубая дыра находится возле города Дахаб на побережье Красного моря в Египте. Её глубина превышает 100 метров, а благодаря кристально чистой воде сюда ежегодно приезжают тысячи дайверов со всего мира. Это одно из самых известных мест для подводного плавания на планете.",
+    
+    en: "The Blue Hole is located near Dahab on Egypt's Red Sea coast. It is more than 100 meters deep, and its crystal-clear waters attract thousands of divers from around the world every year. It is considered one of the most famous diving locations on Earth.",
+  },
+},
 ];

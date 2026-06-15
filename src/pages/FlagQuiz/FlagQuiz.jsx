@@ -22,9 +22,18 @@ function createQuestion(currentCountry, allCountries, lang) {
   };
 }
 
+function getSavedProgress(storageKey) {
+  try {
+    return JSON.parse(localStorage.getItem(storageKey));
+  } catch {
+    return null;
+  }
+}
 export function FlagQuiz({ lang = "ru" }) {
   const { region } = useParams();
-  const bestScoreKey = `flagQuizBestScore-${region}`;
+
+  const bestScoreKey = `flagQuizBestScore-${region}-${lang}`;
+  const storageKey = `global-timeboard-flags-${region}-${lang}-progress`;
 
   const availableCountries = useMemo(() => {
     if (region === "world") {
@@ -34,13 +43,23 @@ export function FlagQuiz({ lang = "ru" }) {
     return flagsQuizData.filter((country) => country.region === region);
   }, [region]);
 
-  const questions = useMemo(() => {
-    return shuffleArray(availableCountries);
-  }, [availableCountries]);
+  const savedProgress = getSavedProgress(storageKey);
 
-  const [questionIndex, setQuestionIndex] = useState(0);
-  const [selectedAnswer, setSelectedAnswer] = useState(null);
-  const [score, setScore] = useState(0);
+  const [questions, setQuestions] = useState(() => {
+    return savedProgress?.questions || shuffleArray(availableCountries);
+  });
+
+  const [questionIndex, setQuestionIndex] = useState(() => {
+    return savedProgress?.questionIndex || 0;
+  });
+
+  const [selectedAnswer, setSelectedAnswer] = useState(() => {
+    return savedProgress?.selectedAnswer || null;
+  });
+
+  const [score, setScore] = useState(() => {
+    return savedProgress?.score || 0;
+  });
 
   const [bestScore, setBestScore] = useState(() => {
     return Number(localStorage.getItem(bestScoreKey)) || 0;
@@ -57,11 +76,13 @@ export function FlagQuiz({ lang = "ru" }) {
   }, [currentCountry, lang]);
 
   const isAnswered = selectedAnswer !== null;
+
   const isCorrect = currentQuestion
     ? selectedAnswer === currentQuestion.correctAnswer
     : false;
 
   const isLastQuestion = questionIndex === questions.length - 1;
+
   const isQuizFinished = isLastQuestion && isAnswered;
 
   const percent =
@@ -83,6 +104,18 @@ export function FlagQuiz({ lang = "ru" }) {
           : lang === "ru"
             ? "Стоит повторить материал"
             : "Keep practicing";
+
+  useEffect(() => {
+    localStorage.setItem(
+      storageKey,
+      JSON.stringify({
+        questions,
+        questionIndex,
+        selectedAnswer,
+        score,
+      }),
+    );
+  }, [storageKey, questions, questionIndex, selectedAnswer, score]);
 
   useEffect(() => {
     if (!isQuizFinished) return;
@@ -115,7 +148,6 @@ export function FlagQuiz({ lang = "ru" }) {
       </main>
     );
   }
-
   function handleAnswer(answer) {
     if (isAnswered) return;
 
@@ -132,6 +164,9 @@ export function FlagQuiz({ lang = "ru" }) {
   }
 
   function handleRestartQuiz() {
+    localStorage.removeItem(storageKey);
+
+    setQuestions(shuffleArray(availableCountries));
     setQuestionIndex(0);
     setSelectedAnswer(null);
     setScore(0);
@@ -199,68 +234,66 @@ export function FlagQuiz({ lang = "ru" }) {
                   : `❌ Wrong. Correct answer: ${currentQuestion.correctAnswer}`}
             </p>
 
-            {!isLastQuestion ? (
+            {!isLastQuestion && (
               <button
                 className={styles.backButton}
                 onClick={handleNextQuestion}
               >
                 {lang === "ru" ? "Следующий вопрос →" : "Next question →"}
               </button>
-            ) : (
-              <div className={styles.finishBox}>
-                <h2 className={styles.finishTitle}>
-                  <img
-                    src="/global-timeboard/icons/quiz-finish.png"
-                    alt=""
-                    className={styles.finishIcon}
-                  />
-                  {lang === "ru" ? "Квиз завершён!" : "Quiz completed!"}
-                </h2>
-
-                <p className={styles.finishResult}>
-                  {lang === "ru"
-                    ? `Результат: ${score} из ${questions.length}`
-                    : `Result: ${score} out of ${questions.length}`}
-                </p>
-                <p className={styles.finishPercent}>
-                  {lang === "ru"
-                    ? `Точность: ${percent}%`
-                    : `Accuracy: ${percent}%`}
-                </p>
-
-                <p className={styles.finishGrade}>{resultMessage}</p>
-                <p className={styles.finishResult}>
-                  {lang === "ru"
-                    ? `Лучший результат: ${Math.max(score, bestScore)} из ${questions.length}`
-                    : `Best score: ${Math.max(score, bestScore)} out of ${questions.length}`}
-                </p>
-                <div className={styles.finishActions}>
-                  <button
-                    className={styles.finishButton}
-                    onClick={handleRestartQuiz}
-                  >
-                    {lang === "ru" ? "Сыграть ещё раз" : "Play again"}
-                  </button>
-
-                  <Link to="/quiz/flags/play" className={styles.finishButton}>
-                    {lang === "ru" ? "Выбрать регион" : "Choose region"}
-                  </Link>
-
-                  <Link to="/quiz" className={styles.finishButton}>
-                    {lang === "ru" ? "Игровая комната" : "Quiz Room"}
-                  </Link>
-                </div>
-              </div>
             )}
           </div>
         )}
 
-        {!(isLastQuestion && isAnswered) && (
+        {!isQuizFinished && (
           <Link to="/quiz/flags" className={styles.backButton}>
             ← Назад к режимам
           </Link>
         )}
       </section>
+
+      {isQuizFinished && (
+        <div className={styles.modalOverlay}>
+          <div className={styles.modal}>
+            <div className={styles.modalIcon}>🏆</div>
+
+            <h2>{lang === "ru" ? "Квиз завершён!" : "Quiz completed!"}</h2>
+
+            <p>
+              {lang === "ru"
+                ? `Результат: ${score} из ${questions.length}`
+                : `Result: ${score} out of ${questions.length}`}
+            </p>
+
+            <div className={styles.modalPercent}>{percent}%</div>
+
+            <p className={styles.modalText}>{resultMessage}</p>
+
+            <p className={styles.modalText}>
+              {lang === "ru"
+                ? `Лучший результат: ${Math.max(score, bestScore)} из ${questions.length}`
+                : `Best score: ${Math.max(score, bestScore)} out of ${questions.length}`}
+            </p>
+
+            <div className={styles.modalButtons}>
+              <button
+                className={styles.modalAction}
+                onClick={handleRestartQuiz}
+              >
+                {lang === "ru" ? "Сыграть ещё раз" : "Play again"}
+              </button>
+
+              <Link to="/quiz/flags/play" className={styles.modalAction}>
+                {lang === "ru" ? "Выбрать регион" : "Choose region"}
+              </Link>
+
+              <Link to="/quiz" className={styles.modalAction}>
+                {lang === "ru" ? "Игровая комната" : "Quiz Room"}
+              </Link>
+            </div>
+          </div>
+        </div>
+      )}
     </main>
   );
 }
