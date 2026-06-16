@@ -136,101 +136,109 @@ function App() {
   };
 
   return (
-    <Suspense fallback={<PageLoader />}>
-      <Routes>
-        <Route
-          path="/"
-          element={
-            <div className="App">
-              <OfflineNotice lang={lang} />
-              <div
-                style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: "center",
-                }}
-              >
-                <Header lang={lang} setLang={setLang} />
+    <>
+      <OfflineNotice lang={lang} />
+      <Suspense fallback={<PageLoader />}>
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <div className="App">
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                  }}
+                >
+                  <Header lang={lang} setLang={setLang} />
 
-                <div className="timePanel">
-                  <Form
-                    setTimes={setTimes}
-                    times={times}
-                    openModal={openModal}
+                  <div className="timePanel">
+                    <Form
+                      setTimes={setTimes}
+                      times={times}
+                      openModal={openModal}
+                    />
+
+                    <ClockList times={times} setTimes={setTimes} lang={lang} />
+                  </div>
+                  <div className="desktopMap">
+                    <WorldMap
+                      activeCountries={times.map((t) => t.country)}
+                      lang={lang}
+                      setLang={setLang}
+                    />
+                  </div>
+
+                  <div className="mobileCountries">
+                    <MobileCountries lang={lang} />
+                  </div>
+                  <Footer lang={lang} />
+                  <Modal
+                    isOpen={isModalOpen}
+                    message={modalMessage}
+                    onClose={closeModal}
                   />
-
-                  <ClockList times={times} setTimes={setTimes} lang={lang} />
                 </div>
-                <div className="desktopMap">
-                  <WorldMap
-                    activeCountries={times.map((t) => t.country)}
-                    lang={lang}
-                    setLang={setLang}
-                  />
-                </div>
-
-                <div className="mobileCountries">
-                  <MobileCountries lang={lang} />
-                </div>
-                <Footer lang={lang} />
-                <Modal
-                  isOpen={isModalOpen}
-                  message={modalMessage}
-                  onClose={closeModal}
-                />
               </div>
-            </div>
-          }
-        />
-        <Route path="/country/:id" element={<CountryPage lang={lang} />} />
-        <Route path="/quiz" element={<QuizRoom lang={lang} />} />
-        <Route path="/quiz/flags" element={<FlagQuizMenu lang={lang} />} />
-        <Route
-          path="/quiz/flags/play/:region"
-          element={<FlagQuiz lang={lang} />}
-        />
-        <Route
-          path="/quiz/flags/play"
-          element={<FlagRegionSelect lang={lang} />}
-        />
-        <Route
-          path="/quiz/flags/play"
-          element={<FlagRegionSelect lang={lang} mode="play" />}
-        />
+            }
+          />
+          <Route path="/country/:id" element={<CountryPage lang={lang} />} />
+          <Route path="/quiz" element={<QuizRoom lang={lang} />} />
+          <Route path="/quiz/flags" element={<FlagQuizMenu lang={lang} />} />
+          <Route
+            path="/quiz/flags/play/:region"
+            element={<FlagQuiz lang={lang} />}
+          />
+          <Route
+            path="/quiz/flags/play"
+            element={<FlagRegionSelect lang={lang} />}
+          />
+          <Route
+            path="/quiz/flags/play"
+            element={<FlagRegionSelect lang={lang} mode="play" />}
+          />
 
-        <Route
-          path="/quiz/flags/learn"
-          element={<FlagRegionSelect lang={lang} mode="learn" />}
-        />
-        <Route
-          path="/quiz/flags/learn/:region"
-          element={<FlagLearn lang={lang} />}
-        />
-        <Route
-          path="/quiz/capitals/play/:region"
-          element={<CapitalQuiz lang={lang} />}
-        />
-        <Route path="/quiz/junior" element={<JuniorQuiz lang={lang} />} />
-        <Route path="/quiz/middle" element={<MiddleQuiz lang={lang} />} />
-        <Route path="/quiz/expert" element={<ExpertQuiz lang={lang} />} />
-        <Route path="/quiz/marathon" element={<MarathonQuiz lang={lang} />} />
-        <Route path="/money" element={<MoneyPage lang={lang} />} />
-        <Route path="/money/marathon" element={<MoneyMarathon lang={lang} />} />
-        <Route
-          path="/money/currencies"
-          element={<CurrencyQuiz lang={lang} />}
-        />
-        <Route path="/quiz/landmarks" element={<LandmarksPage lang={lang} />} />
-        <Route
-          path="/quiz/landmarks/play/:region"
-          element={<LandmarksQuiz lang={lang} />}
-        />
-        <Route
-          path="/quiz/achievements"
-          element={<AchievementsPage lang={lang} />}
-        />
-      </Routes>
-    </Suspense>
+          <Route
+            path="/quiz/flags/learn"
+            element={<FlagRegionSelect lang={lang} mode="learn" />}
+          />
+          <Route
+            path="/quiz/flags/learn/:region"
+            element={<FlagLearn lang={lang} />}
+          />
+          <Route
+            path="/quiz/capitals/play/:region"
+            element={<CapitalQuiz lang={lang} />}
+          />
+          <Route path="/quiz/junior" element={<JuniorQuiz lang={lang} />} />
+          <Route path="/quiz/middle" element={<MiddleQuiz lang={lang} />} />
+          <Route path="/quiz/expert" element={<ExpertQuiz lang={lang} />} />
+          <Route path="/quiz/marathon" element={<MarathonQuiz lang={lang} />} />
+          <Route path="/money" element={<MoneyPage lang={lang} />} />
+          <Route
+            path="/money/marathon"
+            element={<MoneyMarathon lang={lang} />}
+          />
+          <Route
+            path="/money/currencies"
+            element={<CurrencyQuiz lang={lang} />}
+          />
+          <Route
+            path="/quiz/landmarks"
+            element={<LandmarksPage lang={lang} />}
+          />
+          <Route
+            path="/quiz/landmarks/play/:region"
+            element={<LandmarksQuiz lang={lang} />}
+          />
+          <Route
+            path="/quiz/achievements"
+            element={<AchievementsPage lang={lang} />}
+          />
+        </Routes>
+      </Suspense>
+    </>
   );
 }
 
