@@ -2,42 +2,160 @@
 
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
 ![PWA](https://img.shields.io/badge/PWA-ready-5A0FC8)
+![Offline](https://img.shields.io/badge/Offline-supported-orange)
 ![Status](https://img.shields.io/badge/status-active%20development-brown)
 ![Deploy](https://github.com/IlyaDuzhakov/global-timeboard/actions/workflows/deploy.yml/badge.svg)
 
-![Demo](public/media/global-timeboard-demo.gif)
+**Global Timeboard** is an interactive world atlas built with React.
 
+It combines world clocks, an SVG world map, country encyclopedia pages, geography quizzes, achievements, PWA installation, and offline support in a vintage atlas-style interface.
 
-Interactive World Atlas • World Clocks • Geography Learning • Quizzes
-
-**Global Timeboard** is an interactive React PWA that combines world time, an SVG world map, and a country information system.
-
-The project is built as a personal geography-focused application with a vintage atlas interface.
-
-## Demo
-
-🌐 Live demo: https://ilyaduzhakov.github.io/global-timeboard
+🌐 **Live demo:** https://ilyaduzhakov.github.io/global-timeboard
 
 ---
+
+## 🎬 Demo
+
+![Global Timeboard Demo](public/media/global-timeboard-demo.gif)
+
+---
+##  Features
+
+###  Geography
+
+* Interactive SVG World Map
+* Country Encyclopedia
+* Country Facts and Statistics
+* Government Systems
+* Economy and Resources
+* Nature and Climate
+* Culture and Traditions
+* Sports and National Achievements
+* Country Landmarks
+
+###  World Time
+
+* Multiple World Clocks
+* Real IANA Time Zones
+* Up to 6 Custom Clocks
+* Live Time Updates
+
+###  Quiz System
+
+* Flag Quiz
+* Capitals Quiz
+* Currency Quiz
+* Landmarks Quiz
+* Junior Geography Quiz
+* Middle Geography Quiz
+* Expert Geography Quiz
+* Marathon 100 Challenge
+* Educational Facts After Answers
+
+###  Progress System
+
+* Achievement Hall
+* Medals and Records
+* Quiz Statistics
+* Local Progress Saving
+
+###  Modern App Features
+
+* Progressive Web App (PWA)
+* Offline Support
+* Lazy Loading
+* Responsive Design
+* LocalStorage Persistence
+* English and Russian Languages
+
+## 📱 PWA & Offline Support
+
+Global Timeboard is available as a Progressive Web App (PWA).
+
+The application can be installed on desktop and mobile devices and used like a native application.
+
+### PWA Features
+
+* Installable on Android and iOS
+* Installable on desktop browsers
+* Offline support
+* Service Worker caching
+* Standalone application mode
+* Fast repeat loading
+* Responsive mobile experience
+
+### Installation
+
+#### Android
+
+1. Open Global Timeboard in Chrome.
+2. Tap the browser menu.
+3. Select **Add to Home Screen** or **Install App**.
+4. Launch Global Timeboard directly from your device home screen.
+
+#### iPhone / iPad
+
+1. Open Global Timeboard in Safari.
+2. Tap the **Share** button.
+3. Select **Add to Home Screen**.
+4. Launch the application from your home screen.
+
+### Offline Mode
+
+When an internet connection is unavailable:
+
+* previously cached resources remain available;
+* users receive an offline notification;
+* an offline page is displayed when required resources cannot be loaded.
+
+This allows Global Timeboard to provide a smoother experience even with limited connectivity.
+
+
+### 📲 Install as PWA
+
+![PWA Installation](public/media/pwa-install.gif)
+
+## 🎬 Application Showcase
+
+### 🌍 Country Encyclopedia
+
+![Country Encyclopedia](public/media/country-pages.gif)
+
+Shows:
+
+* Country Information
+* Economy
+* Nature
+* Culture
+* Landmarks
+* Facts
+
+---
+
+### 🚩 Geography Quizzes
+
+![Quizzes](public/media/quizzes.gif)
+
+Shows:
+
+* Flags Quiz
+* Capitals Quiz
+* Currency Quiz
+* Landmarks Quiz
+
+
 
 ## Screenshots
 
 ### Desktop
 
-![Desktop clocks](public/screenshots/desktop-clocks.jpg)
+![Desktop ](public/screenshots/desktop.webp)
+![Play ground](public/screenshots/play-ground.webp)
 
 ### Mobile
 
-![Mobile home](public/screenshots/mobile.webp)
-
-
-### Country Page
-
+![Mobile](public/screenshots/mobile.webp)
 ![Country page](public/screenshots/country-page.webp)
-
-### Quiz Hub
-
-![Quiz Hub](public/screenshots/quiz-hub.webp)
 
 ### Learn Flags
 
@@ -53,74 +171,89 @@ The project is built as a personal geography-focused application with a vintage 
 
 ---
 
-## Features
 
-- Interactive world map
-- World clocks with real IANA timezones
-- Country information pages
-- Learn Flags mode
-- Flag Quiz
-- Capitals Quiz
-- Junior Geography Quiz
-- Educational facts after answers
-- Landmarks and points of interest
-- Russian and English language support
-- Responsive desktop and mobile layout
-- Progressive Web App (PWA)
+##  Technologies
 
----
+This project is built with:
 
-## Country Information
+* React
+* React Router
+* JavaScript
+* CSS Modules
+* Luxon
+* D3-Geo
+* TopoJSON
+* React Select
 
-Each country page can include:
+Additional features:
 
-- government system
-- capital and flag
-- population
-- language
-- currency
-- natural resources
-- nature and climate
-- economy and trade
-- culture and religion
-- sports
-- strengths and challenges
-- landmarks
-- facts
-- quiz
+* LocalStorage
+* Lazy Loading
+* Service Worker
+* PWA Support
+* Offline Mode
+
+Deployment:
+
+* GitHub Pages
+* GitHub Actions
 
 ---
 
-## Technologies
+## 📊 Current Scale
 
-- React
-- JavaScript
-- Luxon
-- D3-geo
-- TopoJSON
-- React Select
-- CSS Modules
-- LocalStorage
-- PWA
-- GitHub Pages
+At the moment Global Timeboard includes:
+
+* 🌍 190+ countries
+* 🚩 190+ flags
+* 🏛️ 190+ capitals
+* 💰 world currencies database
+* 🗿 1,900+ landmarks
+* ❓ 900+ geography questions
+* 🎮 8 quiz modes
+* 🏆 achievement system
+* 📱 PWA support
+* 🌐 offline mode
+
+The project is actively growing with new countries, landmarks, facts and educational content.
+
+---
+
+##  Project Goal
+
+Global Timeboard started as a world clock application and gradually evolved into a geography learning platform.
+
+The goal of the project is to combine world time, maps, countries, landmarks and quizzes in a single educational application.
+
+The project is actively developed and new content is added regularly.
 
 ---
 
-## Project Goal
+##  Roadmap
 
-The goal of Global Timeboard is to create an interactive world atlas that combines:
+✅ World Clocks
 
-- time
-- geography
-- education
-- maps
-- visual learning
-- country exploration
+✅ Country Encyclopedia
 
-The project is currently under active development.
-New countries, cards, quizzes, screenshots, and UI improvements are being added gradually.
+✅ Flags Quiz
 
----
+✅ Capitals Quiz
+
+✅ Currency Quiz
+
+✅ Landmarks Quiz
+
+✅ Achievement Hall
+
+✅ PWA Support
+
+✅ Offline Mode
+
+🔄 Expanding Country Content
+
+🔄 Adding New Landmarks
+
+🔄 More Educational Content
 
 ## Author
 
