@@ -53,9 +53,9 @@
 }
 
 .regionCard:hover {
-  transform: translateY(-5px) scale(1.02);
-  background: #0d2242;
-  box-shadow: 0 13px 0 #020817;
+  transform: translateY(-3px);
+  background: #3570c9;
+  box-shadow: 0 8px 0 #020817;
 }
 
 .regionIcon {

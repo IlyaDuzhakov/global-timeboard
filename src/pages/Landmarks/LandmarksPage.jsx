@@ -2,8 +2,6 @@ import { Link } from "react-router-dom";
 import styles from "./LandmarksPage.module.css";
 
 export function LandmarksPage({ lang }) {
-
-
   return (
     <main
       className={styles.landmarksPage}
@@ -13,7 +11,15 @@ export function LandmarksPage({ lang }) {
     >
       <section className={styles.panel}>
         <h1 className={styles.title}>
-          {lang === "ru" ? "Достопримечательности" : "Landmarks"}
+          {lang === "ru" ? (
+            <>
+              Достопримеча
+              <br className={styles.mobileBreak} />
+              тельности
+            </>
+          ) : (
+            "Landmarks"
+          )}
         </h1>
 
         <p className={styles.subtitle}>
@@ -24,33 +30,33 @@ export function LandmarksPage({ lang }) {
 
         <div className={styles.modeGrid}>
           <Link to="/quiz/landmarks/play/europe" className={styles.modeCard}>
-             <img 
-             className={styles.modeIcon} 
-             src="/global-timeboard/icons/europe.svg"
-             alt="attractions-europe" 
-             />
+            <img
+              className={styles.modeIcon}
+              src="/global-timeboard/icons/europe.svg"
+              alt="attractions-europe"
+            />
             <span className={styles.modeTitle}>
               {lang === "ru" ? "Европа" : "Europe"}
             </span>
           </Link>
 
           <Link to="/quiz/landmarks/play/asia" className={styles.modeCard}>
-             <img 
-             className={styles.modeIcon} 
-             src="/global-timeboard/icons/asia.svg"
-             alt="attractions-asia" 
-             />
+            <img
+              className={styles.modeIcon}
+              src="/global-timeboard/icons/asia.svg"
+              alt="attractions-asia"
+            />
             <span className={styles.modeTitle}>
               {lang === "ru" ? "Азия" : "Asia"}
             </span>
           </Link>
 
           <Link to="/quiz/landmarks/play/africa" className={styles.modeCard}>
-            <img 
-             className={styles.modeIcon} 
-             src="/global-timeboard/icons/africa.svg"
-             alt="attractions-africa" 
-             />
+            <img
+              className={styles.modeIcon}
+              src="/global-timeboard/icons/africa.svg"
+              alt="attractions-africa"
+            />
             <span className={styles.modeTitle}>
               {lang === "ru" ? "Африка" : "Africa"}
             </span>
@@ -60,11 +66,11 @@ export function LandmarksPage({ lang }) {
             to="/quiz/landmarks/play/north-america"
             className={styles.modeCard}
           >
-            <img 
-             className={styles.modeIcon} 
-             src="/global-timeboard/icons/north-america.svg"
-             alt="north-america" 
-             />
+            <img
+              className={styles.modeIcon}
+              src="/global-timeboard/icons/north-america.svg"
+              alt="north-america"
+            />
             <span className={styles.modeTitle}>
               {lang === "ru" ? "Северная Америка" : "North America"}
             </span>
@@ -74,22 +80,22 @@ export function LandmarksPage({ lang }) {
             to="/quiz/landmarks/play/south-america"
             className={styles.modeCard}
           >
-            <img 
-             className={styles.modeIcon} 
-             src="/global-timeboard/icons/south-america.svg"
-             alt="south-america" 
-             />
+            <img
+              className={styles.modeIcon}
+              src="/global-timeboard/icons/south-america.svg"
+              alt="south-america"
+            />
             <span className={styles.modeTitle}>
               {lang === "ru" ? "Южная Америка" : "South America"}
             </span>
           </Link>
 
           <Link to="/quiz/landmarks/play/oceania" className={styles.modeCard}>
-             <img 
-             className={styles.modeIcon} 
-             src="/global-timeboard/icons/oceania.svg"
-             alt="oceania" 
-             />
+            <img
+              className={styles.modeIcon}
+              src="/global-timeboard/icons/oceania.svg"
+              alt="oceania"
+            />
             <span className={styles.modeTitle}>
               {lang === "ru" ? "Океания" : "Oceania"}
             </span>

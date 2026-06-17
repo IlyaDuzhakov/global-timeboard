@@ -52,8 +52,9 @@
 }
 
 .modeCard:hover {
-  transform: translateY(-5px) scale(1.02);
-  background: #0d2242;
+  transform: translateY(-3px);
+  background: #3570c9;
+  box-shadow: 0 8px 0 #020817;
 }
 
 .modeIcon {
@@ -81,6 +82,13 @@
   font-weight: 700;
   display: flex;
 }
+
+.backButton:hover {
+  transform: translateY(-3px);
+  background: #3570c9;
+  box-shadow: 0 8px 0 #020817;
+}
+
 
 @media (max-width: 640px) {
   .modeGrid {

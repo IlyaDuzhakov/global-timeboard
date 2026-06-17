@@ -7,7 +7,7 @@
 }
 
 .quizPanel {
-  width: 100%;
+  /* width: 100%; */
   max-width: 980px;
   padding: 38px 32px;
   border-radius: 28px;
@@ -15,6 +15,10 @@
   border: 3px solid rgba(255, 255, 255, 0.65);
   box-shadow: 0 24px 55px rgba(0, 0, 0, 0.28);
   text-align: center;
+  
+  position: relative;
+  z-index: 2000;
+
 }
 
 .quizMainIcon {
@@ -36,7 +40,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
+  
   margin-top: 25px;
   padding: 14px 28px;
 
@@ -62,6 +66,7 @@
 
 .quizCard h2 {
   margin-bottom: 4px;
+  margin-top: 30px;
 }
 
 .quizCard p {
@@ -205,6 +210,82 @@
   box-shadow: 0 8px 0 #020817;
 }
 
+.desktopLandmarkLayout {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.sideLandmark {
+  position: fixed;
+  top: 420px;
+  width: 360px;
+  text-align: center;
+  z-index: 1;
+}
+
+.sideLandmark img {
+  width: 100%;
+  height: 460px;
+  object-fit: cover;
+
+  border-radius: 24px;
+
+  border: 8px solid rgba(255,255,255,0.7);
+
+  box-shadow:
+    0 12px 30px rgba(0,0,0,0.35);
+}
+
+.sideLandmark:first-child {
+  left: 60px;
+}
+
+.sideLandmark:last-child {
+  right: 60px;
+}
+
+.sideLandmark img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 24px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+.sideLandmark p {
+  margin-top: 14px;
+  font-size: 30px;
+  font-weight: 800;
+  color: #1d007d;
+}
+
+.quizPanel {
+  position: relative;
+  z-index: 2;
+}
+
+.hallAchievementsText {
+  font-weight: 600;
+}
+
+@media (max-width: 2000px) {
+  .sideLandmark {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .desktopLandmarkLayout {
+    display: block;
+  }
+
+  .sideLandmark {
+    display: none;
+  }
+}
+
 @media (max-width: 850px) {
   .quizPanel {
     padding: 28px 20px;
@@ -221,4 +302,22 @@
   .quizModesGrid {
     grid-template-columns: 1fr;
   }
+}
+
+@media (max-width: 470px) {
+    .quizTitle {
+    font-size: 30px;
+  }
+
+.quizModeTitle {
+  font-size: 22px;
+  overflow-wrap: anywhere;
+}
+.hallAchievements {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.hallAchievementsText {
+  font-size: 16px;
+}
 }

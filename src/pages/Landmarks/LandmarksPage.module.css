@@ -149,10 +149,23 @@
   transition: transform 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
 }
 
+.mobileBreak {
+  display: none;
+}
+
 .backButton:hover {
   transform: translateY(-3px);
   background: #3570c9;
   box-shadow: 0 8px 0 #020817;
+}
+
+@media (max-width: 750px) {
+  .modeGrid {
+  grid-template-columns: repeat(1, minmax(220px, 1fr));
+}
+.title {
+  font-size: 30px;
+}
 }
 
 @media (max-width: 640px) {
@@ -170,5 +183,11 @@
 
   .quizModesGrid {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 450px) {
+   .mobileBreak {
+    display: block;
   }
 }
