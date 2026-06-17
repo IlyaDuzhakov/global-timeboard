@@ -157,18 +157,6 @@ Shows:
 ![Mobile](public/screenshots/mobile.webp)
 ![Country page](public/screenshots/country-page.webp)
 
-### Learn Flags
-
-![Learn Flags](public/screenshots/learn-flags.webp)
-
-### Flag Quiz
-
-![Flag Quiz](public/screenshots/flag-quiz.webp)
-
-### Junior Geography
-
-![Junior Geography](public/screenshots/junior-geography.webp)
-
 ---
 
 
