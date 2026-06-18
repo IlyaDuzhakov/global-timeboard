@@ -219,7 +219,7 @@ export default function CountryPage({ lang }) {
                     />
                   </div>
                 </div>
-                <div className={styles.flipHint}>↻</div>
+                {/* <div className={styles.flipHint}>↻</div> */}
               </div>
             ))}
           </div>

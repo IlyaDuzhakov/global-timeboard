@@ -20,6 +20,9 @@ import { thailand } from "./countries/asia/thailand.js";
 import { vietnam } from "./countries/asia/vietnam.js";
 import { laos } from "./countries/asia/laos.js";
 import { cambodia } from "./countries/asia/cambodia.js";
+import { myanmar } from "./countries/asia/myanmar.js";
+import { malaysia } from "./countries/asia/malaysia.js";
+import { singapore } from "./countries/asia/singapore.js";
 export const countryDetails = {
    china,
    japan,
@@ -43,4 +46,7 @@ export const countryDetails = {
    vietnam,
    laos,
    cambodia,
+   myanmar,
+   malaysia,
+   singapore,
 };
