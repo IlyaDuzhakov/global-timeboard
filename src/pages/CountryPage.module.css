@@ -398,7 +398,7 @@
 
   font-size: 30px;
   color: red;
-
+   pointer-events: none;
   z-index: 100;
   filter: drop-shadow(0 4px 4px rgba(0,0,0,0.3));
 }

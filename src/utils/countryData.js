@@ -6966,4 +6966,82 @@ export const countryInfo = {
 
     flag: "/global-timeboard/img/flags/tuvalu.png",
   },
+  Brunei: {
+  id: "brunei",
+
+  name: {
+    en: "Brunei",
+    ru: "Бруней",
+  },
+
+  capital: {
+    en: "Bandar Seri Begawan",
+    ru: "Бандар-Сери-Бегаван",
+  },
+
+  area: 5765,
+
+  population: {
+    en: "0.46 million",
+    ru: "0.46 млн",
+  },
+
+  timezone: "UTC+8 (GMT+8)",
+
+  currency: {
+    en: "Brunei Dollar",
+    ru: "Брунейский доллар",
+  },
+
+  government: {
+    en: "Absolute monarchy",
+    ru: "Абсолютная монархия",
+  },
+
+  language: {
+    en: "Malay",
+    ru: "Малайский",
+  },
+
+  flag: "/global-timeboard/img/flags/brunei.png",
+},
+"Timor-Leste": {
+  id: "timor-leste",
+
+  name: {
+    en: "East Timor",
+    ru: "Восточный Тимор",
+  },
+
+  capital: {
+    en: "Dili",
+    ru: "Дили",
+  },
+
+  area: 14874,
+
+  population: {
+    en: "1.4 million",
+    ru: "1.4 млн",
+  },
+
+  timezone: "UTC+9 (GMT+9)",
+
+  currency: {
+    en: "United States Dollar",
+    ru: "Доллар США",
+  },
+
+  government: {
+    en: "Semi-presidential republic",
+    ru: "Полупрезидентская республика",
+  },
+
+  language: {
+    en: "Tetum, Portuguese",
+    ru: "Тетум, португальский",
+  },
+
+  flag: "/global-timeboard/img/flags/timor-leste.png",
+},
 };

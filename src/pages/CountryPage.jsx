@@ -206,7 +206,7 @@ export default function CountryPage({ lang }) {
                     <img src={place.image} alt={place.title.en} />
 
                     <h3>{place.title[lang]}</h3>
-                    <div className={styles.flipHint}>↻</div>
+                    {/* <div className={styles.flipHint}>↻</div> */}
                   </div>
 
                   <div className={styles.landmarkBack}>
@@ -219,7 +219,7 @@ export default function CountryPage({ lang }) {
                     />
                   </div>
                 </div>
-                {/* <div className={styles.flipHint}>↻</div> */}
+                <div className={styles.flipHint}>↻</div>
               </div>
             ))}
           </div>
@@ -246,16 +246,16 @@ export default function CountryPage({ lang }) {
               {lang === "ru" ? "Экономика и торговля" : "Economy and Trade"}
             </h2>
 
-            <ul className={styles.factsList}>
+            <div className={styles.factsList}>
               {details?.economyFacts?.map((fact, index) => (
-                <li
+                <div
                   key={index}
                   dangerouslySetInnerHTML={{
                     __html: fact[lang],
                   }}
                 />
               ))}
-            </ul>
+            </div>
           </div>
         )}
         {activeSection === "culture" && (

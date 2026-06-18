@@ -196,7 +196,7 @@ At the moment Global Timeboard includes:
 * 🚩 190+ flags
 * 🏛️ 190+ capitals
 * 💰 world currencies database
-* 🗿 1,900+ landmarks
+* 🗿 3000+ landmarks
 * ❓ 900+ geography questions
 * 🎮 8 quiz modes
 * 🏆 achievement system
