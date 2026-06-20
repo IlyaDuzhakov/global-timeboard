@@ -27,6 +27,9 @@ import { indonesia } from "./countries/asia/indonesia.js";
 import { philippines } from "./countries/asia/philippines.js";
 import { brunei } from "./countries/asia/brunei.js";
 import { timorLeste } from "./countries/asia/timorLeste.js";
+import { taiwan } from "./countries/asia/taiwan.js";
+import { turkey } from "./countries/asia/turkey.js";
+import { iran } from "./countries/asia/iran.js";
 export const countryDetails = {
    china,
    japan,
@@ -57,4 +60,7 @@ export const countryDetails = {
    philippines,
    brunei,
    "timor-leste": timorLeste,
+   taiwan,
+   turkey,
+   iran,
 };
