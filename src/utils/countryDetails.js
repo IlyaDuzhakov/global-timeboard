@@ -30,6 +30,10 @@ import { timorLeste } from "./countries/asia/timorLeste.js";
 import { taiwan } from "./countries/asia/taiwan.js";
 import { turkey } from "./countries/asia/turkey.js";
 import { iran } from "./countries/asia/iran.js";
+import { iraq } from "./countries/asia/iraq.js";
+import { syria } from "./countries/asia/syria.js";
+import { lebanon } from "./countries/asia/lebanon.js";
+import { jordan } from "./countries/asia/jordan.js";
 export const countryDetails = {
    china,
    japan,
@@ -63,4 +67,8 @@ export const countryDetails = {
    taiwan,
    turkey,
    iran,
+   iraq,
+   syria,
+   lebanon,
+   jordan,
 };
