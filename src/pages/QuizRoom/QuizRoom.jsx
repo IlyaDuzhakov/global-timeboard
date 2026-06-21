@@ -58,6 +58,15 @@ export function QuizRoom({ lang }) {
       text: { ru: "Большой мировой челлендж", en: "Big world challenge" },
       path: "/quiz/marathon",
     },
+    {
+      iconSrc: "/global-timeboard/icons/food.svg",
+      title: { ru: "Блюда мира", en: "World Food" },
+      text: {
+        ru: "Угадай блюдо по фото",
+        en: "Guess the dish by photo",
+      },
+      path: "/quiz/food",
+    },
   ];
 
   const leftLandmark =
@@ -125,7 +134,9 @@ export function QuizRoom({ lang }) {
                 />
               </div>
 
-              <h2 className={styles.hallAchievements}>{lang === "ru" ? "Зал достижений" : "Achievements Hall"}</h2>
+              <h2 className={styles.hallAchievements}>
+                {lang === "ru" ? "Зал достижений" : "Achievements Hall"}
+              </h2>
 
               <p className={styles.hallAchievementsText}>
                 {lang === "ru"

@@ -10,6 +10,7 @@ import Modal from "./components/Modal/Modal";
 import OfflineNotice from "./components/OfflineNotice/OfflineNotice.jsx";
 import PageLoader from "./components/PageLoader/PageLoader.jsx";
 import MobileCountries from "./components/mobileCountries/MobileCountries";
+import FoodQuiz from "./pages/FoodQuiz/FoodQuiz.jsx";
 const CountryPage = lazy(() => import("./pages/CountryPage"));
 
 const FlagQuizMenu = lazy(() =>
@@ -211,6 +212,7 @@ function App() {
             path="/quiz/capitals/play/:region"
             element={<CapitalQuiz lang={lang} />}
           />
+          <Route path="/quiz/food" element={<FoodQuiz lang={lang} />} />
           <Route path="/quiz/junior" element={<JuniorQuiz lang={lang} />} />
           <Route path="/quiz/middle" element={<MiddleQuiz lang={lang} />} />
           <Route path="/quiz/expert" element={<ExpertQuiz lang={lang} />} />
@@ -232,6 +234,7 @@ function App() {
             path="/quiz/landmarks/play/:region"
             element={<LandmarksQuiz lang={lang} />}
           />
+
           <Route
             path="/quiz/achievements"
             element={<AchievementsPage lang={lang} />}
