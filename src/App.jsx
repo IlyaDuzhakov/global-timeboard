@@ -11,6 +11,7 @@ import OfflineNotice from "./components/OfflineNotice/OfflineNotice.jsx";
 import PageLoader from "./components/PageLoader/PageLoader.jsx";
 import MobileCountries from "./components/mobileCountries/MobileCountries";
 import FoodQuiz from "./pages/FoodQuiz/FoodQuiz.jsx";
+import ExtremeFood from "./pages/ExtremeFood/ExtremeFood";
 const CountryPage = lazy(() => import("./pages/CountryPage"));
 
 const FlagQuizMenu = lazy(() =>
@@ -239,6 +240,7 @@ function App() {
             path="/quiz/achievements"
             element={<AchievementsPage lang={lang} />}
           />
+        <Route path="/extreme-food" element={<ExtremeFood lang={lang} />} />
         </Routes>
       </Suspense>
     </>

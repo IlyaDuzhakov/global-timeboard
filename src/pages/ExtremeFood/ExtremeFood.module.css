@@ -1,0 +1,158 @@
+.page {
+  min-height: 100vh;
+  padding: 40px 20px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  width: 100%;
+  max-width: 920px;
+  padding: 32px;
+  border-radius: 26px;
+  background: rgba(238, 216, 162, 0.96);
+  border: 3px solid rgba(255, 255, 255, 0.65);
+  box-shadow: 0 24px 55px rgba(0, 0, 0, 0.28);
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 18px;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.progress,
+.country {
+  margin: 0;
+}
+
+.image {
+  width: 100%;
+  max-height: 800px;
+  object-fit: cover;
+  border-radius: 20px;
+  display: block;
+  margin-bottom: 24px;
+}
+
+.title {
+  margin: 0 0 22px;
+  text-align: center;
+  font-size: 42px;
+  font-weight: 900;
+}
+
+.description {
+  padding: 24px;
+  border-radius: 20px;
+  background: rgba(255, 248, 220, 0.88);
+  font-size: 18px;
+  line-height: 1.65;
+}
+
+.description p {
+  margin: 0 0 12px;
+}
+
+.description strong {
+  font-weight: 900;
+}
+
+.nextButton,
+.backButton,
+.modalAction {
+  border: none;
+  border-radius: 14px;
+  background: #071428;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0 5px 0 #020817;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.nextButton {
+  width: 100%;
+  margin-top: 24px;
+  padding: 15px 24px;
+}
+
+.backButton {
+  margin-top: 26px;
+  padding: 12px 24px;
+}
+
+.nextButton:hover,
+.backButton:hover,
+.modalAction:hover {
+  transform: translateY(-3px);
+  background: #3570c9;
+}
+
+.modalOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.62);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.modal {
+  width: 100%;
+  max-width: 460px;
+  padding: 32px;
+  border-radius: 24px;
+  background: #071428;
+  color: #ffffff;
+  text-align: center;
+}
+
+.modalIcon {
+  font-size: 54px;
+  margin-bottom: 12px;
+}
+
+.modalButtons {
+  display: flex;
+  gap: 14px;
+  margin-top: 24px;
+}
+
+.modalAction {
+  flex: 1;
+  padding: 14px 18px;
+}
+
+@media (max-width: 650px) {
+  .card {
+    padding: 22px;
+  }
+
+  .info {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  .description {
+    padding: 18px;
+    font-size: 16px;
+  }
+
+  .modalButtons {
+    flex-direction: column;
+  }
+}

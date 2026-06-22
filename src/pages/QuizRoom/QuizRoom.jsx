@@ -34,6 +34,27 @@ export function QuizRoom({ lang }) {
       },
       path: "/money",
     },
+      {
+      iconSrc: "/global-timeboard/icons/food.svg",
+      title: { ru: "Блюда мира", en: "World Food" },
+      text: {
+        ru: "Угадай блюдо по фото",
+        en: "Guess the dish by photo",
+      },
+      path: "/quiz/food",
+    },
+    {
+      iconSrc: "/global-timeboard/icons/extreme-food.svg",
+      title: {
+        ru: "Экстремальная кухня",
+        en: "Extreme Food",
+      },
+      text: {
+        ru: "Самые необычные блюда мира",
+        en: "The world's strangest dishes",
+      },
+      path: "/extreme-food",
+    },
     {
       iconSrc: "/global-timeboard/icons/quiz-junior.png",
       title: { ru: "Junior", en: "Junior" },
@@ -57,15 +78,6 @@ export function QuizRoom({ lang }) {
       title: { ru: "Марафон 100", en: "Marathon 100" },
       text: { ru: "Большой мировой челлендж", en: "Big world challenge" },
       path: "/quiz/marathon",
-    },
-    {
-      iconSrc: "/global-timeboard/icons/food.svg",
-      title: { ru: "Блюда мира", en: "World Food" },
-      text: {
-        ru: "Угадай блюдо по фото",
-        en: "Guess the dish by photo",
-      },
-      path: "/quiz/food",
     },
   ];
 
