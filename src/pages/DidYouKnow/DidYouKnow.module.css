@@ -1,0 +1,168 @@
+.page {
+   min-height: 100vh;
+  padding: 40px 20px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.card {
+  width: 95%;
+    max-width: 2000px;
+ 
+  padding: 28px;
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.94);
+  border: 3px solid rgba(255, 255, 255, 0.75);
+  box-shadow: 0 24px 55px rgba(0, 0, 0, 0.22);
+}
+
+.progress {
+  margin: 0 0 18px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 900;
+  color: #071428;
+}
+
+.image {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow:
+    0 0 0 2px rgba(255,255,255,0.6),
+    0 10px 25px rgba(0,0,0,0.18);
+}
+
+.mobileText {
+  display: none;
+}
+
+.title {
+  margin: 22px 0 16px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 900;
+  color: #071428;
+}
+
+.description {
+  padding: 20px;
+  border-radius: 18px;
+  background: rgba(255, 248, 220, 0.9);
+  font-size: 17px;
+  line-height: 1.65;
+  color: #071428;
+}
+
+.description strong {
+  font-weight: 900;
+}
+
+.nextButton,
+.backButton,
+.modalAction {
+  border: none;
+  border-radius: 14px;
+  background: #071428;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 900;
+  cursor: pointer;
+  box-shadow: 0 5px 0 #020817;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.nextButton {
+  width: 100%;
+  margin-top: 24px;
+  padding: 15px 24px;
+}
+
+.backButton {
+  margin-top: 26px;
+  padding: 12px 24px;
+}
+
+.nextButton:hover,
+.backButton:hover,
+.modalAction:hover {
+  transform: translateY(-3px);
+  background: #3570c9;
+}
+
+.modalOverlay {
+  position: fixed;
+  inset: 0;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.62);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  width: 100%;
+  max-width: 460px;
+  padding: 32px;
+  border-radius: 24px;
+  background: #071428;
+  color: #ffffff;
+  text-align: center;
+}
+
+.modalIcon {
+  font-size: 54px;
+  margin-bottom: 12px;
+}
+
+.modalButtons {
+  display: flex;
+  gap: 14px;
+  margin-top: 24px;
+}
+
+.modalAction {
+  flex: 1;
+  padding: 14px 18px;
+}
+
+@media (max-width: 768px) {
+  .page {
+    padding: 24px 12px;
+  }
+
+  .card {
+    padding: 18px;
+    border-radius: 22px;
+  }
+
+  .progress {
+    font-size: 17px;
+  }
+
+  .image {
+    border-radius: 18px;
+  }
+
+  .mobileText {
+    display: block;
+  }
+
+  .title {
+    font-size: 27px;
+  }
+
+  .description {
+    padding: 18px;
+    font-size: 16px;
+  }
+
+  .modalButtons {
+    flex-direction: column;
+  }
+}

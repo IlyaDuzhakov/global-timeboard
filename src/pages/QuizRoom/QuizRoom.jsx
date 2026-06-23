@@ -34,7 +34,7 @@ export function QuizRoom({ lang }) {
       },
       path: "/money",
     },
-      {
+    {
       iconSrc: "/global-timeboard/icons/food.svg",
       title: { ru: "Блюда мира", en: "World Food" },
       text: {
@@ -54,6 +54,21 @@ export function QuizRoom({ lang }) {
         en: "The world's strangest dishes",
       },
       path: "/extreme-food",
+    },
+    {
+      iconSrc: "/global-timeboard/icons/quiz-facts.svg",
+
+      title: {
+        ru: "А вы знали?",
+        en: "Did You Know?",
+      },
+
+      text: {
+        ru: "Удивительные факты о мире",
+        en: "Amazing facts about our world",
+      },
+
+      path: "/did-you-know",
     },
     {
       iconSrc: "/global-timeboard/icons/quiz-junior.png",
