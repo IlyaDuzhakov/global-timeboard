@@ -70,6 +70,18 @@ export function QuizRoom({ lang }) {
 
       path: "/did-you-know",
     },
+ {
+  iconSrc: "/global-timeboard/icons/records.svg",
+  title: {
+    ru: "Рекорды планеты",
+    en: "World Records",
+  },
+  text: {
+    ru: "64 невероятных рекорда Земли и Вселенной",
+    en: "64 incredible records of Earth and the Universe",
+  },
+  path: "/records",
+},
     {
       iconSrc: "/global-timeboard/icons/quiz-junior.png",
       title: { ru: "Junior", en: "Junior" },
@@ -89,7 +101,7 @@ export function QuizRoom({ lang }) {
       path: "/quiz/expert",
     },
     {
-      iconSrc: "/global-timeboard/icons/quiz-marathon.png",
+      iconSrc: "/global-timeboard/icons/quiz-marathon.svg",
       title: { ru: "Марафон 100", en: "Marathon 100" },
       text: { ru: "Большой мировой челлендж", en: "Big world challenge" },
       path: "/quiz/marathon",
