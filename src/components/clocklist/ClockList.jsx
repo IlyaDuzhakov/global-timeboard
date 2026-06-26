@@ -23,7 +23,7 @@ const ClockList = ({ times, setTimes, lang }) => {
             {lang === "ru" ? "Часы не добавлены" : "No clocks added"}
           </h2>
           <Link to="/quiz" className={styles.quizRoomButton}>
-             🎮 {lang === "ru" ? "Игровая комната" : "Quiz Room"}
+             {lang === "ru" ? "Игровая комната" : "Quiz Room"}
           </Link>
 
           <p className={styles.emptySubtitle}>

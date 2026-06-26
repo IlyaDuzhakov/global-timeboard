@@ -56,6 +56,18 @@ export function QuizRoom({ lang }) {
       path: "/extreme-food",
     },
     {
+      iconSrc: "/global-timeboard/icons/drinks.svg",
+      title: {
+        ru: "Напитки мира",
+        en: "World Drinks",
+      },
+      text: {
+        ru: "Угадайте напитки по фотографиям",
+        en: "Guess drinks by their photos",
+      },
+      path: "/drinks",
+    },
+    {
       iconSrc: "/global-timeboard/icons/quiz-facts.svg",
 
       title: {
@@ -70,18 +82,18 @@ export function QuizRoom({ lang }) {
 
       path: "/did-you-know",
     },
- {
-  iconSrc: "/global-timeboard/icons/records.svg",
-  title: {
-    ru: "Рекорды планеты",
-    en: "World Records",
-  },
-  text: {
-    ru: "64 невероятных рекорда Земли и Вселенной",
-    en: "64 incredible records of Earth and the Universe",
-  },
-  path: "/records",
-},
+    {
+      iconSrc: "/global-timeboard/icons/records.svg",
+      title: {
+        ru: "Мировые рекорды",
+        en: "World Records",
+      },
+      text: {
+        ru: "100 удивительных рекордов природы, науки и Вселенной",
+        en: "100 amazing records of nature, science and the Universe",
+      },
+      path: "/records",
+    },
     {
       iconSrc: "/global-timeboard/icons/quiz-junior.png",
       title: { ru: "Junior", en: "Junior" },

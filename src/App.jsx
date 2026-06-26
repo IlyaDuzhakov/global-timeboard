@@ -14,6 +14,7 @@ import FoodQuiz from "./pages/FoodQuiz/FoodQuiz.jsx";
 import ExtremeFood from "./pages/ExtremeFood/ExtremeFood";
 import DidYouKnow from "./pages/DidYouKnow/DidYouKnow.jsx";
 import WorldRecords from "./pages/worldRecords/worldRecords.js";
+import DrinksQuiz from "./pages/DrinksQuiz/DrinksQuiz";
 const CountryPage = lazy(() => import("./pages/CountryPage"));
 
 const FlagQuizMenu = lazy(() =>
@@ -216,6 +217,7 @@ function App() {
             element={<CapitalQuiz lang={lang} />}
           />
           <Route path="/quiz/food" element={<FoodQuiz lang={lang} />} />
+          <Route path="/drinks" element={<DrinksQuiz lang={lang} />} />
           <Route path="/quiz/junior" element={<JuniorQuiz lang={lang} />} />
           <Route path="/quiz/middle" element={<MiddleQuiz lang={lang} />} />
           <Route path="/quiz/expert" element={<ExpertQuiz lang={lang} />} />
@@ -245,6 +247,7 @@ function App() {
           <Route path="/extreme-food" element={<ExtremeFood lang={lang} />} />
           <Route path="/did-you-know" element={<DidYouKnow lang={lang} />} />
           <Route path="/records" element={<WorldRecords lang={lang} />} />
+          
         </Routes>
       </Suspense>
     </>

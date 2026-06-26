@@ -159,6 +159,14 @@ Shows:
 
 ---
 
+### New Sections
+
+![Did You Know](public/screenshots/did-you-know.webp)
+![World Records Desktop](public/screenshots/world-records-desktop.webp)
+![World Records Mobile](public/screenshots/world-records-mobile.webp)
+![World Food](public/screenshots/world-food.webp)
+![World Drinks](public/screenshots/world-drinks.webp)
+
 
 ##  Technologies
 
@@ -197,7 +205,12 @@ At the moment Global Timeboard includes:
 * 🏛️ 190+ capitals
 * 💰 world currencies database
 * 🗿 3000+ landmarks
-* ❓ 900+ geography questions
+* 🍽️ 150 traditional dishes from around the world
+* 🍹 100 traditional drinks from around the world
+* 🌶️ 44 extreme cuisine challenges
+* 🌌 100 World & Universe Records cards (mobile-optimized)
+* 💡 40 "Did You Know?" fact cards
+* ❓ 1,100+ geography & culture questions
 * 🎮 8 quiz modes
 * 🏆 achievement system
 * 📱 PWA support

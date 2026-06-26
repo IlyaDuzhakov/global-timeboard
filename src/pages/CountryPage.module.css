@@ -330,18 +330,14 @@
 
 .landmarkFront h3 {
   padding: 18px;
+  line-height: 0.9;
 }
 
 .landmarkBack {
   transform: rotateY(180deg);
-  /* position: relative; */
-  /* padding: 32px; */
    overflow-y: auto;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-
-  /* gap: 18px; */
 
   text-align: left;
   
@@ -352,7 +348,7 @@
   margin: 0;
 
   font-size: 28px;
-  line-height: 1.2;
+  
 }
 
 .landmarkBack p {
@@ -387,7 +383,7 @@
   }
 
   .landmarkCard img {
-    height: 200px;
+    height: 290px;
   }
 }
 
