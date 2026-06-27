@@ -34,6 +34,10 @@ import { iraq } from "./countries/asia/iraq.js";
 import { syria } from "./countries/asia/syria.js";
 import { lebanon } from "./countries/asia/lebanon.js";
 import { jordan } from "./countries/asia/jordan.js";
+import { israel } from "./countries/asia/israel.js";
+import { palestine } from "./countries/asia/palestine.js";
+import { saudiArabia } from "./countries/asia/saudiArabia.js";
+import { unitedArabEmirates } from "./countries/asia/unitedArabEmirates.js";
 export const countryDetails = {
    china,
    japan,
@@ -71,4 +75,8 @@ export const countryDetails = {
    syria,
    lebanon,
    jordan,
+   israel,
+   palestine,
+   "saudi-arabia": saudiArabia,
+   "united-arab-emirates": unitedArabEmirates,
 };

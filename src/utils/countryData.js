@@ -2823,7 +2823,7 @@ export const countryInfo = {
     flag: "/global-timeboard/img/flags/venezuela.png",
   },
   "United Arab Emirates": {
-    id: "uae",
+    id: "united-arab-emirates",
     name: {
       en: "United Arab Emirates",
       ru: "ОАЭ",
@@ -7043,5 +7043,35 @@ export const countryInfo = {
   },
 
   flag: "/global-timeboard/img/flags/timor-leste.png",
+},
+Palestine: {
+  id: "palestine",
+  name: {
+    en: "Palestine",
+    ru: "Палестина",
+  },
+  capital: {
+    en: "East Jerusalem",
+    ru: "Восточный Иерусалим",
+  },
+  area: 6020,
+  population: {
+    en: "5.5 million",
+    ru: "5,5 млн",
+  },
+  timezone: "UTC+2 / UTC+3",
+  currency: {
+    en: "Israeli new shekel (ILS), Jordanian dinar (JOD)",
+    ru: "Израильский новый шекель (ILS), Иорданский динар (JOD)",
+  },
+  government: {
+    en: "Partially recognized state",
+    ru: "Частично признанное государство",
+  },
+  language: {
+    en: "Arabic",
+    ru: "Арабский",
+  },
+  flag: "/global-timeboard/img/flags/palestine.png",
 },
 };
