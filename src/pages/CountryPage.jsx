@@ -210,7 +210,7 @@ export default function CountryPage({ lang }) {
                   </div>
 
                   <div className={styles.landmarkBack}>
-                    <h3>{place.title[lang]}</h3>
+                    {/* <h3>{place.title[lang]}</h3> */}
 
                     <p
                       dangerouslySetInnerHTML={{

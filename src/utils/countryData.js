@@ -6967,111 +6967,171 @@ export const countryInfo = {
     flag: "/global-timeboard/img/flags/tuvalu.png",
   },
   Brunei: {
-  id: "brunei",
+    id: "brunei",
 
-  name: {
-    en: "Brunei",
-    ru: "Бруней",
-  },
+    name: {
+      en: "Brunei",
+      ru: "Бруней",
+    },
 
-  capital: {
-    en: "Bandar Seri Begawan",
-    ru: "Бандар-Сери-Бегаван",
-  },
+    capital: {
+      en: "Bandar Seri Begawan",
+      ru: "Бандар-Сери-Бегаван",
+    },
 
-  area: 5765,
+    area: 5765,
 
-  population: {
-    en: "0.46 million",
-    ru: "0.46 млн",
-  },
+    population: {
+      en: "0.46 million",
+      ru: "0.46 млн",
+    },
 
-  timezone: "UTC+8 (GMT+8)",
+    timezone: "UTC+8 (GMT+8)",
 
-  currency: {
-    en: "Brunei Dollar",
-    ru: "Брунейский доллар",
-  },
+    currency: {
+      en: "Brunei Dollar",
+      ru: "Брунейский доллар",
+    },
 
-  government: {
-    en: "Absolute monarchy",
-    ru: "Абсолютная монархия",
-  },
+    government: {
+      en: "Absolute monarchy",
+      ru: "Абсолютная монархия",
+    },
 
-  language: {
-    en: "Malay",
-    ru: "Малайский",
-  },
+    language: {
+      en: "Malay",
+      ru: "Малайский",
+    },
 
-  flag: "/global-timeboard/img/flags/brunei.png",
-},
-"Timor-Leste": {
-  id: "timor-leste",
+    flag: "/global-timeboard/img/flags/brunei.png",
+  },
+  "Timor-Leste": {
+    id: "timor-leste",
 
-  name: {
-    en: "East Timor",
-    ru: "Восточный Тимор",
-  },
+    name: {
+      en: "East Timor",
+      ru: "Восточный Тимор",
+    },
 
-  capital: {
-    en: "Dili",
-    ru: "Дили",
-  },
+    capital: {
+      en: "Dili",
+      ru: "Дили",
+    },
 
-  area: 14874,
+    area: 14874,
 
-  population: {
-    en: "1.4 million",
-    ru: "1.4 млн",
-  },
+    population: {
+      en: "1.4 million",
+      ru: "1.4 млн",
+    },
 
-  timezone: "UTC+9 (GMT+9)",
+    timezone: "UTC+9 (GMT+9)",
 
-  currency: {
-    en: "United States Dollar",
-    ru: "Доллар США",
-  },
+    currency: {
+      en: "United States Dollar",
+      ru: "Доллар США",
+    },
 
-  government: {
-    en: "Semi-presidential republic",
-    ru: "Полупрезидентская республика",
-  },
+    government: {
+      en: "Semi-presidential republic",
+      ru: "Полупрезидентская республика",
+    },
 
-  language: {
-    en: "Tetum, Portuguese",
-    ru: "Тетум, португальский",
-  },
+    language: {
+      en: "Tetum, Portuguese",
+      ru: "Тетум, португальский",
+    },
 
-  flag: "/global-timeboard/img/flags/timor-leste.png",
-},
-Palestine: {
-  id: "palestine",
-  name: {
-    en: "Palestine",
-    ru: "Палестина",
+    flag: "/global-timeboard/img/flags/timor-leste.png",
   },
-  capital: {
-    en: "East Jerusalem",
-    ru: "Восточный Иерусалим",
+  Palestine: {
+    id: "palestine",
+    name: {
+      en: "Palestine",
+      ru: "Палестина",
+    },
+    capital: {
+      en: "East Jerusalem",
+      ru: "Восточный Иерусалим",
+    },
+    area: 6020,
+    population: {
+      en: "5.5 million",
+      ru: "5,5 млн",
+    },
+    timezone: "UTC+2 / UTC+3",
+    currency: {
+      en: "Israeli new shekel (ILS), Jordanian dinar (JOD)",
+      ru: "Израильский новый шекель (ILS), Иорданский динар (JOD)",
+    },
+    government: {
+      en: "Partially recognized state",
+      ru: "Частично признанное государство",
+    },
+    language: {
+      en: "Arabic",
+      ru: "Арабский",
+    },
+    flag: "/global-timeboard/img/flags/palestine.png",
   },
-  area: 6020,
-  population: {
-    en: "5.5 million",
-    ru: "5,5 млн",
+  Kuwait: {
+    id: "kuwait",
+    name: {
+      en: "Kuwait",
+      ru: "Кувейт",
+    },
+    capital: {
+      en: "Kuwait City",
+      ru: "Эль-Кувейт",
+    },
+    area: 17818,
+    population: {
+      en: "4.9 million",
+      ru: "4,9 млн",
+    },
+    timezone: "UTC+3 (GMT+3)",
+    currency: {
+      en: "Kuwaiti Dinar",
+      ru: "Кувейтский динар",
+    },
+    government: {
+      en: "Constitutional monarchy",
+      ru: "Конституционная монархия",
+    },
+    language: {
+      en: "Arabic",
+      ru: "Арабский",
+    },
+    flag: "/global-timeboard/img/flags/kuwait.png",
   },
-  timezone: "UTC+2 / UTC+3",
-  currency: {
-    en: "Israeli new shekel (ILS), Jordanian dinar (JOD)",
-    ru: "Израильский новый шекель (ILS), Иорданский динар (JOD)",
+  Bahrain: {
+    id: "bahrain",
+    name: {
+      en: "Bahrain",
+      ru: "Бахрейн",
+    },
+    capital: {
+      en: "Manama",
+      ru: "Манама",
+    },
+    area: 786,
+    population: {
+      en: "1.6 million",
+      ru: "1,6 млн",
+    },
+    timezone: "UTC+3 (GMT+3)",
+    currency: {
+      en: "Bahraini Dinar",
+      ru: "Бахрейнский динар",
+    },
+    government: {
+      en: "Constitutional monarchy",
+      ru: "Конституционная монархия",
+    },
+    language: {
+      en: "Arabic",
+      ru: "Арабский",
+    },
+    flag: "/global-timeboard/img/flags/bahrain.png",
   },
-  government: {
-    en: "Partially recognized state",
-    ru: "Частично признанное государство",
-  },
-  language: {
-    en: "Arabic",
-    ru: "Арабский",
-  },
-  flag: "/global-timeboard/img/flags/palestine.png",
-},
 };
