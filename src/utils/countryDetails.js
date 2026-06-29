@@ -40,6 +40,9 @@ import { saudiArabia } from "./countries/asia/saudiArabia.js";
 import { unitedArabEmirates } from "./countries/asia/unitedArabEmirates.js";
 import { qatar } from "./countries/asia/qatar.js";
 import { kuwait } from "./countries/asia/kuwait.js";
+import { bahrain } from "./countries/asia/bahrain.js";
+import { oman } from "./countries/asia/oman.js";
+import { yemen } from "./countries/asia/yemen.js";
 export const countryDetails = {
    china,
    japan,
@@ -83,4 +86,7 @@ export const countryDetails = {
    "united-arab-emirates": unitedArabEmirates,
    qatar,
    kuwait,
+   bahrain,
+   oman,
+   yemen,
 };
