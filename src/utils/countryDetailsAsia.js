@@ -46,7 +46,7 @@ import { yemen } from "./countries/asia/yemen.js";
 import { armenia } from "./countries/asia/armenia.js";
 import { azerbaijan } from "./countries/asia/azerbaijan.js";
 import { georgia } from "./countries/asia/georgia.js";
-export const countryDetails = {
+export const countryDetailsAsia = {
   china,
   japan,
   "south-korea": southKorea,

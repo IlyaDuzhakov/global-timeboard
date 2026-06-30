@@ -1,7 +1,8 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { countryInfo } from "../utils/countryData";
-import { countryDetails } from "../utils/countryDetails";
+// import { countryDetails } from "../utils/countryDetails";
+import { countryDetailsRegistry } from "../utils/countryDetailsRegistry.js";
 import styles from "./CountryPage.module.css";
 
 export default function CountryPage({ lang }) {
@@ -30,7 +31,9 @@ export default function CountryPage({ lang }) {
   };
 
   const country = Object.values(countryInfo).find((item) => item.id === id);
-  const details = countryDetails[id];
+  // const details = countryDetails[id];
+  const details = countryDetailsRegistry[id];
+  
 
   if (!country) {
     return (
