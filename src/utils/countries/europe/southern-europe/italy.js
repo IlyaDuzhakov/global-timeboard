@@ -52,7 +52,7 @@ Despite its ancient history, Italy is a modern European nation with a highly dev
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/italy/colosseum.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/italy/colosseum.webp",
 
       description: {
         ru: `
@@ -86,7 +86,7 @@ Today millions of visitors come each year to admire this extraordinary monument,
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/italy/roman-forum.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/italy/roman-forum.webp",
 
       description: {
         ru: `
@@ -120,7 +120,7 @@ Today the Roman Forum forms part of the UNESCO World Heritage Site of Historic R
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/italy/st-peters-basilica.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/italy/st-peters-basilica.webp",
 
       description: {
         ru: `
@@ -158,7 +158,7 @@ Today St. Peter's Basilica attracts millions of pilgrims and visitors each year 
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/italy/sistine-chapel.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/italy/sistine-chapel.webp",
 
       description: {
         ru: `
@@ -196,7 +196,7 @@ Today the Sistine Chapel is regarded as one of the world's greatest artistic tre
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/italy/florence-cathedral.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/italy/florence-cathedral.webp",
 
       description: {
         ru: `
@@ -230,7 +230,7 @@ Today Florence Cathedral is part of the UNESCO World Heritage Site of Florence a
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/italy/uffizi-gallery.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/italy/uffizi-gallery.webp",
 
       description: {
         ru: `
@@ -264,7 +264,7 @@ Every year millions of visitors explore the Uffizi Gallery, making it one of the
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/italy/leaning-tower-pisa.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/italy/leaning-tower-pisa.webp",
 
       description: {
         ru: `
@@ -298,7 +298,7 @@ Today the Leaning Tower of Pisa is one of the world's most famous medieval monum
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/italy/grand-canal-venice.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/italy/grand-canal-venice.webp",
 
       description: {
         ru: `
@@ -332,7 +332,7 @@ The historic center of Venice and its lagoon are listed as a UNESCO World Herita
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/italy/st-marks-basilica.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/italy/st-marks-basilica.webp",
 
       description: {
         ru: `
@@ -370,7 +370,7 @@ Today St. Mark's Basilica welcomes millions of visitors each year and is regarde
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/italy/milan-cathedral.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/italy/milan-cathedral.webp",
 
       description: {
         ru: `
@@ -408,7 +408,7 @@ Today Milan Cathedral is one of Italy's most visited landmarks and is widely reg
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/italy/pompeii.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/italy/pompeii.webp",
 
       description: {
         ru: `
@@ -442,7 +442,7 @@ Today Pompeii is a UNESCO World Heritage Site and one of the world's greatest ar
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/italy/amalfi-coast.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/italy/amalfi-coast.webp",
 
       description: {
         ru: `
@@ -476,7 +476,7 @@ The Amalfi Coast is a UNESCO World Heritage Site and today attracts millions of 
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/italy/cinque-terre.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/italy/cinque-terre.webp",
 
       description: {
         ru: `
@@ -510,7 +510,7 @@ Today Cinque Terre is one of Italy's most photographed destinations and attracts
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/italy/lake-como.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/italy/lake-como.webp",
 
       description: {
         ru: `
@@ -544,7 +544,7 @@ Lake Como welcomes millions of visitors each year and is widely regarded as one 
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/italy/dolomites.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/italy/dolomites.webp",
 
       description: {
         ru: `
@@ -578,7 +578,7 @@ Today the Dolomites are regarded as one of Italy's greatest natural treasures an
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/italy/verona.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/italy/verona.webp",
 
       description: {
         ru: `
@@ -616,7 +616,7 @@ Today Verona is regarded as one of Europe's most romantic cities and attracts mi
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/italy/siena.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/italy/siena.webp",
 
       description: {
         ru: `
@@ -654,7 +654,7 @@ Today Siena is considered one of Italy's finest medieval cities and offers visit
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/italy/san-gimignano.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/italy/san-gimignano.webp",
 
       description: {
         ru: `
@@ -692,7 +692,7 @@ Today the town is recognized as a UNESCO World Heritage Site and remains one of 
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/italy/vesuvius.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/italy/vesuvius.webp",
 
       description: {
         ru: `
@@ -730,7 +730,7 @@ Today Mount Vesuvius is one of Italy's greatest natural attractions and welcomes
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/italy/capri.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/italy/capri.webp",
 
       description: {
         ru: `
@@ -764,7 +764,7 @@ Today Capri attracts millions of visitors each year and remains one of the Medit
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/italy/valley-of-the-temples.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/italy/valley-of-the-temples.webp",
 
       description: {
         ru: `
@@ -798,7 +798,7 @@ Today the Valley of the Temples is a UNESCO World Heritage Site and one of Europ
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/italy/matera.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/italy/matera.webp",
 
       description: {
         ru: `
@@ -836,7 +836,7 @@ Today Matera is a UNESCO World Heritage Site and is widely considered one of the
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/italy/alberobello.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/italy/alberobello.webp",
 
       description: {
         ru: `
@@ -870,7 +870,7 @@ In <strong>1996</strong>, Alberobello's historic center became a UNESCO World He
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/italy/portofino.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/italy/portofino.webp",
 
       description: {
         ru: `
@@ -904,7 +904,7 @@ Today Portofino is one of Europe's most exclusive resorts, attracting celebritie
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/italy/ravenna.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/italy/ravenna.webp",
 
       description: {
         ru: `
@@ -938,7 +938,7 @@ Today eight monuments of Ravenna are recognized as UNESCO World Heritage Sites, 
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/italy/assisi.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/italy/assisi.webp",
 
       description: {
         ru: `
@@ -972,7 +972,7 @@ Recognized as a UNESCO World Heritage Site in 2000, Assisi welcomes millions of 
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/italy/mount-etna.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/italy/mount-etna.webp",
 
       description: {
         ru: `
@@ -1010,7 +1010,7 @@ Today Etna is one of Italy's greatest natural landmarks and attracts hundreds of
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/italy/costa-smeralda.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/italy/costa-smeralda.webp",
 
       description: {
         ru: `
@@ -1044,7 +1044,7 @@ Today Sardinia is considered one of the Mediterranean's premier destinations, of
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/italy/bologna.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/italy/bologna.webp",
 
       description: {
         ru: `
@@ -1082,7 +1082,7 @@ Today Bologna remains one of Italy's leading centers of education, culture, and 
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/italy/egyptian-museum-turin.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/italy/egyptian-museum-turin.webp",
 
       description: {
         ru: `

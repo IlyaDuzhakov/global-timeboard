@@ -60,7 +60,7 @@ Today Spain combines ancient history, vibrant culture, a strong economy, diverse
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/spain/sagrada-familia.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/spain/sagrada-familia.webp",
 
       description: {
         ru: `
@@ -98,7 +98,7 @@ Part of the complex became a UNESCO World Heritage Site in <strong>2005</strong>
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/spain/park-guell.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/spain/park-guell.webp",
 
       description: {
         ru: `
@@ -136,7 +136,7 @@ Park Güell is a UNESCO World Heritage Site and attracts millions of visitors ev
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/spain/casa-batllo.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/spain/casa-batllo.webp",
 
       description: {
         ru: `
@@ -170,7 +170,7 @@ Today Casa Batlló is a UNESCO World Heritage Site and is widely regarded as one
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/spain/alhambra.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/spain/alhambra.webp",
 
       description: {
         ru: `
@@ -204,7 +204,7 @@ In <strong>1984</strong>, the Alhambra was designated a UNESCO World Heritage Si
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/spain/mezquita-cordoba.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/spain/mezquita-cordoba.webp",
 
       description: {
         ru: `
@@ -238,7 +238,7 @@ In <strong>1984</strong>, the Mosque–Cathedral and Córdoba's historic center 
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/spain/royal-alcazar-seville.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/spain/royal-alcazar-seville.webp",
 
       description: {
         ru: `
@@ -276,7 +276,7 @@ In recent years, the palace gained worldwide fame as a filming location for <str
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/spain/plaza-de-espana-seville.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/spain/plaza-de-espana-seville.webp",
 
       description: {
         ru: `
@@ -314,7 +314,7 @@ Today it is regarded as one of Europe's finest public squares and attracts milli
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/spain/santiago-de-compostela-cathedral.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/spain/santiago-de-compostela-cathedral.webp",
 
       description: {
         ru: `
@@ -352,7 +352,7 @@ The historic center of Santiago de Compostela is a UNESCO World Heritage Site an
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/spain/prado-museum.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/spain/prado-museum.webp",
 
       description: {
         ru: `
@@ -390,7 +390,7 @@ Today the Prado welcomes millions of visitors each year and is regarded as one o
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/spain/royal-palace-madrid.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/spain/royal-palace-madrid.webp",
 
       description: {
         ru: `
@@ -428,7 +428,7 @@ Today the Royal Palace is one of Spain's most visited landmarks and remains a po
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/spain/plaza-mayor-madrid.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/spain/plaza-mayor-madrid.webp",
 
       description: {
         ru: `
@@ -466,7 +466,7 @@ Today Plaza Mayor is surrounded by cafés, restaurants, and shops and remains on
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/spain/toledo.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/spain/toledo.webp",
 
       description: {
         ru: `
@@ -504,7 +504,7 @@ In <strong>1986</strong>, Toledo's historic center became a UNESCO World Heritag
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/spain/segovia-aqueduct.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/spain/segovia-aqueduct.webp",
 
       description: {
         ru: `
@@ -542,7 +542,7 @@ In <strong>1985</strong>, the historic center of Segovia and its aqueduct were d
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/spain/burgos-cathedral.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/spain/burgos-cathedral.webp",
 
       description: {
         ru: `
@@ -580,7 +580,7 @@ Today Burgos Cathedral is regarded as one of the greatest masterpieces of Gothic
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/spain/city-of-arts-and-sciences.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/spain/city-of-arts-and-sciences.webp",
 
       description: {
         ru: `
@@ -618,7 +618,7 @@ Today the City of Arts and Sciences welcomes millions of visitors each year and 
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/spain/la-concha-beach.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/spain/la-concha-beach.webp",
 
       description: {
         ru: `
@@ -656,7 +656,7 @@ Today La Concha consistently ranks among the world's best beaches, combining spe
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/spain/montserrat.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/spain/montserrat.webp",
 
       description: {
         ru: `
@@ -694,7 +694,7 @@ Today Montserrat is one of Spain's most visited destinations, combining spiritua
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/spain/picos-de-europa.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/spain/picos-de-europa.webp",
 
       description: {
         ru: `
@@ -736,7 +736,7 @@ Today Picos de Europa is regarded as a paradise for hikers, climbers, photograph
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/spain/costa-brava.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/spain/costa-brava.webp",
 
       description: {
         ru: `
@@ -774,7 +774,7 @@ Today Costa Brava is regarded as one of Europe's most beautiful coastal destinat
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/spain/timanfaya.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/spain/timanfaya.webp",
 
       description: {
         ru: `
@@ -812,7 +812,7 @@ Its unique volcanic scenery attracts hundreds of thousands of visitors, photogra
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/spain/mallorca.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/spain/mallorca.webp",
 
       description: {
         ru: `
@@ -850,7 +850,7 @@ Today Mallorca attracts millions of visitors every year and is considered one of
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/spain/teide-national-park.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/spain/teide-national-park.webp",
 
       description: {
         ru: `
@@ -888,7 +888,7 @@ In <strong>2007</strong>, Teide National Park became a UNESCO World Heritage Sit
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/spain/ronda.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/spain/ronda.webp",
 
       description: {
         ru: `
@@ -926,7 +926,7 @@ Today Ronda is considered one of Andalusia's most beautiful destinations and att
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/spain/cuenca-hanging-houses.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/spain/cuenca-hanging-houses.webp",
 
       description: {
         ru: `
@@ -968,7 +968,7 @@ Today Cuenca is widely regarded as one of Spain's most unique and beautiful hist
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/spain/avila.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/spain/avila.webp",
 
       description: {
         ru: `
@@ -1006,7 +1006,7 @@ In <strong>1985</strong>, Ávila became a UNESCO World Heritage Site and is now 
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/spain/caceres.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/spain/caceres.webp",
 
       description: {
         ru: `
@@ -1048,7 +1048,7 @@ Today Cáceres is regarded as one of Spain's most beautiful historic cities and 
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/spain/el-escorial.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/spain/el-escorial.webp",
 
       description: {
         ru: `
@@ -1086,7 +1086,7 @@ In <strong>1984</strong>, El Escorial became a UNESCO World Heritage Site and re
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/spain/seville-cathedral-giralda.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/spain/seville-cathedral-giralda.webp",
 
       description: {
         ru: `
@@ -1124,7 +1124,7 @@ Today Seville Cathedral is one of Spain's greatest landmarks and welcomes millio
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/spain/donana-national-park.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/spain/donana-national-park.webp",
 
       description: {
         ru: `
@@ -1162,7 +1162,7 @@ Today it is considered one of Europe's finest destinations for wildlife observat
       },
 
       image:
-        "/global-timeboard/img/landmarks/europe/western-europe/spain/ibiza-dalt-vila.webp",
+        "/global-timeboard/img/landmarks/europe/southern-europe/spain/ibiza-dalt-vila.webp",
 
       description: {
         ru: `
