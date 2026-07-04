@@ -8,6 +8,7 @@ import {ireland} from './countries/europe/northern-europe/ireland.js'
 import {netherlands} from './countries/europe/western-europe/netherlands.js'
 import {belgium} from './countries/europe/western-europe/belgium.js'
 import {switzerland} from './countries/europe/western-europe/switzerland.js'
+import {austria} from './countries/europe/western-europe/austria.js'
 
 export const countryDetailsEurope = {
     france,
@@ -20,4 +21,5 @@ export const countryDetailsEurope = {
     netherlands,
     belgium,
     switzerland,
+    austria,
 }
