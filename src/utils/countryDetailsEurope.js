@@ -12,6 +12,10 @@ import {austria} from './countries/europe/western-europe/austria.js'
 import {poland} from './countries/europe/central-europe/poland.js'
 import {czechia} from './countries/europe/central-europe/czechia.js'
 import {slovakia} from './countries/europe/central-europe/slovakia.js'
+import {hungary} from './countries/europe/central-europe/hungary.js'
+import {romania} from './countries/europe/central-europe/romania.js'
+import {bulgaria} from './countries/europe/central-europe/bulgaria.js'
+import {greece} from './countries/europe/southern-europe/greece.js'
 
 export const countryDetailsEurope = {
     france,
@@ -28,4 +32,8 @@ export const countryDetailsEurope = {
     austria,
     poland,
     slovakia,
+    hungary,
+    romania,
+    bulgaria,
+    greece,
 }
