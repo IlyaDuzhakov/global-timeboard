@@ -20,6 +20,7 @@ import {serbia} from './countries/europe/balkans/serbia.js'
 import {croatia} from './countries/europe/balkans/croatia.js'
 import {slovenia} from './countries/europe/balkans/slovenia.js'
 import {bosnia_herzegovina} from './countries/europe/balkans/bosnia_herzegovina.js'
+import {montenegro} from './countries/europe/balkans/montenegro.js'
 
 export const countryDetailsEurope = {
     france,
@@ -44,4 +45,5 @@ export const countryDetailsEurope = {
     croatia,
     slovenia,
     "bosnia-and-herzegovina": bosnia_herzegovina,
+    montenegro,
 }
