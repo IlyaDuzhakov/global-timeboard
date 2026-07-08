@@ -16,6 +16,10 @@ import {hungary} from './countries/europe/central-europe/hungary.js'
 import {romania} from './countries/europe/central-europe/romania.js'
 import {bulgaria} from './countries/europe/central-europe/bulgaria.js'
 import {greece} from './countries/europe/southern-europe/greece.js'
+import {serbia} from './countries/europe/balkans/serbia.js'
+import {croatia} from './countries/europe/balkans/croatia.js'
+import {slovenia} from './countries/europe/balkans/slovenia.js'
+import {bosnia_herzegovina} from './countries/europe/balkans/bosnia_herzegovina.js'
 
 export const countryDetailsEurope = {
     france,
@@ -36,4 +40,8 @@ export const countryDetailsEurope = {
     romania,
     bulgaria,
     greece,
+    serbia,
+    croatia,
+    slovenia,
+    "bosnia-and-herzegovina": bosnia_herzegovina,
 }

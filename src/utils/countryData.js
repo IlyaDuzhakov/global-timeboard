@@ -3740,36 +3740,36 @@ export const countryInfo = {
     },
     flag: "/global-timeboard/img/flags/lithuania.png",
   },
-  "Bosnia and Herz.": {
-    id: "bosnia-herzegovina",
-    name: {
-      en: "Bosnia and Herzegovina",
-      ru: "Босния и Герцеговина",
-    },
-    capital: {
-      en: "Sarajevo",
-      ru: "Сараево",
-    },
-    area: 51197,
-    population: {
-      en: "3.2 million",
-      ru: "3.2 млн",
-    },
-    timezone: "UTC+1 (GMT+1)",
-    currency: {
-      en: "BAM Convertible mark",
-      ru: "BAM Конвертируемая марка",
-    },
-    government: {
-      en: "Federal parliamentary republic",
-      ru: "Федеративная парламентская республика",
-    },
-    language: {
-      en: "Bosnian, Croatian, Serbian",
-      ru: "Боснийский, хорватский, сербский",
-    },
-    flag: "/global-timeboard/img/flags/bosnia-herzegovina.png",
+"bosnia-and-herzegovina": {
+  id: "bosnia-and-herzegovina",
+  name: {
+    en: "Bosnia and Herzegovina",
+    ru: "Босния и Герцеговина",
   },
+  capital: {
+    en: "Sarajevo",
+    ru: "Сараево",
+  },
+  area: 51197,
+  population: {
+    en: "3.2 million",
+    ru: "3.2 млн",
+  },
+  timezone: "UTC+1 (GMT+1)",
+  currency: {
+    en: "BAM Convertible mark",
+    ru: "BAM Конвертируемая марка",
+  },
+  government: {
+    en: "Federal parliamentary republic",
+    ru: "Федеративная парламентская республика",
+  },
+  language: {
+    en: "Bosnian, Croatian, Serbian",
+    ru: "Боснийский, хорватский, сербский",
+  },
+  flag: "/global-timeboard/img/flags/bosnia-herzegovina.png",
+},
 
   Montenegro: {
     id: "montenegro",
