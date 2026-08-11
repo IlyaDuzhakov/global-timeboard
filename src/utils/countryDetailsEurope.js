@@ -21,6 +21,18 @@ import {croatia} from './countries/europe/balkans/croatia.js'
 import {slovenia} from './countries/europe/balkans/slovenia.js'
 import {bosnia_herzegovina} from './countries/europe/balkans/bosnia_herzegovina.js'
 import {montenegro} from './countries/europe/balkans/montenegro.js'
+import {northMacedonia} from './countries/europe/balkans/northMacedonia.js'
+import {albania} from './countries/europe/balkans/albania.js'
+import {norway} from './countries/europe/northern-europe/norway.js'
+import {sweden} from './countries/europe/northern-europe/sweden.js'
+import {finland} from './countries/europe/northern-europe/finland.js'
+import {denmark} from './countries/europe/northern-europe/denmark.js'
+import {iceland} from './countries/europe/northern-europe/iceland.js'
+import {estonia} from './countries/europe/northern-europe/estonia.js'
+import {latvia} from './countries/europe/northern-europe/latvia.js'
+import {lithuania} from './countries/europe/northern-europe/lithuania.js'
+import {belarus} from './countries/europe/eastern-europe/belarus.js'
+import {ukraine} from './countries/europe/eastern-europe/ukraine.js'
 
 export const countryDetailsEurope = {
     france,
@@ -46,4 +58,16 @@ export const countryDetailsEurope = {
     slovenia,
     "bosnia-and-herzegovina": bosnia_herzegovina,
     montenegro,
+    "north-macedonia": northMacedonia,
+    albania,
+    norway,
+    sweden,
+    finland,
+    denmark,
+    iceland,
+    estonia,
+    latvia,
+    lithuania,
+    belarus,
+    ukraine,
 }

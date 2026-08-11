@@ -95,6 +95,18 @@ export function QuizRoom({ lang }) {
       path: "/records",
     },
     {
+      iconSrc: "/global-timeboard/icons/knowledge.svg",
+      title: {
+        ru: "Великие изобретения",
+        en: "Great Inventions",
+      },
+      text: {
+        ru: "40 вопросов об изобретениях, изменивших мир",
+        en: "40 questions about inventions that changed the world",
+      },
+      path: "/knowledge/great-inventions",
+    },
+    {
       iconSrc: "/global-timeboard/icons/quiz-junior.png",
       title: { ru: "Junior", en: "Junior" },
       text: { ru: "40 лёгких вопросов", en: "40 easy questions" },
